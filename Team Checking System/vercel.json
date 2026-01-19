@@ -1,0 +1,16 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "env": {
+    "GITHUB_TOKEN": "@github-token",
+    "GITHUB_OWNER": "@github-owner",
+    "GITHUB_REPO": "@github-repo",
+    "GITHUB_BRANCH": "@github-branch",
+    "NEXTAUTH_SECRET": "@nextauth-secret",
+    "USERS": "@users",
+    "N8N_WEBHOOK_URL": "@n8n-webhook-url",
+    "N8N_API_KEY": "@n8n-api-key",
+    "KB_BASE_PATH": "PUBLISHED FOLDERS MASTER"
+  }
+}

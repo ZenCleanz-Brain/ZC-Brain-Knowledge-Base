@@ -1,0 +1,73 @@
+.tree {
+  font-size: 0.875rem;
+}
+
+.treeItem {
+  user-select: none;
+}
+
+.itemRow {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.15s ease;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.itemRow:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.folder {
+  font-weight: 500;
+}
+
+.file {
+  font-weight: 400;
+}
+
+.file.active {
+  background: rgba(45, 90, 39, 0.1);
+  color: var(--primary);
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--text-secondary);
+}
+
+.icon {
+  flex-shrink: 0;
+  color: var(--text-secondary);
+}
+
+.folder .icon {
+  color: var(--primary);
+}
+
+.name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.count {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  background: var(--background);
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+}
+
+.children {
+  /* Children are indented via padding-left in style */
+}
