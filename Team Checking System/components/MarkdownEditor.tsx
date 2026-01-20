@@ -74,6 +74,27 @@ export default function MarkdownEditor({ value, onChange, readOnly = false }: Ma
                 fontSize: 14,
                 scrollBeyondLastLine: false,
                 padding: { top: 16 },
+                // Disable all autocomplete and suggestions for plain text editing
+                quickSuggestions: false,
+                suggestOnTriggerCharacters: false,
+                acceptSuggestionOnEnter: 'off',
+                tabCompletion: 'off',
+                wordBasedSuggestions: 'off',
+                parameterHints: { enabled: false },
+                suggest: {
+                  showWords: false,
+                  showSnippets: false,
+                  showUsers: false,
+                  showIssues: false,
+                },
+                // Disable other code-related features
+                folding: false,
+                links: true, // Keep links clickable
+                renderWhitespace: 'none',
+                // Make it feel more like a text editor
+                lineDecorationsWidth: 0,
+                lineNumbersMinChars: 3,
+                glyphMargin: false,
               }}
             />
           </div>

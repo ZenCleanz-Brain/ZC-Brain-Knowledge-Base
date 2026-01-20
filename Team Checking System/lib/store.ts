@@ -153,13 +153,14 @@ export async function deletePendingEdit(id: string): Promise<boolean> {
   return true;
 }
 
-// Get pending edits for a specific file
+// Get pending edits for a specific file (ordered by submission time, oldest first)
 export async function getPendingEditsForFile(filePath: string): Promise<PendingEdit[]> {
   const { data, error } = await supabase
     .from('pending_edits')
     .select('*')
     .eq('file_path', filePath)
-    .eq('status', 'pending');
+    .eq('status', 'pending')
+    .order('submitted_at', { ascending: true }); // Oldest first for proper chaining
 
   if (error) {
     console.error('[Store] Error getting pending edits for file:', error);
@@ -167,4 +168,49 @@ export async function getPendingEditsForFile(filePath: string): Promise<PendingE
   }
 
   return data.map(mapRow);
+}
+
+// Get the latest pending edit for a file (most recent submission)
+export async function getLatestPendingEditForFile(filePath: string): Promise<PendingEdit | null> {
+  const { data, error } = await supabase
+    .from('pending_edits')
+    .select('*')
+    .eq('file_path', filePath)
+    .eq('status', 'pending')
+    .order('submitted_at', { ascending: false })
+    .limit(1)
+    .single();
+
+  if (error) {
+    if (error.code === 'PGRST116') {
+      // No rows found - not an error
+      return null;
+    }
+    console.error('[Store] Error getting latest pending edit:', error);
+    return null;
+  }
+
+  return data ? mapRow(data) : null;
+}
+
+// Get the first (oldest) pending edit for a file
+export async function getFirstPendingEditForFile(filePath: string): Promise<PendingEdit | null> {
+  const { data, error } = await supabase
+    .from('pending_edits')
+    .select('*')
+    .eq('file_path', filePath)
+    .eq('status', 'pending')
+    .order('submitted_at', { ascending: true })
+    .limit(1)
+    .single();
+
+  if (error) {
+    if (error.code === 'PGRST116') {
+      return null;
+    }
+    console.error('[Store] Error getting first pending edit:', error);
+    return null;
+  }
+
+  return data ? mapRow(data) : null;
 }

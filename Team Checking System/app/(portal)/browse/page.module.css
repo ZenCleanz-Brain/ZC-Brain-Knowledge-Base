@@ -89,6 +89,8 @@
   flex-direction: column;
   overflow: hidden;
   background: var(--background);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .placeholder {

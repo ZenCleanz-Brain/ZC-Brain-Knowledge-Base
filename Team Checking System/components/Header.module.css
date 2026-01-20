@@ -5,6 +5,8 @@
   padding: 0 1.5rem;
   height: 60px;
   background: var(--surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
 }
 
@@ -22,6 +24,11 @@
   font-weight: 600;
   color: var(--primary);
   text-decoration: none;
+}
+
+.logoImage {
+  border-radius: 50%;
+  object-fit: contain;
 }
 
 .logoText {

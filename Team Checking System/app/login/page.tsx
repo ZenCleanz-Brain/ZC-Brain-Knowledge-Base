@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './page.module.css';
 
 export default function LoginPage() {
@@ -46,7 +47,14 @@ export default function LoginPage() {
         </Link>
 
         <div className={styles.logo}>
-          <span className={styles.logoIcon}>🌿</span>
+          <Image
+            src="/zencleanz-logo.png"
+            alt="ZenCleanz Logo"
+            width={100}
+            height={100}
+            className={styles.logoIcon}
+            priority
+          />
           <h1>Sign In</h1>
           <p>Access the Knowledge Base Portal</p>
         </div>

@@ -2,13 +2,20 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%;
   overflow: hidden;
+  min-width: 0;
+  flex: 1;
 }
 
 .diffHeader {
-  padding: 1rem 1.5rem;
+  padding: 0.75rem 1rem;
   border-bottom: 1px solid var(--border);
   background: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .diffHeader h4 {
@@ -16,6 +23,19 @@
   font-weight: 600;
   margin: 0;
   color: var(--text);
+  flex: 1;
+}
+
+.changeNav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.changeCounter {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  padding: 0 0.5rem;
 }
 
 .sideBySide {
@@ -24,6 +44,8 @@
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
   gap: 0;
+  width: 100%;
+  min-width: 0;
 }
 
 .panel {
@@ -31,6 +53,8 @@
   flex-direction: column;
   overflow: hidden;
   border-right: 1px solid var(--border);
+  min-width: 0;
+  width: 100%;
 }
 
 .panel:last-child {
@@ -38,8 +62,8 @@
 }
 
 .panelHeader {
-  padding: 0.75rem 1rem;
-  font-size: 0.8125rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: var(--text-secondary);
   background: var(--background);
@@ -65,14 +89,45 @@
 }
 
 .lineUnchanged {
-  padding: 0.125rem 1rem;
+  padding: 0.125rem 0.75rem;
   background: var(--surface);
   color: var(--text);
 }
 
-.lineChanged {
-  padding: 0.125rem 1rem;
+.lineEmpty {
+  padding: 0.125rem 0.75rem;
   background: var(--background);
+  color: transparent;
+  border-left: 3px solid transparent;
+}
+
+.lineChanged {
+  padding: 0.125rem 0.75rem;
+  background: var(--background);
+  color: var(--text);
+}
+
+.lineAdded {
+  padding: 0.125rem 0.75rem;
+  background: #dcfce7;
+  color: var(--text);
+  border-left: 3px solid #16a34a;
+}
+
+[data-theme="dark"] .lineAdded {
+  background: rgba(22, 163, 74, 0.15);
+  color: var(--text);
+}
+
+.lineRemoved {
+  padding: 0.125rem 0.75rem;
+  background: #fee2e2;
+  color: var(--text);
+  border-left: 3px solid #dc2626;
+}
+
+[data-theme="dark"] .lineRemoved {
+  background: rgba(220, 38, 38, 0.15);
   color: var(--text);
 }
 

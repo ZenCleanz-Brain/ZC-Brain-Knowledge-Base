@@ -8,6 +8,10 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'ZenCleanz Knowledge Base Portal',
   description: 'Team collaboration portal for managing knowledge base documents',
+  icons: {
+    icon: '/zencleanz-logo.png',
+    apple: '/zencleanz-logo.png',
+  },
 };
 
 export default function RootLayout({
@@ -16,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="dark">
       <body className={inter.className}>
         <AuthProvider>{children}</AuthProvider>
       </body>

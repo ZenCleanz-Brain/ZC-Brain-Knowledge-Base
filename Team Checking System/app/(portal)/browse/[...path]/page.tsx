@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback } from 'react';
 import { useSession } from 'next-auth/react';
 import { useParams, useRouter } from 'next/navigation';
-import { Search, RefreshCw, Edit3, Save, X, AlertCircle } from 'lucide-react';
+import { Search, RefreshCw, Edit3, Save, X, AlertCircle, Clock, Info } from 'lucide-react';
 import FileTree from '@/components/FileTree';
 import MarkdownViewer from '@/components/MarkdownViewer';
 import MarkdownEditor from '@/components/MarkdownEditor';
@@ -17,10 +17,16 @@ interface FileData {
   name: string;
   content: string;
   sha: string;
+  originalGitHubContent?: string; // Original content from GitHub
+  isShowingPendingContent?: boolean; // True if content includes pending edits
+  hasPendingEdits?: boolean;
+  pendingEditCount?: number;
   pendingEdits: Array<{
     id: string;
     submittedBy: string;
     submittedAt: string;
+    isFirst?: boolean;
+    isLast?: boolean;
   }>;
 }
 
@@ -197,6 +203,38 @@ export default function FileViewPage() {
           </div>
         ) : file ? (
           <div className={viewStyles.fileView}>
+            {/* Pending edits warning banner for editors */}
+            {file.isShowingPendingContent && file.hasPendingEdits && userRole !== 'admin' && (
+              <div className={viewStyles.pendingBanner}>
+                <div className={viewStyles.pendingBannerIcon}>
+                  <Clock size={20} />
+                </div>
+                <div className={viewStyles.pendingBannerContent}>
+                  <strong>You have {file.pendingEditCount} pending edit{file.pendingEditCount !== 1 ? 's' : ''} awaiting approval</strong>
+                  <p>
+                    You&apos;re viewing your latest submitted changes. Any new edits will build on top of these pending changes.
+                    Once approved by an admin, all changes will be committed together.
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {/* Info banner for admins viewing file with pending edits */}
+            {file.hasPendingEdits && userRole === 'admin' && (
+              <div className={viewStyles.infoBanner}>
+                <div className={viewStyles.infoBannerIcon}>
+                  <Info size={20} />
+                </div>
+                <div className={viewStyles.infoBannerContent}>
+                  <strong>This file has {file.pendingEditCount} pending edit{file.pendingEditCount !== 1 ? 's' : ''}</strong>
+                  <p>
+                    You&apos;re viewing the original GitHub content.
+                    <a href="/pending" className={viewStyles.pendingLink}> Go to Pending Reviews</a> to approve or reject changes.
+                  </p>
+                </div>
+              </div>
+            )}
+
             <div className={viewStyles.fileHeader}>
               <div className={viewStyles.fileInfo}>
                 <h1>{file.name.replace(/\.md$/, '')}</h1>

@@ -2,6 +2,7 @@
 
 import { useSession, signOut } from 'next-auth/react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { LogOut, User, FolderTree, ClipboardList, LayoutDashboard } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 import styles from './Header.module.css';
@@ -14,7 +15,13 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.left}>
         <Link href="/dashboard" className={styles.logo}>
-          <span>🌿</span>
+          <Image
+            src="/zencleanz-logo.png"
+            alt="ZenCleanz Logo"
+            width={40}
+            height={40}
+            className={styles.logoImage}
+          />
           <span className={styles.logoText}>ZenCleanz KB</span>
         </Link>
 

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getServerSession } from 'next-auth';
 import { authOptions } from '@/lib/auth';
 import { redirect } from 'next/navigation';
@@ -15,7 +16,14 @@ export default async function Home() {
     <main className={styles.main}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <span className={styles.logoIcon}>🌿</span>
+          <Image
+            src="/zencleanz-logo.png"
+            alt="ZenCleanz Logo"
+            width={120}
+            height={120}
+            className={styles.logoIcon}
+            priority
+          />
           <h1>ZenCleanz</h1>
           <p>Knowledge Base Portal</p>
         </div>

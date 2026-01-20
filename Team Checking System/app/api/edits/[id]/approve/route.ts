@@ -50,11 +50,37 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
       );
     }
 
-    // Use the current SHA for the commit (in case file was updated since edit was submitted)
+    // Check for conflicts: has the file changed since the edit was created?
+    // This is important for the first edit in a chain (based on original GitHub content)
+    const hasConflict = edit.originalSha !== currentFile.sha;
+    const contentChanged = edit.originalContent !== currentFile.content;
+
+    // Check if force=true was passed (admin chose to override conflict)
+    const body = await request.json().catch(() => ({}));
+    const forceApprove = body.force === true;
+
+    // If there's a conflict and not forcing, return a warning
+    if (hasConflict && contentChanged && !forceApprove) {
+      return NextResponse.json(
+        {
+          error: 'Conflict detected',
+          message: 'The file has been modified on GitHub since this edit was created. ' +
+                   'The original content this edit was based on is now outdated. ' +
+                   'You can force approve to overwrite the current GitHub content, ' +
+                   'or reject and ask the editor to re-submit.',
+          conflict: true,
+          originalSha: edit.originalSha,
+          currentSha: currentFile.sha,
+        },
+        { status: 409 }
+      );
+    }
+
+    // Use the current SHA for the commit
     const result = await updateFile(
       edit.filePath,
       edit.newContent,
-      `Update ${edit.fileName} (approved edit from ${edit.submittedBy})`,
+      `Update ${edit.fileName} (approved edit from ${edit.submittedBy})${hasConflict ? ' [conflict overridden]' : ''}`,
       currentFile.sha
     );
 

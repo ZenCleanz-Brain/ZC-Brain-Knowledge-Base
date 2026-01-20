@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth';
 import { authOptions, hasPermission } from '@/lib/auth';
 import { getFileContent, updateFile } from '@/lib/github';
-import { createPendingEdit, getPendingEditsForFile } from '@/lib/store';
+import { createPendingEdit, getPendingEditsForFile, getLatestPendingEditForFile, getFirstPendingEditForFile } from '@/lib/store';
 import { triggerNotificationWebhook } from '@/lib/n8n';
 
 interface RouteParams {
@@ -17,6 +17,8 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
+  const userRole = (session.user as any).role;
+
   try {
     const filePath = params.path.join('/');
     const file = await getFileContent(filePath);
@@ -25,16 +27,38 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
       return NextResponse.json({ error: 'File not found' }, { status: 404 });
     }
 
-    // Also get pending edits for this file
+    // Get pending edits for this file (ordered by submission time, oldest first)
     const pendingEdits = await getPendingEditsForFile(filePath);
+    const hasPendingEdits = pendingEdits.length > 0;
+
+    // For editors, return the latest pending content so they build on top of their changes
+    // For admins, return original GitHub content (they review the original)
+    let contentToReturn = file.content;
+    let isShowingPendingContent = false;
+
+    if (hasPendingEdits && userRole !== 'admin') {
+      // Get the latest pending edit (most recent changes) - last in the ordered array
+      const latestPending = pendingEdits[pendingEdits.length - 1];
+      if (latestPending) {
+        contentToReturn = latestPending.newContent;
+        isShowingPendingContent = true;
+      }
+    }
 
     return NextResponse.json({
       ...file,
-      pendingEdits: pendingEdits.map((e) => ({
+      content: contentToReturn,
+      originalGitHubContent: file.content, // Always include the original for reference
+      isShowingPendingContent,
+      hasPendingEdits,
+      pendingEdits: pendingEdits.map((e, index) => ({
         id: e.id,
         submittedBy: e.submittedBy,
         submittedAt: e.submittedAt,
+        isFirst: index === 0,
+        isLast: index === pendingEdits.length - 1,
       })),
+      pendingEditCount: pendingEdits.length,
     });
   } catch (error) {
     console.error('Error getting file:', error);
@@ -74,10 +98,10 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
       );
     }
 
-    // Get original content
-    const original = await getFileContent(filePath);
+    // Get original content from GitHub
+    const githubFile = await getFileContent(filePath);
 
-    if (!original) {
+    if (!githubFile) {
       return NextResponse.json({ error: 'File not found' }, { status: 404 });
     }
 
@@ -104,12 +128,30 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
     }
 
     // For editors (or admins when direct commit fails), create a pending edit
+    // Check if there are existing pending edits for this file
+    const existingPendingEdits = await getPendingEditsForFile(filePath);
+
+    // Determine the "original content" for this edit:
+    // - If there are existing pending edits, use the latest pending edit's newContent
+    //   This creates a proper chain where each edit builds on the previous
+    // - If no pending edits, use the GitHub content
+    let originalContentForEdit = githubFile.content;
+    let isChainedEdit = false;
+
+    if (existingPendingEdits.length > 0) {
+      // Use the latest pending edit's content as the base
+      const latestPending = existingPendingEdits[existingPendingEdits.length - 1];
+      originalContentForEdit = latestPending.newContent;
+      isChainedEdit = true;
+      console.log(`[Edit Chain] New edit builds on pending edit ${latestPending.id}`);
+    }
+
     const pendingEdit = await createPendingEdit({
       filePath,
       fileName: filePath.split('/').pop() || filePath,
-      originalContent: original.content,
+      originalContent: originalContentForEdit,
       newContent: content,
-      originalSha,
+      originalSha: githubFile.sha, // Always use current GitHub SHA for conflict detection
       submittedBy: session.user?.name || 'Unknown',
     });
 
@@ -122,8 +164,12 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
 
     return NextResponse.json({
       status: 'pending',
-      message: 'Edit submitted for review',
+      message: isChainedEdit
+        ? `Edit submitted for review (builds on ${existingPendingEdits.length} previous pending edit(s))`
+        : 'Edit submitted for review',
       editId: pendingEdit.id,
+      isChainedEdit,
+      totalPendingEdits: existingPendingEdits.length + 1,
     });
   } catch (error) {
     console.error('Error submitting edit:', error);

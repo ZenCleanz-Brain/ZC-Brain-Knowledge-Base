@@ -1,0 +1,11 @@
+# Public Assets Directory
+
+This directory contains static assets that are served directly by Next.js.
+
+## Logo Files
+
+Please save the ZenCleanz logo here as:
+- `zencleanz-logo.png` (main logo, recommended size: 200x200px or larger)
+- `favicon.ico` (browser favicon, 32x32px)
+
+The logo file should be the circular gold brushstroke design with ZENCLEANZ text.
