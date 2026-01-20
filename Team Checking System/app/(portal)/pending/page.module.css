@@ -139,6 +139,18 @@ button.editItem:hover {
   flex-shrink: 0;
 }
 
+/* Clickable history items */
+.editItem.clickable {
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.editItem.clickable:hover {
+  transform: translateX(4px);
+  border-color: var(--primary);
+  background: var(--background);
+}
+
 .preview {
   background: var(--surface);
   border: 1px solid var(--border);

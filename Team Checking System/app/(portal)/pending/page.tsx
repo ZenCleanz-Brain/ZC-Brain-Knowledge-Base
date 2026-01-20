@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { Clock, CheckCircle, XCircle, Eye, RefreshCw, AlertCircle } from 'lucide-react';
 import SimpleDiffViewer from '@/components/SimpleDiffViewer';
 import styles from './page.module.css';
@@ -196,7 +197,11 @@ export default function PendingPage() {
             ) : (
               <div className={styles.list}>
                 {processedEdits.slice(0, 10).map((edit) => (
-                  <div key={edit.id} className={styles.editItem}>
+                  <Link
+                    key={edit.id}
+                    href={`/history/${edit.id}`}
+                    className={`${styles.editItem} ${styles.clickable}`}
+                  >
                     <div className={styles.editInfo}>
                       <span className={styles.fileName}>{edit.fileName}</span>
                       <span className={styles.meta}>
@@ -204,7 +209,8 @@ export default function PendingPage() {
                       </span>
                     </div>
                     <span className={`badge badge-${edit.status}`}>{edit.status}</span>
-                  </div>
+                    <Eye size={16} />
+                  </Link>
                 ))}
               </div>
             )}

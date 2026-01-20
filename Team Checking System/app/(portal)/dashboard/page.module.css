@@ -128,6 +128,25 @@
   padding: 0.75rem;
   border-radius: var(--radius);
   background: var(--background);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.activityItem:hover {
+  background: var(--surface);
+  border-color: var(--primary);
+  transform: translateX(4px);
+}
+
+.activityItem .chevron {
+  color: var(--text-secondary);
+  transition: transform 0.2s ease;
+}
+
+.activityItem:hover .chevron {
+  transform: translateX(4px);
+  color: var(--primary);
 }
 
 .activityIcon {

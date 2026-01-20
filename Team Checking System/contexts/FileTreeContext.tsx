@@ -5,7 +5,7 @@ import { createContext, useContext, useState, useEffect, ReactNode } from 'react
 export interface TreeNode {
   name: string;
   path: string;
-  type: 'file' | 'folder';
+  type: 'file' | 'dir';
   children?: TreeNode[];
 }
 

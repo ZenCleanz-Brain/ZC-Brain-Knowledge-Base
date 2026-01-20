@@ -142,7 +142,11 @@ export default function DashboardPage() {
         ) : (
           <div className={styles.activityList}>
             {recentEdits.map((edit) => (
-              <div key={edit.id} className={styles.activityItem}>
+              <Link
+                key={edit.id}
+                href={`/history/${edit.id}`}
+                className={styles.activityItem}
+              >
                 <div className={styles.activityIcon}>
                   {edit.status === 'pending' ? (
                     <Clock size={16} color="#d97706" />
@@ -159,7 +163,8 @@ export default function DashboardPage() {
                   </span>
                 </div>
                 <span className={`badge badge-${edit.status}`}>{edit.status}</span>
-              </div>
+                <ChevronRight size={16} className={styles.chevron} />
+              </Link>
             ))}
           </div>
         )}

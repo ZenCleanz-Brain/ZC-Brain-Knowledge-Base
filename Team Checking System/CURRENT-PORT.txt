@@ -1,0 +1,42 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║                  🚀 SERVER IS RUNNING ON:                   ║
+║                                                              ║
+║                  http://localhost:3003                       ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+⚠️  IMPORTANT:
+   Your browser may be showing localhost:3000 or another port.
+
+   Close those tabs and open a fresh one at:
+   👉 http://localhost:3003
+
+✅ FIXED ISSUES:
+   1. Cleared Next.js cache (.next folder)
+   2. Fixed type mismatch ('folder' vs 'dir')
+   3. Server running on clean port 3003
+
+🧪 TEST ACCOUNTS:
+
+   Admin:
+   - Username: admin
+   - Password: admin
+   - Can commit directly to GitHub
+
+   Editor:
+   - Username: team
+   - Password: editor
+   - Creates pending edits for approval
+
+📝 Once loaded, you should see:
+   ✓ Beautiful sidebar with folder tree
+   ✓ All your knowledge base documents
+   ✓ Search functionality
+   ✓ Folder states preserved when clicking files
+
+🆘 If still not working:
+   1. Hard refresh: Ctrl + Shift + R (Windows)
+   2. Clear browser cache
+   3. Make sure you're on http://localhost:3003
+
