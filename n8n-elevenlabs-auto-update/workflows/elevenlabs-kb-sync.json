@@ -1,0 +1,327 @@
+{
+  "name": "ElevenLabs KB Auto-Sync",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "kb-update",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-trigger",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 300],
+      "webhookId": "kb-update"
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.elevenlabs.io/v1/convai/agents/agent_4101kebd8snsff0az1775xyzhamc",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {}
+      },
+      "id": "get-agent-config",
+      "name": "Get Agent Config",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "elevenlabs"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get data from previous nodes\nconst agentConfig = $('Get Agent Config').first().json;\nconst webhookData = $('Webhook').first().json.body;\n\n// Handle both direct body and nested body scenarios\nconst data = webhookData || $('Webhook').first().json;\n\nconst fileName = data.files?.[0]?.name || '';\nconst content = data.content || '';\nconst action = data.action || '';\n\n// Validate we have required data\nif (!fileName || !content) {\n  return [{\n    json: {\n      skip: true,\n      reason: 'Missing required data: fileName or content',\n      receivedData: { fileName, hasContent: !!content, action }\n    }\n  }];\n}\n\n// Only process 'update' or 'revert' actions\nif (action !== 'update' && action !== 'revert') {\n  return [{\n    json: {\n      skip: true,\n      reason: `Unhandled action: ${action}. Only 'update' and 'revert' are supported.`,\n      action\n    }\n  }];\n}\n\n// Search through all workflow nodes for this exact document name\nconst workflowNodes = agentConfig.workflow?.nodes || {};\nconst matchingNodes = [];\n\nfor (const [nodeId, nodeConfig] of Object.entries(workflowNodes)) {\n  const kb = nodeConfig.additional_knowledge_base || [];\n  const matchingDoc = kb.find(doc => doc.name === fileName);\n\n  if (matchingDoc) {\n    matchingNodes.push({\n      nodeId,\n      nodeLabel: nodeConfig.label || nodeId,\n      existingDocId: matchingDoc.id,\n      existingDocName: matchingDoc.name,\n      fullKbArray: kb\n    });\n  }\n}\n\n// If document not found in any node, return skip flag\nif (matchingNodes.length === 0) {\n  return [{\n    json: {\n      skip: true,\n      reason: `Document \"${fileName}\" not found in any sub-agent KB. Document must already exist in ElevenLabs for automatic updates.`,\n      fileName,\n      searchedNodes: Object.keys(workflowNodes).length\n    }\n  }];\n}\n\n// Log success info\nconsole.log(`Found document \"${fileName}\" in ${matchingNodes.length} node(s)`);\nmatchingNodes.forEach(n => console.log(`  - ${n.nodeLabel} (${n.nodeId})`));\n\nreturn [{\n  json: {\n    skip: false,\n    fileName,\n    content,\n    action,\n    matchingNodes,\n    agentConfig\n  }\n}];"
+      },
+      "id": "find-document",
+      "name": "Find Document in Agent",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "condition-found",
+              "leftValue": "={{ $json.skip }}",
+              "rightValue": false,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "check-if-found",
+      "name": "Check If Found",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "method": "DELETE",
+        "url": "=https://api.elevenlabs.io/v1/convai/knowledge-base/{{ $json.matchingNodes[0].existingDocId }}?force=true",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {
+          "response": {
+            "response": {
+              "neverError": true
+            }
+          }
+        }
+      },
+      "id": "delete-existing",
+      "name": "Delete Existing Document",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1120, 200],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "elevenlabs"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get data from Find Document node\nconst data = $('Find Document in Agent').first().json;\nconst content = data.content;\nconst fileName = data.fileName;\n\n// Validate we have content\nif (!content) {\n  throw new Error('No content available to convert to binary');\n}\n\n// Create binary data from text content\nconst binaryData = Buffer.from(content, 'utf-8');\n\nreturn [{\n  json: {\n    fileName: fileName,\n    matchingNodes: data.matchingNodes,\n    agentConfig: data.agentConfig,\n    action: data.action\n  },\n  binary: {\n    file: {\n      data: binaryData.toString('base64'),\n      mimeType: 'text/markdown',\n      fileName: fileName\n    }\n  }\n}];"
+      },
+      "id": "convert-to-binary",
+      "name": "Convert Content to Binary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1340, 200]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.elevenlabs.io/v1/convai/knowledge-base/file",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "parameterType": "formBinaryData",
+              "name": "file",
+              "inputDataFieldName": "file"
+            },
+            {
+              "parameterType": "formData",
+              "name": "name",
+              "value": "={{ $json.fileName }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "upload-new-doc",
+      "name": "Upload New Document",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1560, 200],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "elevenlabs"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get data from previous nodes\nconst findData = $('Find Document in Agent').first().json;\nconst binaryData = $('Convert Content to Binary').first().json;\nconst uploadResponse = $('Upload New Document').first().json;\n\nconst agentConfig = findData.agentConfig;\nconst matchingNode = findData.matchingNodes[0];\nconst targetNodeId = matchingNode.nodeId;\nconst newDocId = uploadResponse.id;\nconst newDocName = uploadResponse.name;\nconst existingDocId = matchingNode.existingDocId;\n\n// Get current node's full config from the original agent config\nconst workflowNodes = agentConfig.workflow.nodes;\nconst targetNode = workflowNodes[targetNodeId];\n\nif (!targetNode) {\n  throw new Error(`Target node ${targetNodeId} not found in agent config`);\n}\n\n// Get current KB array and remove old document\nlet kbArray = [...(targetNode.additional_knowledge_base || [])];\nkbArray = kbArray.filter(doc => doc.id !== existingDocId);\n\n// Add new document\nkbArray.push({\n  type: 'file',\n  name: newDocName,\n  id: newDocId,\n  usage_mode: 'auto'\n});\n\n// Build PATCH payload - update only the specific node's KB array\n// We need to preserve other node properties while updating the KB\nconst updatedNodeConfig = {\n  ...targetNode,\n  additional_knowledge_base: kbArray\n};\n\nconst patchPayload = {\n  workflow: {\n    nodes: {\n      [targetNodeId]: updatedNodeConfig\n    }\n  }\n};\n\nconsole.log(`Built PATCH payload for node ${matchingNode.nodeLabel}`);\nconsole.log(`  Old doc ID: ${existingDocId}`);\nconsole.log(`  New doc ID: ${newDocId}`);\nconsole.log(`  KB array now has ${kbArray.length} documents`);\n\nreturn [{\n  json: {\n    patchPayload,\n    newDocId,\n    newDocName,\n    targetNodeId,\n    targetNodeLabel: matchingNode.nodeLabel,\n    action: findData.action\n  }\n}];"
+      },
+      "id": "build-kb-array",
+      "name": "Build Updated KB Array",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1780, 200]
+    },
+    {
+      "parameters": {
+        "method": "PATCH",
+        "url": "https://api.elevenlabs.io/v1/convai/agents/agent_4101kebd8snsff0az1775xyzhamc",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.patchPayload) }}",
+        "options": {}
+      },
+      "id": "update-agent-config",
+      "name": "Update Agent Config",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [2000, 200],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "elevenlabs"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\n  \"success\": true,\n  \"message\": \"Document synced to ElevenLabs KB\",\n  \"action\": \"{{ $('Build Updated KB Array').first().json.action }}\",\n  \"document\": {\n    \"name\": \"{{ $('Build Updated KB Array').first().json.newDocName }}\",\n    \"newId\": \"{{ $('Build Updated KB Array').first().json.newDocId }}\"\n  },\n  \"targetNode\": {\n    \"id\": \"{{ $('Build Updated KB Array').first().json.targetNodeId }}\",\n    \"label\": \"{{ $('Build Updated KB Array').first().json.targetNodeLabel }}\"\n  },\n  \"timestamp\": \"{{ new Date().toISOString() }}\"\n}",
+        "options": {}
+      },
+      "id": "success-response",
+      "name": "Success Response",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [2220, 200]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\n  \"success\": false,\n  \"message\": \"Document not synced - see reason\",\n  \"reason\": \"{{ $json.reason }}\",\n  \"details\": {\n    \"fileName\": \"{{ $json.fileName || 'unknown' }}\",\n    \"action\": \"{{ $json.action || 'unknown' }}\"\n  },\n  \"timestamp\": \"{{ new Date().toISOString() }}\"\n}",
+        "options": {
+          "responseCode": 200
+        }
+      },
+      "id": "skip-response",
+      "name": "Skip Response",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [1120, 400]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Get Agent Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Agent Config": {
+      "main": [
+        [
+          {
+            "node": "Find Document in Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Find Document in Agent": {
+      "main": [
+        [
+          {
+            "node": "Check If Found",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check If Found": {
+      "main": [
+        [
+          {
+            "node": "Delete Existing Document",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Skip Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Delete Existing Document": {
+      "main": [
+        [
+          {
+            "node": "Convert Content to Binary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert Content to Binary": {
+      "main": [
+        [
+          {
+            "node": "Upload New Document",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upload New Document": {
+      "main": [
+        [
+          {
+            "node": "Build Updated KB Array",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Updated KB Array": {
+      "main": [
+        [
+          {
+            "node": "Update Agent Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update Agent Config": {
+      "main": [
+        [
+          {
+            "node": "Success Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "pinData": {},
+  "versionId": "1",
+  "triggerCount": 0
+}

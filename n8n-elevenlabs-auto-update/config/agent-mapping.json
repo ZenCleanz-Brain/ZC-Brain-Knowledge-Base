@@ -1,0 +1,33 @@
+{
+  "agentId": "agent_4101kebd8snsff0az1775xyzhamc",
+  "agentName": "ZenCleanz Brain 1.0.1",
+  "workflowNodes": {
+    "node_01kebdaxdqe03bzdtb99872b15": {
+      "label": "Main Routing Agent",
+      "hasKnowledgeBase": false,
+      "documentTypes": []
+    },
+    "node_01kebdc3pte03bzdtvh5ckg3ae": {
+      "label": "Product Agent + TCM 5 Elements",
+      "hasKnowledgeBase": true,
+      "documentTypes": ["Product docs", "protocols", "TCM elements"]
+    },
+    "node_01kebdshtre03bzdwdfw7m5amr": {
+      "label": "General FAQs",
+      "hasKnowledgeBase": true,
+      "documentTypes": ["FAQ docs", "nutrition facts", "sequencing"]
+    },
+    "node_01kedgddtpe8jbf4xd2mkqmz1j": {
+      "label": "General Wellness (Blogs)",
+      "hasKnowledgeBase": true,
+      "documentTypes": ["Blog articles", "wellness content"]
+    }
+  },
+  "apiEndpoints": {
+    "getAgent": "https://api.elevenlabs.io/v1/convai/agents/{agent_id}",
+    "listKbDocs": "https://api.elevenlabs.io/v1/convai/knowledge-base",
+    "deleteDoc": "https://api.elevenlabs.io/v1/convai/knowledge-base/{doc_id}?force=true",
+    "uploadDoc": "https://api.elevenlabs.io/v1/convai/knowledge-base/file",
+    "updateAgent": "https://api.elevenlabs.io/v1/convai/agents/{agent_id}"
+  }
+}
