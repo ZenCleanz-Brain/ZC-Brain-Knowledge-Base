@@ -12,6 +12,7 @@
     "@monaco-editor/react": "^4.6.0",
     "@octokit/rest": "^20.1.1",
     "@supabase/supabase-js": "^2.90.1",
+    "@vercel/analytics": "^1.6.1",
     "bcryptjs": "^2.4.3",
     "diff": "^8.0.3",
     "dotenv": "^17.2.3",
