@@ -560,7 +560,7 @@ export default function PendingPage() {
                       </button>
                       <button
                         className="btn btn-success"
-                        onClick={handleApproveAll}
+                        onClick={() => handleApproveAll()}
                         disabled={processing}
                       >
                         <CheckCircle size={16} />
