@@ -1,5 +1,5 @@
 # ZenCleanz Shipping Requirements & Information
-
+-testeer
 ## Important Notice
 
 Certain countries have certain rules, especially when it comes to import and export of products. This can be different for each country and sometimes import-export rules change. Below we have some information, provided by DHL, about several countries. Feel always free to ask us for information and updates about your destination.
