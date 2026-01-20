@@ -3,7 +3,7 @@ import { getServerSession } from 'next-auth';
 import { authOptions, hasPermission } from '@/lib/auth';
 import { getFileContent, updateFile } from '@/lib/github';
 import { createPendingEdit, getPendingEditsForFile, getLatestPendingEditForFile, getFirstPendingEditForFile } from '@/lib/store';
-import { triggerNotificationWebhook } from '@/lib/n8n';
+import { triggerNotificationWebhook, triggerN8nWebhook } from '@/lib/n8n';
 
 interface RouteParams {
   params: { path: string[] };
@@ -116,6 +116,21 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
       );
 
       if (result) {
+        // Trigger n8n webhook to sync to ElevenLabs KB
+        const fileName = filePath.split('/').pop() || filePath;
+        await triggerN8nWebhook({
+          action: 'update',
+          files: [
+            {
+              path: filePath,
+              name: fileName.replace(/\.md$/, ''),
+            },
+          ],
+          content: content,
+          approvedBy: session.user?.name || 'Admin',
+          approvedAt: new Date().toISOString(),
+        });
+
         return NextResponse.json({
           status: 'committed',
           message: 'Changes committed directly to GitHub',
