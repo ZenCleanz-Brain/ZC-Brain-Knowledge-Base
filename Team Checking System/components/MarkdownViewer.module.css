@@ -1,6 +1,8 @@
 .viewer {
   padding: 1.5rem;
   background: var(--surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-radius: var(--radius);
   min-height: 400px;
 }
