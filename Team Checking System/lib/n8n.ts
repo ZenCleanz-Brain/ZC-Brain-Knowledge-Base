@@ -1,7 +1,7 @@
 // n8n webhook integration for ElevenLabs KB sync
 
 export interface WebhookPayload {
-  action: 'update' | 'delete';
+  action: 'update' | 'delete' | 'revert';
   files: Array<{
     path: string;
     name: string;
