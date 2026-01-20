@@ -4,15 +4,6 @@
   min-height: 0;
 }
 
-.sidebar {
-  width: 320px;
-  border-right: 1px solid var(--border);
-  background: var(--surface);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-
 .sidebarHeader {
   display: flex;
   align-items: center;

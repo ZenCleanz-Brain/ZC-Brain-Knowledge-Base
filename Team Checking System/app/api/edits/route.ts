@@ -14,7 +14,7 @@ export async function GET() {
   const userRole = (session.user as any).role;
 
   // Admins can see all edits, others can see only pending
-  const edits = userRole === 'admin' ? getAllEdits() : getAllPendingEdits();
+  const edits = userRole === 'admin' ? await getAllEdits() : await getAllPendingEdits();
 
   return NextResponse.json({
     edits: edits.map((edit) => ({

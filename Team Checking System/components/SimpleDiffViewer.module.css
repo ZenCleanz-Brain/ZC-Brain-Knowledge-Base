@@ -1,0 +1,124 @@
+.diffContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.diffHeader {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--background);
+}
+
+.diffHeader h4 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--text);
+}
+
+.sideBySide {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+  gap: 0;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-right: 1px solid var(--border);
+}
+
+.panel:last-child {
+  border-right: none;
+}
+
+.panelHeader {
+  padding: 0.75rem 1rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--background);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.panelContent {
+  flex: 1;
+  overflow: auto;
+  background: var(--surface);
+}
+
+.pre {
+  margin: 0;
+  padding: 0;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--text);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.lineUnchanged {
+  padding: 0.125rem 1rem;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.lineChanged {
+  padding: 0.125rem 1rem;
+  background: var(--background);
+  color: var(--text);
+}
+
+/* Highlighted changes - Red for removed (old version) */
+.removed {
+  background: #fee2e2;
+  color: #991b1b;
+  font-weight: 500;
+  padding: 0.125rem 0.25rem;
+  border-radius: 2px;
+}
+
+[data-theme="dark"] .removed {
+  background: rgba(220, 38, 38, 0.25);
+  color: #fca5a5;
+}
+
+/* Highlighted changes - Green for added (new version) */
+.added {
+  background: #dcfce7;
+  color: #15803d;
+  font-weight: 500;
+  padding: 0.125rem 0.25rem;
+  border-radius: 2px;
+}
+
+[data-theme="dark"] .added {
+  background: rgba(22, 163, 74, 0.25);
+  color: #86efac;
+}
+
+/* Scrollbar styling for panels */
+.panelContent::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.panelContent::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+.panelContent::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+.panelContent::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}

@@ -26,7 +26,7 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
     );
   }
 
-  const edit = getPendingEdit(params.id);
+  const edit = await getPendingEdit(params.id);
 
   if (!edit) {
     return NextResponse.json({ error: 'Edit not found' }, { status: 404 });
@@ -66,7 +66,7 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
     }
 
     // Update the edit status
-    updatePendingEdit(params.id, {
+    await updatePendingEdit(params.id, {
       status: 'approved',
       reviewedBy: session.user?.name || 'Admin',
       reviewedAt: new Date(),

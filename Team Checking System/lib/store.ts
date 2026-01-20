@@ -1,5 +1,5 @@
-// Simple in-memory store for pending edits
-// In production, this would use a database like Vercel KV or PostgreSQL
+// Supabase-based store for pending edits
+import { supabase } from './supabase';
 
 export interface PendingEdit {
   id: string;
@@ -16,59 +16,155 @@ export interface PendingEdit {
   reviewNote?: string;
 }
 
-// In-memory store (resets on server restart)
-// For production, replace with database
-const pendingEdits: Map<string, PendingEdit> = new Map();
+// Map database row to PendingEdit
+function mapRow(row: any): PendingEdit {
+  return {
+    id: row.id,
+    filePath: row.file_path,
+    fileName: row.file_name,
+    originalContent: row.original_content,
+    newContent: row.new_content,
+    originalSha: row.original_sha,
+    submittedBy: row.submitted_by,
+    submittedAt: new Date(row.submitted_at),
+    status: row.status,
+    reviewedBy: row.reviewed_by,
+    reviewedAt: row.reviewed_at ? new Date(row.reviewed_at) : undefined,
+    reviewNote: row.review_note,
+  };
+}
 
 export function generateId(): string {
   return `edit_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
 }
 
-export function createPendingEdit(edit: Omit<PendingEdit, 'id' | 'submittedAt' | 'status'>): PendingEdit {
+export async function createPendingEdit(
+  edit: Omit<PendingEdit, 'id' | 'submittedAt' | 'status'>
+): Promise<PendingEdit> {
   const id = generateId();
-  const pendingEdit: PendingEdit = {
-    ...edit,
-    id,
-    submittedAt: new Date(),
-    status: 'pending',
-  };
-  pendingEdits.set(id, pendingEdit);
-  return pendingEdit;
+
+  const { data, error } = await supabase
+    .from('pending_edits')
+    .insert({
+      id,
+      file_path: edit.filePath,
+      file_name: edit.fileName,
+      original_content: edit.originalContent,
+      new_content: edit.newContent,
+      original_sha: edit.originalSha,
+      submitted_by: edit.submittedBy,
+      status: 'pending',
+    })
+    .select()
+    .single();
+
+  if (error) {
+    console.error('[Store] Error creating pending edit:', error);
+    throw error;
+  }
+
+  console.log('[Store] Created pending edit:', id, 'for file:', edit.filePath);
+  return mapRow(data);
 }
 
-export function getPendingEdit(id: string): PendingEdit | undefined {
-  return pendingEdits.get(id);
+export async function getPendingEdit(id: string): Promise<PendingEdit | null> {
+  const { data, error } = await supabase
+    .from('pending_edits')
+    .select('*')
+    .eq('id', id)
+    .single();
+
+  if (error) {
+    console.error('[Store] Error getting pending edit:', error);
+    return null;
+  }
+
+  return data ? mapRow(data) : null;
 }
 
-export function getAllPendingEdits(): PendingEdit[] {
-  return Array.from(pendingEdits.values())
-    .filter((edit) => edit.status === 'pending')
-    .sort((a, b) => b.submittedAt.getTime() - a.submittedAt.getTime());
+export async function getAllPendingEdits(): Promise<PendingEdit[]> {
+  const { data, error } = await supabase
+    .from('pending_edits')
+    .select('*')
+    .eq('status', 'pending')
+    .order('submitted_at', { ascending: false });
+
+  if (error) {
+    console.error('[Store] Error getting all pending edits:', error);
+    return [];
+  }
+
+  return data.map(mapRow);
 }
 
-export function getAllEdits(): PendingEdit[] {
-  return Array.from(pendingEdits.values())
-    .sort((a, b) => b.submittedAt.getTime() - a.submittedAt.getTime());
+export async function getAllEdits(): Promise<PendingEdit[]> {
+  const { data, error } = await supabase
+    .from('pending_edits')
+    .select('*')
+    .order('submitted_at', { ascending: false });
+
+  if (error) {
+    console.error('[Store] Error getting all edits:', error);
+    return [];
+  }
+
+  return data.map(mapRow);
 }
 
-export function updatePendingEdit(
+export async function updatePendingEdit(
   id: string,
   updates: Partial<PendingEdit>
-): PendingEdit | null {
-  const edit = pendingEdits.get(id);
-  if (!edit) return null;
+): Promise<PendingEdit | null> {
+  const dbUpdates: any = {};
 
-  const updated = { ...edit, ...updates };
-  pendingEdits.set(id, updated);
-  return updated;
+  if (updates.status) dbUpdates.status = updates.status;
+  if (updates.reviewedBy) dbUpdates.reviewed_by = updates.reviewedBy;
+  if (updates.reviewedAt) dbUpdates.reviewed_at = updates.reviewedAt.toISOString();
+  if (updates.reviewNote !== undefined) dbUpdates.review_note = updates.reviewNote;
+
+  const { data, error } = await supabase
+    .from('pending_edits')
+    .update(dbUpdates)
+    .eq('id', id)
+    .select()
+    .single();
+
+  if (error) {
+    console.error('[Store] Error updating pending edit:', error);
+    return null;
+  }
+
+  console.log('[Store] Updated pending edit:', id);
+  return data ? mapRow(data) : null;
 }
 
-export function deletePendingEdit(id: string): boolean {
-  return pendingEdits.delete(id);
+export async function deletePendingEdit(id: string): Promise<boolean> {
+  const { error } = await supabase
+    .from('pending_edits')
+    .delete()
+    .eq('id', id);
+
+  if (error) {
+    console.error('[Store] Error deleting pending edit:', error);
+    return false;
+  }
+
+  console.log('[Store] Deleted pending edit:', id);
+  return true;
 }
 
 // Get pending edits for a specific file
-export function getPendingEditsForFile(filePath: string): PendingEdit[] {
-  return Array.from(pendingEdits.values())
-    .filter((edit) => edit.filePath === filePath && edit.status === 'pending');
+export async function getPendingEditsForFile(filePath: string): Promise<PendingEdit[]> {
+  const { data, error } = await supabase
+    .from('pending_edits')
+    .select('*')
+    .eq('file_path', filePath)
+    .eq('status', 'pending');
+
+  if (error) {
+    console.error('[Store] Error getting pending edits for file:', error);
+    return [];
+  }
+
+  return data.map(mapRow);
 }

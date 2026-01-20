@@ -97,6 +97,11 @@ export async function updateFile(
 ): Promise<{ sha: string } | null> {
   try {
     const fullPath = `${kbBasePath}/${path}`;
+    console.log('[GitHub] Attempting to update file:', fullPath);
+    console.log('[GitHub] Using branch:', branch);
+    console.log('[GitHub] Owner:', owner, 'Repo:', repo);
+    console.log('[GitHub] SHA:', sha);
+
     const response = await octokit.repos.createOrUpdateFileContents({
       owner,
       repo,
@@ -107,11 +112,14 @@ export async function updateFile(
       branch,
     });
 
+    console.log('[GitHub] File updated successfully!');
     return {
       sha: response.data.content?.sha || '',
     };
-  } catch (error) {
-    console.error('GitHub updateFile error:', error);
+  } catch (error: any) {
+    console.error('[GitHub] updateFile error:', error.message);
+    console.error('[GitHub] Full error:', JSON.stringify(error.response?.data || error, null, 2));
+    console.error('[GitHub] Status:', error.status);
     return null;
   }
 }
@@ -134,34 +142,68 @@ export async function getFullTree(path: string = ''): Promise<FileInfo[]> {
 
 // Build a nested tree structure from flat list
 export function buildTree(items: FileInfo[]): TreeNode[] {
-  const root: TreeNode[] = [];
   const pathMap = new Map<string, TreeNode>();
 
-  // Sort items so directories come before files
-  const sorted = [...items].sort((a, b) => {
-    if (a.type === 'dir' && b.type === 'file') return -1;
-    if (a.type === 'file' && b.type === 'dir') return 1;
-    return a.name.localeCompare(b.name);
-  });
+  // First pass: Create all nodes and ensure parent directories exist
+  for (const item of items) {
+    // Ensure all parent directories exist in the map
+    const pathParts = item.path.split('/');
+    let currentPath = '';
 
-  for (const item of sorted) {
-    const node: TreeNode = {
-      name: item.name,
-      path: item.path,
-      type: item.type,
-      children: item.type === 'dir' ? [] : undefined,
-    };
+    for (let i = 0; i < pathParts.length; i++) {
+      const part = pathParts[i];
+      currentPath = currentPath ? `${currentPath}/${part}` : part;
 
-    pathMap.set(item.path, node);
+      if (!pathMap.has(currentPath)) {
+        const isLastPart = i === pathParts.length - 1;
+        const nodeType = isLastPart ? item.type : 'dir';
 
-    const parentPath = item.path.split('/').slice(0, -1).join('/');
-
-    if (parentPath && pathMap.has(parentPath)) {
-      pathMap.get(parentPath)!.children!.push(node);
-    } else if (!parentPath) {
-      root.push(node);
+        pathMap.set(currentPath, {
+          name: part,
+          path: currentPath,
+          type: nodeType,
+          children: nodeType === 'dir' ? [] : undefined,
+        });
+      }
     }
   }
+
+  // Second pass: Build the hierarchy by attaching children to parents
+  const root: TreeNode[] = [];
+
+  for (const [path, node] of pathMap.entries()) {
+    const parentPath = path.split('/').slice(0, -1).join('/');
+
+    if (parentPath && pathMap.has(parentPath)) {
+      // Has a parent, add to parent's children
+      const parent = pathMap.get(parentPath)!;
+      if (!parent.children!.some(child => child.path === node.path)) {
+        parent.children!.push(node);
+      }
+    } else if (!parentPath) {
+      // No parent path means root level
+      if (!root.some(n => n.path === node.path)) {
+        root.push(node);
+      }
+    }
+  }
+
+  // Sort children recursively
+  function sortChildren(nodes: TreeNode[]) {
+    nodes.sort((a, b) => {
+      if (a.type === 'dir' && b.type === 'file') return -1;
+      if (a.type === 'file' && b.type === 'dir') return 1;
+      return a.name.localeCompare(b.name);
+    });
+
+    for (const node of nodes) {
+      if (node.children && node.children.length > 0) {
+        sortChildren(node.children);
+      }
+    }
+  }
+
+  sortChildren(root);
 
   return root;
 }
@@ -174,6 +216,21 @@ export async function listFiles(): Promise<FileInfo[]> {
 
 // Get nested file tree
 export async function getFileTree(): Promise<TreeNode[]> {
+  console.log('[GitHub] Starting getFileTree...');
   const allItems = await getFullTree();
-  return buildTree(allItems);
+  console.log('[GitHub] getFullTree returned', allItems.length, 'items');
+
+  // Log some sample items
+  console.log('[GitHub] Sample items:', allItems.slice(0, 5).map(i => `${i.type}:${i.path}`));
+
+  const tree = buildTree(allItems);
+  console.log('[GitHub] buildTree created', tree.length, 'root nodes');
+
+  // Log the structure
+  tree.forEach(node => {
+    const childCount = node.children?.length || 0;
+    console.log(`[GitHub] Root node: ${node.name} (${node.type}) - ${childCount} children`);
+  });
+
+  return tree;
 }

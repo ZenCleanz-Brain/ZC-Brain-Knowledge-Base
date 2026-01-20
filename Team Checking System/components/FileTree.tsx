@@ -24,14 +24,25 @@ interface TreeItemProps {
 }
 
 function TreeItem({ node, level, currentPath }: TreeItemProps) {
-  const [isOpen, setIsOpen] = useState(level < 2);
+  const storageKey = `folder-state-${node.path}`;
+
+  // Initialize state from localStorage, default to false (collapsed)
+  const [isOpen, setIsOpen] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    const saved = localStorage.getItem(storageKey);
+    return saved === 'true';
+  });
+
   const isActive = currentPath === node.path;
   const hasChildren = node.children && node.children.length > 0;
 
   const toggleOpen = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    setIsOpen(!isOpen);
+    const newState = !isOpen;
+    setIsOpen(newState);
+    // Persist the state to localStorage
+    localStorage.setItem(storageKey, String(newState));
   };
 
   if (node.type === 'dir') {

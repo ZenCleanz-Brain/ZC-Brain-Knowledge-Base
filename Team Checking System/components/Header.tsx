@@ -3,6 +3,7 @@
 import { useSession, signOut } from 'next-auth/react';
 import Link from 'next/link';
 import { LogOut, User, FolderTree, ClipboardList, LayoutDashboard } from 'lucide-react';
+import ThemeToggle from './ThemeToggle';
 import styles from './Header.module.css';
 
 export default function Header() {
@@ -36,6 +37,7 @@ export default function Header() {
       </div>
 
       <div className={styles.right}>
+        <ThemeToggle />
         <div className={styles.user}>
           <User size={16} />
           <span>{session?.user?.name}</span>

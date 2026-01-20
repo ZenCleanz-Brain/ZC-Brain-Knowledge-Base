@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import { Clock, CheckCircle, XCircle, Eye, RefreshCw, AlertCircle } from 'lucide-react';
+import SimpleDiffViewer from '@/components/SimpleDiffViewer';
 import styles from './page.module.css';
 
 interface PendingEdit {
@@ -244,14 +245,11 @@ export default function PendingPage() {
               </div>
 
               <div className={styles.diffView}>
-                <div className={styles.diffPanel}>
-                  <h4>Original</h4>
-                  <pre>{selectedEdit.originalContent}</pre>
-                </div>
-                <div className={styles.diffPanel}>
-                  <h4>New Version</h4>
-                  <pre>{selectedEdit.newContent}</pre>
-                </div>
+                <SimpleDiffViewer
+                  original={selectedEdit.originalContent}
+                  modified={selectedEdit.newContent}
+                  fileName={selectedEdit.fileName}
+                />
               </div>
             </>
           ) : (

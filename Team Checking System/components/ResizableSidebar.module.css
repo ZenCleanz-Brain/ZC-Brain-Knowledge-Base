@@ -1,0 +1,43 @@
+.sidebar {
+  border-right: 1px solid var(--border);
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.resizer {
+  width: 4px;
+  background: var(--border);
+  cursor: col-resize;
+  flex-shrink: 0;
+  transition: background 0.15s ease;
+  position: relative;
+}
+
+.resizer:hover,
+.resizer.resizing {
+  background: var(--primary);
+}
+
+.resizer:hover::before,
+.resizer.resizing::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -2px;
+  right: -2px;
+  bottom: 0;
+}
+
+/* Visual feedback when resizing */
+.resizer.resizing {
+  background: var(--primary);
+}
+
+/* Prevent text selection while resizing */
+body.resizing {
+  user-select: none;
+  cursor: col-resize;
+}

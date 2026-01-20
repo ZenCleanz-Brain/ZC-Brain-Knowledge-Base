@@ -1,38 +1,18 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Search, RefreshCw } from 'lucide-react';
-import FileTree, { TreeNode } from '@/components/FileTree';
+import FileTree from '@/components/FileTree';
+import ResizableSidebar from '@/components/ResizableSidebar';
+import { useFileTree } from '@/contexts/FileTreeContext';
 import styles from './page.module.css';
 
 export default function BrowsePage() {
-  const [tree, setTree] = useState<TreeNode[]>([]);
-  const [loading, setLoading] = useState(true);
+  const { tree, loading, refreshTree } = useFileTree();
   const [searchTerm, setSearchTerm] = useState('');
-  const [error, setError] = useState<string | null>(null);
-
-  async function fetchFiles() {
-    setLoading(true);
-    setError(null);
-    try {
-      const res = await fetch('/api/files');
-      if (!res.ok) throw new Error('Failed to fetch files');
-      const data = await res.json();
-      setTree(data.tree || []);
-    } catch (err) {
-      setError('Failed to load files. Please try again.');
-      console.error('Error fetching files:', err);
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  useEffect(() => {
-    fetchFiles();
-  }, []);
 
   // Filter tree based on search term
-  function filterTree(nodes: TreeNode[], term: string): TreeNode[] {
+  function filterTree(nodes: any[], term: string): any[] {
     if (!term) return nodes;
 
     const lowerTerm = term.toLowerCase();
@@ -54,19 +34,19 @@ export default function BrowsePage() {
 
         return null;
       })
-      .filter(Boolean) as TreeNode[];
+      .filter(Boolean) as any[];
   }
 
   const filteredTree = filterTree(tree, searchTerm);
 
   return (
     <div className={styles.container}>
-      <aside className={styles.sidebar}>
+      <ResizableSidebar>
         <div className={styles.sidebarHeader}>
           <h2>Knowledge Base</h2>
           <button
             className={styles.refreshBtn}
-            onClick={fetchFiles}
+            onClick={refreshTree}
             disabled={loading}
             title="Refresh files"
           >
@@ -85,9 +65,7 @@ export default function BrowsePage() {
           />
         </div>
 
-        {error ? (
-          <div className={styles.error}>{error}</div>
-        ) : loading ? (
+        {loading ? (
           <div className={styles.loading}>Loading files...</div>
         ) : filteredTree.length === 0 ? (
           <div className={styles.empty}>
@@ -96,7 +74,7 @@ export default function BrowsePage() {
         ) : (
           <FileTree nodes={filteredTree} />
         )}
-      </aside>
+      </ResizableSidebar>
 
       <main className={styles.main}>
         <div className={styles.placeholder}>

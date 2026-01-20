@@ -15,12 +15,30 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     const format = searchParams.get('format') || 'tree';
 
+    console.log('[API /api/files] Fetching files, format:', format);
+
     if (format === 'list') {
       const files = await listFiles();
+      console.log('[API /api/files] Found', files.length, 'files');
       return NextResponse.json({ files });
     }
 
     const tree = await getFileTree();
+    console.log('[API /api/files] Built tree with', tree.length, 'root nodes');
+
+    // Debug: count all nodes recursively
+    function countNodes(nodes: any[]): number {
+      let count = nodes.length;
+      for (const node of nodes) {
+        if (node.children) {
+          count += countNodes(node.children);
+        }
+      }
+      return count;
+    }
+
+    console.log('[API /api/files] Total nodes in tree:', countNodes(tree));
+
     return NextResponse.json({ tree });
   } catch (error) {
     console.error('Error listing files:', error);
@@ -30,3 +48,4 @@ export async function GET(request: NextRequest) {
     );
   }
 }
+

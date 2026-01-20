@@ -113,7 +113,7 @@ button.editItem:hover {
 
 .editItem.selected {
   border-color: var(--primary);
-  background: rgba(45, 90, 39, 0.05);
+  background: rgba(200, 113, 55, 0.1);
 }
 
 .editInfo {
@@ -125,11 +125,18 @@ button.editItem:hover {
 .fileName {
   font-weight: 500;
   font-size: 0.875rem;
+  color: var(--text);
 }
 
 .meta {
   font-size: 0.75rem;
   color: var(--text-secondary);
+}
+
+/* Fix icon color in dark theme */
+.editItem svg {
+  color: var(--text);
+  flex-shrink: 0;
 }
 
 .preview {
@@ -214,7 +221,12 @@ button.editItem:hover {
   margin: 0;
   font-size: 0.8125rem;
   line-height: 1.6;
-  background: white;
+  background: var(--background);
+  color: var(--text);
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+[data-theme="dark"] .diffPanel pre {
+  background: var(--surface);
 }

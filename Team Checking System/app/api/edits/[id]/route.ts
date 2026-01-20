@@ -15,7 +15,7 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  const edit = getPendingEdit(params.id);
+  const edit = await getPendingEdit(params.id);
 
   if (!edit) {
     return NextResponse.json({ error: 'Edit not found' }, { status: 404 });

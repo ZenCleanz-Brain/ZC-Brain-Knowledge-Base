@@ -4,9 +4,11 @@ import { useEffect, useState, useCallback } from 'react';
 import { useSession } from 'next-auth/react';
 import { useParams, useRouter } from 'next/navigation';
 import { Search, RefreshCw, Edit3, Save, X, AlertCircle } from 'lucide-react';
-import FileTree, { TreeNode } from '@/components/FileTree';
+import FileTree from '@/components/FileTree';
 import MarkdownViewer from '@/components/MarkdownViewer';
 import MarkdownEditor from '@/components/MarkdownEditor';
+import ResizableSidebar from '@/components/ResizableSidebar';
+import { useFileTree } from '@/contexts/FileTreeContext';
 import styles from '../page.module.css';
 import viewStyles from './page.module.css';
 
@@ -26,9 +28,8 @@ export default function FileViewPage() {
   const { data: session } = useSession();
   const params = useParams();
   const router = useRouter();
+  const { tree, loading: treeLoading, refreshTree } = useFileTree();
 
-  const [tree, setTree] = useState<TreeNode[]>([]);
-  const [treeLoading, setTreeLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
 
   const [file, setFile] = useState<FileData | null>(null);
@@ -46,20 +47,6 @@ export default function FileViewPage() {
 
   const userRole = (session?.user as any)?.role || 'viewer';
   const canEdit = userRole === 'admin' || userRole === 'editor';
-
-  // Fetch file tree
-  const fetchTree = useCallback(async () => {
-    try {
-      const res = await fetch('/api/files');
-      if (!res.ok) throw new Error('Failed to fetch files');
-      const data = await res.json();
-      setTree(data.tree || []);
-    } catch (err) {
-      console.error('Error fetching files:', err);
-    } finally {
-      setTreeLoading(false);
-    }
-  }, []);
 
   // Fetch file content
   const fetchFile = useCallback(async () => {
@@ -83,10 +70,7 @@ export default function FileViewPage() {
     }
   }, [filePath]);
 
-  useEffect(() => {
-    fetchTree();
-  }, [fetchTree]);
-
+  // Fetch file when path changes
   useEffect(() => {
     fetchFile();
     setIsEditing(false);
@@ -94,7 +78,7 @@ export default function FileViewPage() {
   }, [filePath, fetchFile]);
 
   // Filter tree
-  function filterTree(nodes: TreeNode[], term: string): TreeNode[] {
+  function filterTree(nodes: any[], term: string): any[] {
     if (!term) return nodes;
     const lowerTerm = term.toLowerCase();
     return nodes
@@ -105,7 +89,7 @@ export default function FileViewPage() {
         const filteredChildren = filterTree(node.children || [], term);
         return filteredChildren.length > 0 ? { ...node, children: filteredChildren } : null;
       })
-      .filter(Boolean) as TreeNode[];
+      .filter(Boolean) as any[];
   }
 
   const filteredTree = filterTree(tree, searchTerm);
@@ -137,10 +121,15 @@ export default function FileViewPage() {
       }
 
       if (data.status === 'committed') {
-        setSaveMessage({ type: 'success', text: 'Changes committed successfully!' });
+        setSaveMessage({ type: 'success', text: data.message || 'Changes committed successfully!' });
         fetchFile(); // Refresh to get new SHA
       } else if (data.status === 'pending') {
-        setSaveMessage({ type: 'success', text: 'Edit submitted for admin review.' });
+        setSaveMessage({
+          type: 'success',
+          text: userRole === 'admin'
+            ? 'Saved to pending review (GitHub write access not available)'
+            : 'Edit submitted for admin review'
+        });
       }
 
       setIsEditing(false);
@@ -159,12 +148,12 @@ export default function FileViewPage() {
 
   return (
     <div className={styles.container}>
-      <aside className={styles.sidebar}>
+      <ResizableSidebar>
         <div className={styles.sidebarHeader}>
           <h2>Knowledge Base</h2>
           <button
             className={styles.refreshBtn}
-            onClick={fetchTree}
+            onClick={refreshTree}
             disabled={treeLoading}
             title="Refresh files"
           >
@@ -192,7 +181,7 @@ export default function FileViewPage() {
         ) : (
           <FileTree nodes={filteredTree} currentPath={filePath} />
         )}
-      </aside>
+      </ResizableSidebar>
 
       <main className={styles.main}>
         {fileLoading ? (
@@ -259,12 +248,16 @@ export default function FileViewPage() {
 
             <div className={viewStyles.fileContent}>
               {isEditing ? (
-                <MarkdownEditor
-                  value={editContent}
-                  onChange={setEditContent}
-                />
+                <div className={viewStyles.editorWrapper}>
+                  <MarkdownEditor
+                    value={editContent}
+                    onChange={setEditContent}
+                  />
+                </div>
               ) : (
-                <MarkdownViewer content={file.content} />
+                <div>
+                  <MarkdownViewer content={file.content} />
+                </div>
               )}
             </div>
           </div>

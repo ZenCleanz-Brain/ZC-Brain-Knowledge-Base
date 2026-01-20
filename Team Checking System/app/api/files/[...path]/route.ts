@@ -26,7 +26,7 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
     }
 
     // Also get pending edits for this file
-    const pendingEdits = getPendingEditsForFile(filePath);
+    const pendingEdits = await getPendingEditsForFile(filePath);
 
     return NextResponse.json({
       ...file,
@@ -81,7 +81,8 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
       return NextResponse.json({ error: 'File not found' }, { status: 404 });
     }
 
-    // If admin, directly commit the change
+    // If admin, try to directly commit the change
+    // If it fails (e.g., token permissions), fall back to pending review
     if (userRole === 'admin') {
       const result = await updateFile(
         filePath,
@@ -93,19 +94,17 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
       if (result) {
         return NextResponse.json({
           status: 'committed',
-          message: 'Changes committed directly',
+          message: 'Changes committed directly to GitHub',
           sha: result.sha,
         });
-      } else {
-        return NextResponse.json(
-          { error: 'Failed to commit changes' },
-          { status: 500 }
-        );
       }
+
+      // If direct commit failed, log the issue and fall through to pending review
+      console.warn('[Admin] Direct GitHub commit failed, creating pending edit instead');
     }
 
-    // For editors, create a pending edit
-    const pendingEdit = createPendingEdit({
+    // For editors (or admins when direct commit fails), create a pending edit
+    const pendingEdit = await createPendingEdit({
       filePath,
       fileName: filePath.split('/').pop() || filePath,
       originalContent: original.content,

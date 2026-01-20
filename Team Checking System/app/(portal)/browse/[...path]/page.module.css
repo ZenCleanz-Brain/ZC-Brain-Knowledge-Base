@@ -79,10 +79,23 @@
 .fileContent {
   flex: 1;
   overflow: auto;
+  display: flex;
+  justify-content: center;
+  padding: 0;
 }
 
-/* Markdown viewer padding */
+/* Markdown viewer - center aligned with max width */
 .fileContent > div {
   padding: 2rem;
   max-width: 900px;
+  width: 100%;
+}
+
+/* Editor mode - full width, no padding/centering */
+.fileContent > .editorWrapper {
+  max-width: none;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
