@@ -171,7 +171,7 @@ export function buildTree(items: FileInfo[]): TreeNode[] {
   // Second pass: Build the hierarchy by attaching children to parents
   const root: TreeNode[] = [];
 
-  for (const [path, node] of pathMap.entries()) {
+  for (const [path, node] of Array.from(pathMap.entries())) {
     const parentPath = path.split('/').slice(0, -1).join('/');
 
     if (parentPath && pathMap.has(parentPath)) {

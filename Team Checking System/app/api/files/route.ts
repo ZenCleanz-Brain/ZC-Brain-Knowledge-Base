@@ -27,7 +27,7 @@ export async function GET(request: NextRequest) {
     console.log('[API /api/files] Built tree with', tree.length, 'root nodes');
 
     // Debug: count all nodes recursively
-    function countNodes(nodes: any[]): number {
+    const countNodes = (nodes: any[]): number => {
       let count = nodes.length;
       for (const node of nodes) {
         if (node.children) {
@@ -35,7 +35,7 @@ export async function GET(request: NextRequest) {
         }
       }
       return count;
-    }
+    };
 
     console.log('[API /api/files] Total nodes in tree:', countNodes(tree));
 

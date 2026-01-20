@@ -7,8 +7,12 @@ export interface WebhookPayload {
     name: string;
   }>;
   content?: string;
-  approvedBy: string;
-  approvedAt: string;
+  approvedBy?: string;
+  approvedAt?: string;
+  revertedBy?: string;
+  revertedAt?: string;
+  originalEditBy?: string;
+  isPartialApproval?: boolean;
 }
 
 export async function triggerN8nWebhook(payload: WebhookPayload): Promise<boolean> {
