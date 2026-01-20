@@ -4,10 +4,17 @@
   justify-content: space-between;
   padding: 0 1.5rem;
   height: 60px;
-  background: var(--surface);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
+  background: linear-gradient(
+    95deg,
+    #1a1a1a 0%,
+    #252525 25%,
+    #2d2d2d 50%,
+    #252525 75%,
+    #1a1a1a 100%
+  );
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(201, 169, 98, 0.3);
 }
 
 .left {
@@ -22,7 +29,7 @@
   gap: 0.5rem;
   font-size: 1.25rem;
   font-weight: 600;
-  color: var(--primary);
+  color: var(--gold);
   text-decoration: none;
 }
 
@@ -33,6 +40,7 @@
 
 .logoText {
   font-size: 1rem;
+  color: var(--yang-white);
 }
 
 .nav {
@@ -54,8 +62,9 @@
 }
 
 .navLink:hover {
-  background: var(--background);
-  color: var(--text);
+  background: rgba(201, 169, 98, 0.1);
+  color: var(--gold);
+  border-color: rgba(201, 169, 98, 0.2);
 }
 
 .right {
@@ -88,7 +97,7 @@
 }
 
 .signOut:hover {
-  background: var(--background);
-  color: var(--error);
-  border-color: var(--error);
+  background: var(--error-bg);
+  color: #c45454;
+  border-color: rgba(104, 19, 19, 0.4);
 }

@@ -17,9 +17,9 @@ export default async function PortalLayout({
 
   return (
     <FileTreeProvider>
-      <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+      <div style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
         <Header />
-        <main style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+        <main style={{ flex: 1, display: 'flex', flexDirection: 'column', overflowY: 'auto' }}>
           {children}
         </main>
       </div>

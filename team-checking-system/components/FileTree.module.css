@@ -23,7 +23,7 @@
 }
 
 .itemRow:hover {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(201, 169, 98, 0.1);
 }
 
 .folder {
@@ -35,8 +35,9 @@
 }
 
 .file.active {
-  background: rgba(200, 113, 55, 0.12);
-  color: var(--primary);
+  background: rgba(201, 169, 98, 0.15);
+  color: var(--gold);
+  border-left: 2px solid var(--gold);
 }
 
 .toggle {
@@ -53,7 +54,7 @@
 }
 
 .folder .icon {
-  color: var(--primary);
+  color: var(--gold);
 }
 
 .name {

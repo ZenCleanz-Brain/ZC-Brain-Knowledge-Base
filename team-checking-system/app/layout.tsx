@@ -1,10 +1,23 @@
-import './theme-globals.css';
+import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 import { AuthProvider } from './providers';
 import { Analytics } from '@vercel/analytics/next';
 
-const inter = Inter({ subsets: ['latin'] });
+// ZenCleanz Brand Font - Area Variable (primary typeface)
+const areaFont = localFont({
+  src: '../public/fonts/Area-Variable-wght-wdth-slnt-inkt.ttf',
+  variable: '--font-area',
+  display: 'swap',
+  weight: '100 900',
+});
+
+// Cambon Light Italic (secondary typeface for accent text)
+const cambonFont = localFont({
+  src: '../public/fonts/Cambon-LightItalic.otf',
+  variable: '--font-cambon',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'ZenCleanz Knowledge Base Portal',
@@ -21,8 +34,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-theme="dark">
-      <body className={inter.className}>
+    <html lang="en" data-theme="dark" className={`${areaFont.variable} ${cambonFont.variable}`}>
+      <body>
         <AuthProvider>{children}</AuthProvider>
         <Analytics />
       </body>
