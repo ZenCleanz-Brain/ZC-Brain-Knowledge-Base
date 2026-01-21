@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { Clock, CheckCircle, XCircle, Eye, RefreshCw, AlertCircle, Layers, FileText, Edit3, Save, X } from 'lucide-react';
 import SimpleDiffViewer from '@/components/SimpleDiffViewer';
 import MarkdownEditor from '@/components/MarkdownEditor';
+import ResizableSidebar from '@/components/ResizableSidebar';
 import { useToast } from '@/components/Toast';
 import styles from './page.module.css';
 
@@ -485,81 +486,83 @@ export default function PendingPage() {
       )}
 
       <div className={styles.content}>
-        <div className={styles.editsList}>
-          <div className={styles.section}>
-            <h2>
-              <Clock size={18} /> Pending ({pendingEdits.length} edits in {fileGroups.length} files)
-            </h2>
-            {loading ? (
-              <div className={styles.loading}>Loading...</div>
-            ) : fileGroups.length === 0 ? (
-              <div className={styles.empty}>No pending edits</div>
-            ) : (
-              <div className={styles.list}>
-                {fileGroups.map((group) => (
-                  <button
-                    key={group.filePath}
-                    className={`${styles.editItem} glow-card ${selectedGroup?.filePath === group.filePath ? styles.selected : ''}`}
-                    onClick={() => fetchCombinedDiff(group)}
-                    onMouseMove={handleCardMouseMove}
-                    onMouseLeave={handleCardMouseLeave}
-                  >
-                    <div className={styles.editInfo}>
-                      <span className={styles.fileName}>
-                        {group.edits.length > 1 && (
-                          <span className={styles.editCount}>
-                            <Layers size={14} />
-                            {group.edits.length}
-                          </span>
-                        )}
-                        {group.fileName}
-                      </span>
-                      <span className={styles.meta}>
-                        by {group.edits.map((e) => e.submittedBy).filter((v, i, a) => a.indexOf(v) === i).join(', ')}
-                        {' • '}
-                        {new Date(group.firstEdit.submittedAt).toLocaleDateString()}
-                        {group.edits.length > 1 && ` - ${new Date(group.lastEdit.submittedAt).toLocaleDateString()}`}
-                      </span>
-                    </div>
-                    <Eye size={16} />
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
+        <ResizableSidebar defaultWidth={320} minWidth={280} maxWidth={500}>
+          <div className={styles.editsList}>
+            <div className={styles.section}>
+              <h2>
+                <Clock size={18} /> Pending ({pendingEdits.length} edits in {fileGroups.length} files)
+              </h2>
+              {loading ? (
+                <div className={styles.loading}>Loading...</div>
+              ) : fileGroups.length === 0 ? (
+                <div className={styles.empty}>No pending edits</div>
+              ) : (
+                <div className={styles.list}>
+                  {fileGroups.map((group) => (
+                    <button
+                      key={group.filePath}
+                      className={`${styles.editItem} ${selectedGroup?.filePath === group.filePath ? styles.selected : ''}`}
+                      onClick={() => fetchCombinedDiff(group)}
+                      onMouseMove={handleCardMouseMove}
+                      onMouseLeave={handleCardMouseLeave}
+                    >
+                      <div className={styles.editInfo}>
+                        <span className={styles.fileName}>
+                          {group.edits.length > 1 && (
+                            <span className={styles.editCount}>
+                              <Layers size={14} />
+                              {group.edits.length}
+                            </span>
+                          )}
+                          {group.fileName}
+                        </span>
+                        <span className={styles.meta}>
+                          by {group.edits.map((e) => e.submittedBy).filter((v, i, a) => a.indexOf(v) === i).join(', ')}
+                          {' • '}
+                          {new Date(group.firstEdit.submittedAt).toLocaleDateString()}
+                          {group.edits.length > 1 && ` - ${new Date(group.lastEdit.submittedAt).toLocaleDateString()}`}
+                        </span>
+                      </div>
+                      <Eye size={16} />
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
 
-          <div className={styles.section}>
-            <h2>
-              <CheckCircle size={18} /> History ({processedEdits.length})
-            </h2>
-            {processedEdits.length === 0 ? (
-              <div className={styles.empty}>No processed edits</div>
-            ) : (
-              <div className={styles.list}>
-                {processedEdits.slice(0, 10).map((edit) => (
-                  <Link
-                    key={edit.id}
-                    href={`/history/${edit.id}`}
-                    className={`${styles.editItem} ${styles.clickable} glow-card`}
-                    onMouseMove={handleCardMouseMove}
-                    onMouseLeave={handleCardMouseLeave}
-                  >
-                    <div className={styles.editInfo}>
-                      <span className={styles.fileName}>{edit.fileName}</span>
-                      <span className={styles.meta}>
-                        {edit.status} by {edit.reviewedBy} • {new Date(edit.reviewedAt!).toLocaleDateString()}
-                      </span>
-                    </div>
-                    <span className={`badge badge-${edit.status}`}>{edit.status}</span>
-                    <Eye size={16} />
-                  </Link>
-                ))}
-              </div>
-            )}
+            <div className={styles.section}>
+              <h2>
+                <CheckCircle size={18} /> History ({processedEdits.length})
+              </h2>
+              {processedEdits.length === 0 ? (
+                <div className={styles.empty}>No processed edits</div>
+              ) : (
+                <div className={styles.list}>
+                  {processedEdits.slice(0, 10).map((edit) => (
+                    <Link
+                      key={edit.id}
+                      href={`/history/${edit.id}`}
+                      className={`${styles.editItem} ${styles.clickable}`}
+                      onMouseMove={handleCardMouseMove}
+                      onMouseLeave={handleCardMouseLeave}
+                    >
+                      <div className={styles.editInfo}>
+                        <span className={styles.fileName}>{edit.fileName}</span>
+                        <span className={styles.meta}>
+                          {edit.status} by {edit.reviewedBy} • {new Date(edit.reviewedAt!).toLocaleDateString()}
+                        </span>
+                      </div>
+                      <span className={`badge badge-${edit.status}`}>{edit.status}</span>
+                      <Eye size={16} />
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
-        </div>
+        </ResizableSidebar>
 
-        <div className={styles.preview}>
+        <main className={styles.preview}>
           {detailsLoading ? (
             <div className={styles.previewLoading}>Loading edit details...</div>
           ) : selectedGroup ? (
@@ -739,7 +742,7 @@ export default function PendingPage() {
               <p>Select a file to review pending edits</p>
             </div>
           )}
-        </div>
+        </main>
       </div>
     </div>
   );

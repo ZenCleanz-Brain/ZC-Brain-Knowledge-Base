@@ -132,7 +132,8 @@ export default function DashboardPage() {
                 <ChevronRight size={18} className={styles.chevron} />
               </Link>
             ) : (
-              <div
+              <Link
+                href="/approved"
                 className={`${styles.statCard} ${styles.statCardSuccess}`}
                 onMouseMove={handleCardMouseMove}
                 onMouseLeave={handleCardMouseLeave}
@@ -144,10 +145,12 @@ export default function DashboardPage() {
                   <span className={styles.statValue}>{loading ? <span className={styles.statSpinner} /> : stats.approvedEdits}</span>
                   <span className={styles.statLabel}>Approved Edits</span>
                 </div>
-              </div>
+                <ChevronRight size={18} className={styles.chevron} />
+              </Link>
             )}
 
-            <div
+            <Link
+              href="/approved"
               className={`${styles.statCard} ${styles.statCardSuccess}`}
               onMouseMove={handleCardMouseMove}
               onMouseLeave={handleCardMouseLeave}
@@ -159,9 +162,11 @@ export default function DashboardPage() {
                 <span className={styles.statValue}>{loading ? <span className={styles.statSpinner} /> : stats.approvedEdits}</span>
                 <span className={styles.statLabel}>Approved</span>
               </div>
-            </div>
+              <ChevronRight size={18} className={styles.chevron} />
+            </Link>
 
-            <div
+            <Link
+              href="/rejected"
               className={`${styles.statCard} ${styles.statCardDanger}`}
               onMouseMove={handleCardMouseMove}
               onMouseLeave={handleCardMouseLeave}
@@ -173,7 +178,8 @@ export default function DashboardPage() {
                 <span className={styles.statValue}>{loading ? <span className={styles.statSpinner} /> : stats.rejectedEdits}</span>
                 <span className={styles.statLabel}>Rejected</span>
               </div>
-            </div>
+              <ChevronRight size={18} className={styles.chevron} />
+            </Link>
           </div>
 
           {/* Quick Actions */}
