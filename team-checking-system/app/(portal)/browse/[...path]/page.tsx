@@ -47,7 +47,6 @@ export default function FileViewPage() {
   const [isEditing, setIsEditing] = useState(false);
   const [editContent, setEditContent] = useState('');
   const [saving, setSaving] = useState(false);
-  const [saveMessage, setSaveMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
 
   const filePath = Array.isArray(params.path)
     ? params.path.map(decodeURIComponent).join('/')
@@ -82,7 +81,6 @@ export default function FileViewPage() {
   useEffect(() => {
     fetchFile();
     setIsEditing(false);
-    setSaveMessage(null);
   }, [filePath, fetchFile]);
 
   // Filter tree
@@ -110,7 +108,6 @@ export default function FileViewPage() {
     }
 
     setSaving(true);
-    setSaveMessage(null);
 
     // Show loading toast
     const toastId = showToast('loading', 'Saving changes...', true);
@@ -142,22 +139,14 @@ export default function FileViewPage() {
         } else {
           updateToast(toastId, 'warning', 'Saved to GitHub. ElevenLabs sync issue - check console.');
         }
-        setSaveMessage({ type: 'success', text: data.message || 'Changes committed successfully!' });
         fetchFile(); // Refresh to get new SHA
       } else if (data.status === 'pending') {
         updateToast(toastId, 'success', 'Edit submitted for admin review!');
-        setSaveMessage({
-          type: 'success',
-          text: userRole === 'admin'
-            ? 'Saved to pending review (GitHub write access not available)'
-            : 'Edit submitted for admin review'
-        });
       }
 
       setIsEditing(false);
     } catch (err: any) {
       updateToast(toastId, 'error', err.message || 'Failed to save changes');
-      setSaveMessage({ type: 'error', text: err.message || 'Failed to save changes' });
     } finally {
       setSaving(false);
     }
@@ -166,7 +155,6 @@ export default function FileViewPage() {
   const handleCancelEdit = () => {
     setEditContent(file?.content || '');
     setIsEditing(false);
-    setSaveMessage(null);
   };
 
   return (
@@ -259,12 +247,6 @@ export default function FileViewPage() {
               </div>
 
               <div className={viewStyles.actions}>
-                {saveMessage && (
-                  <div className={`${viewStyles.message} ${viewStyles[saveMessage.type]}`}>
-                    {saveMessage.text}
-                  </div>
-                )}
-
                 {file.pendingEdits.length > 0 && (
                   <span className="badge badge-pending">
                     {file.pendingEdits.length} pending edit(s)
