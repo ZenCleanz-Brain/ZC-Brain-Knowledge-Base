@@ -17,7 +17,7 @@ qa_pairs:
   - question: "What symptoms indicate a clogged digestive system that would benefit from cleansing?"
     answer: "Symptoms include constipation, diarrhea, bloating, abdominal pain, nausea, headaches, skin problems, bad breath, and chronic fatigue caused by toxin accumulation and impaired nutrient absorption."
 ---
-# ZenCleanz 5 Element Detox & Rejuvenation System
+# ZenCleanz 5 Element Detox & Rejuvenation System - 
 
 ## Table of Contents
 
