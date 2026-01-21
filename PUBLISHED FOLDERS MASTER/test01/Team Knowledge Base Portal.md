@@ -4,5 +4,3 @@ A two-stage system for team collaboration on knowledge base documents with GitHu
 
 yesssssss!!!!!!
 yes again!1111211
-
-this is nexxt test 
