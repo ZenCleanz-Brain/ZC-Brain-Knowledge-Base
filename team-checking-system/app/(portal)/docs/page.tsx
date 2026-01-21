@@ -22,6 +22,22 @@ export default function DocsPage() {
   const { data: session } = useSession();
   const userRole = (session?.user as any)?.role || 'viewer';
 
+  // Mouse tracking for glow effect
+  const handleCardMouseMove = (e: React.MouseEvent<HTMLElement>) => {
+    const card = e.currentTarget;
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    card.style.setProperty('--mouse-x', `${x}px`);
+    card.style.setProperty('--mouse-y', `${y}px`);
+  };
+
+  const handleCardMouseLeave = (e: React.MouseEvent<HTMLElement>) => {
+    const card = e.currentTarget;
+    card.style.setProperty('--mouse-x', '50%');
+    card.style.setProperty('--mouse-y', '50%');
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.header}>
@@ -39,7 +55,11 @@ export default function DocsPage() {
       </div>
 
       {/* Role Indicator */}
-      <div className={styles.roleCard}>
+      <div
+        className={`${styles.roleCard} glow-card`}
+        onMouseMove={handleCardMouseMove}
+        onMouseLeave={handleCardMouseLeave}
+      >
         <div className={styles.roleInfo}>
           {userRole === 'admin' ? (
             <Shield size={20} className={styles.roleIconAdmin} />
@@ -59,7 +79,11 @@ export default function DocsPage() {
       </div>
 
       {/* Quick Start */}
-      <section className={styles.section}>
+      <section
+        className={`${styles.section} glow-card`}
+        onMouseMove={handleCardMouseMove}
+        onMouseLeave={handleCardMouseLeave}
+      >
         <h2>
           <FileText size={20} />
           Quick Start Guide
@@ -90,7 +114,11 @@ export default function DocsPage() {
       </section>
 
       {/* For Team Members */}
-      <section className={styles.section}>
+      <section
+        className={`${styles.section} glow-card`}
+        onMouseMove={handleCardMouseMove}
+        onMouseLeave={handleCardMouseLeave}
+      >
         <h2>
           <User size={20} />
           For Team Members
@@ -138,7 +166,11 @@ export default function DocsPage() {
 
       {/* For Admins */}
       {userRole === 'admin' && (
-        <section className={styles.section}>
+        <section
+          className={`${styles.section} glow-card`}
+          onMouseMove={handleCardMouseMove}
+          onMouseLeave={handleCardMouseLeave}
+        >
           <h2>
             <Shield size={20} />
             For Administrators
@@ -185,7 +217,11 @@ export default function DocsPage() {
       )}
 
       {/* Best Practices */}
-      <section className={styles.section}>
+      <section
+        className={`${styles.section} glow-card`}
+        onMouseMove={handleCardMouseMove}
+        onMouseLeave={handleCardMouseLeave}
+      >
         <h2>
           <Send size={20} />
           Best Practices

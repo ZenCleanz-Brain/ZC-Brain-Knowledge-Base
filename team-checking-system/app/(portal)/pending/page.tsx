@@ -46,6 +46,22 @@ export default function PendingPage() {
   const router = useRouter();
   const { showToast, updateToast } = useToast();
 
+  // Mouse tracking for glow effect
+  const handleCardMouseMove = (e: React.MouseEvent<HTMLElement>) => {
+    const card = e.currentTarget;
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    card.style.setProperty('--mouse-x', `${x}px`);
+    card.style.setProperty('--mouse-y', `${y}px`);
+  };
+
+  const handleCardMouseLeave = (e: React.MouseEvent<HTMLElement>) => {
+    const card = e.currentTarget;
+    card.style.setProperty('--mouse-x', '50%');
+    card.style.setProperty('--mouse-y', '50%');
+  };
+
   const [edits, setEdits] = useState<PendingEdit[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedGroup, setSelectedGroup] = useState<FileGroup | null>(null);
@@ -483,8 +499,10 @@ export default function PendingPage() {
                 {fileGroups.map((group) => (
                   <button
                     key={group.filePath}
-                    className={`${styles.editItem} ${selectedGroup?.filePath === group.filePath ? styles.selected : ''}`}
+                    className={`${styles.editItem} glow-card ${selectedGroup?.filePath === group.filePath ? styles.selected : ''}`}
                     onClick={() => fetchCombinedDiff(group)}
+                    onMouseMove={handleCardMouseMove}
+                    onMouseLeave={handleCardMouseLeave}
                   >
                     <div className={styles.editInfo}>
                       <span className={styles.fileName}>
@@ -522,7 +540,9 @@ export default function PendingPage() {
                   <Link
                     key={edit.id}
                     href={`/history/${edit.id}`}
-                    className={`${styles.editItem} ${styles.clickable}`}
+                    className={`${styles.editItem} ${styles.clickable} glow-card`}
+                    onMouseMove={handleCardMouseMove}
+                    onMouseLeave={handleCardMouseLeave}
                   >
                     <div className={styles.editInfo}>
                       <span className={styles.fileName}>{edit.fileName}</span>

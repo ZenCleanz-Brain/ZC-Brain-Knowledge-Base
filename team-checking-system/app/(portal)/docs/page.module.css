@@ -50,27 +50,17 @@
 /* Role Card */
 .roleCard {
   background: linear-gradient(145deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
-  border: 1px solid transparent;
+  border: 1px solid rgba(201, 169, 98, 0.2);
   border-radius: var(--radius);
   padding: 1.25rem;
   margin-bottom: 2rem;
   position: relative;
   isolation: isolate;
+  transition: border-color 0.3s ease;
 }
 
-.roleCard::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  padding: 1px;
-  background: linear-gradient(135deg, rgba(201, 169, 98, 0.4), rgba(201, 169, 98, 0.1), rgba(201, 169, 98, 0.4));
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
-  z-index: -1;
+.roleCard:hover {
+  border-color: transparent;
 }
 
 .roleInfo {
@@ -112,27 +102,17 @@
 /* Section */
 .section {
   background: linear-gradient(145deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
-  border: 1px solid transparent;
+  border: 1px solid rgba(201, 169, 98, 0.2);
   border-radius: var(--radius);
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   position: relative;
   isolation: isolate;
+  transition: border-color 0.3s ease;
 }
 
-.section::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  padding: 1px;
-  background: linear-gradient(135deg, rgba(201, 169, 98, 0.4), rgba(201, 169, 98, 0.1), rgba(201, 169, 98, 0.4));
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
-  z-index: -1;
+.section:hover {
+  border-color: transparent;
 }
 
 .section h2 {
