@@ -44,7 +44,7 @@
 
 .modeBtn.active {
   background: var(--primary);
-  color: white;
+  color: var(--yin-black);
 }
 
 .content {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import styles from './ResizableSidebar.module.css';
 
 interface ResizableSidebarProps {
@@ -19,6 +19,19 @@ export default function ResizableSidebar({
   const [width, setWidth] = useState(defaultWidth);
   const [isResizing, setIsResizing] = useState(false);
   const sidebarRef = useRef<HTMLDivElement>(null);
+
+  // Track mouse Y position for edge glow effect
+  const handleSidebarMouseMove = useCallback((e: React.MouseEvent<HTMLElement>) => {
+    if (!sidebarRef.current) return;
+    const rect = sidebarRef.current.getBoundingClientRect();
+    const y = e.clientY - rect.top;
+    sidebarRef.current.style.setProperty('--edge-glow-y', `${y}px`);
+  }, []);
+
+  const handleSidebarMouseLeave = useCallback(() => {
+    if (!sidebarRef.current) return;
+    sidebarRef.current.style.setProperty('--edge-glow-y', '50%');
+  }, []);
 
   useEffect(() => {
     // Load saved width from localStorage
@@ -62,7 +75,9 @@ export default function ResizableSidebar({
       <aside
         ref={sidebarRef}
         className={styles.sidebar}
-        style={{ width: `${width}px` }}
+        style={{ width: `${width}px`, '--edge-glow-y': '50%' } as React.CSSProperties}
+        onMouseMove={handleSidebarMouseMove}
+        onMouseLeave={handleSidebarMouseLeave}
       >
         {children}
       </aside>

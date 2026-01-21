@@ -1,4 +1,5 @@
 .sidebar {
+  --edge-glow-y: 50%;
   border-right: 1px solid rgba(201, 169, 98, 0.2);
   background: linear-gradient(180deg, #1a1a1a 0%, #252525 50%, #1a1a1a 100%);
   backdrop-filter: blur(16px);
@@ -7,6 +8,55 @@
   flex-direction: column;
   overflow: hidden;
   flex-shrink: 0;
+  position: relative;
+}
+
+/* Mouse-following edge glow on right border */
+.sidebar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -1px;
+  bottom: 0;
+  width: 3px;
+  background: radial-gradient(
+    150px 300px ellipse at center var(--edge-glow-y),
+    rgba(232, 213, 163, 0.8),
+    rgba(201, 169, 98, 0.4) 30%,
+    rgba(201, 169, 98, 0.1) 50%,
+    transparent 70%
+  );
+  pointer-events: none;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.sidebar:hover::after {
+  opacity: 1;
+}
+
+/* Additional ambient glow near mouse position */
+.sidebar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 60px;
+  background: radial-gradient(
+    80px 200px ellipse at right var(--edge-glow-y),
+    rgba(201, 169, 98, 0.08),
+    transparent 70%
+  );
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.sidebar:hover::before {
+  opacity: 1;
 }
 
 .resizer {
@@ -14,13 +64,18 @@
   background: var(--border);
   cursor: col-resize;
   flex-shrink: 0;
-  transition: background 0.15s ease;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
   position: relative;
 }
 
 .resizer:hover,
 .resizer.resizing {
-  background: var(--primary);
+  background: linear-gradient(180deg,
+    rgba(201, 169, 98, 0.3) 0%,
+    rgba(232, 213, 163, 0.8) 50%,
+    rgba(201, 169, 98, 0.3) 100%
+  );
+  box-shadow: 0 0 12px rgba(201, 169, 98, 0.4), 0 0 24px rgba(201, 169, 98, 0.2);
 }
 
 .resizer:hover::before,
@@ -28,14 +83,25 @@
   content: '';
   position: absolute;
   top: 0;
-  left: -2px;
-  right: -2px;
+  left: -4px;
+  right: -4px;
   bottom: 0;
+  background: radial-gradient(
+    ellipse 20px 100% at center,
+    rgba(201, 169, 98, 0.15),
+    transparent 70%
+  );
+  pointer-events: none;
 }
 
 /* Visual feedback when resizing */
 .resizer.resizing {
-  background: var(--primary);
+  background: linear-gradient(180deg,
+    rgba(232, 213, 163, 0.5) 0%,
+    rgba(232, 213, 163, 1) 50%,
+    rgba(232, 213, 163, 0.5) 100%
+  );
+  box-shadow: 0 0 20px rgba(232, 213, 163, 0.6), 0 0 40px rgba(201, 169, 98, 0.3);
 }
 
 /* Prevent text selection while resizing */

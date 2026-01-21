@@ -84,11 +84,12 @@ a:hover {
 
 .btn-primary {
   background: var(--primary);
-  color: white;
+  color: var(--yin-black);
 }
 
 .btn-primary:hover {
   background: var(--primary-dark);
+  color: var(--yin-black);
 }
 
 .btn-secondary {

@@ -268,7 +268,7 @@ button.editItem:hover {
   align-items: center;
   gap: 0.25rem;
   background: var(--primary);
-  color: white;
+  color: var(--yin-black);
   padding: 0.125rem 0.5rem;
   border-radius: 1rem;
   font-size: 0.75rem;
@@ -277,7 +277,7 @@ button.editItem:hover {
 }
 
 .editCount svg {
-  color: white !important;
+  color: var(--yin-black) !important;
 }
 
 /* View mode tabs */
