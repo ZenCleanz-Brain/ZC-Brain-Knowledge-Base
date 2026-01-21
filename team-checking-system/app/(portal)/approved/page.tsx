@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import Link from 'next/link';
-import { CheckCircle, Eye, RefreshCw, AlertCircle, FileText, ArrowLeft } from 'lucide-react';
+import { CheckCircle, Eye, RefreshCw, AlertCircle, FileText, ArrowLeft, Zap } from 'lucide-react';
 import SimpleDiffViewer from '@/components/SimpleDiffViewer';
 import ResizableSidebar from '@/components/ResizableSidebar';
 import styles from './page.module.css';
@@ -17,6 +17,7 @@ interface ApprovedEdit {
   status: 'approved';
   reviewedBy?: string;
   reviewedAt?: string;
+  reviewNote?: string;
 }
 
 interface EditDetails {
@@ -138,13 +139,23 @@ export default function ApprovedPage() {
                     onMouseLeave={handleCardMouseLeave}
                   >
                     <div className={styles.editInfo}>
-                      <span className={styles.fileName}>{edit.fileName}</span>
+                      <div className={styles.fileNameRow}>
+                        <span className={styles.fileName}>{edit.fileName}</span>
+                        {edit.reviewNote === 'Auto-approved (admin direct commit)' && (
+                          <span className={styles.directCommitBadge}>
+                            <Zap size={10} />
+                            Direct
+                          </span>
+                        )}
+                      </div>
                       <span className={styles.meta}>
                         by {edit.submittedBy} • {new Date(edit.submittedAt).toLocaleDateString()}
                       </span>
                       {edit.reviewedBy && (
                         <span className={styles.reviewMeta}>
-                          Approved by {edit.reviewedBy} • {edit.reviewedAt && new Date(edit.reviewedAt).toLocaleDateString()}
+                          {edit.reviewNote === 'Auto-approved (admin direct commit)'
+                            ? `Auto-approved by ${edit.reviewedBy}`
+                            : `Approved by ${edit.reviewedBy}`} • {edit.reviewedAt && new Date(edit.reviewedAt).toLocaleDateString()}
                         </span>
                       )}
                     </div>

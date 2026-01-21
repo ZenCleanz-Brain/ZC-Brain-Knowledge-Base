@@ -26,6 +26,7 @@ export async function GET() {
       status: edit.status,
       reviewedBy: edit.reviewedBy,
       reviewedAt: edit.reviewedAt,
+      reviewNote: edit.reviewNote,
     })),
   });
 }

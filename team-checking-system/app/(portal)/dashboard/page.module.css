@@ -684,6 +684,12 @@
   min-width: 0;
 }
 
+.activityFileRow {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
 .activityFile {
   font-weight: 500;
   font-size: 0.8125rem;
@@ -693,10 +699,67 @@
   color: var(--yang-white);
 }
 
+.directBadge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.5625rem;
+  font-weight: 600;
+  padding: 0.0625rem 0.25rem;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.25), rgba(168, 85, 247, 0.2));
+  border: 1px solid rgba(139, 92, 246, 0.35);
+  border-radius: 3px;
+  color: #a78bfa;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+.revertBadge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.5625rem;
+  font-weight: 600;
+  padding: 0.0625rem 0.25rem;
+  background: linear-gradient(135deg, rgba(251, 146, 60, 0.25), rgba(249, 115, 22, 0.2));
+  border: 1px solid rgba(251, 146, 60, 0.35);
+  border-radius: 3px;
+  color: #fb923c;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
 .activityMeta {
   font-size: 0.6875rem;
   color: var(--text-secondary);
   margin-top: 0.125rem;
+}
+
+.activityStatus {
+  font-size: 0.625rem;
+  margin-top: 0.125rem;
+  font-weight: 500;
+}
+
+.statuspending {
+  color: #d4935c;
+}
+
+.statusapproved {
+  color: #6b9a4d;
+}
+
+.statusrejected {
+  color: #c45454;
+}
+
+.statusrevert {
+  color: #fb923c;
+}
+
+.activityIconrevert {
+  background: rgba(251, 146, 60, 0.15);
+  color: #fb923c;
 }
 
 /* Documentation Card - Gray and Gold theme - More Visible */

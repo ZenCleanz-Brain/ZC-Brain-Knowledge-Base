@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth';
 import { authOptions } from '@/lib/auth';
-import { getPendingEdit } from '@/lib/store';
+import { getPendingEdit, createRevertRecord } from '@/lib/store';
 import { updateFile, getFileContent } from '@/lib/github';
 import { triggerN8nWebhook } from '@/lib/n8n';
 
@@ -51,10 +51,11 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
     }
 
     // Revert by committing the original content
+    const revertedBy = session.user?.name || 'Admin';
     const result = await updateFile(
       edit.filePath,
       edit.originalContent,
-      `Revert: ${edit.fileName} (reverted edit from ${edit.submittedBy} by ${session.user?.name})`,
+      `Revert: ${edit.fileName} (reverted edit from ${edit.submittedBy} by ${revertedBy})`,
       currentFile.sha
     );
 
@@ -63,6 +64,25 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
         { error: 'Failed to revert changes to GitHub' },
         { status: 500 }
       );
+    }
+
+    // Create revert record for activity tracking
+    const now = new Date();
+    try {
+      await createRevertRecord({
+        filePath: edit.filePath,
+        fileName: edit.fileName,
+        originalContent: edit.newContent,  // The approved content (before revert)
+        newContent: edit.originalContent,  // The original content (after revert)
+        originalSha: currentFile.sha,
+        originalEditBy: edit.submittedBy,
+        revertedBy,
+        revertedAt: now,
+      });
+      console.log('[Revert] Created activity record for revert:', edit.filePath);
+    } catch (storeError) {
+      // Log but don't fail - GitHub revert already succeeded
+      console.error('[Revert] Failed to create activity record:', storeError);
     }
 
     // Trigger n8n webhook to update ElevenLabs
@@ -75,8 +95,8 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
         },
       ],
       content: edit.originalContent,
-      revertedBy: session.user?.name || 'Admin',
-      revertedAt: new Date().toISOString(),
+      revertedBy,
+      revertedAt: now.toISOString(),
       originalEditBy: edit.submittedBy,
     });
 

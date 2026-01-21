@@ -67,6 +67,90 @@ export async function createPendingEdit(
   return mapRow(data);
 }
 
+// Create an auto-approved edit record for admin direct commits
+// This ensures admin changes appear in Recent Activity and Approved sections
+export async function createAutoApprovedEdit(
+  edit: Omit<PendingEdit, 'id' | 'status'> & {
+    submittedAt: Date;
+    reviewedBy: string;
+    reviewedAt: Date;
+    reviewNote: string;
+  }
+): Promise<PendingEdit> {
+  const id = generateId();
+
+  const { data, error } = await supabase
+    .from('pending_edits')
+    .insert({
+      id,
+      file_path: edit.filePath,
+      file_name: edit.fileName,
+      original_content: edit.originalContent,
+      new_content: edit.newContent,
+      original_sha: edit.originalSha,
+      submitted_by: edit.submittedBy,
+      submitted_at: edit.submittedAt.toISOString(),
+      status: 'approved',  // Auto-approved for admin direct commits
+      reviewed_by: edit.reviewedBy,
+      reviewed_at: edit.reviewedAt.toISOString(),
+      review_note: edit.reviewNote,
+    })
+    .select()
+    .single();
+
+  if (error) {
+    console.error('[Store] Error creating auto-approved edit:', error);
+    throw error;
+  }
+
+  console.log('[Store] Created auto-approved edit:', id, 'for file:', edit.filePath);
+  return mapRow(data);
+}
+
+// Create a revert record for tracking when approved edits are reverted
+// This ensures revert actions appear in Recent Activity
+export async function createRevertRecord(
+  edit: {
+    filePath: string;
+    fileName: string;
+    originalContent: string;  // Content before revert (the approved content)
+    newContent: string;       // Content after revert (reverted to original)
+    originalSha: string;
+    originalEditBy: string;   // Who made the original edit that's being reverted
+    revertedBy: string;       // Admin who performed the revert
+    revertedAt: Date;
+  }
+): Promise<PendingEdit> {
+  const id = generateId();
+
+  const { data, error } = await supabase
+    .from('pending_edits')
+    .insert({
+      id,
+      file_path: edit.filePath,
+      file_name: edit.fileName,
+      original_content: edit.originalContent,
+      new_content: edit.newContent,
+      original_sha: edit.originalSha,
+      submitted_by: edit.revertedBy,  // The reverter is the "submitter" of this action
+      submitted_at: edit.revertedAt.toISOString(),
+      status: 'approved',  // Revert is an approved action (it was committed)
+      reviewed_by: edit.revertedBy,
+      reviewed_at: edit.revertedAt.toISOString(),
+      review_note: `Reverted (original edit by ${edit.originalEditBy})`,
+    })
+    .select()
+    .single();
+
+  if (error) {
+    console.error('[Store] Error creating revert record:', error);
+    throw error;
+  }
+
+  console.log('[Store] Created revert record:', id, 'for file:', edit.filePath);
+  return mapRow(data);
+}
+
 export async function getPendingEdit(id: string): Promise<PendingEdit | null> {
   const { data, error } = await supabase
     .from('pending_edits')

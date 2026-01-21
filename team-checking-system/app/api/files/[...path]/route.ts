@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth';
 import { authOptions, hasPermission } from '@/lib/auth';
 import { getFileContent, updateFile } from '@/lib/github';
-import { createPendingEdit, getPendingEditsForFile, getLatestPendingEditForFile, getFirstPendingEditForFile } from '@/lib/store';
+import { createPendingEdit, createAutoApprovedEdit, getPendingEditsForFile, getLatestPendingEditForFile, getFirstPendingEditForFile } from '@/lib/store';
 import { triggerNotificationWebhook, triggerN8nWebhook } from '@/lib/n8n';
 
 interface RouteParams {
@@ -116,8 +116,31 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
       );
 
       if (result) {
-        // Trigger n8n webhook to sync to ElevenLabs KB
+        // Create auto-approved audit record for tracking admin direct commits
+        const now = new Date();
+        const adminUsername = session.user?.name || 'Admin';
         const fileName = filePath.split('/').pop() || filePath;
+
+        try {
+          await createAutoApprovedEdit({
+            filePath,
+            fileName,
+            originalContent: githubFile.content,
+            newContent: content,
+            originalSha: githubFile.sha,
+            submittedBy: adminUsername,
+            submittedAt: now,
+            reviewedBy: adminUsername,
+            reviewedAt: now,
+            reviewNote: 'Auto-approved (admin direct commit)',
+          });
+          console.log('[Admin] Created audit record for direct commit:', filePath);
+        } catch (storeError) {
+          // Log but don't fail the request - GitHub commit already succeeded
+          console.error('[Admin] Failed to create audit record:', storeError);
+        }
+
+        // Trigger n8n webhook to sync to ElevenLabs KB
         const syncResult = await triggerN8nWebhook({
           action: 'update',
           files: [
@@ -127,8 +150,8 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
             },
           ],
           content: content,
-          approvedBy: session.user?.name || 'Admin',
-          approvedAt: new Date().toISOString(),
+          approvedBy: adminUsername,
+          approvedAt: now.toISOString(),
         });
 
         return NextResponse.json({

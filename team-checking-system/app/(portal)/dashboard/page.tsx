@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import Link from 'next/link';
-import { FolderOpen, FileText, Clock, CheckCircle, XCircle, ChevronRight, BookOpen, Bookmark } from 'lucide-react';
+import { FolderOpen, FileText, Clock, CheckCircle, XCircle, ChevronRight, BookOpen, Bookmark, Zap, RotateCcw } from 'lucide-react';
 import styles from './page.module.css';
 
 interface Stats {
@@ -20,6 +20,9 @@ interface RecentEdit {
   submittedBy: string;
   submittedAt: string;
   status: string;
+  reviewNote?: string;
+  reviewedBy?: string;
+  reviewedAt?: string;
 }
 
 export default function DashboardPage() {
@@ -258,31 +261,54 @@ export default function DashboardPage() {
               </div>
             ) : (
               <div className={styles.activityList}>
-                {recentEdits.map((edit) => (
-                  <Link
-                    key={edit.id}
-                    href={`/history/${edit.id}`}
-                    className={styles.activityItem}
-                    onMouseMove={handleCardMouseMove}
-                    onMouseLeave={handleCardMouseLeave}
-                  >
-                    <div className={`${styles.activityIcon} ${styles[`activityIcon${edit.status}`]}`}>
-                      {edit.status === 'pending' ? (
-                        <Clock size={14} />
-                      ) : edit.status === 'approved' ? (
-                        <CheckCircle size={14} />
-                      ) : (
-                        <XCircle size={14} />
-                      )}
-                    </div>
-                    <div className={styles.activityInfo}>
-                      <span className={styles.activityFile}>{edit.fileName}</span>
-                      <span className={styles.activityMeta}>
-                        {edit.submittedBy} • {new Date(edit.submittedAt).toLocaleDateString()}
-                      </span>
-                    </div>
-                  </Link>
-                ))}
+                {recentEdits.map((edit) => {
+                  const isDirectCommit = edit.reviewNote === 'Auto-approved (admin direct commit)';
+                  const isRevert = edit.reviewNote?.startsWith('Reverted');
+                  return (
+                    <Link
+                      key={edit.id}
+                      href={`/history/${edit.id}`}
+                      className={styles.activityItem}
+                      onMouseMove={handleCardMouseMove}
+                      onMouseLeave={handleCardMouseLeave}
+                    >
+                      <div className={`${styles.activityIcon} ${isRevert ? styles.activityIconrevert : styles[`activityIcon${edit.status}`]}`}>
+                        {edit.status === 'pending' ? (
+                          <Clock size={14} />
+                        ) : edit.status === 'approved' ? (
+                          isRevert ? <RotateCcw size={14} /> : isDirectCommit ? <Zap size={14} /> : <CheckCircle size={14} />
+                        ) : (
+                          <XCircle size={14} />
+                        )}
+                      </div>
+                      <div className={styles.activityInfo}>
+                        <div className={styles.activityFileRow}>
+                          <span className={styles.activityFile}>{edit.fileName}</span>
+                          {isDirectCommit && (
+                            <span className={styles.directBadge}>Direct</span>
+                          )}
+                          {isRevert && (
+                            <span className={styles.revertBadge}>Revert</span>
+                          )}
+                        </div>
+                        <span className={styles.activityMeta}>
+                          by {edit.submittedBy} • {new Date(edit.submittedAt).toLocaleDateString()}
+                        </span>
+                        <span className={`${styles.activityStatus} ${isRevert ? styles.statusrevert : styles[`status${edit.status}`]}`}>
+                          {edit.status === 'pending' && 'Pending Review'}
+                          {edit.status === 'approved' && (
+                            isRevert
+                              ? `${edit.reviewNote}`
+                              : isDirectCommit
+                                ? `Auto-approved by ${edit.reviewedBy || edit.submittedBy}`
+                                : `Approved by ${edit.reviewedBy || 'Admin'}`
+                          )}
+                          {edit.status === 'rejected' && `Rejected by ${edit.reviewedBy || 'Admin'}`}
+                        </span>
+                      </div>
+                    </Link>
+                  );
+                })}
               </div>
             )}
           </div>
