@@ -99,7 +99,7 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
     });
 
     // Trigger n8n webhook to update ElevenLabs
-    await triggerN8nWebhook({
+    const syncResult = await triggerN8nWebhook({
       action: 'update',
       files: [
         {
@@ -116,6 +116,7 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
       status: 'approved',
       message: 'Edit approved and committed',
       commitSha: result.sha,
+      sync: syncResult, // Include ElevenLabs sync result for UI feedback
     });
   } catch (error) {
     console.error('Error approving edit:', error);

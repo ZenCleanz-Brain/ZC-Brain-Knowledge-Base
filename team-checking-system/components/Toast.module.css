@@ -1,0 +1,136 @@
+.container {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  pointer-events: none;
+}
+
+.toast {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  animation: slideIn 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  min-width: 280px;
+  pointer-events: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.toast:hover {
+  transform: translateX(-4px);
+}
+
+.message {
+  flex: 1;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.6;
+  padding: 0;
+  margin-left: 0.5rem;
+  color: inherit;
+}
+
+.closeBtn:hover {
+  opacity: 1;
+}
+
+/* Success - Green */
+.success {
+  background: #d1fae5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+/* Warning - Yellow/Amber */
+.warning {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fcd34d;
+}
+
+/* Error - Red */
+.error {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}
+
+/* Loading - Dark Blue to Purple Gradient */
+.loading {
+  background: linear-gradient(135deg, #1e3a5f 0%, #2d1b4e 50%, #1a1a2e 100%);
+  color: #e0e7ff;
+  border: 1px solid #4c1d95;
+  box-shadow: 0 4px 12px rgba(45, 27, 78, 0.3);
+}
+
+/* Loading spinner */
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  flex-shrink: 0;
+}
+
+/* Animations */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .success {
+    background: #064e3b;
+    color: #a7f3d0;
+    border-color: #065f46;
+  }
+
+  .warning {
+    background: #78350f;
+    color: #fcd34d;
+    border-color: #92400e;
+  }
+
+  .error {
+    background: #7f1d1d;
+    color: #fca5a5;
+    border-color: #991b1b;
+  }
+
+  .loading {
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0c0a1d 100%);
+    color: #c4b5fd;
+    border-color: #6d28d9;
+    box-shadow: 0 4px 12px rgba(109, 40, 217, 0.3);
+  }
+}

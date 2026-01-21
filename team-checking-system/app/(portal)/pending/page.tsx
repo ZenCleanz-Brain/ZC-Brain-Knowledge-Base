@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { Clock, CheckCircle, XCircle, Eye, RefreshCw, AlertCircle, Layers, FileText, Edit3, Save, X } from 'lucide-react';
 import SimpleDiffViewer from '@/components/SimpleDiffViewer';
 import MarkdownEditor from '@/components/MarkdownEditor';
+import { useToast } from '@/components/Toast';
 import styles from './page.module.css';
 
 interface PendingEdit {
@@ -43,6 +44,7 @@ interface FileGroup {
 export default function PendingPage() {
   const { data: session } = useSession();
   const router = useRouter();
+  const { showToast, updateToast } = useToast();
 
   const [edits, setEdits] = useState<PendingEdit[]>([]);
   const [loading, setLoading] = useState(true);
@@ -169,6 +171,8 @@ export default function PendingPage() {
     setProcessing(true);
     setMessage(null);
 
+    const toastId = showToast('loading', 'Approving edit...', true);
+
     try {
       const res = await fetch(`/api/edits/${editId}/approve`, {
         method: 'POST',
@@ -179,6 +183,7 @@ export default function PendingPage() {
 
       // Handle conflict detection
       if (res.status === 409 && data.conflict) {
+        updateToast(toastId, 'warning', 'Conflict detected - please confirm');
         const confirmForce = window.confirm(
           `⚠️ CONFLICT DETECTED\n\n` +
           `The file on GitHub has been modified since this edit was created.\n\n` +
@@ -205,12 +210,22 @@ export default function PendingPage() {
         throw new Error(data.error || 'Failed to approve');
       }
 
+      // Show sync status in toast
+      if (data.sync?.success) {
+        updateToast(toastId, 'success', 'Edit approved & synced to ElevenLabs!');
+      } else if (data.sync?.reason === 'not_found') {
+        updateToast(toastId, 'warning', 'Approved! Note: Document not yet in ElevenLabs KB.');
+      } else {
+        updateToast(toastId, 'success', 'Edit approved and committed!');
+      }
+
       setMessage({ type: 'success', text: 'Edit approved and committed!' });
       setSelectedGroup(null);
       setEditDetails(null);
       setCombinedDiff(null);
       fetchEdits();
     } catch (error: any) {
+      updateToast(toastId, 'error', error.message || 'Failed to approve edit');
       setMessage({ type: 'error', text: error.message || 'Failed to approve edit' });
     } finally {
       setProcessing(false);
@@ -224,8 +239,10 @@ export default function PendingPage() {
     setProcessing(true);
     setMessage(null);
 
+    const toastId = showToast('loading', `Approving ${selectedGroup.edits.length} edits...`, true);
+
     try {
-      let conflictDetected = false;
+      let lastSyncResult = null;
 
       // Approve edits in order (oldest first)
       for (let i = 0; i < selectedGroup.edits.length; i++) {
@@ -239,7 +256,7 @@ export default function PendingPage() {
 
         // Handle conflict on first edit only (subsequent edits are chained)
         if (res.status === 409 && data.conflict && i === 0) {
-          conflictDetected = true;
+          updateToast(toastId, 'warning', 'Conflict detected - please confirm');
           const confirmForce = window.confirm(
             `⚠️ CONFLICT DETECTED\n\n` +
             `The file on GitHub has been modified since the first edit was created.\n\n` +
@@ -264,6 +281,18 @@ export default function PendingPage() {
         if (!res.ok) {
           throw new Error(data.error || `Failed to approve edit ${edit.id}`);
         }
+
+        // Keep track of the last sync result
+        lastSyncResult = data.sync;
+      }
+
+      // Show final sync status in toast
+      if (lastSyncResult?.success) {
+        updateToast(toastId, 'success', `All ${selectedGroup.edits.length} edits approved & synced to ElevenLabs!`);
+      } else if (lastSyncResult?.reason === 'not_found') {
+        updateToast(toastId, 'warning', `All edits approved! Note: Document not yet in ElevenLabs KB.`);
+      } else {
+        updateToast(toastId, 'success', `All ${selectedGroup.edits.length} edit(s) approved and committed!`);
       }
 
       setMessage({
@@ -275,6 +304,7 @@ export default function PendingPage() {
       setCombinedDiff(null);
       fetchEdits();
     } catch (error: any) {
+      updateToast(toastId, 'error', error.message || 'Failed to approve edits');
       setMessage({ type: 'error', text: error.message || 'Failed to approve edits' });
       fetchEdits(); // Refresh to see which ones were approved
     } finally {
@@ -371,6 +401,8 @@ export default function PendingPage() {
     setProcessing(true);
     setMessage(null);
 
+    const toastId = showToast('loading', 'Saving with modifications...', true);
+
     try {
       // Use the dedicated partial-approve endpoint
       const res = await fetch('/api/edits/partial-approve', {
@@ -389,6 +421,15 @@ export default function PendingPage() {
         throw new Error(data.error || 'Failed to save changes');
       }
 
+      // Show sync status in toast
+      if (data.sync?.success) {
+        updateToast(toastId, 'success', 'Approved with edits & synced to ElevenLabs!');
+      } else if (data.sync?.reason === 'not_found') {
+        updateToast(toastId, 'warning', 'Approved! Note: Document not yet in ElevenLabs KB.');
+      } else {
+        updateToast(toastId, 'success', 'Changes committed with your modifications!');
+      }
+
       setMessage({
         type: 'success',
         text: data.message || 'Changes committed with your modifications!',
@@ -400,6 +441,7 @@ export default function PendingPage() {
       setViewMode('combined');
       fetchEdits();
     } catch (error: any) {
+      updateToast(toastId, 'error', error.message || 'Failed to save changes');
       setMessage({ type: 'error', text: error.message || 'Failed to save changes' });
     } finally {
       setProcessing(false);

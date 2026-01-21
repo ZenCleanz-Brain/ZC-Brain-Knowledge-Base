@@ -118,7 +118,7 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
       if (result) {
         // Trigger n8n webhook to sync to ElevenLabs KB
         const fileName = filePath.split('/').pop() || filePath;
-        await triggerN8nWebhook({
+        const syncResult = await triggerN8nWebhook({
           action: 'update',
           files: [
             {
@@ -135,6 +135,7 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
           status: 'committed',
           message: 'Changes committed directly to GitHub',
           sha: result.sha,
+          sync: syncResult, // Include ElevenLabs sync result for UI feedback
         });
       }
 

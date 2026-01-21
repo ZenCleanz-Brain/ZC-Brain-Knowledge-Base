@@ -9,6 +9,7 @@ import MarkdownViewer from '@/components/MarkdownViewer';
 import MarkdownEditor from '@/components/MarkdownEditor';
 import ResizableSidebar from '@/components/ResizableSidebar';
 import { useFileTree } from '@/contexts/FileTreeContext';
+import { useToast } from '@/components/Toast';
 import styles from '../page.module.css';
 import viewStyles from './page.module.css';
 
@@ -35,6 +36,7 @@ export default function FileViewPage() {
   const params = useParams();
   const router = useRouter();
   const { tree, loading: treeLoading, refreshTree } = useFileTree();
+  const { showToast, updateToast } = useToast();
 
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -110,6 +112,9 @@ export default function FileViewPage() {
     setSaving(true);
     setSaveMessage(null);
 
+    // Show loading toast
+    const toastId = showToast('loading', 'Saving changes...', true);
+
     try {
       const res = await fetch(`/api/files/${encodeURIComponent(filePath)}`, {
         method: 'POST',
@@ -127,9 +132,20 @@ export default function FileViewPage() {
       }
 
       if (data.status === 'committed') {
+        // Check ElevenLabs sync result
+        if (data.sync?.success) {
+          updateToast(toastId, 'success', 'Changes saved & synced to ElevenLabs!');
+        } else if (data.sync?.reason === 'not_found') {
+          updateToast(toastId, 'warning', 'Saved to GitHub. Note: Document not yet in ElevenLabs KB.');
+        } else if (data.sync?.reason === 'skipped') {
+          updateToast(toastId, 'success', 'Changes committed to GitHub.');
+        } else {
+          updateToast(toastId, 'warning', 'Saved to GitHub. ElevenLabs sync issue - check console.');
+        }
         setSaveMessage({ type: 'success', text: data.message || 'Changes committed successfully!' });
         fetchFile(); // Refresh to get new SHA
       } else if (data.status === 'pending') {
+        updateToast(toastId, 'success', 'Edit submitted for admin review!');
         setSaveMessage({
           type: 'success',
           text: userRole === 'admin'
@@ -140,6 +156,7 @@ export default function FileViewPage() {
 
       setIsEditing(false);
     } catch (err: any) {
+      updateToast(toastId, 'error', err.message || 'Failed to save changes');
       setSaveMessage({ type: 'error', text: err.message || 'Failed to save changes' });
     } finally {
       setSaving(false);

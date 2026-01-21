@@ -66,7 +66,7 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
     }
 
     // Trigger n8n webhook to update ElevenLabs
-    await triggerN8nWebhook({
+    const syncResult = await triggerN8nWebhook({
       action: 'revert',
       files: [
         {
@@ -84,6 +84,7 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
       status: 'reverted',
       message: 'Edit reverted successfully',
       commitSha: result.sha,
+      sync: syncResult, // Include ElevenLabs sync result for UI feedback
     });
   } catch (error) {
     console.error('Error reverting edit:', error);
