@@ -1,12 +1,6 @@
 /* ZenCleanz Brand Fonts */
-/* Area - PRIMARY typeface (headings, body, UI) */
-@font-face {
-  font-family: 'Area';
-  src: url('/fonts/Area-Variable-wght-wdth-slnt-inkt.ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
+/* Alegreya Sans - PRIMARY typeface (loaded via next/font/google in layout.tsx) */
+/* Variable: --font-alegreya-sans */
 
 /* Cambon - SECONDARY typeface (accent text, italicized emphasis) */
 @font-face {
@@ -109,22 +103,21 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  /* Area is the PRIMARY typeface - used for all body text and UI */
-  /* var(--font-area) is set by next/font/local, 'Area' is the @font-face fallback */
-  font-family: var(--font-area), 'Area', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  /* Alegreya Sans Semi-Bold for body text */
+  font-family: var(--font-alegreya-sans), 'Alegreya Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background:
     linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
     url('/sand-circle-1.jpg') center/cover no-repeat fixed;
   color: var(--text);
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.01em;
 }
 
-/* Headings use Area with heavier weight */
+/* Headings use FS Benjamin */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-area), 'Area', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-family: 'FS Benjamin', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 /* Accent text utility - use Cambon for elegant italic emphasis */

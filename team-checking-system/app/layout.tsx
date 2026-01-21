@@ -1,15 +1,16 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+import { Alegreya_Sans } from 'next/font/google';
 import { AuthProvider } from './providers';
 import { Analytics } from '@vercel/analytics/next';
 
-// ZenCleanz Brand Font - Area Variable (primary typeface)
-const areaFont = localFont({
-  src: '../public/fonts/Area-Variable-wght-wdth-slnt-inkt.ttf',
-  variable: '--font-area',
+// Alegreya Sans from Google Fonts (primary typeface)
+const alegreyaSans = Alegreya_Sans({
+  subsets: ['latin'],
+  variable: '--font-alegreya-sans',
   display: 'swap',
-  weight: '100 900',
+  weight: ['100', '300', '400', '500', '700', '800', '900'],
 });
 
 // Cambon Light Italic (secondary typeface for accent text)
@@ -34,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-theme="dark" className={`${areaFont.variable} ${cambonFont.variable}`}>
+    <html lang="en" data-theme="dark" className={`${alegreyaSans.variable} ${cambonFont.variable}`}>
       <body>
         <AuthProvider>{children}</AuthProvider>
         <Analytics />
