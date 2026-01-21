@@ -113,6 +113,11 @@ body {
   letter-spacing: 0.01em;
 }
 
+/* Motion background mode - hide static background to reveal video */
+body.motion-bg-active {
+  background: transparent !important;
+}
+
 /* Headings use FS Benjamin */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'FS Benjamin', -apple-system, BlinkMacSystemFont, sans-serif;

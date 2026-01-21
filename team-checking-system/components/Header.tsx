@@ -4,10 +4,12 @@ import { useSession, signOut } from 'next-auth/react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { LogOut, User, FolderTree, ClipboardList, LayoutDashboard } from 'lucide-react';
+import { useBackground } from '@/contexts/BackgroundContext';
 import styles from './Header.module.css';
 
 export default function Header() {
   const { data: session } = useSession();
+  const { isMotion, toggleBackground } = useBackground();
   const role = (session?.user as any)?.role || 'viewer';
 
   return (
@@ -48,6 +50,14 @@ export default function Header() {
           <span>{session?.user?.name}</span>
           <span className={`badge badge-${role}`}>{role}</span>
         </div>
+        <button
+          onClick={toggleBackground}
+          className={styles.bgToggle}
+          title={isMotion ? 'Switch to static background' : 'Switch to motion background'}
+        >
+          <span className={styles.bgToggleLabel}>{isMotion ? 'Motion' : 'Static'}</span>
+          <div className={`${styles.bgToggleSwitch} ${isMotion ? styles.bgToggleSwitchActive : ''}`} />
+        </button>
         <button onClick={() => signOut({ callbackUrl: '/' })} className={styles.signOut}>
           <LogOut size={16} />
           <span>Sign Out</span>
