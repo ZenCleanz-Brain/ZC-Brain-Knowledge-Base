@@ -174,7 +174,6 @@ export default function MarkdownEditor({ value, onChange, readOnly = false }: Ma
                 renderLineHighlight: 'none',
                 renderValidationDecorations: 'off',
                 codeLens: false,
-                lightbulb: { enabled: 'off' as const },
                 hover: { enabled: false },
                 links: true, // Keep links clickable
                 colorDecorators: false,
