@@ -11,7 +11,7 @@ interface MarkdownViewerProps {
 
 export default function MarkdownViewer({ content, className = '' }: MarkdownViewerProps) {
   return (
-    <div className={`${styles.viewer} markdown-content ${className}`}>
+    <div className={`${styles.viewer} markdown-content ${className}`} data-markdown-content>
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{

@@ -471,3 +471,19 @@ a:hover {
 .glow-card:hover::after {
   opacity: 1;
 }
+
+/* Search highlight styles for MatchNavigator */
+.search-highlight {
+  background: rgba(212, 175, 55, 0.3);
+  color: var(--gold);
+  padding: 0.125rem 0;
+  border-radius: 2px;
+}
+
+.search-highlight-active {
+  background: var(--gold);
+  color: var(--background);
+  padding: 0.125rem 0.25rem;
+  border-radius: 2px;
+  box-shadow: 0 0 0 2px var(--gold);
+}

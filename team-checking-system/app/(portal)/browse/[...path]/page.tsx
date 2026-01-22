@@ -2,12 +2,12 @@
 
 import { useEffect, useState, useCallback } from 'react';
 import { useSession } from 'next-auth/react';
-import { useParams, useRouter } from 'next/navigation';
-import { Search, RefreshCw, Edit3, Save, X, AlertCircle, Clock, Info, Trash2 } from 'lucide-react';
-import FileTree from '@/components/FileTree';
+import { useParams, useRouter, useSearchParams } from 'next/navigation';
+import { Edit3, Save, X, AlertCircle, Clock, Info, Trash2, Search } from 'lucide-react';
 import MarkdownViewer from '@/components/MarkdownViewer';
 import MarkdownEditor from '@/components/MarkdownEditor';
-import ResizableSidebar from '@/components/ResizableSidebar';
+import SearchSidebar from '@/components/SearchSidebar';
+import MatchNavigator from '@/components/MatchNavigator';
 import DeleteConfirmModal from '@/components/DeleteConfirmModal';
 import { useFileTree } from '@/contexts/FileTreeContext';
 import { useToast } from '@/components/Toast';
@@ -36,10 +36,9 @@ export default function FileViewPage() {
   const { data: session } = useSession();
   const params = useParams();
   const router = useRouter();
-  const { tree, loading: treeLoading, refreshTree } = useFileTree();
+  const searchParams = useSearchParams();
+  const { refreshTree } = useFileTree();
   const { showToast, updateToast } = useToast();
-
-  const [searchTerm, setSearchTerm] = useState('');
 
   const [file, setFile] = useState<FileData | null>(null);
   const [fileLoading, setFileLoading] = useState(true);
@@ -51,12 +50,38 @@ export default function FileViewPage() {
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [isDeleting, setIsDeleting] = useState(false);
 
+  // Get search query from URL for match navigation
+  const searchQuery = searchParams.get('q') || '';
+  const [showMatchNavigator, setShowMatchNavigator] = useState(!!searchQuery);
+  const [showDocumentSearch, setShowDocumentSearch] = useState(false);
+
   const filePath = Array.isArray(params.path)
     ? params.path.map(decodeURIComponent).join('/')
     : decodeURIComponent(params.path as string);
 
   const userRole = (session?.user as any)?.role || 'viewer';
   const canEdit = userRole === 'admin' || userRole === 'editor';
+
+  // Show match navigator when search query is present
+  useEffect(() => {
+    if (searchQuery) {
+      setShowMatchNavigator(true);
+    }
+  }, [searchQuery]);
+
+  // Close match navigator and clear URL param
+  const handleCloseMatchNavigator = useCallback(() => {
+    setShowMatchNavigator(false);
+    // Remove the q param from URL without navigation
+    const url = new URL(window.location.href);
+    url.searchParams.delete('q');
+    window.history.replaceState({}, '', url.toString());
+  }, []);
+
+  // Close document search
+  const handleCloseDocumentSearch = useCallback(() => {
+    setShowDocumentSearch(false);
+  }, []);
 
   // Fetch file content
   const fetchFile = useCallback(async () => {
@@ -85,23 +110,6 @@ export default function FileViewPage() {
     fetchFile();
     setIsEditing(false);
   }, [filePath, fetchFile]);
-
-  // Filter tree
-  function filterTree(nodes: any[], term: string): any[] {
-    if (!term) return nodes;
-    const lowerTerm = term.toLowerCase();
-    return nodes
-      .map((node) => {
-        if (node.type === 'file') {
-          return node.name.toLowerCase().includes(lowerTerm) ? node : null;
-        }
-        const filteredChildren = filterTree(node.children || [], term);
-        return filteredChildren.length > 0 ? { ...node, children: filteredChildren } : null;
-      })
-      .filter(Boolean) as any[];
-  }
-
-  const filteredTree = filterTree(tree, searchTerm);
 
   // Handle save
   const handleSave = async () => {
@@ -198,40 +206,7 @@ export default function FileViewPage() {
 
   return (
     <div className={styles.container}>
-      <ResizableSidebar>
-        <div className={styles.sidebarHeader}>
-          <h2>Knowledge Base</h2>
-          <button
-            className={styles.refreshBtn}
-            onClick={refreshTree}
-            disabled={treeLoading}
-            title="Refresh files"
-          >
-            <RefreshCw size={16} className={treeLoading ? styles.spinning : ''} />
-          </button>
-        </div>
-
-        <div className={styles.searchBox}>
-          <Search size={16} className={styles.searchIcon} />
-          <input
-            type="text"
-            placeholder="Search files..."
-            className="input"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-          />
-        </div>
-
-        {treeLoading ? (
-          <div className={styles.loading}>Loading files...</div>
-        ) : filteredTree.length === 0 ? (
-          <div className={styles.empty}>
-            {searchTerm ? 'No files match your search' : 'No files found'}
-          </div>
-        ) : (
-          <FileTree nodes={filteredTree} currentPath={filePath} />
-        )}
-      </ResizableSidebar>
+      <SearchSidebar currentPath={filePath} />
 
       <main className={styles.main}>
         {fileLoading ? (
@@ -292,6 +267,18 @@ export default function FileViewPage() {
                   </span>
                 )}
 
+                {/* Search in document button */}
+                {!isEditing && (
+                  <button
+                    className="btn btn-secondary"
+                    onClick={() => setShowDocumentSearch(true)}
+                    title="Search in this document (Ctrl+F)"
+                  >
+                    <Search size={16} />
+                    Find
+                  </button>
+                )}
+
                 {canEdit && !isEditing && (
                   <button className="btn btn-primary" onClick={() => setIsEditing(true)}>
                     <Edit3 size={16} />
@@ -350,6 +337,22 @@ export default function FileViewPage() {
           </div>
         ) : null}
       </main>
+
+      {/* Match Navigator for sidebar search results */}
+      {showMatchNavigator && searchQuery && !isEditing && !showDocumentSearch && (
+        <MatchNavigator
+          searchQuery={searchQuery}
+          onClose={handleCloseMatchNavigator}
+        />
+      )}
+
+      {/* Match Navigator for in-document search */}
+      {showDocumentSearch && !isEditing && (
+        <MatchNavigator
+          allowInput
+          onClose={handleCloseDocumentSearch}
+        />
+      )}
 
       {/* Delete confirmation modal */}
       {file && (

@@ -26,6 +26,45 @@ export default function MarkdownEditor({ value, onChange, readOnly = false }: Ma
     onChange(newContent);
   }, [onChange]);
 
+  // Handle editor mount to disable keyboard shortcuts
+  const handleEditorMount = useCallback((editor: any, monaco: any) => {
+    // Disable many code-related keyboard shortcuts
+    // These are the shortcuts that cause text to "jump around"
+
+    // Disable Ctrl+D (add selection to next find match)
+    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KeyD, () => {});
+
+    // Disable Ctrl+Shift+K (delete line)
+    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyMod.Shift | monaco.KeyCode.KeyK, () => {});
+
+    // Disable Alt+Up/Down (move line up/down)
+    editor.addCommand(monaco.KeyMod.Alt | monaco.KeyCode.UpArrow, () => {});
+    editor.addCommand(monaco.KeyMod.Alt | monaco.KeyCode.DownArrow, () => {});
+
+    // Disable Shift+Alt+Up/Down (copy line up/down)
+    editor.addCommand(monaco.KeyMod.Shift | monaco.KeyMod.Alt | monaco.KeyCode.UpArrow, () => {});
+    editor.addCommand(monaco.KeyMod.Shift | monaco.KeyMod.Alt | monaco.KeyCode.DownArrow, () => {});
+
+    // Disable Ctrl+Shift+L (select all occurrences)
+    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyMod.Shift | monaco.KeyCode.KeyL, () => {});
+
+    // Disable Ctrl+L (select line)
+    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KeyL, () => {});
+
+    // Disable Ctrl+Shift+D (duplicate line)
+    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyMod.Shift | monaco.KeyCode.KeyD, () => {});
+
+    // Disable Ctrl+] and Ctrl+[ (indent/outdent)
+    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.BracketRight, () => {});
+    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.BracketLeft, () => {});
+
+    // Disable Ctrl+Enter (insert line below)
+    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.Enter, () => {});
+
+    // Disable Ctrl+Shift+Enter (insert line above)
+    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyMod.Shift | monaco.KeyCode.Enter, () => {});
+  }, []);
+
   return (
     <div className={styles.editor}>
       <div className={styles.toolbar}>
@@ -62,10 +101,11 @@ export default function MarkdownEditor({ value, onChange, readOnly = false }: Ma
           <div className={styles.editorPane}>
             <MonacoEditor
               height="100%"
-              language="markdown"
+              language="plaintext"
               theme="vs-light"
               value={content}
               onChange={handleChange}
+              onMount={handleEditorMount}
               options={{
                 readOnly,
                 minimap: { enabled: false },
@@ -74,7 +114,8 @@ export default function MarkdownEditor({ value, onChange, readOnly = false }: Ma
                 fontSize: 14,
                 scrollBeyondLastLine: false,
                 padding: { top: 16 },
-                // Disable all autocomplete and suggestions for plain text editing
+
+                // ===== DISABLE ALL AUTOCOMPLETE & SUGGESTIONS =====
                 quickSuggestions: false,
                 suggestOnTriggerCharacters: false,
                 acceptSuggestionOnEnter: 'off',
@@ -86,15 +127,73 @@ export default function MarkdownEditor({ value, onChange, readOnly = false }: Ma
                   showSnippets: false,
                   showUsers: false,
                   showIssues: false,
+                  showFunctions: false,
+                  showClasses: false,
+                  showModules: false,
+                  showProperties: false,
+                  showKeywords: false,
+                  showVariables: false,
+                  showValues: false,
+                  showConstants: false,
+                  showEnums: false,
+                  showEnumMembers: false,
+                  showOperators: false,
+                  showReferences: false,
                 },
-                // Disable other code-related features
+                inlineSuggest: { enabled: false },
+
+                // ===== DISABLE AUTO-CLOSING BRACKETS/QUOTES =====
+                autoClosingBrackets: 'never',
+                autoClosingQuotes: 'never',
+                autoClosingDelete: 'never',
+                autoClosingOvertype: 'never',
+                autoSurround: 'never',
+
+                // ===== DISABLE AUTO-INDENTATION =====
+                autoIndent: 'none',
+                formatOnPaste: false,
+                formatOnType: false,
+
+                // ===== DISABLE BRACKET MATCHING & HIGHLIGHTING =====
+                matchBrackets: 'never',
+                bracketPairColorization: { enabled: false },
+
+                // ===== DISABLE CODE FOLDING =====
                 folding: false,
-                links: true, // Keep links clickable
+                foldingStrategy: 'indentation',
+                showFoldingControls: 'never',
+
+                // ===== DISABLE MULTI-CURSOR FEATURES =====
+                multiCursorModifier: 'alt',
+                occurrencesHighlight: 'off',
+                selectionHighlight: false,
+
+                // ===== DISABLE OTHER CODE-RELATED FEATURES =====
                 renderWhitespace: 'none',
-                // Make it feel more like a text editor
+                renderControlCharacters: false,
+                renderLineHighlight: 'none',
+                renderValidationDecorations: 'off',
+                codeLens: false,
+                lightbulb: { enabled: 'off' },
+                hover: { enabled: false },
+                links: true, // Keep links clickable
+                colorDecorators: false,
+
+                // ===== VISUAL SETTINGS FOR TEXT EDITOR FEEL =====
                 lineDecorationsWidth: 0,
                 lineNumbersMinChars: 3,
                 glyphMargin: false,
+
+                // ===== DISABLE SNIPPETS =====
+                snippetSuggestions: 'none',
+
+                // ===== DISABLE DRAG AND DROP =====
+                dragAndDrop: false,
+
+                // ===== SIMPLE CURSOR BEHAVIOR =====
+                cursorBlinking: 'solid',
+                cursorSmoothCaretAnimation: 'off',
+                smoothScrolling: false,
               }}
             />
           </div>
