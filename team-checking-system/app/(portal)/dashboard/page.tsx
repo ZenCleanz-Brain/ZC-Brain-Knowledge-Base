@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import Link from 'next/link';
-import { FolderOpen, FileText, Clock, CheckCircle, XCircle, ChevronRight, BookOpen, Bookmark, Zap, RotateCcw } from 'lucide-react';
+import { FolderOpen, FileText, Clock, CheckCircle, XCircle, ChevronRight, BookOpen, Bookmark, Zap, RotateCcw, Trash2 } from 'lucide-react';
 import styles from './page.module.css';
 
 interface Stats {
@@ -264,19 +264,36 @@ export default function DashboardPage() {
                 {recentEdits.map((edit) => {
                   const isDirectCommit = edit.reviewNote === 'Auto-approved (admin direct commit)';
                   const isRevert = edit.reviewNote?.startsWith('Reverted');
+                  const isDeleted = edit.reviewNote === 'File permanently deleted';
+
+                  // Determine the icon style class
+                  const iconClass = isDeleted
+                    ? styles.activityIcondeleted
+                    : isRevert
+                      ? styles.activityIconrevert
+                      : styles[`activityIcon${edit.status}`];
+
+                  // Determine the status class
+                  const statusClass = isDeleted
+                    ? styles.statusdeleted
+                    : isRevert
+                      ? styles.statusrevert
+                      : styles[`status${edit.status}`];
+
                   return (
                     <Link
                       key={edit.id}
-                      href={`/history/${edit.id}`}
+                      href={isDeleted ? '#' : `/history/${edit.id}`}
                       className={styles.activityItem}
                       onMouseMove={handleCardMouseMove}
                       onMouseLeave={handleCardMouseLeave}
+                      onClick={isDeleted ? (e) => e.preventDefault() : undefined}
                     >
-                      <div className={`${styles.activityIcon} ${isRevert ? styles.activityIconrevert : styles[`activityIcon${edit.status}`]}`}>
+                      <div className={`${styles.activityIcon} ${iconClass}`}>
                         {edit.status === 'pending' ? (
                           <Clock size={14} />
                         ) : edit.status === 'approved' ? (
-                          isRevert ? <RotateCcw size={14} /> : isDirectCommit ? <Zap size={14} /> : <CheckCircle size={14} />
+                          isDeleted ? <Trash2 size={14} /> : isRevert ? <RotateCcw size={14} /> : isDirectCommit ? <Zap size={14} /> : <CheckCircle size={14} />
                         ) : (
                           <XCircle size={14} />
                         )}
@@ -284,7 +301,10 @@ export default function DashboardPage() {
                       <div className={styles.activityInfo}>
                         <div className={styles.activityFileRow}>
                           <span className={styles.activityFile}>{edit.fileName}</span>
-                          {isDirectCommit && (
+                          {isDeleted && (
+                            <span className={styles.deletedBadge}>Deleted</span>
+                          )}
+                          {isDirectCommit && !isDeleted && (
                             <span className={styles.directBadge}>Direct</span>
                           )}
                           {isRevert && (
@@ -294,14 +314,16 @@ export default function DashboardPage() {
                         <span className={styles.activityMeta}>
                           by {edit.submittedBy} • {new Date(edit.submittedAt).toLocaleDateString()}
                         </span>
-                        <span className={`${styles.activityStatus} ${isRevert ? styles.statusrevert : styles[`status${edit.status}`]}`}>
+                        <span className={`${styles.activityStatus} ${statusClass}`}>
                           {edit.status === 'pending' && 'Pending Review'}
                           {edit.status === 'approved' && (
-                            isRevert
-                              ? `${edit.reviewNote}`
-                              : isDirectCommit
-                                ? `Auto-approved by ${edit.reviewedBy || edit.submittedBy}`
-                                : `Approved by ${edit.reviewedBy || 'Admin'}`
+                            isDeleted
+                              ? `Permanently deleted by ${edit.reviewedBy || edit.submittedBy}`
+                              : isRevert
+                                ? `${edit.reviewNote}`
+                                : isDirectCommit
+                                  ? `Auto-approved by ${edit.reviewedBy || edit.submittedBy}`
+                                  : `Approved by ${edit.reviewedBy || 'Admin'}`
                           )}
                           {edit.status === 'rejected' && `Rejected by ${edit.reviewedBy || 'Admin'}`}
                         </span>

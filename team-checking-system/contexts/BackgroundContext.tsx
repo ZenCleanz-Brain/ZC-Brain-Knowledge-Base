@@ -15,7 +15,7 @@ const BackgroundContext = createContext<BackgroundContextType | undefined>(undef
 const STORAGE_KEY = 'zc-background-mode';
 
 export function BackgroundProvider({ children }: { children: ReactNode }) {
-  const [backgroundMode, setBackgroundMode] = useState<BackgroundMode>('static');
+  const [backgroundMode, setBackgroundMode] = useState<BackgroundMode>('motion');
   const [mounted, setMounted] = useState(false);
 
   // Load saved preference from localStorage on mount

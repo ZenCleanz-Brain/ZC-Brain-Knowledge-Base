@@ -124,6 +124,37 @@ export async function updateFile(
   }
 }
 
+// Delete a file from GitHub
+export async function deleteFile(
+  path: string,
+  message: string,
+  sha: string
+): Promise<boolean> {
+  try {
+    const fullPath = `${kbBasePath}/${path}`;
+    console.log('[GitHub] Attempting to delete file:', fullPath);
+    console.log('[GitHub] Using branch:', branch);
+    console.log('[GitHub] SHA:', sha);
+
+    await octokit.repos.deleteFile({
+      owner,
+      repo,
+      path: fullPath,
+      message,
+      sha,
+      branch,
+    });
+
+    console.log('[GitHub] File deleted successfully!');
+    return true;
+  } catch (error: any) {
+    console.error('[GitHub] deleteFile error:', error.message);
+    console.error('[GitHub] Full error:', JSON.stringify(error.response?.data || error, null, 2));
+    console.error('[GitHub] Status:', error.status);
+    return false;
+  }
+}
+
 // Get the full tree structure recursively
 export async function getFullTree(path: string = ''): Promise<FileInfo[]> {
   const items = await getContents(path);

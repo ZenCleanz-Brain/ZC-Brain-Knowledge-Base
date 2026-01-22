@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth';
 import { authOptions, hasPermission } from '@/lib/auth';
-import { getFileContent, updateFile } from '@/lib/github';
-import { createPendingEdit, createAutoApprovedEdit, getPendingEditsForFile, getLatestPendingEditForFile, getFirstPendingEditForFile } from '@/lib/store';
+import { getFileContent, updateFile, deleteFile } from '@/lib/github';
+import { createPendingEdit, createAutoApprovedEdit, createDeleteRecord, getPendingEditsForFile, getLatestPendingEditForFile, getFirstPendingEditForFile } from '@/lib/store';
 import { triggerNotificationWebhook, triggerN8nWebhook } from '@/lib/n8n';
 
 interface RouteParams {
@@ -214,6 +214,116 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
     console.error('Error submitting edit:', error);
     return NextResponse.json(
       { error: 'Failed to submit edit' },
+      { status: 500 }
+    );
+  }
+}
+
+// DELETE /api/files/[...path] - Permanently delete a file (admin only)
+export async function DELETE(request: NextRequest, { params }: RouteParams) {
+  const session = await getServerSession(authOptions);
+
+  if (!session) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
+
+  const userRole = (session.user as any).role;
+
+  // Only admins can delete files
+  if (userRole !== 'admin') {
+    return NextResponse.json(
+      { error: 'Only administrators can delete files' },
+      { status: 403 }
+    );
+  }
+
+  try {
+    const filePath = params.path.join('/');
+    const { sha, confirmationText } = await request.json();
+
+    if (!sha) {
+      return NextResponse.json(
+        { error: 'File SHA is required' },
+        { status: 400 }
+      );
+    }
+
+    // Require explicit confirmation
+    const fileName = filePath.split('/').pop() || filePath;
+    const expectedConfirmation = `DELETE ${fileName}`;
+
+    if (confirmationText !== expectedConfirmation) {
+      return NextResponse.json(
+        { error: 'Confirmation text does not match' },
+        { status: 400 }
+      );
+    }
+
+    // Get the file content before deleting (for activity log)
+    const file = await getFileContent(filePath);
+
+    if (!file) {
+      return NextResponse.json({ error: 'File not found' }, { status: 404 });
+    }
+
+    // Attempt to delete the file from GitHub
+    const adminUsername = session.user?.name || 'Admin';
+    const deleteMessage = `Delete ${fileName} (by ${adminUsername})`;
+
+    const success = await deleteFile(filePath, deleteMessage, sha);
+
+    if (!success) {
+      return NextResponse.json(
+        { error: 'Failed to delete file from GitHub' },
+        { status: 500 }
+      );
+    }
+
+    // Create activity record for the deletion
+    const now = new Date();
+    try {
+      await createDeleteRecord({
+        filePath,
+        fileName,
+        originalContent: file.content,
+        originalSha: sha,
+        deletedBy: adminUsername,
+        deletedAt: now,
+      });
+      console.log('[Delete] Created activity record for deleted file:', filePath);
+    } catch (storeError) {
+      // Log but don't fail - the file is already deleted
+      console.error('[Delete] Failed to create activity record:', storeError);
+    }
+
+    // Trigger n8n webhook to remove from ElevenLabs KB
+    try {
+      await triggerN8nWebhook({
+        action: 'delete',
+        files: [
+          {
+            path: filePath,
+            name: fileName.replace(/\.md$/, ''),
+          },
+        ],
+        content: '',
+        approvedBy: adminUsername,
+        approvedAt: now.toISOString(),
+      });
+    } catch (webhookError) {
+      console.error('[Delete] n8n webhook failed:', webhookError);
+    }
+
+    return NextResponse.json({
+      status: 'deleted',
+      message: `File "${fileName}" has been permanently deleted`,
+      deletedBy: adminUsername,
+      deletedAt: now.toISOString(),
+    });
+  } catch (error) {
+    console.error('Error deleting file:', error);
+    return NextResponse.json(
+      { error: 'Failed to delete file' },
       { status: 500 }
     );
   }

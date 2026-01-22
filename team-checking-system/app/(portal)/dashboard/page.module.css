@@ -762,6 +762,31 @@
   color: #fb923c;
 }
 
+/* Delete activity styles - red theme */
+.deletedBadge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.5625rem;
+  font-weight: 600;
+  padding: 0.0625rem 0.25rem;
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.25), rgba(220, 38, 38, 0.2));
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  border-radius: 3px;
+  color: #f87171;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+.statusdeleted {
+  color: #f87171;
+}
+
+.activityIcondeleted {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+}
+
 /* Documentation Card - Gray and Gold theme - More Visible */
 .docsCard {
   --mouse-x: 50%;

@@ -3,11 +3,12 @@
 import { useEffect, useState, useCallback } from 'react';
 import { useSession } from 'next-auth/react';
 import { useParams, useRouter } from 'next/navigation';
-import { Search, RefreshCw, Edit3, Save, X, AlertCircle, Clock, Info } from 'lucide-react';
+import { Search, RefreshCw, Edit3, Save, X, AlertCircle, Clock, Info, Trash2 } from 'lucide-react';
 import FileTree from '@/components/FileTree';
 import MarkdownViewer from '@/components/MarkdownViewer';
 import MarkdownEditor from '@/components/MarkdownEditor';
 import ResizableSidebar from '@/components/ResizableSidebar';
+import DeleteConfirmModal from '@/components/DeleteConfirmModal';
 import { useFileTree } from '@/contexts/FileTreeContext';
 import { useToast } from '@/components/Toast';
 import styles from '../page.module.css';
@@ -47,6 +48,8 @@ export default function FileViewPage() {
   const [isEditing, setIsEditing] = useState(false);
   const [editContent, setEditContent] = useState('');
   const [saving, setSaving] = useState(false);
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
+  const [isDeleting, setIsDeleting] = useState(false);
 
   const filePath = Array.isArray(params.path)
     ? params.path.map(decodeURIComponent).join('/')
@@ -157,6 +160,42 @@ export default function FileViewPage() {
     setIsEditing(false);
   };
 
+  // Handle file deletion (admin only)
+  const handleDelete = async () => {
+    if (!file) return;
+
+    setIsDeleting(true);
+    const toastId = showToast('loading', 'Deleting file...', true);
+
+    try {
+      const res = await fetch(`/api/files/${encodeURIComponent(filePath)}`, {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          sha: file.sha,
+          confirmationText: `DELETE ${file.name}`,
+        }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.error || 'Failed to delete file');
+      }
+
+      updateToast(toastId, 'success', `File "${file.name}" has been permanently deleted`);
+      setShowDeleteModal(false);
+
+      // Refresh the file tree and navigate to browse
+      await refreshTree();
+      router.push('/browse');
+    } catch (err: any) {
+      updateToast(toastId, 'error', err.message || 'Failed to delete file');
+    } finally {
+      setIsDeleting(false);
+    }
+  };
+
   return (
     <div className={styles.container}>
       <ResizableSidebar>
@@ -262,6 +301,17 @@ export default function FileViewPage() {
 
                 {isEditing && (
                   <>
+                    {/* Delete button - admin only, subtle styling */}
+                    {userRole === 'admin' && (
+                      <button
+                        className={viewStyles.deleteBtn}
+                        onClick={() => setShowDeleteModal(true)}
+                        disabled={saving}
+                        title="Delete this file permanently"
+                      >
+                        <Trash2 size={16} />
+                      </button>
+                    )}
                     <button
                       className="btn btn-secondary"
                       onClick={handleCancelEdit}
@@ -300,6 +350,18 @@ export default function FileViewPage() {
           </div>
         ) : null}
       </main>
+
+      {/* Delete confirmation modal */}
+      {file && (
+        <DeleteConfirmModal
+          isOpen={showDeleteModal}
+          fileName={file.name}
+          filePath={file.path}
+          onConfirm={handleDelete}
+          onCancel={() => setShowDeleteModal(false)}
+          isDeleting={isDeleting}
+        />
+      )}
     </div>
   );
 }

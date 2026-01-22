@@ -151,6 +151,48 @@ export async function createRevertRecord(
   return mapRow(data);
 }
 
+// Create a delete record for tracking when files are permanently deleted
+// This ensures delete actions appear in Recent Activity
+export async function createDeleteRecord(
+  edit: {
+    filePath: string;
+    fileName: string;
+    originalContent: string;  // The content that was deleted
+    originalSha: string;
+    deletedBy: string;        // Admin who performed the delete
+    deletedAt: Date;
+  }
+): Promise<PendingEdit> {
+  const id = generateId();
+
+  const { data, error } = await supabase
+    .from('pending_edits')
+    .insert({
+      id,
+      file_path: edit.filePath,
+      file_name: edit.fileName,
+      original_content: edit.originalContent,
+      new_content: '',  // Empty - file was deleted
+      original_sha: edit.originalSha,
+      submitted_by: edit.deletedBy,
+      submitted_at: edit.deletedAt.toISOString(),
+      status: 'approved',  // Delete is a committed action
+      reviewed_by: edit.deletedBy,
+      reviewed_at: edit.deletedAt.toISOString(),
+      review_note: 'File permanently deleted',
+    })
+    .select()
+    .single();
+
+  if (error) {
+    console.error('[Store] Error creating delete record:', error);
+    throw error;
+  }
+
+  console.log('[Store] Created delete record:', id, 'for file:', edit.filePath);
+  return mapRow(data);
+}
+
 export async function getPendingEdit(id: string): Promise<PendingEdit | null> {
   const { data, error } = await supabase
     .from('pending_edits')
