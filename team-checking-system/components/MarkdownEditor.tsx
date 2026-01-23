@@ -231,8 +231,6 @@ export default function MarkdownEditor({ value, onChange, readOnly = false }: Ma
                 hover: { enabled: false },
                 links: false, // Disable clickable links (can cause jumps)
                 colorDecorators: false,
-                semanticHighlighting: { enabled: false },
-                'semanticHighlighting.enabled': false,
 
                 // ===== DISABLE HIGHLIGHTING & DECORATIONS =====
                 occurrencesHighlight: 'off',
