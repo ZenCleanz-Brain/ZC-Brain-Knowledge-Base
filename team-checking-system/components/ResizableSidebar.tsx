@@ -8,6 +8,7 @@ interface ResizableSidebarProps {
   defaultWidth?: number;
   minWidth?: number;
   maxWidth?: number;
+  storageKey?: string;
 }
 
 export default function ResizableSidebar({
@@ -15,6 +16,7 @@ export default function ResizableSidebar({
   defaultWidth = 320,
   minWidth = 240,
   maxWidth = 600,
+  storageKey = 'sidebar-width',
 }: ResizableSidebarProps) {
   const [width, setWidth] = useState(defaultWidth);
   const [isResizing, setIsResizing] = useState(false);
@@ -35,11 +37,11 @@ export default function ResizableSidebar({
 
   useEffect(() => {
     // Load saved width from localStorage
-    const savedWidth = localStorage.getItem('sidebar-width');
+    const savedWidth = localStorage.getItem(storageKey);
     if (savedWidth) {
       setWidth(parseInt(savedWidth, 10));
     }
-  }, []);
+  }, [storageKey]);
 
   useEffect(() => {
     if (!isResizing) return;
@@ -48,7 +50,7 @@ export default function ResizableSidebar({
       const newWidth = e.clientX;
       if (newWidth >= minWidth && newWidth <= maxWidth) {
         setWidth(newWidth);
-        localStorage.setItem('sidebar-width', newWidth.toString());
+        localStorage.setItem(storageKey, newWidth.toString());
       }
     };
 

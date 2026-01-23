@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
 import Image from 'next/image';
 import styles from './page.module.css';
 
@@ -199,10 +198,6 @@ export default function LoginPage() {
       </button>
 
       <div className={styles.container}>
-        <Link href="/" className={styles.backLink}>
-          ← Back to home
-        </Link>
-
         <div className={styles.logo}>
           <Image
             src="/zencleanz-logo.png"

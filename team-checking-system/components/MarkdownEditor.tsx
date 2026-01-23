@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import MarkdownViewer from './MarkdownViewer';
 import { Eye, Code, Columns } from 'lucide-react';
@@ -17,52 +17,108 @@ interface MarkdownEditorProps {
 type ViewMode = 'edit' | 'preview' | 'split';
 
 export default function MarkdownEditor({ value, onChange, readOnly = false }: MarkdownEditorProps) {
-  const [content, setContent] = useState(value);
+  // Use ref to store editor instance - this prevents React re-renders from affecting Monaco
+  const editorRef = useRef<any>(null);
+
+  // Track content for preview pane only - NOT for controlling Monaco
+  const [previewContent, setPreviewContent] = useState(value);
   const [viewMode, setViewMode] = useState<ViewMode>('split');
 
-  const handleChange = useCallback((value: string | undefined) => {
-    const newContent = value || '';
-    setContent(newContent);
+  // Debounce preview updates to prevent lag while typing
+  const updateTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const handleChange = useCallback((newValue: string | undefined) => {
+    const newContent = newValue || '';
+
+    // Always notify parent immediately (for save functionality)
     onChange(newContent);
+
+    // Debounce preview updates to prevent performance issues
+    if (updateTimeoutRef.current) {
+      clearTimeout(updateTimeoutRef.current);
+    }
+    updateTimeoutRef.current = setTimeout(() => {
+      setPreviewContent(newContent);
+    }, 150); // Update preview after 150ms of no typing
   }, [onChange]);
 
-  // Handle editor mount to disable keyboard shortcuts
+  // Handle editor mount to disable ALL code editor features
+  // Goal: Make this behave like a simple text editor (Notepad-like)
   const handleEditorMount = useCallback((editor: any, monaco: any) => {
-    // Disable many code-related keyboard shortcuts
-    // These are the shortcuts that cause text to "jump around"
+    // Store editor reference
+    editorRef.current = editor;
 
-    // Disable Ctrl+D (add selection to next find match)
-    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KeyD, () => {});
+    // Get all editor actions and disable most of them
+    const actionsToKeep = [
+      'editor.action.clipboardCopyAction',
+      'editor.action.clipboardCutAction',
+      'editor.action.clipboardPasteAction',
+      'editor.action.selectAll',
+      'undo',
+      'redo',
+    ];
 
-    // Disable Ctrl+Shift+K (delete line)
-    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyMod.Shift | monaco.KeyCode.KeyK, () => {});
+    // Disable all actions except basic text editing
+    const allActions = editor.getSupportedActions();
+    allActions.forEach((action: any) => {
+      if (!actionsToKeep.includes(action.id)) {
+        // Override the action to do nothing
+        editor.addCommand(0, () => {}, action.id);
+      }
+    });
 
-    // Disable Alt+Up/Down (move line up/down)
-    editor.addCommand(monaco.KeyMod.Alt | monaco.KeyCode.UpArrow, () => {});
-    editor.addCommand(monaco.KeyMod.Alt | monaco.KeyCode.DownArrow, () => {});
+    // Explicitly disable problematic keyboard shortcuts that cause jumping
+    const { KeyMod, KeyCode } = monaco;
 
-    // Disable Shift+Alt+Up/Down (copy line up/down)
-    editor.addCommand(monaco.KeyMod.Shift | monaco.KeyMod.Alt | monaco.KeyCode.UpArrow, () => {});
-    editor.addCommand(monaco.KeyMod.Shift | monaco.KeyMod.Alt | monaco.KeyCode.DownArrow, () => {});
+    // Navigation shortcuts that cause jumping
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.KeyG, () => {}); // Go to line
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.KeyP, () => {}); // Quick open
+    editor.addCommand(KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.KeyO, () => {}); // Go to symbol
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.KeyD, () => {}); // Add selection to next find match
+    editor.addCommand(KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.KeyL, () => {}); // Select all occurrences
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.KeyL, () => {}); // Select line
+    editor.addCommand(KeyCode.F12, () => {}); // Go to definition
+    editor.addCommand(KeyMod.Alt | KeyCode.F12, () => {}); // Peek definition
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.F12, () => {}); // Go to implementation
+    editor.addCommand(KeyMod.Shift | KeyCode.F12, () => {}); // Go to references
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.KeyK, () => {}); // Various K-combos
+    editor.addCommand(KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.KeyK, () => {}); // Delete line
 
-    // Disable Ctrl+Shift+L (select all occurrences)
-    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyMod.Shift | monaco.KeyCode.KeyL, () => {});
+    // Line manipulation shortcuts
+    editor.addCommand(KeyMod.Alt | KeyCode.UpArrow, () => {}); // Move line up
+    editor.addCommand(KeyMod.Alt | KeyCode.DownArrow, () => {}); // Move line down
+    editor.addCommand(KeyMod.Shift | KeyMod.Alt | KeyCode.UpArrow, () => {}); // Copy line up
+    editor.addCommand(KeyMod.Shift | KeyMod.Alt | KeyCode.DownArrow, () => {}); // Copy line down
+    editor.addCommand(KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.KeyD, () => {}); // Duplicate line
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.BracketRight, () => {}); // Indent
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.BracketLeft, () => {}); // Outdent
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.Enter, () => {}); // Insert line below
+    editor.addCommand(KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.Enter, () => {}); // Insert line above
 
-    // Disable Ctrl+L (select line)
-    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KeyL, () => {});
+    // Multi-cursor shortcuts
+    editor.addCommand(KeyMod.CtrlCmd | KeyMod.Alt | KeyCode.UpArrow, () => {}); // Add cursor above
+    editor.addCommand(KeyMod.CtrlCmd | KeyMod.Alt | KeyCode.DownArrow, () => {}); // Add cursor below
+    editor.addCommand(KeyMod.Alt | KeyCode.Click, () => {}); // Add cursor at click
 
-    // Disable Ctrl+Shift+D (duplicate line)
-    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyMod.Shift | monaco.KeyCode.KeyD, () => {});
+    // Code folding shortcuts
+    editor.addCommand(KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.BracketLeft, () => {}); // Fold
+    editor.addCommand(KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.BracketRight, () => {}); // Unfold
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.KeyK | KeyCode.Digit0, () => {}); // Fold all
 
-    // Disable Ctrl+] and Ctrl+[ (indent/outdent)
-    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.BracketRight, () => {});
-    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.BracketLeft, () => {});
+    // Disable command palette
+    editor.addCommand(KeyCode.F1, () => {}); // Command palette
+    editor.addCommand(KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.KeyP, () => {}); // Command palette
 
-    // Disable Ctrl+Enter (insert line below)
-    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.Enter, () => {});
+    // Disable find/replace (these can cause jumps)
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.KeyF, () => {}); // Find
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.KeyH, () => {}); // Replace
+    editor.addCommand(KeyCode.F3, () => {}); // Find next
+    editor.addCommand(KeyMod.Shift | KeyCode.F3, () => {}); // Find previous
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.KeyG, () => {}); // Go to line
 
-    // Disable Ctrl+Shift+Enter (insert line above)
-    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyMod.Shift | monaco.KeyCode.Enter, () => {});
+    // Disable suggestions/autocomplete triggers
+    editor.addCommand(KeyMod.CtrlCmd | KeyCode.Space, () => {}); // Trigger suggest
+    editor.addCommand(KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.Space, () => {}); // Trigger parameter hints
   }, []);
 
   return (
@@ -103,17 +159,28 @@ export default function MarkdownEditor({ value, onChange, readOnly = false }: Ma
               height="100%"
               language="plaintext"
               theme="vs-light"
-              value={content}
+              defaultValue={value}
               onChange={handleChange}
               onMount={handleEditorMount}
               options={{
+                // ===== BASIC TEXT EDITOR SETTINGS =====
                 readOnly,
-                minimap: { enabled: false },
                 wordWrap: 'on',
                 lineNumbers: 'on',
                 fontSize: 14,
                 scrollBeyondLastLine: false,
                 padding: { top: 16 },
+
+                // ===== DISABLE ALL UI PANELS =====
+                minimap: { enabled: false },
+                contextmenu: false, // Disable right-click context menu completely
+
+                // ===== DISABLE FIND/SEARCH WIDGET =====
+                find: {
+                  addExtraSpaceOnTop: false,
+                  autoFindInSelection: 'never',
+                  seedSearchStringFromSelection: 'never',
+                },
 
                 // ===== DISABLE ALL AUTOCOMPLETE & SUGGESTIONS =====
                 quickSuggestions: false,
@@ -139,67 +206,99 @@ export default function MarkdownEditor({ value, onChange, readOnly = false }: Ma
                   showEnumMembers: false,
                   showOperators: false,
                   showReferences: false,
+                  filterGraceful: false,
+                  snippetsPreventQuickSuggestions: true,
                 },
                 inlineSuggest: { enabled: false },
+                snippetSuggestions: 'none',
 
-                // ===== DISABLE AUTO-CLOSING BRACKETS/QUOTES =====
+                // ===== DISABLE AUTO-CLOSING & AUTO-TYPING =====
                 autoClosingBrackets: 'never',
                 autoClosingQuotes: 'never',
                 autoClosingDelete: 'never',
                 autoClosingOvertype: 'never',
                 autoSurround: 'never',
-
-                // ===== DISABLE AUTO-INDENTATION =====
                 autoIndent: 'none',
                 formatOnPaste: false,
                 formatOnType: false,
 
-                // ===== DISABLE BRACKET MATCHING & HIGHLIGHTING =====
+                // ===== DISABLE ALL CODE INTELLIGENCE =====
                 matchBrackets: 'never',
                 bracketPairColorization: { enabled: false },
-
-                // ===== DISABLE CODE FOLDING =====
                 folding: false,
-                foldingStrategy: 'indentation',
                 showFoldingControls: 'never',
+                codeLens: false,
+                hover: { enabled: false },
+                links: false, // Disable clickable links (can cause jumps)
+                colorDecorators: false,
+                semanticHighlighting: { enabled: false },
+                'semanticHighlighting.enabled': false,
 
-                // ===== DISABLE MULTI-CURSOR FEATURES =====
-                multiCursorModifier: 'alt',
+                // ===== DISABLE HIGHLIGHTING & DECORATIONS =====
                 occurrencesHighlight: 'off',
                 selectionHighlight: false,
-
-                // ===== DISABLE OTHER CODE-RELATED FEATURES =====
                 renderWhitespace: 'none',
                 renderControlCharacters: false,
                 renderLineHighlight: 'none',
                 renderValidationDecorations: 'off',
-                codeLens: false,
-                hover: { enabled: false },
-                links: true, // Keep links clickable
-                colorDecorators: false,
 
-                // ===== VISUAL SETTINGS FOR TEXT EDITOR FEEL =====
-                lineDecorationsWidth: 0,
-                lineNumbersMinChars: 3,
-                glyphMargin: false,
-
-                // ===== DISABLE SNIPPETS =====
-                snippetSuggestions: 'none',
+                // ===== DISABLE MULTI-CURSOR =====
+                multiCursorModifier: 'ctrlCmd', // Make it harder to trigger
+                multiCursorMergeOverlapping: true,
 
                 // ===== DISABLE DRAG AND DROP =====
                 dragAndDrop: false,
+                dropIntoEditor: { enabled: false },
+
+                // ===== DISABLE STICKY SCROLL (code navigation feature) =====
+                stickyScroll: { enabled: false },
+
+                // ===== DISABLE INLAY HINTS =====
+                inlayHints: { enabled: 'off' },
+
+                // ===== VISUAL SIMPLIFICATION =====
+                lineDecorationsWidth: 0,
+                lineNumbersMinChars: 3,
+                glyphMargin: false,
+                overviewRulerBorder: false,
+                overviewRulerLanes: 0,
+                hideCursorInOverviewRuler: true,
 
                 // ===== SIMPLE CURSOR BEHAVIOR =====
                 cursorBlinking: 'solid',
                 cursorSmoothCaretAnimation: 'off',
                 smoothScrolling: false,
+                mouseWheelScrollSensitivity: 1,
+                fastScrollSensitivity: 1,
+
+                // ===== DISABLE SCROLL BEYOND FEATURES =====
+                scrollbar: {
+                  vertical: 'auto',
+                  horizontal: 'auto',
+                  useShadows: false,
+                  verticalScrollbarSize: 10,
+                  horizontalScrollbarSize: 10,
+                },
+
+                // ===== DISABLE ACCESSIBILITY FEATURES THAT MIGHT INTERFERE =====
+                accessibilitySupport: 'off',
+
+                // ===== DISABLE EDITOR FEATURES THAT CAUSE JUMPING =====
+                scrollBeyondLastColumn: 0,
+                revealHorizontalRightPadding: 0,
+                stopRenderingLineAfter: -1,
+
+                // ===== ENSURE PLAIN TEXT MODE =====
+                detectIndentation: false,
+                insertSpaces: true,
+                tabSize: 4,
               }}
             />
           </div>
         )}
         {(viewMode === 'preview' || viewMode === 'split') && (
           <div className={styles.previewPane}>
-            <MarkdownViewer content={content} />
+            <MarkdownViewer content={previewContent} />
           </div>
         )}
       </div>

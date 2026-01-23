@@ -3,7 +3,7 @@
 import { useSession, signOut } from 'next-auth/react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { LogOut, User, FolderTree, ClipboardList, LayoutDashboard } from 'lucide-react';
+import { LogOut, User, FolderTree, ClipboardList } from 'lucide-react';
 import { useBackground } from '@/contexts/BackgroundContext';
 import styles from './Header.module.css';
 
@@ -27,10 +27,6 @@ export default function Header() {
         </Link>
 
         <nav className={styles.nav}>
-          <Link href="/dashboard" className={styles.navLink}>
-            <LayoutDashboard size={18} />
-            <span>Dashboard</span>
-          </Link>
           <Link href="/browse" className={styles.navLink}>
             <FolderTree size={18} />
             <span>Browse</span>
