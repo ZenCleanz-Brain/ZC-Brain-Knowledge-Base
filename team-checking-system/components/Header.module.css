@@ -164,3 +164,124 @@
   background: var(--gold);
   box-shadow: 0 0 8px rgba(201, 169, 98, 0.5);
 }
+
+/* Admin Settings Dropdown */
+.settingsContainer {
+  position: relative;
+}
+
+.settingsButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.settingsButton:hover {
+  background: rgba(201, 169, 98, 0.1);
+  border-color: rgba(201, 169, 98, 0.3);
+  color: var(--gold);
+}
+
+.settingsButtonActive {
+  background: rgba(201, 169, 98, 0.15);
+  border-color: rgba(201, 169, 98, 0.4);
+  color: var(--gold);
+}
+
+.settingsDropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  min-width: 280px;
+  background: linear-gradient(145deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+  border: 1px solid rgba(201, 169, 98, 0.3);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  animation: dropdownFadeIn 0.15s ease;
+}
+
+@keyframes dropdownFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.settingsHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1rem;
+  color: var(--gold);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(201, 169, 98, 0.2);
+}
+
+.settingsList {
+  padding: 0.5rem;
+}
+
+.settingItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem;
+  border-radius: calc(var(--radius) - 4px);
+  transition: background 0.15s ease;
+}
+
+.settingItem:hover {
+  background: rgba(201, 169, 98, 0.05);
+}
+
+.settingInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.settingLabel {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.settingDesc {
+  font-size: 0.6875rem;
+  color: var(--text-muted);
+}
+
+.settingToggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 0.25rem;
+  transition: color 0.15s ease;
+}
+
+.settingToggle:hover {
+  color: var(--gold);
+}
+
+.settingToggleActive {
+  color: var(--gold);
+}

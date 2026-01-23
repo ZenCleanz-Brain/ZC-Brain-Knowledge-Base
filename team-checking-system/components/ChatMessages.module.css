@@ -1,0 +1,397 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 400px;
+  width: 100%;
+  text-align: left;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(201, 169, 98, 0.3) transparent;
+}
+
+.container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: rgba(201, 169, 98, 0.3);
+  border-radius: 3px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 169, 98, 0.5);
+}
+
+/* Empty State */
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  flex: 1;
+  min-height: 400px;
+  text-align: center;
+}
+
+.emptyIconWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(201, 169, 98, 0.15), rgba(201, 169, 98, 0.05));
+  border: 1px solid rgba(201, 169, 98, 0.3);
+  margin-bottom: 1.5rem;
+}
+
+.emptyIcon {
+  color: var(--gold);
+}
+
+.emptySparkle {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: var(--gold);
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+.emptyTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--gold);
+  margin: 0 0 0.5rem 0;
+}
+
+.emptyText {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  max-width: 320px;
+  line-height: 1.6;
+}
+
+/* Messages */
+.message {
+  display: flex;
+  gap: 1rem;
+  max-width: 85%;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.userMessage {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.agentMessage {
+  align-self: flex-start;
+}
+
+.avatar {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(201, 169, 98, 0.15);
+  color: var(--gold);
+  border: 1px solid rgba(201, 169, 98, 0.3);
+}
+
+.userMessage .avatar {
+  background: rgba(201, 169, 98, 0.25);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  text-align: left;
+}
+
+.text {
+  margin: 0;
+  padding: 1rem 1.25rem;
+  border-radius: 16px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.agentMessage .text {
+  background: rgba(45, 45, 45, 0.9);
+  color: var(--text-primary);
+  border: 1px solid rgba(201, 169, 98, 0.15);
+  border-radius: 16px 16px 16px 4px;
+}
+
+.userMessage .text {
+  background: linear-gradient(135deg, rgba(201, 169, 98, 0.25), rgba(201, 169, 98, 0.15));
+  color: var(--text-primary);
+  border: 1px solid rgba(201, 169, 98, 0.35);
+  border-radius: 16px 16px 4px 16px;
+}
+
+.timestamp {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  padding: 0 0.75rem;
+}
+
+.userMessage .timestamp {
+  text-align: right;
+}
+
+/* Thinking Indicator */
+.thinkingMessage {
+  animation: fadeIn 0.3s ease;
+}
+
+.thinkingAvatar {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(201, 169, 98, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(201, 169, 98, 0);
+  }
+}
+
+.thinkingIndicator {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  background: rgba(45, 45, 45, 0.9);
+  border: 1px solid rgba(201, 169, 98, 0.15);
+  border-radius: 16px 16px 16px 4px;
+  min-width: 200px;
+}
+
+.thinkingText {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  color: var(--gold);
+}
+
+.thinkingPhrase {
+  animation: fadeSwitch 2s ease-in-out;
+}
+
+@keyframes fadeSwitch {
+  0% { opacity: 0; transform: translateY(-5px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(5px); }
+}
+
+.thinkingDots {
+  display: flex;
+  gap: 2px;
+}
+
+.thinkingDots span {
+  animation: dotBounce 1.4s ease-in-out infinite;
+}
+
+.thinkingDots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.thinkingDots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes dotBounce {
+  0%, 60%, 100% { opacity: 0.3; }
+  30% { opacity: 1; }
+}
+
+.thinkingBar {
+  width: 100%;
+  height: 3px;
+  background: rgba(201, 169, 98, 0.15);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.thinkingProgress {
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold), rgba(232, 213, 163, 0.8));
+  border-radius: 2px;
+  animation: progressSlide 1.5s ease-in-out infinite;
+}
+
+@keyframes progressSlide {
+  0% { transform: translateX(-100%); }
+  50% { transform: translateX(150%); }
+  100% { transform: translateX(350%); }
+}
+
+/* Markdown Styles for Formatted Output */
+.markdown {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+  color: var(--gold);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.markdown h1:first-child,
+.markdown h2:first-child,
+.markdown h3:first-child {
+  margin-top: 0;
+}
+
+.markdown h1 { font-size: 1.25rem; }
+.markdown h2 { font-size: 1.125rem; }
+.markdown h3 { font-size: 1rem; }
+.markdown h4 { font-size: 0.9375rem; }
+
+.markdown p {
+  margin: 0.75rem 0;
+}
+
+.markdown p:first-child {
+  margin-top: 0;
+}
+
+.markdown p:last-child {
+  margin-bottom: 0;
+}
+
+.markdown strong {
+  color: var(--gold);
+  font-weight: 600;
+}
+
+.markdown em {
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+.markdown ul,
+.markdown ol {
+  margin: 0.75rem 0;
+  padding-left: 1.5rem;
+}
+
+.markdown li {
+  margin: 0.375rem 0;
+  line-height: 1.6;
+}
+
+.markdown li::marker {
+  color: var(--gold);
+}
+
+.markdown code {
+  background: rgba(201, 169, 98, 0.15);
+  color: var(--gold);
+  padding: 0.125rem 0.375rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-family: 'Fira Code', 'Monaco', monospace;
+}
+
+.markdown pre {
+  background: rgba(26, 26, 26, 0.8);
+  border: 1px solid rgba(201, 169, 98, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.75rem 0;
+  overflow-x: auto;
+}
+
+.markdown pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.markdown blockquote {
+  border-left: 3px solid var(--gold);
+  padding-left: 1rem;
+  margin: 0.75rem 0;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.markdown hr {
+  border: none;
+  border-top: 1px solid rgba(201, 169, 98, 0.2);
+  margin: 1rem 0;
+}
+
+.markdown a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-decoration-color: rgba(201, 169, 98, 0.4);
+  transition: text-decoration-color 0.2s ease;
+}
+
+.markdown a:hover {
+  text-decoration-color: var(--gold);
+}
+
+.markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0;
+}
+
+.markdown th,
+.markdown td {
+  border: 1px solid rgba(201, 169, 98, 0.2);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.markdown th {
+  background: rgba(201, 169, 98, 0.1);
+  color: var(--gold);
+  font-weight: 600;
+}

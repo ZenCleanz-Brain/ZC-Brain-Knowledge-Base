@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container.active {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.container.speaking {
+  animation: pulseFast 1s ease-in-out infinite;
+  box-shadow: 0 0 30px rgba(232, 213, 163, 0.4);
+}
+
+.canvas {
+  display: block;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(201, 169, 98, 0.2);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(201, 169, 98, 0.3);
+  }
+}
+
+@keyframes pulseFast {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 25px rgba(232, 213, 163, 0.3);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 40px rgba(232, 213, 163, 0.5);
+  }
+}

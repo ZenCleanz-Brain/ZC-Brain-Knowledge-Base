@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@elevenlabs/react": "^0.13.0",
     "@monaco-editor/react": "^4.6.0",
     "@octokit/rest": "^20.1.1",
     "@supabase/supabase-js": "^2.90.1",
@@ -21,7 +22,7 @@
     "next-auth": "^4.24.7",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
-    "react-markdown": "^9.0.1",
+    "react-markdown": "^9.1.0",
     "rehype-highlight": "^7.0.0",
     "remark-gfm": "^4.0.0"
   },
