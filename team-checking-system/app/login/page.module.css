@@ -158,10 +158,7 @@
 }
 
 .form {
-  background: var(--surface);
-  border-radius: var(--radius);
   padding: 2rem;
-  box-shadow: var(--shadow-lg);
 }
 
 .error {
