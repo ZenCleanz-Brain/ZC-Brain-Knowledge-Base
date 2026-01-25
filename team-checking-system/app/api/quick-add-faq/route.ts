@@ -67,7 +67,7 @@ export async function POST(request: NextRequest) {
         file.content.slice(insertPosition);
     } else {
       // No "Recent FAQs" section exists - add it at the end (before footer if exists)
-      const footerPattern = /\n\*For more information.*$/s;
+      const footerPattern = /\n\*For more information[\s\S]*$/;
       const footerMatch = file.content.match(footerPattern);
 
       if (footerMatch && footerMatch.index !== undefined) {
