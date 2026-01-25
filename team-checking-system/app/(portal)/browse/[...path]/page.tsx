@@ -3,12 +3,13 @@
 import { useEffect, useState, useCallback } from 'react';
 import { useSession } from 'next-auth/react';
 import { useParams, useRouter, useSearchParams } from 'next/navigation';
-import { Edit3, Save, X, AlertCircle, Clock, Info, Trash2, Search } from 'lucide-react';
+import { Edit3, Save, X, AlertCircle, Clock, Info, Trash2, Search, Plus } from 'lucide-react';
 import MarkdownViewer from '@/components/MarkdownViewer';
 import MarkdownEditor from '@/components/MarkdownEditor';
 import SearchSidebar from '@/components/SearchSidebar';
 import MatchNavigator from '@/components/MatchNavigator';
 import DeleteConfirmModal from '@/components/DeleteConfirmModal';
+import QuickAddFaqModal from '@/components/QuickAddFaqModal';
 import { useFileTree } from '@/contexts/FileTreeContext';
 import { useToast } from '@/components/Toast';
 import styles from '../page.module.css';
@@ -49,6 +50,7 @@ export default function FileViewPage() {
   const [saving, setSaving] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [isDeleting, setIsDeleting] = useState(false);
+  const [showQuickAddFaq, setShowQuickAddFaq] = useState(false);
 
   // Get search query from URL for match navigation
   const searchQuery = searchParams.get('q') || '';
@@ -267,6 +269,18 @@ export default function FileViewPage() {
                   </span>
                 )}
 
+                {/* Quick Add FAQ button - only show on FAQ files */}
+                {!isEditing && canEdit && (filePath.includes('General FAQs') || filePath.toLowerCase().includes('faq')) && (
+                  <button
+                    className="btn btn-secondary"
+                    onClick={() => setShowQuickAddFaq(true)}
+                    title="Quickly add a new FAQ entry"
+                  >
+                    <Plus size={16} />
+                    Quick FAQ
+                  </button>
+                )}
+
                 {/* Search in document button */}
                 {!isEditing && (
                   <button
@@ -363,6 +377,16 @@ export default function FileViewPage() {
           onConfirm={handleDelete}
           onCancel={() => setShowDeleteModal(false)}
           isDeleting={isDeleting}
+        />
+      )}
+
+      {/* Quick Add FAQ modal */}
+      {file && (
+        <QuickAddFaqModal
+          isOpen={showQuickAddFaq}
+          filePath={file.path}
+          onClose={() => setShowQuickAddFaq(false)}
+          onSuccess={() => fetchFile()}
         />
       )}
     </div>
