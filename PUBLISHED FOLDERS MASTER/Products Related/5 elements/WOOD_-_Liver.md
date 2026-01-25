@@ -1094,7 +1094,7 @@ Easing Enzymes are working to:
 - Minerals: calcium and iron
 - Valuable addition to blend
 - Rich fiber content
-- Alongside niacin
+- High in Niacin
 
 **Benefits:**
 - Many benefits including high antioxidant capacity
@@ -1215,14 +1215,14 @@ Liver flushing pushes congestion out of liver, and sometimes, the liver can only
 - Each flush is different
 - Each flush is successful
 - Whatever comes out on each flush is what was ready to go
-- Body is far better off without it
+- 
 
 ### Why Do I Have Diarrhea on This Cleanse?
 
 On the day you perform cleanse, the "easing enzymes" are working hard to prepare liver to flush. This process involves dilating bile ducts, during which you experience what some call "diarrhea."
 
 **Clarification:**
-We call this "watery emissions" because it is not diarrhea, but a sign that your cleanse is doing what it is designed to do so that you have a successful flush. Watery emissions happen on the day you perform the cleanse.
+We call this "watery emissions" because it is not diarrhea, but a sign that your cleanse is doing what it is designed to do so that you have a successful flush. Watery emissions usually happen on the day you perform the cleanse.
 
 ---
 
@@ -1287,8 +1287,8 @@ It mainly comprises rice germ enzymes supplemented with natural fruit and vegeta
 - Prevent heart disease
 - Beneficial for reducing high blood pressure
 - May assist in maintaining balanced cholesterol levels
-- Unique ingredient renowned for natural phytochemicals
-- Such as oryzanol
+- Unique ingredient renowned for natural phytochemicals, Such as oryzanol
+- 
 - Shown to help detoxify liver
 - Support overall liver health
 - Potent detoxification property
@@ -1296,10 +1296,10 @@ It mainly comprises rice germ enzymes supplemented with natural fruit and vegeta
 
 ##### STRAWBERRY
 **Nutritional Profile:**
-- Vibrant red hue
+- 
 - Nutritional powerhouse
 - Offering rich array of vitamins and minerals
-- Succulent berries
+- 
 - Brimming with vitamin C (potent immune booster)
 - Supporting collagen production
 - Healthy skin and connective tissues
@@ -1353,7 +1353,7 @@ It mainly comprises rice germ enzymes supplemented with natural fruit and vegeta
 - Emerging research highlighting liver-protective potential
 - In Traditional Chinese Medicine, often referred to as "Hu Sui"
 - Recognized for cooling properties
-- One of reasons added to blend
+- 
 - In TCM, heat not limited to temperature
 - Encompasses broader concept of excess yang energy
 - Excess heat can manifest as various symptoms and conditions
@@ -1361,8 +1361,8 @@ It mainly comprises rice germ enzymes supplemented with natural fruit and vegeta
 
 ##### PAPAYA
 **Nutritional Profile:**
-- Tropical fruit
-- Teeming with essential vitamins and minerals
+- Tropical fruit teeming with essential vitamins and minerals
+- 
 - Bursting with vitamins: C, A, B9, B, E, K
 - Rich array of minerals: potassium, calcium, magnesium
 - Nutritional powerhouse
@@ -1371,23 +1371,21 @@ It mainly comprises rice germ enzymes supplemented with natural fruit and vegeta
 - Versatile addition to healthful diet
 
 **Benefits:**
-- Among numerous benefits
+- 
 - Boasts impressive antioxidant capacity
-- Effectively combatting inflammation
+- Effectively combats inflammation
 - Promoting overall well-being
 - Stands out for digestive prowess
-- Papain enzymes it harbors
+- Rich in Papain, the enzyme it harbors
 - Facilitate breakdown of proteins
-- Making easier to digest
 - Natural digestive aid
 - Extends to alleviating constipation
 - Enhancing overall gut health
-- Rich enzymatic content, particularly papain
-- Aids digestion
-- Enhances body's detoxification processes
-- Making papaya invaluable component in blend
 - Fostering harmonious synergy of health benefits
 
+- Enhances body's detoxification processes
+- Making papaya invaluable component in blend
+- 
 ---
 
 ### ZenCleanz Hygieia
@@ -1456,21 +1454,18 @@ It contains fruits, vegetables, herbs, mushrooms, seaweed, and all types of food
 
 ##### APPLE
 **Nutritional Profile:**
-- Sweet and delicious
-- Crisp and juicy
+- 
 - Rich in sugar, protein, calcium, phosphorus
 - Iron, zinc, potassium, magnesium, sulfur
 - Carotene
-- Vitamins B1, B2, C
-- Niacin, cellulose, other nutrients
+- Vitamins B1, B2, C, Niacin, cellulose, other nutrients
 
 **Benefits:**
-- Apart from keeping doctor away
+- 
 - Lower cholesterol levels
 - Reduce blood sugar
 - Boost microbiome
 - Reduce inflammation
-- Apple's level of vitamins A and C
 - Help protect cells
 - Help slow aging
 - Selected for enzyme liquid in synergy with other ingredients
@@ -1480,7 +1475,7 @@ It contains fruits, vegetables, herbs, mushrooms, seaweed, and all types of food
 
 ##### GRAPE
 **Nutritional Profile:**
-- Beyond delectable flavor
+- 
 - Boast wealth of essential vitamins: B, C, E, K
 - Minerals: copper, potassium, manganese
 - Antioxidants
@@ -1497,8 +1492,7 @@ It contains fruits, vegetables, herbs, mushrooms, seaweed, and all types of food
 
 ##### BITTER GOURD
 **Nutritional Profile:**
-- Unique vegetable
-- Offers notable nutritional profile
+- Unique vegetable with a notable nutritional profile
 - Rich in essential vitamins: C and A
 - Minerals: potassium, zinc, iron
 - Support various bodily functions
@@ -1509,15 +1503,14 @@ It contains fruits, vegetables, herbs, mushrooms, seaweed, and all types of food
 - Benefits encompass disease prevention
 - Bone formation
 - Wound healing
-- Owing to rich nutritional content
-- High antioxidant capacity
-- Combats free radicals
+- Rich nutritional content
+- High antioxidant capacity combats free radicals
 - Reduces oxidative stress
 - Well-known for potential to lower blood sugar levels
 - Valuable for diabetes management
-- Moreover, compounds may have cancer-fighting properties
-- Can decrease cholesterol levels
-- Promoting overall heart health and well-being
+- Compounds may have cancer-fighting properties
+- May decrease cholesterol levels
+- Promotes overall heart health and well-being
 - Incorporating bitter gourd into blend
 - Health-conscious choice
 - Enhancing disease prevention
@@ -1534,19 +1527,18 @@ It contains fruits, vegetables, herbs, mushrooms, seaweed, and all types of food
 - Unclogging liver improves bile flow
 - Bile is main compound responsible for alkalinization of intestinal tract
 
-**2. By lowering unhealthful cholesterol:**
+**2. By lowering unhealthy cholesterols:**
 - Enzymes remove waste products from liver and blood
 - Transform cholesterol that has not been broken down
 - Enzymes help blood osmosis
 - Promote smooth circulation
 
 **3. By safely flushing out wastes, toxins, and gallstones:**
-- Liver plays over 500 metabolic functions
+- Liver plays a part in over 500 metabolic functions
 - So detoxifying gives it back its full power
 - Can be felt by noticing vanishing of unpleasant symptoms
-- Using enzymes is much more refined and effective process
-- Digs deeper into liver in much gentler manner
-- Than any other protocol that can be found
+- Using enzymes is a more refined and effective process
+- Digs deeper into liver in much more gentle manner than any other protocol that can be found
 
 **4. By strengthening the liver:**
 - Removing blockages within liver created by toxins
