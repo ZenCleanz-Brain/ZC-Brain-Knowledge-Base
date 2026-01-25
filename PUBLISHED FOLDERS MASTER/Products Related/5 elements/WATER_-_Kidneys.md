@@ -7,7 +7,7 @@ summary: "A comprehensive 30-day kidney cleanse protocol featuring three plant-b
 keywords: ["kidney cleanse 30 days", "kidney detox protocol", "enzyme kidney cleanse", "kidney stone removal natural", "maca kidney health", "water element detox"]
 qa_pairs:
   - question: "What are the three products included in the ZenCleanz ORIGIN kidney cleanse?"
-    answer: "The ORIGIN cleanse contains Inca Liquid Enzymes (rich in Maca for hormonal balance and energy), Aztec Prickly Pear Enzyme Blend (fermented antioxidant support), and JīNG Enzyme Tablets (for kidney essence restoration and circulation)."
+    answer: "The ORIGIN cleanse contains Inca Liquid Enzymes (rich in Maca for hormonal balance and energy), Aztec Prickly Pear Enzyme Blend (fermented antioxidant support), and JīNG Enzyme Capsules (for kidney essence restoration and circulation)."
   - question: "What are common symptoms of kidney toxicity that indicate need for cleansing?"
     answer: "Common symptoms include decreased urine output, swelling in legs/feet/ankles, fatigue and weakness, changes in urination patterns, nausea and vomiting, fluid imbalances, back pain, and confusion or cognitive changes."
   - question: "How does ZenCleanz ORIGIN differ from traditional kidney cleanse methods?"
@@ -956,7 +956,7 @@ Working through the 5-Element cleanse kits, much of the work has been done once 
    - Anti-oxidant-rich Prickly Pear
    - Prebiotic Isomaltooligosaccharides
 
-3. **JīNG tablets:**
+3. **JīNG capsules:**
    - Help strengthen kidney function
    - Promote circulation
    - Help regulate nervous, endocrine, pelvic, reproductive, vascular systems
@@ -987,7 +987,7 @@ Yes, follow any guidelines in the manual.
 You may do back-to-back ORIGIN kits.
 
 **Additional dosing:**
-- If someone has weak system and low vitality, suggest that tablet sachets be taken twice or thrice throughout the day
+- If someone has weak system and low vitality, suggest that JiNG capsules be taken twice throughout the day
 - Additional purchase of sachets required
 - Reduce dosing when energy flow returns
 
