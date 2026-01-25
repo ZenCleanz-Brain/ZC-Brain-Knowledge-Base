@@ -384,9 +384,7 @@ Lactating women can take the one-day cleanse kits including the ONE Intestinal a
 
 ## Recent FAQs
 
-### test questions
 
-test answer
 
 ---
 ---
