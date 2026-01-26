@@ -896,7 +896,7 @@ All liquid enzymes provide the advantages of long-term fermented, completely pre
 - **1-2 doses daily:** Provides supplemental support for the body
 - **3+ doses daily:** Boosts the repair in the body to therapeutic levels
 - **90 mL / 18 tsp and above:** Can allow one to fast on and feel full
-- **⚠️ Do not exceed 200 mL / 40 tsp:** May lead to overstimulation
+- **⚠️ Do not exceed 200 mL / 40 tsp:** May lead to overstimulation 
 
 ---
 
