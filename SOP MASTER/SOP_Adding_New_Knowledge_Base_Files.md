@@ -39,3 +39,7 @@ Future edits via Team Portal will auto-sync.
 NEW FILE:     Local → GitHub → Manual 11Labs Upload → Done
 UPDATES:      Team Portal Edit → GitHub → Auto n8n Sync → 11Labs
 ```
+
+## For Edits
+
+Always go to Team Portal to edit files. This will ensure that the file is updated in GitHub and ElevenLabs.
