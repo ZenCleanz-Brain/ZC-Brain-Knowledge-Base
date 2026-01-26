@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Home, Database, Bookmark } from 'lucide-react';
 import ResizableSidebar from './ResizableSidebar';
+import ChangelogPanel from './ChangelogPanel';
 import styles from './DashboardNavSidebar.module.css';
 
 interface NavItem {
@@ -61,27 +62,30 @@ export default function DashboardNavSidebar() {
       maxWidth={320}
       storageKey="dashboard-sidebar-width"
     >
-      <nav className={styles.nav}>
-        {navItems.map((item) => {
-          const isActive = pathname === item.href ||
-            (item.href !== '/dashboard' && pathname.startsWith(item.href));
-          const Icon = item.icon;
+      <div className={styles.sidebarContent}>
+        <nav className={styles.nav}>
+          {navItems.map((item) => {
+            const isActive = pathname === item.href ||
+              (item.href !== '/dashboard' && pathname.startsWith(item.href));
+            const Icon = item.icon;
 
-          return (
-            <Link
-              key={item.id}
-              href={item.href}
-              className={`${styles.navItem} ${isActive ? styles.active : ''}`}
-              onMouseMove={handleMouseMove}
-              onMouseLeave={handleMouseLeave}
-            >
-              <Icon size={18} className={styles.navIcon} />
-              <span className={styles.navLabel}>{item.label}</span>
-              {item.badge && <span className={styles.badge}>{item.badge}</span>}
-            </Link>
-          );
-        })}
-      </nav>
+            return (
+              <Link
+                key={item.id}
+                href={item.href}
+                className={`${styles.navItem} ${isActive ? styles.active : ''}`}
+                onMouseMove={handleMouseMove}
+                onMouseLeave={handleMouseLeave}
+              >
+                <Icon size={18} className={styles.navIcon} />
+                <span className={styles.navLabel}>{item.label}</span>
+                {item.badge && <span className={styles.badge}>{item.badge}</span>}
+              </Link>
+            );
+          })}
+        </nav>
+        <ChangelogPanel />
+      </div>
     </ResizableSidebar>
   );
 }

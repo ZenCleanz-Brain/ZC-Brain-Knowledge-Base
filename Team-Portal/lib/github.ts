@@ -245,6 +245,83 @@ export async function listFiles(): Promise<FileInfo[]> {
   return allItems.filter((item) => item.type === 'file');
 }
 
+// Commit info interface
+export interface CommitInfo {
+  sha: string;
+  message: string;
+  author: string;
+  date: string;
+  url: string;
+}
+
+// Get recent commit history from GitHub
+export async function getCommitHistory(limit: number = 20): Promise<CommitInfo[]> {
+  try {
+    const response = await octokit.repos.listCommits({
+      owner,
+      repo,
+      sha: branch,
+      path: kbBasePath,
+      per_page: limit,
+    });
+
+    return response.data.map((commit) => ({
+      sha: commit.sha,
+      message: commit.commit.message,
+      author: commit.commit.author?.name || commit.author?.login || 'Unknown',
+      date: commit.commit.author?.date || '',
+      url: commit.html_url,
+    }));
+  } catch (error) {
+    console.error('GitHub getCommitHistory error:', error);
+    return [];
+  }
+}
+
+// Get a specific commit details
+export async function getCommit(sha: string): Promise<CommitInfo | null> {
+  try {
+    const response = await octokit.repos.getCommit({
+      owner,
+      repo,
+      ref: sha,
+    });
+
+    return {
+      sha: response.data.sha,
+      message: response.data.commit.message,
+      author: response.data.commit.author?.name || response.data.author?.login || 'Unknown',
+      date: response.data.commit.author?.date || '',
+      url: response.data.html_url,
+    };
+  } catch (error) {
+    console.error('GitHub getCommit error:', error);
+    return null;
+  }
+}
+
+// Revert to a specific commit by restoring the file tree state at that commit
+export async function getFileContentAtCommit(path: string, sha: string): Promise<string | null> {
+  try {
+    const fullPath = `${kbBasePath}/${path}`;
+    const response = await octokit.repos.getContent({
+      owner,
+      repo,
+      path: fullPath,
+      ref: sha,
+    });
+
+    if (!Array.isArray(response.data) && response.data.type === 'file') {
+      return Buffer.from(response.data.content, 'base64').toString('utf-8');
+    }
+
+    return null;
+  } catch (error) {
+    console.error('GitHub getFileContentAtCommit error:', error);
+    return null;
+  }
+}
+
 // Get nested file tree
 export async function getFileTree(): Promise<TreeNode[]> {
   console.log('[GitHub] Starting getFileTree...');
