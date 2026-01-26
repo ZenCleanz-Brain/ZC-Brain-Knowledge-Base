@@ -1,15 +1,21 @@
 ---
-title: "ZenCleanz Rainbow Protocol Bundle: 7-Day Deep Synergistic Journey"
-date: "2026-01-14"
-tags: ["zencleanz-rainbow", "7-day-detox", "intestinal-cleanse", "liver-detox", "digestive-protocol", "enzyme-therapy", "gut-health", "detox-bundle"]
+title: "ZenCleanz Rainbow & Rainbow Plus Protocols: 7-Day and 20-Day Deep Synergistic Journeys"
+date: "2026-01-26"
+tags: ["zencleanz-rainbow", "rainbow-plus", "7-day-detox", "20-day-detox", "intestinal-cleanse", "liver-detox", "digestive-protocol", "enzyme-therapy", "gut-health", "detox-bundle", "multiple-flushes"]
 category: "detox-protocol"
-summary: "The ZenCleanz Rainbow Protocol is a comprehensive 7-day detoxification program that combines intestinal cleansing (ONE), liver detox (FORGIVE), microbiome rebalancing, and enzymatic support (HYGIEIA) to restore digestive health and vitality. This synergistic protocol targets every organ of digestion and detox through a carefully structured daily schedule of enzyme supplements and specialized formulations."
-keywords: ["7-day detox protocol", "ZenCleanz Rainbow", "intestinal liver cleanse", "enzyme detoxification", "digestive system reset", "gut health protocol"]
+summary: "Comprehensive guide to ZenCleanz Rainbow Protocols. The 7-Day Rainbow Protocol combines intestinal cleansing (ONE), liver detox (FORGIVE), and enzymatic support (HYGIEIA). The 20-Day Rainbow Plus Protocol is an intensive journey with 2 ONE kits, 3 FORGIVE kits, multiple liver flushes, plus HYGIEIA, AMBROSIA, and LIGHTSEED for deeper transformation of the digestive tract and biliary system."
+keywords: ["7-day detox protocol", "20-day detox protocol", "ZenCleanz Rainbow", "Rainbow Plus Protocol", "intestinal liver cleanse", "enzyme detoxification", "digestive system reset", "gut health protocol", "multiple liver flushes", "biliary system detox"]
 qa_pairs:
   - question: "What products are included in the ZenCleanz Rainbow Protocol?"
     answer: "The Rainbow Protocol combines the deep intestinal sweep of ONE, liver and bile flow restoration of FORGIVE, microbiome rebalance of the 3 Gut Essentials, and the liquid enzymatic life-force of HYGIEIA."
   - question: "How long does the ZenCleanz Rainbow Protocol take?"
     answer: "The Rainbow Protocol is a 7-day synergistic journey that activates every organ of digestion and detox through a structured daily schedule."
+  - question: "What products are included in the ZenCleanz Rainbow Plus Protocol?"
+    answer: "The Rainbow Plus Protocol includes 2 ONE kits, 3 FORGIVE kits, 1 Gut Essentials Kit (30 pack), 1 HYGIEIA (750ml), 1 AMBROSIA (750ml), and 1 LIGHTSEED (750ml)."
+  - question: "How long does the ZenCleanz Rainbow Plus Protocol take?"
+    answer: "The Rainbow Plus Protocol is a 20-day transformational enzymatic journey with multiple intestinal cleanses and three liver flushes for deeper detoxification."
+  - question: "What is the difference between Rainbow and Rainbow Plus protocols?"
+    answer: "Rainbow is a 7-day protocol with one intestinal cleanse and one liver flush. Rainbow Plus is a 20-day intensive with two intestinal cleanses, three liver flushes, and additional liquid enzymes (LIGHTSEED) for deeper transformation."
   - question: "What should I avoid during the Rainbow Protocol detox?"
     answer: "During the detox, avoid smoking, alcohol, caffeine, fiber, fat, and sugars including natural sugars like carrots, beets, and honey. Stick to a liquid diet after the ONE intestinal cleanse."
   - question: "Can I do the Rainbow Protocol if I'm pregnant or nursing?"
@@ -184,6 +190,501 @@ Use the 750ml bottle of Hygieia
 >
 > *One week. A new light. The whole spectrum of you. Let the colors of your vitality shine again.*
 
+---
+---
+
+# ZENCLEANZ RAINBOW PLUS PROTOCOL BUNDLE
+
+## 20-Day Deep Synergistic Journey
+
+> *"A Twenty-Day Transformational Enzymatic Journey Into Your Core."*
+
+---
+
+## Philosophy
+
+The RAINBOW PLUS Protocol is not just a detox, it's a 20-day catalytic reset that targets the two most essential systems for detoxification and vitality: the **Digestive Tract** and the **Biliary System - Liver & Gallbladder**. Designed for those ready to go deeper, this powerful protocol amplifies the original RAINBOW experience with higher enzyme dosages, multiple flushes, and sustained therapeutic nourishment.
+
+### This intensive enzyme journey helps to:
+
+- Begin to eliminate years of accumulated waste, mucoid plaque, and bile sludge
+- Reignite and regenerate digestive function and enzyme potential
+- Revitalize your liver metabolism and begin restoring hormonal harmony
+- Develop a cleaner inner terrain that promotes a foundation for a full-body detox
+
+The RAINBOW PLUS Protocol is your gateway to a true transformational experience. It doesn't just clear debris, it awakens the body's own intelligence and builds momentum toward deep, lasting healing. Many who walk this path report breakthroughs not only in physical health, but also in mental clarity, emotional release, and spiritual connection.
+
+**Commit to the deep. Step into your power. Begin your transformation.**
+
+---
+
+## Products Included in RAINBOW PLUS
+
+| Quantity | Product |
+|----------|---------|
+| 2 | **ONE** ~ 1-Day Deep Intestinal Detoxifier |
+| 3 | **FORGIVE** ~ 1-Day Deep Liver Clarifier |
+| 1 | **GUT ESSENTIALS Kit** (30 Pack) |
+| 1 | **HYGIEIA** (750ml) ~ Liver Renewal |
+| 1 | **AMBROSIA** (750ml) ~ Microbiome Support |
+| 1 | **LIGHTSEED** (750ml) ~ Metabolic Boost |
+
+### Ingredients & Nutrition Facts
+
+For the complete overview of ingredients and nutrition facts, please refer to each individual product:
+- ONE
+- FORGIVE
+- HYGIEIA
+- 3 GUT ESSENTIALS KIT
+
+---
+
+## Guided Protocol for Restoring Your Being with the ZenCleanz RAINBOW PLUS PROTOCOL
+
+---
+
+## DAY 1 - ONE (Deep Intestinal Detoxifier)
+
+**📝 Important:** Use the liquid enzymes from ONLY 2 small 60ml bottles contained in the ONE kit. Set aside the 3rd bottle for a later time.
+
+**💡 Hint:** Use the measuring cup included with the large bottles for measuring.
+
+### Preparation Method
+
+Begin each intake by pouring lukewarm water first then adding either a sachet or liquid enzymes in a tightly sealed jar. Shake it like you're waking up the enzymes — **5–6 firm shakes**.
+
+### Morning Flow
+
+- ☐ **09:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #1
+- ☐ **09:30 AM** | 20ml (4 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **10:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #2
+- ☐ **10:30 AM** | 20ml (4 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **11:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #3
+- ☐ **11:30 AM** | 20ml (4 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+
+**Pause. Breathe. Lie down.** Gently massage your abdomen, often, focusing on tender spots. Connect with what is being awakened.
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #4
+- ☐ **14:30 PM** | 20ml (4 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **15:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #5
+- ☐ **15:30 PM** | 20ml (4 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+
+**Rest. Walk. Massage** your abdomen often, focusing on the tender spots. Let the enzymes circulate. Let your body speak.
+
+### Evening Flow
+
+- ☐ **18:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #6
+- ☐ **18:30 PM** | 20ml (4 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **19:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #7
+- ☐ **19:30 PM** | 250ml (8.5 oz) lukewarm water — a simple rinse
+- ☐ **20:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #8
+- ☐ **21:00 PM** | Fiber Crystals – Bowel Reset Powder + 250ml (8.5 oz) lukewarm water
+
+**Create a soft, nurturing environment.** This is the nurturing end to your detox day. Sleep deeply. Let the night do its work.
+
+---
+
+## DAY 2-5 - HYGIEIA & Gut Essentials
+
+Use the 750ml bottle of Hygieia for days 2 through 5 and 7. On days 2 & 3, continue to work on abdominal massages.
+
+### Morning Flow
+
+- ☐ **WAKE-UP** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+- ☐ **08:00 AM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water
+- ☐ **09:00 AM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **11:00 AM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water
+- ☐ **12:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water
+- ☐ **15:00 PM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **17:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water
+
+### Evening Flow
+
+- ☐ **18:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water
+- ☐ **19:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+- ☐ **Before Sleep** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+
+---
+
+## DAY 6 - FORGIVE (First Liver Flush)
+
+**📝 Important:** Use the liquid enzymes from ONLY 2 small 60ml bottles contained in the FORGIVE kit. Set aside the 3rd bottle for a later time.
+
+**💡 Hint:** Use the measuring cup included with the large bottles.
+
+### Preparation Method
+
+Each intake is a conscious act. First pour lukewarm water into a jar, then add either a sachet or liquid enzymes in a tightly sealed jar. Shake it with intention - like you're waking up the enzymes — **5–6 firm shakes**.
+
+### Morning Flow
+
+- ☐ **09:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #1 & #2
+- ☐ **10:00 AM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water
+- ☐ **11:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #3 & #4
+- ☐ **12:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water + Sachet #5
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water + Sachet #6
+- ☐ **15:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #7 & #8
+
+### Evening Flow
+
+- ☐ **17:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water + Sachet #9
+
+### Evening Ceremony: The Flush (21:00 PM)
+
+1. Standing beside your bed, combine Flush Formula Bottles A & B in a tightly sealed jar
+2. Shake vigorously for one full minute
+3. Drink the mixture in one go
+4. Lie down on your right side for 45 minutes to allow the release to begin
+5. Drift into sleep. Let your body work in silence.
+
+---
+
+## DAY 7 - Post-Flush Integration (HYGIEIA)
+
+Use the 750ml bottle of Hygieia
+
+### Morning Flow
+
+- ☐ **06:00 AM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water + Sachet #10
+- ☐ **07:00 AM** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+- ☐ **08:00 AM** | No enzymes taken at this time
+- ☐ **09:00 AM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **11:00 AM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water
+- ☐ **12:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water
+- ☐ **15:00 PM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **17:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water
+
+### Evening Flow
+
+- ☐ **18:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water
+- ☐ **19:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+- ☐ **Before Sleep** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+
+---
+
+## DAY 8-10 - LIGHTSEED & Gut Essentials
+
+Use the 750ml bottle of LIGHTSEED.
+
+### Morning Flow
+
+- ☐ **WAKE-UP** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+- ☐ **08:00 AM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+- ☐ **09:00 AM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **11:00 AM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+- ☐ **12:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+- ☐ **15:00 PM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **17:00 PM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+
+### Evening Flow
+
+- ☐ **18:00 PM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+- ☐ **19:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+- ☐ **Before Sleep** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+
+---
+
+## DAY 11 - FORGIVE (Second Liver Flush)
+
+**📝 Important:** Use the liquid enzymes from ONLY 2 small 60ml bottles contained in the FORGIVE kit. Set aside the 3rd bottle for a later time.
+
+**💡 Hint:** Use the measuring cup included with the large bottles.
+
+### Preparation Method
+
+Each intake is a conscious act. First pour lukewarm water into a jar, then add either a sachet or liquid enzymes in a tightly sealed jar. Shake it with intention - like you're waking up the enzymes — **5–6 firm shakes**.
+
+### Morning Flow
+
+- ☐ **09:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #1 & #2
+- ☐ **10:00 AM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water
+- ☐ **11:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #3 & #4
+- ☐ **12:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water + Sachet #5
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water + Sachet #6
+- ☐ **15:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #7 & #8
+
+### Evening Flow
+
+- ☐ **17:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water + Sachet #9
+
+### Evening Ceremony: The Flush (21:00 PM)
+
+1. Standing beside your bed, combine Flush Formula Bottles A & B in a tightly sealed jar
+2. Shake vigorously for one full minute
+3. Drink the mixture in one go
+4. Lie down on your right side for 45 minutes to allow the release to begin
+5. Drift into sleep. Let your body work in silence.
+
+---
+
+## DAY 12 - Post-Flush Integration (LIGHTSEED)
+
+Use the 750ml bottle of LIGHTSEED
+
+### Morning Flow
+
+- ☐ **06:00 AM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water + Sachet #10
+- ☐ **07:00 AM** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+- ☐ **08:00 AM** | No enzymes taken at this time
+- ☐ **09:00 AM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **11:00 AM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+- ☐ **12:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+- ☐ **15:00 PM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **17:00 PM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+
+### Evening Flow
+
+- ☐ **18:00 PM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+- ☐ **19:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+- ☐ **Before Sleep** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+
+---
+
+## DAY 13 - LIGHTSEED & Gut Essentials
+
+Use the 750ml bottle of LIGHTSEED.
+
+### Morning Flow
+
+- ☐ **WAKE-UP** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+- ☐ **08:00 AM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+- ☐ **09:00 AM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **11:00 AM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+- ☐ **12:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+- ☐ **15:00 PM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **17:00 PM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+
+### Evening Flow
+
+- ☐ **18:00 PM** | 30ml (6 tsp) LIGHTSEED in 250ml (8.5 oz) lukewarm water
+- ☐ **19:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+- ☐ **Before Sleep** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+
+---
+
+## DAY 14-15 - AMBROSIA & Gut Essentials
+
+Use the 750ml bottle of AMBROSIA.
+
+### Morning Flow
+
+- ☐ **WAKE-UP** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+- ☐ **08:00 AM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **09:00 AM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **11:00 AM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **12:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **15:00 PM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **17:00 PM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+
+### Evening Flow
+
+- ☐ **18:00 PM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **19:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+- ☐ **Before Sleep** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+
+---
+
+## DAY 16 - FORGIVE (Third Liver Flush)
+
+**📝 Important:** Use the liquid enzymes from ONLY 2 small 60ml bottles contained in the FORGIVE kit. Set aside the 3rd bottle for a later time.
+
+**💡 Hint:** Use the measuring cup included with the large bottles.
+
+### Preparation Method
+
+Each intake is a conscious act. First pour lukewarm water into a jar, then add either a sachet or liquid enzymes in a tightly sealed jar. Shake it with intention - like you're waking up the enzymes — **5–6 firm shakes**.
+
+### Morning Flow
+
+- ☐ **09:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #1 & #2
+- ☐ **10:00 AM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water
+- ☐ **11:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #3 & #4
+- ☐ **12:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water + Sachet #5
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water + Sachet #6
+- ☐ **15:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #7 & #8
+
+### Evening Flow
+
+- ☐ **17:00 PM** | 30ml (6 tsp) HYGIEIA in 250ml (8.5 oz) lukewarm water + Sachet #9
+
+### Evening Ceremony: The Flush (21:00 PM)
+
+1. Standing beside your bed, combine Flush Formula Bottles A & B in a tightly sealed jar
+2. Shake vigorously for one full minute
+3. Drink the mixture in one go
+4. Lie down on your right side for 45 minutes to allow the release to begin
+5. Drift into sleep. Let your body work in silence.
+
+---
+
+## DAY 17 - Post-Flush Integration (AMBROSIA)
+
+Use the 750ml bottle of AMBROSIA
+
+### Morning Flow
+
+- ☐ **06:00 AM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water + Sachet #10
+- ☐ **07:00 AM** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+- ☐ **08:00 AM** | No enzymes taken at this time
+- ☐ **09:00 AM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **11:00 AM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **12:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **15:00 PM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **17:00 PM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+
+### Evening Flow
+
+- ☐ **18:00 PM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **19:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+- ☐ **Before Sleep** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+
+---
+
+## DAY 18 - ONE (Second Intestinal Detox)
+
+**📝 Important:** Use the liquid enzymes from ONLY 2 small 60ml bottles contained in the ONE kit. Set aside the 3rd bottle for a later time.
+
+**💡 Hint:** Use the measuring cup included with the large bottles for measuring.
+
+### Preparation Method
+
+Begin each intake by pouring lukewarm water first then adding either a sachet or some liquid enzymes in a tightly sealed jar. Shake it like you're waking up the enzymes — **5–6 firm shakes**.
+
+### Morning Flow
+
+- ☐ **09:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #1
+- ☐ **09:30 AM** | 20ml (4 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **10:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #2
+- ☐ **10:30 AM** | 20ml (4 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **11:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #3
+- ☐ **11:30 AM** | 20ml (4 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+
+**Pause. Breathe. Lie down.** Gently massage your abdomen, often, focusing on tender spots. Connect with what is being stirred.
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #4
+- ☐ **14:30 PM** | 20ml (4 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **15:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #5
+- ☐ **15:30 PM** | 20ml (4 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+
+**Rest. Walk. Massage** your abdomen often, focusing on the tender spots. Let the enzymes circulate. Let your body speak.
+
+### Evening Flow
+
+- ☐ **18:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #6
+- ☐ **18:30 PM** | 20ml (4 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **19:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #7
+- ☐ **19:30 PM** | 250ml (8.5 oz) lukewarm water — a simple rinse
+- ☐ **20:00 PM** | 250ml (8.5 oz) lukewarm water + Sachet #8
+- ☐ **21:00 PM** | Fiber Crystals – Bowel Reset Powder + 250ml (8.5 oz) lukewarm water
+
+**Create a soft, nurturing environment.** This is the nurturing end to your detox day. Sleep deeply. Let the night do its work.
+
+---
+
+## DAY 19-20 - AMBROSIA & Gut Essentials (Final Integration)
+
+Use the 750ml bottle of AMBROSIA. On days 19 & 20, continue to work on abdominal massages.
+
+### Morning Flow
+
+- ☐ **WAKE-UP** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+- ☐ **08:00 AM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **09:00 AM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **11:00 AM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **12:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+
+### Afternoon Flow
+
+- ☐ **14:00 PM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **15:00 PM** | 500ml (17 oz) lukewarm water + 2 capsules of Black Vacuum
+- ☐ **17:00 PM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+
+### Evening Flow
+
+- ☐ **18:00 PM** | 30ml (6 tsp) AMBROSIA in 250ml (8.5 oz) lukewarm water
+- ☐ **19:00 PM** | 1 sachet Quantum Particles (melt in the mouth). May follow with 250ml (8.5 oz) lukewarm water, if desired.
+- ☐ **Before Sleep** | 250ml (8.5 oz) lukewarm water + 1 sachet of Fiber Crystals enzyme powder
+
+---
+
+> **This is the foundation. The breakthrough. The return to your essence.**
+>
+> **ZENCLEANZ RAINBOW PLUS PROTOCOL**
+>
+> *Twenty Days. A new light. The whole spectrum of you. Let the colors of your vitality shine again.*
+
+---
+
+## Gentle Guidance & Intuitive Listening for RAINBOW PLUS
+
+### Notes for the ONE Detox
+
+- Try your best to go through the whole protocol but if you feel nauseous or overly full, slow down — space the sachets. Try to go through at least 5–6 sachets on Day 1 and conclude with the Fiber Crystals sachet in the evening
+- Be sure to complete the remaining sachets the next morning, adjust the times of the other enzymes accordingly – take them at least 30-60 minutes away from each other
+- Continue gentle abdominal massages for a few more days and go out for short walks throughout the day. They are key to awakening and releasing
+
+### Notes for the FORGIVE Detox
+
+- If you would like, you may apply gentle abdominal massage, stretching, and rest – whatever brings your body into its presence
+- Propping your head/shoulders so they are above your feet may be helpful to prevent reflux when lying down on your right side after ingesting the flush formula
+
+### RAINBOW PLUS Protocol Notes
+
+- If you're finding that adding any of the liquid enzymes to the enzyme packet is too sweet or too much, take it with 250ml of lukewarm water at the ½ hour instead
+- Be patient. Evacuations come when the body is ready. Transit time is unique to each person
+- You will have 2 - 60ml bottles of Ambrosia and 3 - 60ml bottles of Hygieia liquid enzymes remaining. You can take them the following days in 20-30 ml doses (1-3 doses daily) with 250ml (8.5 oz) of lukewarm water. Take 30 minutes before or 60 minutes after food
+- If you need assistance, please reach out to our team on Facebook ~ <https://www.facebook.com/groups/zencleanz>
+
+### When and What May I Eat/Drink to Break the Fast? (RAINBOW PLUS)
+
+You may begin to eat the morning of day 21; starting with easily digestible food is suggested: broth (chicken or veggie), fresh green juice, fruit, and steamed veggies are good options. Avoid raw food, high sugar content fruit juices, or smoothies, especially if it is determined you have internal dampness. Go slowly with small portions; no fat the first day if possible. Over the course of the week following the detox, we suggest eating liver-friendly foods as well as eating fresh and light meals. Research online for liver friendly foods and drinks/recipes and use this opportunity to make healthful changes to your diet.
+
+### May I Do a Warm Water or Coffee Enema? May I Do a Colonic? (RAINBOW PLUS)
+
+We suggest that any enema or colonic be done after the first set of detox kits are completed, the first ONE and FORGIVE (day 8 or beyond) and the body has had a chance to eliminate on its own. Keep in mind that an enema and colonic only deal with the large intestines and the elimination has to travel through the small intestines as well. Additionally, a coffee enema will stain the release. Try to refrain from doing enemas too frequently during this detox protocol. As the protocol progresses, you should feel the need for one to begin to reduce.
+
+---
 ---
 
 ## Gentle Guidance & Intuitive Listening
