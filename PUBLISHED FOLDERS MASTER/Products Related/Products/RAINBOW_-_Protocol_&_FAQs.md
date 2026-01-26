@@ -27,7 +27,7 @@ qa_pairs:
 
 ## 7-Day Deep Synergistic Journey
 
-> *"SEVEN days to restore the spectrum of your being."*
+> *"SEVEN days to restore the spectrum of your being."* 
 
 ---
 
@@ -35,7 +35,7 @@ qa_pairs:
 
 Just like light refracted through a prism reveals the full spectrum of color, RAINBOW reveals the full spectrum of your health potential, clearing, nourishing, and revitalizing every layer of your digestive, emotional, and energetic self.
 
-**This is not a diet. Not a cleanse. Not a challenge.** It is a recalibration of your core system, a reset that clears what blocks you, so your true colors can return.
+**This is not a diet; Not a cleanse. Not a challenge.** It is a recalibration of your core system, a reset that clears what blocks you, so your true colors can return.
 
 ### RAINBOW is a 7-day synergistic journey that combines the most powerful ZenCleanz tools
 
