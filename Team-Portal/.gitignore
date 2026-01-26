@@ -40,3 +40,4 @@ next-env.d.ts
 
 # Pending edits store
 .pending-edits.json
+.env*.local

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useSession } from 'next-auth/react';
-import { History, ChevronDown, ChevronUp, RotateCcw, ExternalLink, GitCommit } from 'lucide-react';
+import { History, ChevronDown, ChevronUp, RotateCcw, ExternalLink } from 'lucide-react';
 import styles from './ChangelogPanel.module.css';
 
 interface CommitEntry {
@@ -143,15 +143,10 @@ export default function ChangelogPanel() {
                   onMouseLeave={handleMouseLeave}
                 >
                   <div className={styles.entryContent}>
-                    <div className={styles.entryHeader}>
-                      <GitCommit size={12} className={styles.commitIcon} />
-                      <span className={styles.entrySha}>{commit.shortSha}</span>
-                      <span className={styles.entryDate}>{formatDate(commit.date)}</span>
-                    </div>
                     <span className={styles.entryTitle} title={commit.message}>
                       {formatMessage(commit.message)}
                     </span>
-                    <span className={styles.entryAuthor}>by {commit.author}</span>
+                    <span className={styles.entryDate}>{formatDate(commit.date)}</span>
                   </div>
                   <div className={styles.entryActions}>
                     <a
