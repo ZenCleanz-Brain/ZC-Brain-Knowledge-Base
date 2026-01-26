@@ -173,6 +173,12 @@ ZenCleanz products have not been evaluated by the FDA and are not intended to di
 
 ---
 
+## Recent FAQs
+
+
+
+---
+
 ## Last, But Not Least...
 
 We at ZenCleanz encourage you to keep learning and studying. Read the ZenCleanz website, educational articles, the forum, and social media platforms. A wealth of information is provided for you, and we encourage everyone to learn and grow into becoming their own best coach. 
