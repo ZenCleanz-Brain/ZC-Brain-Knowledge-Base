@@ -261,7 +261,6 @@ export async function getCommitHistory(limit: number = 20): Promise<CommitInfo[]
       owner,
       repo,
       sha: branch,
-      path: kbBasePath,
       per_page: limit,
     });
 
