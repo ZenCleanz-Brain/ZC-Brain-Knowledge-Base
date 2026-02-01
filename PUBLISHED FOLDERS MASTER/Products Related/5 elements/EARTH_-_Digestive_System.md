@@ -564,6 +564,7 @@ Recommendations:
 - ZenCleanz Mycelia liquid enzyme (powerful anti-inflammatory)
 - Quantum Particles digestive enzymes
 - Black Vacuum intestinal alkalinizer
+- Fiber Crystals intestinal broom
 
 Prepare with these for one month in advance.
 
