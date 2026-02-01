@@ -75,7 +75,7 @@ Create a soft, nurturing environment. This is the nurturing end to your detox da
 
 - Continue gentle abdominal massages and go out for short walks throughout the day. They are key to awakening and releasing.
 
-- **Day 2 (or longer, if you choose):** Stay on clear liquids only. ZenCleanz enzymes are best (liquid + 3 Gut Essentials). You may also have warm broths, miso, and herbal teas — this keeps your system in autophagy and continuous cleansing.
+- **Day 2 (or longer, if you choose):** Stay on clear liquids only. ZenCleanz enzymes are best (liquid + 3 Gut Essentials). You may also have warm thin broths (Chicken or Vegetable), miso, and herbal teas — this keeps your system in autophagy and continuous cleansing. We do not recommend bone or beef broth due to the fat content.
 
 - Be patient. Evacuations come when the body is ready. Transit time is unique to each person.
 
