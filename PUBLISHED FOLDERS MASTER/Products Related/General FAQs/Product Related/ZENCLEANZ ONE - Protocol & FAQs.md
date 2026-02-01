@@ -111,7 +111,7 @@ Every organ, every tissue, and all the 100 trillion cells in our body depend upo
 
 ---
 
-### What can I eat during my intestinal colon cleanse?
+### What can I eat the days before starting my intestinal colon cleanse?
 
 First, it's important to know that no matter what you eat the day before you will have results, enzymes will still do their work, however we make suggestions to maximize the effect of the intestinal colon cleanse and to ease your cleansing day. 
 
