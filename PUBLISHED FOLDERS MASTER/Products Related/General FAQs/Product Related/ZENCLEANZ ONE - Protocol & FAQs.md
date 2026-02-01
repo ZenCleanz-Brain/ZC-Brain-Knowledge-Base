@@ -133,7 +133,7 @@ Yes! You'll be drinking water all day during your cleanse, in between your drink
 
 ### What does the intestinal colon cleanse taste like?
 
-The taste can be hard to describe but the cleanse is made of fruits, vegetables, mushrooms, herbs, and seaweed. Normally people are happily surprised by the taste similar to apple, with hints of balsamic vinegar.
+There are three flavours of enzymes powders included in the ONE: plum, oat and Cocoa.
 
 ---
 
