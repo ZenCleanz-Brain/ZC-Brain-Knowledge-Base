@@ -29,6 +29,8 @@ This is your journey inward — a sacred reset from the core of your being. Toda
 
 Begin each intake by pouring lukewarm water first then adding either a sachet or liquid enzymes in a tightly sealed jar. Shake it like you're waking up the enzymes — 5–6 firm shakes.
 
+Note: The Sachets are numbered and should be taken in order.
+
 ### Morning Flow
 
 - [ ] **09:00 AM** | 250ml (8.5oz) lukewarm water + Sachet #1
