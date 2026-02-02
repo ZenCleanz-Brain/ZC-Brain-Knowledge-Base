@@ -1,21 +1,19 @@
 ---
-title: "ZenCleanz FLOW 7-Day Blood & Lymph Cleanse - Layer 4: Fire Element Detox System"
+title: "ZenCleanz FLOW 30-Day Blood & Lymph Cleanse - Layer 4: Fire Element Detox System"
 date: "2026-01-14"
-tags: ["fire-element-blood-and-lymph", "blood-cleanse", "lymph-detox", "circulatory-system", "7-day-cleanse", "systemic-enzymes", "cardiovascular-health", "immune-support", "toxin-removal"]
+tags: ["fire-element-blood-and-lymph", "blood-cleanse", "lymph-detox", "circulatory-system", "30-day-cleanse", "systemic-enzymes", "cardiovascular-health", "immune-support", "toxin-removal"]
 category: "product-guide"
-summary: "Comprehensive guide to ZenCleanz FLOW, a revolutionary 7-day cleanse designed to purify the blood and lymphatic systems using systemic enzymes and botanical ingredients. Part of the 5 Element Detox system targeting cardiovascular health and toxin elimination from the body's circulatory pathways."
-keywords: ["blood lymph cleanse", "circulatory system detox", "systemic enzyme cleanse", "cardiovascular purification", "lymphatic drainage cleanse", "7 day blood cleanse"]
+summary: "Comprehensive guide to ZenCleanz FLOW, a revolutionary 30-day cleanse designed to purify the blood and lymphatic systems using systemic enzymes and botanical ingredients. Part of the 5 Element Detox system targeting cardiovascular health and toxin elimination from the body's circulatory pathways."
+keywords: ["blood lymph cleanse", "circulatory system detox", "systemic enzyme cleanse", "cardiovascular purification", "lymphatic drainage cleanse", "30 day blood cleanse"]
 qa_pairs:
   - question: "How long does the ZenCleanz FLOW blood and lymph cleanse take?"
-    answer: "The ZenCleanz FLOW cleanse is a 7-day program that includes taking systemic enzymes and botanical blends at timed intervals throughout each day."
-  - question: "What makes ZenCleanz FLOW different from traditional blood cleansing methods?"
-    answer: "Unlike traditional methods that require 30+ days, ZenCleanz FLOW uses highly refined systemic enzymes that penetrate the bloodstream without effort, providing profound results in just 7 days with no comparable alternatives available."
+    answer: "The ZenCleanz FLOW cleanse is a 30-day program that includes taking systemic enzymes and botanical blends at timed intervals throughout each day."
   - question: "What symptoms indicate a toxic circulatory system that needs cleansing?"
     answer: "Common symptoms include fatigue, frequent infections, swollen lymph nodes, skin issues, digestive problems, headaches, joint pain, brain fog, muscle aches, and poor circulation with cold extremities."
   - question: "What dietary recommendations should be followed during the blood and lymph cleanse?"
     answer: "Focus on bitter, astringent, and naturally sweet foods like fruits, bitter gourd, carrots, beets, broccoli, and leafy vegetables, while avoiding all processed, frozen, canned, and packaged foods."
   - question: "What are the main components included in the ZenCleanz FLOW kit?"
-    answer: "The kit includes 7 sachets each of Cleansing Powder and Strengthening tablets, plus 7 bottles each of Purifying polysaccharide enzyme blend and Invigorating Blend drink, all designed to cleanse blood and lymph while improving immunity."
+    answer: "The kit includes 60 sachets of Nattoblast, plus 1 750ml bottle of Mycelia and 1 750ml bottle of Spark, all designed to cleanse blood and lymph while improving immunity."
 ---
 # ZenCleanz 5 Element Detox & Rejuvenation System
 ## Layer 4: Fire - Blood and Lymph
@@ -27,7 +25,7 @@ qa_pairs:
 2. [Traditional Chinese Medicine & Naturopathic Medicine](#traditional-chinese-medicine--naturopathic-medicine)
 3. [Anatomy & Physiology](#anatomy--physiology)
 4. [Why Cleanse](#why-cleanse)
-5. [ZenCleanz FLOW 7-Day Cleanse](#zencleanz-flow-7-day-cleanse)
+5. [ZenCleanz FLOW 30-Day Cleanse](#zencleanz-flow-30-day-cleanse)
 6. [How the Cleanse Works](#how-the-cleanse-works)
 7. [Product Components & Ingredients](#product-components--ingredients)
 8. [Blood & Lymph Maintenance Products](#blood--lymph-maintenance-products)
@@ -224,19 +222,19 @@ Taking steps to flush out accumulated toxins in the circulatory system is step 4
 
 ---
 
-## ZenCleanz FLOW 7-Day Cleanse
+## ZenCleanz FLOW 30-Day Cleanse
 
 ### Product Overview
 
-**ZenCleanz FLOW** is the fourth step to purifying the body systematically and is a 7-day cleanse designed to clear the body's rivers of life: the blood and lymph system.
+**ZenCleanz FLOW** is the fourth step to purifying the body systematically and is a 30-day cleanse designed to clear the body's rivers of life: the blood and lymph system.
 
 #### What's Included
-- 7 sachets of Cleansing Powder
-- 7 bottles of Purifying polysaccharide enzyme blend (Mycelia)
-- 7 bottles of Invigorating Blend drink
-- 7 sachets of chewable Strengthening tablets
+- 60 sachets of Nattoblast
+- 1 bottle of Mycelia
+- 1 bottle of Spark
+- 
 
-All four blends help:
+All three blends help:
 - Cleanse the blood and lymph
 - Repair and activate cellular health
 - Improve immunity
@@ -253,7 +251,7 @@ All four blends help:
 **ZenCleanz FLOW Advantage:**
 - There is no cleanse that compares to ZenCleanz FLOW
 - We are running solo on this track
-- Seven days gives profound results
+- Thirty days gives profound results
 - Enzymes are systemic - so refined they can penetrate the bloodstream without effort
 - Cleanses from the inside and the out
 - It is simply revolutionary - nothing else exists that cleanses that deep
@@ -362,7 +360,7 @@ Recommended before and during cleansing to initiate rejuvenation and regeneratio
 ### During The FLOW Blood and Lymph Cleanse
 
 #### Duration
-The FLOW blood & lymph cleanse takes 7 days to perform by taking the kit's enzymes at timed intervals throughout the day.
+The FLOW blood & lymph cleanse takes 30 days to perform by taking the kit's enzymes at timed intervals throughout the day.
 
 #### Dietary Focus
 
@@ -448,114 +446,62 @@ For daily maintenance to continue cleansing and nourishing cells systemically. I
 
 ## Product Components & Ingredients
 
-### ZenCleanz FLOW: Cleansing Powder
+### ZenCleanz Flow: Nattoblast
 
-#### Ingredients
-- Passion fruit
-- Okra
-- Apple
-- Psyllium husk
-- Protein peptides (oat, soy, and buckwheat)
-- Comprehensive protease (bromelain and papain)
+#### Ingredients:
+
+Natto Enzyme Powder, Plum Powder, Erythritol, Silicon Dioxide, Malic Acid, Reishi Fruiting Body, White Yam Extract Powder, Cassia Seed Extract, Poria Cocos Extract Powder, Hawthorn Powder, SucraloseNatto Enzyme Powder, Plum Powder, Erythritol, Silicon Dioxide, Malic Acid, Reishi Fruiting Body, White Yam Extract Powder, Cassia Seed Extract, Poria Cocos Extract Powder, Hawthorn Powder, Sucralose.
 
 #### Health Benefits
-- Promotes metabolism
-- Increases blood vessel elasticity
-- Removes blood waste
-- Improves metabolic capacity and balance (can prevent rising oxidative pressure, keep cells from being damaged, and promote health)
 
-#### Key Ingredients & Properties
 
-##### PASSION FRUIT
-**Nutritional Profile:**
-- Bursting with essential vitamins A and C
-- Fortifies immune system
-- Enhances skin health
-- Array of minerals: selenium, calcium, phosphorus, iron, and potassium
-- Abundance of amino acids, carotenoids, and superoxide dismutase (SOD)
-- Diverse range of nutrients and beneficial compounds
 
-**Benefits:**
-- Pain relief properties
-- Anti-inflammatory effects
-- Promoting better blood circulation
-- Fat reduction
-- Alleviating discomfort and inflammation
-- Promoting improved blood circulation
-- Supporting weight management
-- Boosting vitality
+- Dissolves the Blockages. 
+- Restores the Pulse of Life.
 
-##### OKRA
-**Nutritional Profile:**
-- Abundant in essential vitamins: A, C, B, and K
-- Fortifies immune system
-- Promotes radiant skin health and overall well-being
-- Mineral wealth: calcium, potassium, iron, and zinc
-- Rich content of folate and dietary fibers
+NATTOBLAST is a precision-engineered, 3-year fermented formula designed to dissolve circulatory blockages, regulate blood viscosity, and strengthen vascular resilience. Powered by nattokinase, reishi, and a blend of heart- and vessel-supporting botanicals, this formula is your natural ally for fluidity, clarity, and cardiovascular protection.
 
-**Benefits:**
-- Supports digestive health
-- Aids in smoother and more efficient digestive process
-- Antioxidant powerhouse
-- Effectively combats oxidative stress
-- Contributes to cardiovascular health
-- Regulates blood sugar
-- Enhances blood coagulation
-- Boosts immunity
-- Manages cholesterol levels
-- Ensures strength and elasticity of capillary walls
-- Promotes vitality
-- Enhances overall well-being
+- UNBLOCK & PURIFY THE BLOODSTREAM
 
-##### APPLE
-**Nutritional Profile:**
-- Essential vitamins: C, E, A, B, and K
-- Vital minerals: potassium, calcium, magnesium, and iron
-- Rich fiber content: both soluble and insoluble fibers
+• Nattokinase is one of nature’s most powerful clot-dissolving enzymes, breaking down fibrin and preventing blood stagnation.
+• Plum and cassia seed help the liver and intestines eliminate metabolic waste, clearing the burden on circulation.
+• Silicon dioxide supports gentle removal of toxic metals while strengthening arterial walls.
+This is blood purification at its finest, restoring flow to where there was friction.
 
-**Benefits:**
-- High antioxidant capacity
-- Reducing cholesterol levels
-- Minimizing risk of cancer
-- Maintaining moderate weight
-- Facilitating bowel regularity
-- Preventing constipation
-- Promotes healthy digestive system
-- Positively influences intestinal flora health
-- Essential component for improving body's natural detoxification processes
-- Supports healthy intestinal environment
+ NOURISH THE HEART & STABILIZE BLOOD PRESSURE
 
-##### PSYLLIUM HUSK
-**Nutritional Profile:**
-- Nutrient-rich addition
-- Essential minerals: potassium, calcium, and iron
-- Generous supply of dietary fibers and probiotics
+Hawthorn, White Yam, Poria Cocos, Reishi Fruiting Body
+• Hawthorn enhances heart muscle function, promotes vasodilation, and supports cholesterol metabolism.
+• Reishi and poria cocos soothe the stress axis (HPA), protecting vessels from cortisol-related constriction.
+• White yam balances hormones and minerals, reducing vascular tension and improving fluid regulation.
+This is cardiovascular nourishment—grounded, intelligent, and deeply restorative.
 
-**Benefits:**
-- Supports digestive health
-- Contributes to overall vitality
-- Aids in reducing cholesterol levels
-- Excellent choice for heart health
-- Alleviates both constipation and diarrhea
-- Effective in treatment of various intestinal issues (bowel syndromes, hemorrhoids)
-- Remarkable digestive properties
-- Regulates blood sugar levels
-- Crucial support for maintaining healthy glucose levels
-- Promotes weight loss
-- Enhanced appeal for those seeking greater health and vitality
+PROTECT, REGENERATE & ENERGIZE THE CIRCULATORY SYSTEM
 
----
+Malic Acid, Reishi, Yam, Grape Seed Extract
+• Malic acid enhances ATP production for energetic blood vessel function and oxygen delivery.
+• Reishi’s beta-glucans and antioxidants repair endothelial tissue and prevent plaque formation.
+• Yam and hawthorn contribute elasticity to vessel walls, ensuring youthful circulation under pressure.
+This is circulatory regeneration, rebuilding the terrain while keeping the current alive. 
 
-### ZenCleanz FLOW: Invigorating Blend
+THE PURPOSE:
+
+• To dissolve what's stuck—fibrin, plaque, tension, and stagnation.
+• To nourish what circulates—blood, oxygen, nutrients, and energy.
+• To protect what matters—your heart, your brain, your vessels, your flow.
+
+NATTOBLAST is ideal for those who:
+• Experience cold extremities, poor circulation, or blood pressure imbalances
+• Have a history of high cholesterol, blood viscosity, or cardiovascular stress
+• Want a natural alternative to pharmaceutical blood thinners
+• Seek to support heart-brain connection, energetic clarity, and physical vitality
+has context menu
+
+
+### ZenCleanz Flow: Spark
 
 #### Ingredients
-- Water
-- Comprehensive fruit and vegetable fermented broth (pineapple, papaya, tangerine, watermelon, tomato, brown sugar)
-- Ginger powder
-- Xylitol
-- Agaricus blazei blend powder (Blaze mushroom)
-- Black pepper extract
-- Yeast extract
+Comprehensive Vegetable And Fruit Fermentation Liquid(Pineapple, Papaya, Watermelon, Tomato, Apple, Dragon Fruit, Orange, Red Dates, Lemon, Kelp, Ginger, Carrot, Spinach, Cabbage, Yam, Goji Berry), Ginger Extract, Vitamin B Complex, Black Pepper Extra, Xylitol, Isomaltooligosaccharide, Citric Acid.
 
 #### Health Benefits
 - Can repair damaged cells
@@ -655,7 +601,7 @@ For daily maintenance to continue cleansing and nourishing cells systemically. I
 
 ---
 
-### ZenCleanz FLOW: Purifying Blend
+### ZenCleanz FLOW: Mycelia
 
 #### Ingredients
 - Shiitake mushroom
@@ -802,489 +748,13 @@ For daily maintenance to continue cleansing and nourishing cells systemically. I
 - Blood sugar regulation
 - Overall vitality
 
----
-
-### ZenCleanz FLOW: Strengthening Tablets
-
-#### Ingredients
-- Isomaltooligosaccharide
-- Rice germ
-- Soybean
-- Comprehensive fruit and vegetable powder:
-  - Apple powder
-  - Banana powder
-  - Orange powder
-  - Tangerine powder
-  - Pear powder
-  - Pineapple powder
-  - Tomato powder
-  - Carrot powder
-  - Kiwi fruit powder
-  - Pumpkin powder
-  - Strawberry powder
-  - Grapefruit powder
-  - Grape powder
-  - Broccoli powder
-  - Loquat powder
-  - Mango powder
-  - Watermelon powder
-  - Raspberry powder
-  - Cherry powder
-  - Passion fruit powder
-  - Peach powder
-  - Blueberry powder
-  - Spinach powder
-  - Cucumber powder
-  - Cantaloupe powder
-  - Shiitake mushroom powder
-  - Beetroot powder
-  - Lemon powder
-- Microcrystalline Cellulose
-- Comprehensive Enzyme Powder:
-  - Protease
-  - Lipase
-  - Alpha-amylase
-  - Lactase
-  - Cellulase
-  - Bromelain
-  - Papain
-  - Kiwi powder
-- Sodium bicarbonate
-- Calcium carbonate
-- Disodium hydrogen phosphate
-- Potassium bicarbonate
-- Potassium citrate
-- Isomaltooligosaccharide
-
-#### Health Benefits
-- Stimulates metabolism
-- Can increase vascular elasticity
-- Can clear blood toxicity
-- Can improve myocardial function
-- Can reduce systolic blood pressure
-- Can reduce blood lipid concentration
-- Can lower cholesterol levels
-- Can adjust and supplement oxygen in the blood
-- Can improve weak constitutions and boost immunity
-- Can improve the speed of aerobic metabolism in human blood
-
-#### Key Ingredients & Properties
-
-##### RICE GERM
-**Nutritional Profile:**
-- Often underrated but nutritionally potent
-- Robust array of vitamins and minerals
-- Essential vitamins: E, B1, B2, B3, and B5
-- Minerals: manganese, copper, magnesium, calcium, and potassium
-- Simple sugars, fibers, cellulose, and healthful fats
-- Nutrient-dense superfood
-- Low glycemic index
-
-**Benefits:**
-- Maintaining steady energy levels and overall health
-- High antioxidant capacity
-- Protects cell membranes
-- Contributes to prevention of heart disease and high blood pressure
-- Aiding in cholesterol balance
-- Promoting healthy gastrointestinal peristalsis
-- Wise choice for blend
-- Promoting sustained vitality
-- Cardiovascular well-being
-- Overall health
-
-##### SOYBEAN
-**Nutritional Profile:**
-- Recognized for nutritional versatility
-- Valuable dietary choice
-- Source of vitamin K
-- Contains iron
-
-**Benefits:**
-- Essential for blood clotting and bone health
-- Crucial for effective oxygen transport within bloodstream
-- Abundant in dietary fiber, proteins, and carbohydrates
-- Well-rounded source of vital nutrients
-- Preventing anemia
-- Reducing blood clots
-- Decreasing risk of heart diseases
-- Valuable addition to cardiovascular well-being
-- Unique capacity to absorb impurities within digestive system
-- Fostering gastrointestinal health
-- Promoting stomach and bowel cleansing
-- May contribute to eliminating gallstones and kidney stones
-- Enhancing urinary system health
-- Recognized as immunity booster
-- Fortifying body's natural defense mechanisms
-- Health-conscious choice
-- Extending spectrum of potential benefits in disease prevention
-- Cardiovascular support
-
-##### KIWI
-**Nutritional Profile:**
-- Vibrant and invigorating fruit
-- Rich nutritional profile
-- Vitamins, minerals, and beneficial compounds
-- Substantial vitamin C content (antioxidant)
-- Vitamins E and K
-- Essential minerals: potassium, magnesium, and copper
-- Dietary fiber, carotenoids, and polyphenols
-
-**Benefits:**
-- Balanced source of nutrients and beneficial compounds
-- Remarkable antioxidant capacity
-- Effectively combats free radicals
-- Alleviates oxidative stress
-- Serves as immunity booster
-- Supports digestive health
-- Enhances iron absorption (prevents deficiencies)
-- Promotes heart health (through potassium content)
-- Aids in wound healing
-- Partly due to vitamin C content
-- Essential for collagen production
-- Delightful choice
-- Offering bouquet of health advantages
-- Immune fortification
-- Cardiovascular support
-
-##### CARROT
-**Nutritional Profile:**
-- Vibrant orange hue and sweet flavor
-- Treasure trove of essential nutrients
-- Rich in vitamin C (potent antioxidant)
-- Vitamin A (vital for vision and overall health)
-- Abundant minerals: potassium, calcium, and iron
-- Carotene content (imparts distinct color)
-- Folic acids
-
-**Benefits:**
-- Immune fortification
-- Balanced source of nutrients
-- Many healthful advantages
-- Digestive health
-- Improved anemia
-- Overall vitality
-- Renowned for high antioxidant capacity
-- Effectively countering free radicals
-- Reducing oxidative stress
-- Potential to enhance hematopoiesis
-- Prevent vascular sclerosis
-- Ability to lower blood pressure
-- Valuable addition to blend
-
----
-
 ## Blood & Lymph Maintenance Products
-
-### Important Principle
-**Moving toxins to detox the body is not enough. We must ensure that these toxins will be channeled out of the body.**
-
-### ZenCleanz FLOW Tablets
-
-**Format:** 1g sachets of chewable tablets, mainly rice germ-rich enzymes
-
-**Recommended for:**
-- Removing waste from the blood
-- Enhancing metabolism
-- Increasing vascular elasticity
-- Reducing blood pressure
-- Reducing blood lipid concentration
-- Lowering cholesterol
-- Adjusting and supplementing oxygen in the blood
-- Improving weak constitutions and immunity
-
-### Mycelia
-
-**Format:** Liquid blend made mainly of fermented mushrooms whose main compounds are polysaccharides
-
-**Recommended for:**
-- Strengthening health
-- Counteracting weaknesses
-- Immuno-stimulating
-- Anti-tumor properties
-- Antibiotic properties
-- Antiviral properties
-- Lowering blood pressure
-- Reducing blood levels of lipids and sugar
-- Boosting immunity
-
-#### MYCELIA Ingredients
-- Shiitake mushroom
-- Straw mushroom
-- Enoki mushroom
-- Button mushroom
-- Wood ear mushroom
-- Kelp
-- Seaweed
-- Mulberry leaves
-- Wolfberry
-- Red date
-- Hibiscus sabdariffa (roselle)
-- Yam
-- Lotus seed
-- Perilla
-- Houttuynia cordata
-- Sweet basil
-- Lily
-- Black date concentrate
-- Pear
-- Pineapple
-- Watermelon
-- Papaya
-- Cantaloupe
-- Orange
-- Tangerine
-- Persimmon
-- Guava
-- Mango
-- Apple
-- Avocado
-- Mulberry
-- Starfruit
-- Plum
-- Broccoli
-- Tomato
-- Spinach
-- Pumpkin
-- Bitter gourd
-- Cabbage
-- Soybean
-- Lactobacillus paracasei
-- Lactobacillus plantarum
-- Bifidobacterium bifidum
-
-#### Key Ingredients Properties
-
-##### MUSHROOMS (Enoki, Shiitake, Straw)
-**Benefits:**
-- Diverse group of fungi with unique nutritional profiles
-- Abundant in multiple B vitamins and vital minerals (sodium, copper, potassium, iron)
-- Indispensable for bone health maintenance
-- Facilitates energy production
-- Well-deserved reputation for immune-boosting properties
-- Fortifies body's defenses against illnesses and infections
-- Associated with enhanced cognitive function
-- Potentially reducing neurodegenerative disease risk
-- Linked to reduced depression risk
-- Overall improvement in mental well-being
-- Remarkable ability to act as natural purifiers
-- Specifically targeting blood and lymphatic systems
-- Recognized for potential to assist in detoxifying circulatory systems
-- Effectively cleansing blood
-- Supporting lymphatic function
-
-##### WOOD EAR MUSHROOM
-**Benefits:**
-- Rich in vitamin K (blood clotting and bone health)
-- Iron content supports oxygen transport in bloodstream
-- Help prevent anemia
-- Aid in red blood cell production
-- Potential benefits to heart health
-- Anticoagulant properties
-- Unique capacity to absorb impurities in digestive system
-- Promotes gastrointestinal health
-- Assist in eliminating gallstones and kidney stones
-- Enhancing urinary system health
-- Recognized as immune system boosters
-- Enhance body's natural defense mechanisms
-- Distinctive and nutritionally robust approach
-- Particular focus on heart health
-- Various facets of well-being
-
-##### HIBISCUS (ROSELLE)
-**Nutritional Profile:**
-- Essential vitamins: C and B
-- Vital minerals: potassium, iron, and phosphorus
-- Notably distinguished by abundance of flavonoids, phenolic acids, antioxidants, and anthocyanins
-- Diverse array of beneficial compounds
-
-**Benefits:**
-- Lowering blood pressure
-- Balancing blood lipids
-- Supporting liver health
-- Promoting weight loss
-- Exhibiting potential antibacterial and anticancer properties
-- Capacity to balance blood lipid levels
-- Reducing "bad" LDL cholesterol and triglycerides
-- Contributing to cardiovascular health
-- Helping pursue healthier lifestyle
-- Support to liver health
-- Essential for detoxification
-- Maintaining liver's crucial functions
-- Further underlining significance in blend
-- Potential to promote weight loss (by inhibiting carbohydrate absorption)
-- Aligning with individuals aiming for healthier body weight management
-- Intriguing properties (inhibiting growth of bacteria and cancer cells)
-- Compelling inclusion
-- Adding depth to potential health benefits
-
-##### RED DATES
-**Nutritional Profile:**
-- Packed with essential B-complex vitamins and vitamin C
-- Mineral-rich composition: iron, calcium, selenium, potassium, and magnesium
-- Abundant in dietary fiber, flavonoids, and polysaccharides
-- Diverse array of nutrients and beneficial compounds
-
-**Benefits:**
-- Bolstering overall well-being
-- Supporting immune system
-- Vital in various bodily functions
-- High antioxidant capacity
-- Effectively neutralizing free radicals
-- Reducing oxidative stress
-- May ally against inflammation
-- Promote better sleep quality
-- Aiding in blood sugar regulation
-- Offering potential stress relief
-- Enhancing blend's capacity to promote holistic health
-- Enriching one's journey toward well-balanced, vibrant, and health-conscious lifestyle
-
-### FLOW Fruit Powder
-
-**Format:** 20g concentrated passion fruit powder sachet, rich in nutrients and antioxidant enzymes
-
-**Recommended for:**
-- Stimulating metabolism
-- Increasing blood vessel elasticity
-- Removing blood waste
-- Preventing rising oxidative pressure
-- Promoting health
-
----
-
-## ZenCleanz FLOW: Cleansing Fruit Powder (Maintenance)
-
-#### Ingredients
-- Passion fruit
-- Okra
-- Apple
-- Psyllium husk
-- Protein peptides (oat, soy, and buckwheat)
-- Comprehensive protease (bromelain and papain)
-
-#### Key Ingredients & Properties
-
-##### PASSION FRUIT
-**Nutritional Profile:**
-- Bursting with essential vitamins A and C
-- Fortifies immune system
-- Enhances skin health
-- Array of minerals: selenium, calcium, phosphorus, iron, and potassium
-- Abundance of amino acids, carotenoids, and superoxide dismutase (SOD)
-- Diverse range of nutrients and beneficial compounds
-
-**Benefits:**
-- Pain relief properties
-- Anti-inflammatory effects
-- Promoting better blood circulation
-- Fat reduction
-- Enriches blend with versatile array of nutrients
-- Beneficial compounds
-- Alleviating discomfort and inflammation
-- Promoting improved blood circulation
-- Supporting weight management
-- Boosting vitality
-- Amplifies blend's potential to enhance overall well-being
-
-##### OKRA
-**Nutritional Profile:**
-- Abundant in essential vitamins: A, C, B, and K
-- Fortifies immune system
-- Promotes radiant skin health and overall well-being
-- Mineral wealth: calcium, potassium, iron, and zinc
-- Rich content of folate and dietary fibers
-
-**Benefits:**
-- Supports digestive health
-- Aids in smoother and more efficient digestive process
-- Antioxidant powerhouse
-- Effectively combats oxidative stress
-- Contributes to cardiovascular health
-- Ability to regulate blood sugar
-- Enhance blood coagulation
-- Boost immunity
-- Manages cholesterol levels
-- Ensures strength and elasticity of capillary walls
-- Exceptional choice to enhance blend's commitment
-- Optimizing health and overall well-being
-
-##### OAT PROTEIN PEPTIDES
-**Nutritional Profile:**
-- Nutritional powerhouse
-- Rich in protein
-- Provide essential building blocks for the body
-
-**Benefits:**
-- Act as immunity booster
-- Strengthening body's defenses
-- Play vital role in detoxification
-- Help rid body of harmful substances
-- Promote overall well-being
-- Contribute to lower blood lipids
-- Support cardiovascular health
-- Assist in maintaining moderate weight
-- Remarkable ability to regulate blood sugar levels
-- Standout inclusion within blend
-- Actively managing and optimizing health
-- Added benefit of supporting detoxification
-
-##### PSYLLIUM HUSK
-**Nutritional Profile:**
-- Nutrient-rich addition
-- Essential minerals: potassium, calcium, and iron
-- Generous supply of dietary fibers and probiotics
-
-**Benefits:**
-- Supports digestive health
-- Contributes to overall vitality
-- Versatile benefits
-- Aids in reducing cholesterol levels
-- Excellent choice for heart health
-- Ability to alleviate both constipation and diarrhea
-- Effective in treatment of various intestinal issues (bowel syndromes, hemorrhoids)
-- Remarkable digestive properties
-- Plays pivotal role in regulating blood sugar levels
-- Crucial support for individuals maintaining healthy glucose levels
-- Role in promoting weight loss
-- Enhanced appeal for those seeking greater health and vitality
-
----
-
-## FAQ
-
-### Questions Often Asked About ZenCleanz FLOW Ingredients
-
-#### Ingredient Explanations
-
-**Isomalto-oligosaccharide:**
-- Food ingredient added to various foods as either powder or syrup
-- Used for its powerful prebiotic properties
-
-**Sodium bicarbonate:**
-- Added to natural supplements to regulate pH levels
-- Supports kidney health
-
-**Potassium citrate:**
-- Added to support electrolyte balance
-- Blood pressure management
-- Overall well-being
-- Plays crucial role in various bodily functions
-
-**Disodium hydrogen phosphate:**
-- Added to natural supplements to enhance nutrient absorption
-- Regulate pH levels
-- Maintain electrolyte balance
-- Potentially support bone health
-
-**Microcrystalline Cellulose:**
-- Acts as binding agent
-- Holds various components of supplement together
-- Forms cohesive tablet
 
 ### Frequently Asked Questions
 
 #### What are some possible detoxification symptoms?
 
-The FLOW Blood & Lymph cleanse helps cleanse the blood and lymph system and boost microcirculation. You will likely feel lighter and clearer as the 7-day cleanse progresses.
+The FLOW Blood & Lymph cleanse helps cleanse the blood and lymph system and boost microcirculation. You will likely feel lighter and clearer as the 30-day cleanse progresses.
 
 **You may experience detoxification reactions such as:**
 - Fullness
@@ -1296,28 +766,29 @@ As the body begins to balance, remember that:
 - Circulation will improve in stagnant areas
 - Detoxification symptoms will always reflect the body's work toward balancing
 
-#### Can a FLOW kit be done before an intestinal or liver cleanse?
+#### Can the FLOW protocol be done before an intestinal or liver detox?
 
 Yes, however, we invite you to start at the beginning and clear the digestive system detox pathways first.
 
-#### How can I maximize the benefit of this cleanse? Can I add extra enzymes to the FLOW kit?
+#### How can I maximize the benefit of this cleanse? Can I add extra enzymes to the FLOW protocol?
 
 You can maximize the benefits by:
-1. Dry skin brushing before you take the invigorating drink
+1. Dry skin brushing before you take the Spark drink
+
 2. Getting into a sauna after the rushing feeling is over (if you have access to one)
 3. If there is no sauna access, take a hot mineral bath
 
 **Additional Tips:**
 - Boosting circulation and lymph flow through dry brushing, then sweating is a great way to augment this cleanse
-- One is always welcome to add other enzymes (liquid and sachets) to this cleanse
+- We generally recommend to do the protocol stanbd alone the first time but after this you are welcome to add other enzymes (liquid and sachets) to this protocol.
 - Remember to spread enzyme intake throughout the day
 
 #### May I do other cleanses at the same time?
 
 The ZenCleanz 5 Element Detox kits can be layered together; however:
-- When doing the ONE intestinal cleanse, focus only on that cleanse for that day
-- After the intestinal cleanse, one may layer the other cleanse protocols on the same day
-- If you begin with the ONE intestinal cleanse as a part of the RAINBOW cleanse, you can start layering the other 5 Elements Detox kits on day two
+- When doing the ONE intestinal detox or the FORGIVE liver detox, focus only on that detox for that day
+- We recommend to first to each protocol standalone. After that, askide from the ONE and FORGIVE, you may layer the other protocols on the same day. Space each dose away from each other.
+
 - Don't combine the different kits' enzymes, but spread enzyme intake throughout the day
 
 #### What can I do to maintain what I have accomplished with the FLOW kit?
