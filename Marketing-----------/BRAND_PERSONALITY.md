@@ -22,22 +22,22 @@ qa_pairs:
 ## Table of Contents
 
 1. [Introduction](#introduction)
-  2. [Brand Personality](#brand-personality)
-  3. [Pioneering Innovation:](#pioneering-innovation)
-  4. [Balanced Lifestyle:](#balanced-lifestyle)
-  5. [Prosperity Mindset:](#prosperity-mindset)
-  6. [Mindful Awareness:](#mindful-awareness)
-  7. [Holistic Wealth:](#holistic-wealth)
-  8. [Language & Tone of Voice](#language-tone-of-voice)
-  9. [Innovative & Forward Thinking:](#innovative-forward-thinking)
-  10. [Action-Oriented:](#action-oriented)
-  11. [Reassuring:](#reassuring)
-  12. [Dynamic:](#dynamic)
-  13. [Respectful & Compassionate:](#respectful-compassionate)
-  14. [Trustworthy & Transparent:](#trustworthy-transparent)
-  15. [Educational, Clear & Accessible:](#educational-clear-accessible)
-  16. [Specific Guidance for Interaction](#specific-guidance-for-interaction)
-  17. [Final Thought](#final-thought)
+2. [Brand Personality](#brand-personality)
+   - [Pioneering Innovation](#pioneering-innovation)
+   - [Balanced Lifestyle](#balanced-lifestyle)
+   - [Prosperity Mindset](#prosperity-mindset)
+   - [Mindful Awareness](#mindful-awareness)
+   - [Holistic Wealth](#holistic-wealth)
+3. [Language & Tone of Voice](#language--tone-of-voice)
+   - [Innovative & Forward Thinking](#innovative--forward-thinking)
+   - [Action-Oriented](#action-oriented)
+   - [Reassuring](#reassuring)
+   - [Dynamic](#dynamic)
+   - [Respectful & Compassionate](#respectful--compassionate)
+   - [Trustworthy & Transparent](#trustworthy--transparent)
+   - [Educational, Clear & Accessible](#educational-clear--accessible)
+4. [Specific Guidance for Interaction](#specific-guidance-for-interaction)
+5. [Final Thought](#final-thought)
 
 ---
 
@@ -47,7 +47,7 @@ We need to develop a well-aligned, consistent approach when engaging with our au
 
 ---
 
-### Brand Personality
+## Brand Personality
 
 ZenCleanz’s personality is rooted in specific values and traits that we want to reflect in every message, campaign, and sales interaction. Here’s how we communicate the essence of our brand:
 
@@ -71,7 +71,7 @@ With mindfulness being central to ZenCleanz’s philosophy, we want our audience
 
 Wealth is more than money – it’s a reflection of health and well-being. ZenCleanz defines wealth through the cultivation of mind, body, and spirit. Frame your messaging to convey that wealth is achieved through holistic practices, focusing on health as a source of true abundance.
 
-### Language & Tone of Voice
+## Language & Tone of Voice
 
 ZenCleanz’s communication tone is essential to ensuring the brand resonates with our audience. Here’s how to use the following voice characteristics in your communication:
 
@@ -103,7 +103,7 @@ Be open and honest in every interaction. Customers need to feel they can trust Z
 
 Our messaging should always focus on educating the audience. We are more than just a wellness brand; we are a source of valuable information. Use clear and simple language to explain how our detox systems and products work, making the science behind them accessible to everyone. Aim to empower the consumer with knowledge that leads them to make informed decisions about their health.
 
-### Specific Guidance for Interaction
+## Specific Guidance for Interaction
 
 **Be Empowering**: From sales conversations to marketing campaigns, always encourage customers to take charge of their own health. Focus on how our products help them unlock their potential and improve their quality of life.
 
@@ -115,7 +115,7 @@ Our messaging should always focus on educating the audience. We are more than ju
 
 **Promote a Sense of Community**: Encourage customers to feel part of the ZenCleanz family. Our community is a place where like-minded individuals share their wellness journeys. Use language that fosters inclusivity, support, and connection.
 
-### Final Thought
+## Final Thought
 
 Every interaction with a customer should reflect ZenCleanz’s holistic, empowering, and innovative ethos. Whether in direct sales, digital content, or community engagement, our goal is to inspire individuals to take charge of their health in a way that feels authentic, informed, and aligned with their personal journey.
 
