@@ -39,12 +39,16 @@ There is no rigid clock. Simply choose times that harmonize with your rhythm and
 
 ### Morning: NATTOBLAST
 
+NattoBlast-1 Sachet
+Pour into 250ml (8.5oz) lukewarm water
 Stir, sip, and let it awaken your bloodstream like sunlight through branches.
 
 ---
 
 ### Mid-Morning: MYCELIA
 
+Take 25ml(5tsp)
+Pour into 250ml (8.5oz) lukewarm water
 Feel it ground you, cool inflammation, and infuse your system with the quiet wisdom of medicinal mushrooms.
 
 ---

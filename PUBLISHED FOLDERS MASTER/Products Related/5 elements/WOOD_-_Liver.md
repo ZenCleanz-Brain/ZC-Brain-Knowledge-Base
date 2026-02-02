@@ -560,7 +560,7 @@ These 2 bottles that one mixes together constitute "THE FLUSH." These are to sti
 
 **BOTTLE B:**
 - Olive oil
-- Concentrated lemon juice
+- Concentrated lime juice
 
 #### Key Ingredients & Properties
 
@@ -693,39 +693,10 @@ These 2 bottles that one mixes together constitute "THE FLUSH." These are to sti
 
 #### Ingredients
 
-- Pineapple
-- Apple
-- Papaya
-- Grape
-- Tomato
-- Star fruit
-- Lemon
-- Banana
-- Dragon fruit
-- Guava
-- Watermelon
-- Mulberry
-- Kiwi
-- Passion fruit
-- Orange
-- Plum
-- Hawthorn
-- Chinese cabbage
-- Black dates
-- Cantaloupe
-- Pumpkin
-- Spinach
-- Carrot
-- Bitter gourd
-- Lettuce
-- Sorbitol
-- Isomaltooligosaccharide
-- Lactitol
-- Black sugar
-- Arabinose
-- Lactobacillus acidophilus
-- Lactobacillus plantarum
-- Lactobacillus Bifidobacterium
+- HYGIEIA
+
+Ginger, Tumeric, Chinese Cabbage, Grapefruit, Papaya, Pineapple, Pumpkin, Mandarin, Tomato, Natural Sucrose, Apple, Avocado, Cantaloupe, Dragon Fruit, Grape, Guava, Jackfruit, Kiwi, Lemon, Longan, Mango, Mulberry, Orange, Pear, Star Fruit, Straw Mushroom, Strawberry, Sugar Cane, Watermelon, Asparagus, Lettuce, Black Bean, Black Fungus, Black Date, Cabbage, Mustard, Cauliflower, Horned Melon, Corn, Chayote Leaves, Lantern Mushroom, Hawthorn, Lotus Root, Mint, Mulberry Leaves, Mushroom, Pea, Purslane, Roselle, Shiitake Mushroom, Soybean, Spinach, Sweet Potato, Sweet (Red) Pepper, Yam, Brown Sugar, Arabinose, Lactobacillus Bifidum, Lactobacillus Paracasei, Lactobacillus Plantarum
+
 
 #### Function in Kit
 
@@ -1249,26 +1220,8 @@ It mainly comprises rice germ enzymes supplemented with natural fruit and vegeta
 
 #### Ingredients
 
-- Rice germ powder
-- Papaya extract
-- Pineapple extract
-- Comprehensive enzyme powder:
-  - Pineapple
-  - Papaya
-  - Apple
-  - Blueberry
-  - Lemon
-  - Kiwi
-  - Grape
-  - Strawberry
-  - Tomato
-  - Carrot
-  - Lettuce
-  - Parsley
-  - Spinach
-  - Pumpkin
-  - Corn
-  - Cauliflower
+- Rice Germ Enzyme, Apple, Asparagus Lettuce, Blueberry, Carrot, Grape, Kiwi, Lemon, Strawberry, Tomato, Papaya Extract, Pineapple Extract, Cauliflower, Celery, Corn, Pumpkin, Spinach, Enoki Mushroom, Comprehensive Enzyme Powder TW-080, Whey Protein.
+
 
 #### Key Ingredients & Properties
 
@@ -1406,39 +1359,9 @@ It contains fruits, vegetables, herbs, mushrooms, seaweed, and all types of food
 
 #### Ingredients
 
-- Pineapple
-- Apple
-- Papaya
-- Grape
-- Tomato
-- Star fruit
-- Lemon
-- Banana
-- Dragon fruit
-- Guava
-- Watermelon
-- Mulberry
-- Kiwi
-- Passion fruit
-- Orange
-- Plum
-- Hawthorn
-- Chinese cabbage
-- Black dates
-- Cantaloupe
-- Pumpkin
-- Spinach
-- Carrot
-- Bitter gourd
-- Lettuce
-- Sorbitol
-- Isomaltooligosaccharide
-- Lactitol
-- Black sugar
-- Arabinose
-- Lactobacillus acidophilus
-- Lactobacillus plantarum
-- Lactobacillus Bifidobacterium
+HYGIEIA:
+
+Ginger, Tumeric, Chinese Cabbage, Grapefruit, Papaya, Pineapple, Pumpkin, Mandarin, Tomato, Natural Sucrose, Apple, Avocado, Cantaloupe, Dragon Fruit, Grape, Guava, Jackfruit, Kiwi, Lemon, Longan, Mango, Mulberry, Orange, Pear, Star Fruit, Straw Mushroom, Strawberry, Sugar Cane, Watermelon, Asparagus, Lettuce, Black Bean, Black Fungus, Black Date, Cabbage, Mustard, Cauliflower, Horned Melon, Corn, Chayote Leaves, Lantern Mushroom, Hawthorn, Lotus Root, Mint, Mulberry Leaves, Mushroom, Pea, Purslane, Roselle, Shiitake Mushroom, Soybean, Spinach, Sweet Potato, Sweet (Red) Pepper, Yam, Brown Sugar, Arabinose, Lactobacillus Bifidum, Lactobacillus Paracasei, Lactobacillus Plantarum
 
 #### Health Benefits
 - Helps pursue detoxification

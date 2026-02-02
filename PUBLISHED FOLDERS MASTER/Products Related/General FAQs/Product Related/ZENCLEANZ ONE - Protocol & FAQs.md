@@ -29,6 +29,8 @@ This is your journey inward — a sacred reset from the core of your being. Toda
 
 Begin each intake by pouring lukewarm water first then adding either a sachet or liquid enzymes in a tightly sealed jar. Shake it like you're waking up the enzymes — 5–6 firm shakes.
 
+Note: The Sachets are numbered and should be taken in order.
+
 ### Morning Flow
 
 - [ ] **09:00 AM** | 250ml (8.5oz) lukewarm water + Sachet #1
@@ -73,7 +75,7 @@ Create a soft, nurturing environment. This is the nurturing end to your detox da
 
 - Continue gentle abdominal massages and go out for short walks throughout the day. They are key to awakening and releasing.
 
-- **Day 2 (or longer, if you choose):** Stay on clear liquids only. ZenCleanz enzymes are best (liquid + 3 Gut Essentials). You may also have warm broths, miso, and herbal teas — this keeps your system in autophagy and continuous cleansing.
+- **Day 2 (or longer, if you choose):** Stay on clear liquids only. ZenCleanz enzymes are best (liquid + 3 Gut Essentials). You may also have warm thin broths (Chicken or Vegetable), miso, and herbal teas — this keeps your system in autophagy and continuous cleansing. We do not recommend bone or beef broth due to the fat content.
 
 - Be patient. Evacuations come when the body is ready. Transit time is unique to each person.
 
@@ -109,7 +111,7 @@ Every organ, every tissue, and all the 100 trillion cells in our body depend upo
 
 ---
 
-### What can I eat during my intestinal colon cleanse?
+### What can I eat the days before starting my intestinal colon cleanse?
 
 First, it's important to know that no matter what you eat the day before you will have results, enzymes will still do their work, however we make suggestions to maximize the effect of the intestinal colon cleanse and to ease your cleansing day. 
 
@@ -131,7 +133,7 @@ Yes! You'll be drinking water all day during your cleanse, in between your drink
 
 ### What does the intestinal colon cleanse taste like?
 
-The taste can be hard to describe but the cleanse is made of fruits, vegetables, mushrooms, herbs, and seaweed. Normally people are happily surprised by the taste similar to apple, with hints of balsamic vinegar.
+There are three flavours of enzymes powders included in the ONE: plum, oat and Cocoa.
 
 ---
 

@@ -29,6 +29,8 @@ Today, you offer your liver what it rarely receives – deep acknowledgment. Thr
 
 Each intake is a conscious act. First pour lukewarm water into a jar, then add either a sachet or liquid enzymes in a tightly sealed jar. Shake it with intention - like you're waking up the enzymes — 5–6 firm shakes.
 
+Note:The sachets are numbered
+
 ### Morning Flow
 
 - [ ] **09:00 AM** | 250ml (8.5 oz) lukewarm water + Sachet #1 & #2

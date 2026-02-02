@@ -23,7 +23,7 @@ qa_pairs:
   - question: "What should I do if I experience detox symptoms like headaches or nausea?"
     answer: "Detox headaches, heartburn, and nausea are common symptoms of toxins moving through the body and will pass. Helpful tools include castor oil packs, heating pads, abdominal massage, more warm water, and light movement like walking."
 ---
-# ZENCLEANZ RAINBOW PROTOCOL BUNDLE
+# ZENCLEANZ RAINBOW PROTOCOL BUNDLE 
 
 ## 7-Day Deep Synergistic Journey 
 
