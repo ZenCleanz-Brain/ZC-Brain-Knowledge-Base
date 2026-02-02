@@ -336,13 +336,16 @@ Pineapple, Papaya, Watermelon, Orange, Lemon, Ginger, Pear, Apple, Kiwi, Bitter 
 
 **Ingredients**: 
 
-Cacao flavor
+Cacao flavor: 
+
 Apple Fiber, Blueberry Powder, Raspberry Fiber Powder, Strawberry Fiber Powder, Psyllium Seed Powder, Psyllium Husk Powder, Bromelain, Cacao Butter, Glucose, Lactobacillus Acidophilus (LA1063), Bifidobacterium Longum
 
-Oat Flavor
+Oat Flavor: 
+
 Apple Fiber, Oat Fiber, Blueberry Powder, Oat Flour, Psyllium Seed Powder, Psyllium Husk Powder, Bromelain, Comprehensive Fruit And Vegetable Powder, Lactobacillus Acidophilus (LA1063), Bifidobacterium Longum
 
-Plum Flavor
+Plum Flavor: 
+
 Green Plum Powder, Bitter Melon, Kiwi, Papaya, Guar Gum, Apple Fiber, Brown Algae, Celery, Psyllium Husk Powder, Corn Fiber, Lactobacillus Acidophilus (LA1063), Glucose, Bifidobacterium Longum
 
 
