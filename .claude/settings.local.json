@@ -19,8 +19,25 @@
       "Bash(timeout /t 10 /nobreak)",
       "Skill(ralph-loop:ralph-loop)",
       "Skill(ralph-loop:ralph-loop:*)",
-      "mcp__plugin_context7_context7__query-docs"
+      "mcp__plugin_context7_context7__query-docs",
+      "Skill(zen)",
+      "Skill(zen:*)"
     ]
   },
-  "outputStyle": "Explanatory"
+  "outputStyle": "Explanatory",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe -ExecutionPolicy Bypass -File \"${CLAUDE_PROJECT_DIR}/.claude/hooks/check-accounts.ps1\"",
+            "timeout": 15000,
+            "statusMessage": "Checking account connections..."
+          }
+        ]
+      }
+    ]
+  }
 }
