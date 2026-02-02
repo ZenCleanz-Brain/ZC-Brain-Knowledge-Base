@@ -25,7 +25,7 @@ qa_pairs:
 2. [Traditional Chinese Medicine & Naturopathic Medicine](#traditional-chinese-medicine--naturopathic-medicine)
 3. [Anatomy & Physiology](#anatomy--physiology)
 4. [Why Cleanse](#why-cleanse)
-5. [ZenCleanz FLOW 7-Day Cleanse](#zencleanz-flow-7-day-cleanse)
+5. [ZenCleanz FLOW 30-Day Cleanse](#zencleanz-flow-30-day-cleanse)
 6. [How the Cleanse Works](#how-the-cleanse-works)
 7. [Product Components & Ingredients](#product-components--ingredients)
 8. [Blood & Lymph Maintenance Products](#blood--lymph-maintenance-products)
