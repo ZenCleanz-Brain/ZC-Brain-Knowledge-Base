@@ -135,9 +135,9 @@ All lead to **BACKUP** in the system.
 ZenCleanz **ONE** is a revolutionary digestive system cleanse that addresses mucoid plaque accumulation from the mouth to the anus in **one day**.
 
 This power-packed plant-based fermented enzyme cleanse contains only all-natural, chemical-free ingredients. It is composed of three products:
-1. **Ambrosia** (liquid)
-2. **Intestinal Management** (powder)
-3. **Fiber Crystals** (powder)
+1. **3 Ambrosia** (60ml)
+2. **8 Intestinal Management** (15g)
+3. **Fiber Crystals** (3g)
 
 ### What It Does
 
