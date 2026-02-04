@@ -14,8 +14,7 @@ qa_pairs:
     answer: "Unlike traditional methods that only cleanse kidneys through dietary restrictions, ORIGIN focuses on kidney regeneration using fermented plant enzymes that penetrate the bloodstream to initiate systemic purification while nourishing cells."
   - question: "What dietary recommendations should be followed during the kidney cleanse?"
     answer: "Focus on antioxidant-rich foods like apples, berries, kale, and green leafy vegetables while limiting salt, animal protein, high-sugar foods, and processed foods. Also avoid alcohol, caffeine, and smoking."
-  - question: "What is the significance of Black Maca in the JīNG Enzyme Tablets?"
-    answer: "Black Maca is an adaptogenic plant rich in vitamins B1, B2, and C that regulates various functions, increases energy, strengthens endocrine glands, helps restore sexual energy, and regulates the nervous system."
+  
 ---
 # ZenCleanz 5 Element Detox & Rejuvenation System
 ## Layer 5: Water - Kidneys
@@ -337,7 +336,7 @@ The ORIGIN cleanse contains three products:
    - Each bottle fermented from 10-12 Roxburgh Pears
    - Provides comprehensive antioxidant support
 
-3. **JīNG Enzyme Tablets** - Powerhouse of vitality
+3. **JīNG Enzyme Capsules** - Powerhouse of vitality
    - Help restore kidney essence
    - Strengthen kidney function
    - Promote circulation
@@ -528,46 +527,7 @@ You can evaluate your health based on the last 30 days.
 
 #### Ingredients
 
-- Microcrystalline Cellulose
-- Black Maca Extract (Black Maca Extract, Maltodextrin)
-- Multi amino acids:
-  - L-Glutamic acid
-  - L-Aspartic acid
-  - L-Proline
-  - L-leucine
-  - Glycine
-  - L-Valine
-  - Hydrochloric acid
-  - L-Lysine monohydrochloride
-  - L-Isoleucine
-  - L-Threonine
-  - L-Arginine
-  - L-Histidine
-  - L-Phenylalanine
-  - DL-Methionine
-  - L-Tyrosine
-  - L-Tryptophan
-- Arginine
-- Taurine
-- Ginseng Extract
-- Wolfberry Extract (Wolfberry Extract, Maltodextrin)
-- Isomaltooligosaccharides
-- Raspberry Extract Powder
-- Nicotinic Acid
-- Fenugreek extract (Fenugreek extract, Dextrin)
-- Clove powder
-- Cumin extract (Cumin extract, Maltodextrin)
-- Multivitamin B complex:
-  - Riboflavin
-  - Vitamin B6
-  - Nicotinamide
-  - Vitamin B1
-  - Vitamin B12
-  - Calcium Pantothenate
-  - Folic acid
-  - Biotin
-- Zinc Yeast
-- Cinnamon Extract (Cinnamon Extract, Maltodextrin)
+- Ginseng Extract, Raspberry Extract Powder, Goji Berry Extract (Goji Berry Extract, Dextrine résistante), Clove Powder, Cumin Extract (Cumin Extract, Dextrine résistante), Cinnamon Extract (Cinnamon Extract, Dextrine résistante), Microcrystalline Cellulose, Arginine, Taurine, Zinc Yeast, Silicon Dioxide, Magnesium Stearate, Fenugreek Extract, Multi-Amino Acids (Dextrine résistante, L-Glutamic Acid, L-Aspartic Acid, L-Proline, L-Leucine, Glycine, L-Valine, Hydrochloric Acid, L-Lysine Hydrochloride, L-Isoleucine, L-Threonine, L-Arginine, L-Histidine, L-Phenylalanine, DL-Methionine, L-Tyrosine, L-Tryptophan Acid), Multi-Vitamin B Complex (Riboflavin, Vitamin B6, Niacinamide, Vitamin B1, Vitamin B12, Calcium Pantothenate, Folic Acid, Biotin), Isomalto Oligosaccharide.
 
 #### Health Benefits
 - Promotes blood circulation
@@ -577,23 +537,6 @@ You can evaluate your health based on the last 30 days.
 
 #### Key Ingredients & Properties
 
-##### BLACK MACA
-**Description:**
-Maca is an adaptogenic plant (can adapt to stress).
-
-**Nutritional Profile:**
-- Rich in vitamins B1, B2, and C
-- Increases resistance to stress and immunity
-- One of rare species that can adapt to extreme climate of Andes mountains
-- Superior tonic
-
-**Benefits:**
-- Regulates various functions
-- Increases energy
-- Promotes overall health
-- Strengthens endocrine glands
-- Helps restore sexual energy
-- Regulates nervous system
 
 ##### FENUGREEK
 **Description:**
@@ -654,8 +597,7 @@ Highly appreciated for fragrant flavor in cooking.
 
 #### Ingredients
 
-- Roxburgh Rose Pear
-- Isomaltooligosaccharide
+- Rosa Roxburghii Tratt Fermented Liquid, Isomalto Oligosaccharide, Lactobacillus Acidophilus (LA1063), Bifidobacterium Longum
 
 #### Health Benefits
 - Promotes liver detoxification
@@ -745,34 +687,8 @@ IMOs are low-calorie, soluble fiber in honey, miso, and fermented foods.
 
 #### Ingredients
 
-- Maca
-- Pineapple
-- Papaya
-- Black sugar
-- Isomaltooligosaccharide
-- Apple
-- Tomato
-- Dragon fruit
-- Mulberry
-- Kiwi
-- Passion fruit
-- Pumpkin
-- Green pepper
-- Spinach
-- Carrot
-- Seaweed
-- Mushroom
-- Onion
-- Bitter gourd
-- Cabbage
-- Grape seed extract
-- Chive seed extract
-- Cistanche tubulosa extract
-- Cnidium monnieri extract
-- Rhodiola extract
-- Rice bran soybean extract
-- L-arginine
-- Coenzyme Q10
+- Maca, pineapple, papaya, black sugar, isomaltooligosaccharide, apple, tomato, dragon fruit, mulberry, kiwi, passion fruit, pumpkin, green pepper, spinach, carrot, seaweed, mushroom, onion, bitter gourd, cabbage, grape seed extract, chive seed extract, cistanche tubulosa extract, cnidium monnieri extract, rhodiola extract, rice bran soybean extract, L-arginine, Coenzyme Q10.
+
 
 #### Health Benefits
 - Regulates endocrine system
@@ -1128,7 +1044,7 @@ Aztec prickly pear enzyme blend is rich in antioxidants, with each bottle fermen
 
 For detailed ingredient information, see Aztec Liquid section above.
 
-### ZenCleanz JING - Enzyme Tablets
+### ZenCleanz JING - Enzyme Capsules
 
 #### Recommended For
 
