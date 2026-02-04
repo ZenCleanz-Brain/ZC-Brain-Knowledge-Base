@@ -66,7 +66,7 @@ Gradually since birth, we've been eating, digesting, and expelling feces—but n
 - Exchange happens with the bloodstream
 - Clogging creates malabsorption and weakens overall energy and health
 
-Like a sewage pipe, accumulated waste gradually accumulates along the intestinal lining, creating **"mucoid plaque."** This blocks the intestinal tract and creates toxic backups in the system.
+Like a sewage pipe, accumulated waste gradually accumulates along the small intestinal lining, creating **"mucoid plaque."** This blocks the intestinal tract and creates toxic backups in the system.
 
 ---
 
@@ -132,7 +132,7 @@ All lead to **BACKUP** in the system.
 
 ### Overview
 
-ZenCleanz **ONE** is a revolutionary digestive system cleanse that addresses mucoid plaque accumulation from the mouth to the anus in **one day**.
+ZenCleanz **ONE** is a revolutionary digestive system cleanse that addresses mucoid plaque accumulation from the enitre gastrointestinal (GI) tract in **one day**.
 
 This power-packed plant-based fermented enzyme cleanse contains only all-natural, chemical-free ingredients. It is composed of three products:
 1. **3 bottles Ambrosia** (60ml each)
@@ -178,7 +178,7 @@ Together, these enzymes:
 
 ### Benefits
 
-- **100% Organic plant-based**
+- **100% plant-based, whole foods**
 - Smoothes the cleansing process
 - Releases are seen in the day(s) following
 - Keeping a liquid diet for a few days after helps eliminate more plaque
@@ -208,7 +208,7 @@ Together, these enzymes:
 
 - **No need to fast** before the ONE intestinal cleanse
 - *No matter what you eat the day before, you will have results; enzymes will still work*
-- **Maximize effect**: Eating lightly for many days before helps calm the mind, reduce inflammation, and boost effectiveness
+- **Maximize effect**: Eating lightly for a few days before helps calm the mind, reduce inflammation, and boost effectiveness
 - **Optional preparation**: Minimize food intake; avoid heavy proteins (meat, beans, nuts) that require more digestion
 
 ### During the Cleanse
@@ -217,14 +217,14 @@ Together, these enzymes:
 - **You won't feel hungry** when performing the ONE kit, as enzymes are food
 - ZenCleanz liquid enzymes will keep you quite full
 - Self-care protocols are included in the day's schedule
-- Focus on abdominal massage, stretching, self-awareness, and letting go of surfacing emotions
+- Focus on abdominal massage, stretching, self-awareness, recognizing and letting go of surfacing emotions
 - Focusing on breath and center is helpful when cleansing responses arise
 - You can also use heating pad, warm baths, and rest
 - **Cleansing is a wonderful time to focus on self-care**
 
 ### After the Cleanse
 
-- Mucoid plaque is typically eliminated the following day (day 2), with some eliminating on day 3 
+- Mucoid plaque is typically eliminated the following day (day 2), with some eliminating on day 3, even days 4, 5, and beyond
 - **If you begin eating right after the cleanse, enzymes will stop cleansing and move into digestion mode**
 - Maintaining a fasting state and liquid diet for a few days encourages release of more mucoid plaque
 - After you've eliminated plaque, begin eating lightly
@@ -261,11 +261,13 @@ Enzymes play a vital role in the digestive system. They are responsible for brea
 
 3. **Breaking Down Toxins**: Enzymes break down toxins in the digestive system, allowing the body to eliminate them more effectively
 
-4. **Supporting Colon Health**: Enzymes clean the colon from plaque by breaking down waste material, nourishing flora, and promoting regular bowel movements
+4. **Supporting Colon Health**: Enzymes clean the colon by breaking down waste material, nourishing flora, and promoting regular bowel movements
 
 ### Cellular Impact
 
-Every organ, every tissue, and all 100 trillion cells in the body depend upon metabolic enzyme reactions and their energy factor. Nutrition cannot be explained without describing enzymes' role.
+Every organ, every tissue, and all 100 trillion cells in the body depend upon metabolic enzyme reactions and their energy factor. 
+
+Nutrition cannot be explained without describing enzymes' role.
 
 ---
 
@@ -303,9 +305,9 @@ Pineapple, Papaya, Watermelon, Orange, Lemon, Ginger, Pear, Apple, Kiwi, Bitter 
 - Low calories; good for balanced diet and weight loss
 - Fibers stimulate intestinal transit
 - Pectin fiber helps lower harmful cholesterol
-- Limits cardiovascular disease risk
-- Rich in vitamin C boosts immune system
-- Antioxidants fight aging effects and prevent cancers
+- Helps limit cardiovascular disease risk
+- Rich in vitamin C, boosts immune system
+- Antioxidants fight aging effects and can help prevent cancers
 - Acts as cholagogue; promotes liver functions and transit
 
 
@@ -323,10 +325,10 @@ Pineapple, Papaya, Watermelon, Orange, Lemon, Ginger, Pear, Apple, Kiwi, Bitter 
 
 #### Liquid Enzymes Benefits
 
-- Helps activate intestine
+- Helps activate intestines
 - Moisturizes bowel and defecation
-- Balances intestinal flora
-- Adjusts body's terrain
+- Adjusts intestinal flora
+- Balances body's terrain
 - Improves body's immunity
 - Promotes fat consumption for weight management
 
@@ -440,7 +442,7 @@ Pineapple Enzyme Powder, Senna Occidentalis Extract, Apple Enzyme Powder, Papaya
 - Supports weight management
 - Helps digestion
 - Promotes appetite and healthy digestion
-- Acts as "pacmen" enzymes decomposing mucoid plaque on intestinal walls
+- Acts as a "Pacman" helping to lift the mucoid plaque from the intestinal walls
 - Penetrates bloodstream to continue detoxification at deep level
 
 #### Key Ingredient: Apple Powder Enzymes
@@ -471,7 +473,7 @@ Pineapple Enzyme Powder, Senna Occidentalis Extract, Apple Enzyme Powder, Papaya
 - Benefits gastrointestinal tract disturbance
 - Removes peroxide and other toxins
 - Purifies blood
-- Reduces liver dysfunction and high blood lipid
+- Reduces liver dysfunction and high blood lipids
 
 **Recommended For**:
 - All intestinal cleansing support
@@ -487,7 +489,6 @@ Pineapple Enzyme Powder, Senna Occidentalis Extract, Apple Enzyme Powder, Papaya
 - Smoothes discharge of waste
 - Reduces heat accumulation in body
 - Supports weight management
-- Constipated's favorite!
 
 Fiber Crystals support digestive functions by providing profound maintenance of intestinal walls. They clear toxic waste, improve digestion and nutrient absorption, and stimulate bowel movements.
 
@@ -511,16 +512,18 @@ Fiber Crystals support digestive functions by providing profound maintenance of 
 - Superfood; powerhouse in therapeutic compounds
 - Cleanses blood vessels
 - Core element of diet in almost all Asian countries
-
+- Soybeans used in ZenCleanz are Fermented
 ### Usage Questions
 
 **Will the ONE cleanse get out all of my plaque?**
 
-It may take many intestinal cleanses to clear enough accumulation to repair nutrient absorption. The amount varies from person to person. Once intestinal tract is cleared, along with continual liver flushing, perform ONE intestinal flush yearly for maintenance.
+It may take many intestinal cleanses to clear enough accumulation to repair nutrient absorption. Generally, 4-6 ONE detoxes will clear the intestines of mucoid plaque, but it may take more if there are GI tract issues. The amount varies from person to person. 
+
+Once intestinal tract is cleared, along with continual liver flushing, perform ONE intestinal flush yearly for maintenance.
 
 **I have severe constipation; will the ONE cleanse fix it?**
 
-If you have intestinal inflammation issues such as chronic constipation, lower inflammation before beginning. 
+If you have intestinal inflammation issues such as chronic constipation, it is best to try and lower inflammation before beginning. 
 
 Recommendations:
 - ZenCleanz Mycelia liquid enzyme (powerful anti-inflammatory)
@@ -528,7 +531,7 @@ Recommendations:
 - Black Vacuum intestinal alkalinizer
 - Fiber Crystals intestinal broom
 
-Prepare with these for one month in advance.
+Prepare with these as daily enzymes for one month in advance.
 
 Long-standing constipation signals liver congestion. To resolve:
 - Pursue clearing and restoring liver function
@@ -538,7 +541,7 @@ Long-standing constipation signals liver congestion. To resolve:
 
 **May I take supplements or medication while on the intestinal cleanse?**
 
-Only take absolutely life-saving medication during the kit day. Pause all supplementation until you resume eating.
+Only take absolutely necessary, or life-saving medication during the kit day. Pause all other medications and supplementation until you resume eating.
 
 **I'm not used to fasting. What if I get hungry?**
 
