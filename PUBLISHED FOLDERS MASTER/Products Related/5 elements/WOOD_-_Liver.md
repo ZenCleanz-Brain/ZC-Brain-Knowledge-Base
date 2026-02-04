@@ -13,9 +13,9 @@ qa_pairs:
   - question: "What symptoms indicate you might need a liver cleanse?"
     answer: "Common symptoms include persistent fatigue, fatty liver, bile duct blockages, jaundice, abdominal pain and swelling, nausea, loss of appetite, dark urine, pale stools, and difficulty concentrating."
   - question: "Do I need to fast before doing the FORGIVE liver cleanse?"
-    answer: "No fasting is required before the FORGIVE cleanse, though eating lightly for 1-3 days beforehand can help lower inflammation and boost the cleanse's effectiveness."
+    answer: "No fasting is required before the FORGIVE cleanse, though eating lightly for a day or two beforehand can help lower inflammation and boost the cleanse's effectiveness."
   - question: "How often should you repeat the liver cleanse?"
-    answer: "You should cleanse the liver until the job is done - those who have never cleansed before will likely need to repeat the treatment several times since the liver is a dense, complex organ that serves as the body's primary filter."
+    answer: "ZenCleanz FORGIVE liver detox kit can be done as closely together as you would like, including back-to-back or spaced with a release day in between, all which provide a deeper liver detox. How much one needs to detox is individual. Most symptoms or syndromes people have reflects the degree to which the body is congested. As the body is detoxed and cleansed over time, symptoms continually lessen. The liver is a large and dense organ that has been working since birth, thus it requires time, patience, and consistnecy to detox. Liver detoxing and flushing should be considered part of a healhtful lifestyle."
 ---
 # ZenCleanz 5 Element Detox & Rejuvenation System
 ## Layer 2: Wood - Liver
@@ -39,7 +39,7 @@ qa_pairs:
 
 ### The Foundation: Digestive System First
 
-To kickstart an effective detoxification process, it's crucial to begin by cleansing the digestive system (Layer 1 - Earth) from mouth to anus. Think of it like plumbing – this system can become blocked by waste and toxins accumulating over a lifetime.
+To kickstart an effective detoxification process, it's crucial to begin by cleansing the digestive system (Layer 1 - Earth) from end to end. Think of it like plumbing – this system can become blocked by waste and toxins accumulating over a lifetime.
 
 ### The Liver's Critical Role
 
@@ -263,7 +263,7 @@ When toxic and stressed, the liver lowers its functions, such as:
 
 #### The Clogging Process
 
-All blood leaving stomach and intestines passes through liver, breaking down and processing the blood, creating nutrients.
+All blood leaving stomach and intestines passes through liver, which breaks down and processes the blood, creating nutrients.
 
 **When toxins enter bloodstream:**
 - Liver is first internal organ to get intoxicated
@@ -376,7 +376,7 @@ The FORGIVE fermented enzyme cleanse kit contains all-natural and organic ingred
 **Traditional Methods:**
 - Involves at least week-long preparation to get fraction of results
 - Implication level is high
-- Must repeat many times to remove stones and other waste (8 to 16 cleanses)
+- Must repeat many times to remove stones and other waste 
 - Help cleanse liver and gallbladder
 - Using Epsom salts tax body with dehydration and irritation symptoms
 - Can last afterward and develop resistance to process
@@ -410,7 +410,7 @@ The FORGIVE fermented enzyme cleanse kit contains all-natural and organic ingred
 
 #### Deeper Cleansing Option
 
-Gallstones are easy to flush out, but a Fatty Liver requires a consistent approach. Look for our Liver Deep Cleanse and Maintenance protocol. Our Black Vacuum enzyme tablets are designed for this purpose—they break down fat. Consider adding them to your liver hygiene program!
+Gallstones are easy to flush out, but a Fatty Liver requires a consistent approach. Look for our Liver Deep Cleanse and Maintenance protocol. Our Black Vacuum enzyme capsules are designed for this purpose—they break down fat. Consider adding them to your liver hygiene program!
 
 ---
 
@@ -421,9 +421,9 @@ Gallstones are easy to flush out, but a Fatty Liver requires a consistent approa
 #### Fasting Requirement
 It is NOT necessary to fast before doing the FORGIVE Liver/Gallbladder cleanse.
 
-#### Food Preparation (1-3 Days Before)
+#### Food Preparation 
 
-**Minimize food intake and eat lightly for 1 to 3 days before cleanse.**
+**Minimize food intake and eat lightly for a day or two before the cleanse.**
 
 **Benefits:**
 - Help lower inflammation
@@ -457,7 +457,7 @@ Remember: hunger is often a sense of emptiness and an opportunity to explore fee
 #### What to Expect During Cleanse
 
 **Watery Releases:**
-On the day of liver cleanse, there will be a lot of watery releases. This is part of preparation for what will come out later. It will stop after you take your liver flush drink.
+On the day of liver cleanse, there will be a lot of watery releases. This is part of the preparation for what will come out later. It will stop after you take your liver flush drink.
 
 **Easing Enzymes Work:**
 On the day of cleanse, the "easing enzymes" are working hard to prepare your liver to flush. This process involves dilating your bile ducts, during which you experience what some call "diarrhea."
@@ -481,7 +481,7 @@ The following may be helpful:
 - Focusing on breath
 - Using heating pad
 - Warm baths
-- Castor oil
+- Castor oil - only after the flush drink
 - Lots of time to rest
 
 ### After the FORGIVE Liver Cleanse
@@ -492,10 +492,10 @@ The results of liver flush (largest release) are commonly seen towards the follo
 
 #### Eating After Cleanse
 
-The day after performing FORGIVE kit, eating can begin a few hours after last liquid enzyme drink.
+The day after performing FORGIVE kit, you can begin eating easily digestible foods around noon.
 
 **Progressive Eating:**
-Begin with fresh vegetable juice and/or fruit. Move slowly to heavier foods such as soup or salad.
+ You may begin eating light meals like warm soups, steamed vegetables, low sugar fruits, and anything that will contribute some fibers to sweep out the toxic matters you've just released from your liver.Go slow with small portions; no fat the first day, if possible.
 
 **Important Principles:**
 - Focusing on eating light and healthfully is essential
@@ -553,10 +553,14 @@ These 2 bottles that one mixes together constitute "THE FLUSH." These are to sti
 
 #### Ingredients
 
-**BOTTLE A:**
-- Grapefruit juice
-- Concentrated pineapple juice
-- Integrated fruit and vegetable juice (citrus, apple, peach, grape, cauliflower, cabbage)
+**BOTTLE A:*
+ - Apple 
+ - Pinapple 
+ - Comprehensive fruit and vegetable fermented liquid (pineapple, papaya, watermelon, willow, tomato, peach, citrus grape, cauliflower, cabbage)
+ - Grapefruit Juice Concentrate
+ - Isomalto Oligosaccharide
+ - Citric Acid (from citrus)
+
 
 **BOTTLE B:**
 - Olive oil
@@ -702,7 +706,7 @@ Ginger, Tumeric, Chinese Cabbage, Grapefruit, Papaya, Pineapple, Pumpkin, Mandar
 
 This liquid aims to:
 - Penetrate deep into liver through bloodstream
-- Dislodge fat and other mucous clogging organ
+- Dislodge fat and other mucous clogging the organ
 - Since cleanse day is fasting day, provide nutrition and energy to go through day
 
 #### Health Benefits
@@ -840,14 +844,14 @@ This liquid aims to:
 
 ---
 
-### ZenCleanz FORGIVE: Apple Enzyme Powder
+### ZenCleanz FORGIVE: Easing Formula (Apple Flavour). Previously called Apple Enzymes
 
 #### Ingredients
 
-- Apple extract
-- Protease composite (bromelain, papain, ficin)
-- Fruits and vegetables composite (pineapple, lemon, banana, mandarin, pear, kiwi, grapefruit, orange)
-- Lactose
+- Apple powder
+- Malic Acid, Guar Gum, Apple Extract, Dragon Root Powder, Coix seed
+- Comprehensive Fruits and vegetables enzyme powder VF75 (pineapple, lemon, banana, mandarin, pear, kiwi, grapefruit, orange)
+- Isomalto Oligosaccharide.
 
 #### Function in Kit
 
@@ -988,18 +992,17 @@ Versatile proteolytic enzyme extracted from fig tree.
 
 ---
 
-### ZenCleanz FORGIVE: Easing Enzyme Powder
+### ZenCleanz FORGIVE: Easing Formula (Pineapple Flavour). Previously called Easing Enzymes
 
 #### Ingredients
 
 - Pineapple extract
 - Papaya extract
 - Apple extract
-- Fruits and vegetables composite (pineapple, lemon, mandarin, pear, kiwi, grapefruit, orange, banana, apple, kiwi, mulberry, celery, spinach)
+ - Magnesium Oxide (Food Nurtritional Additive)
+- Comprehensive Fruits and vegetables powder (pineapple, lemon citrus, pear, kiwi, grapefruit, orange, banana, apple, kiwi, mulberry, celery, spinach)
 - Dragon root powder
-- Fructooligosaccharide
-- Job's tear
-- Lactose
+- Isomalto Oligosaccharide
 
 #### Function in Kit
 
@@ -1058,32 +1061,6 @@ Easing Enzymes are working to:
 - Aligning perfectly with holistic approach
 - Support body's inherent detoxification processes
 
-##### JOB'S TEAR PLANT
-**Nutritional Profile:**
-- Nutritional powerhouse
-- Contains essential vitamins: B1 and B2
-- Minerals: calcium and iron
-- Valuable addition to blend
-- Rich fiber content
-- High in Niacin
-
-**Benefits:**
-- Many benefits including high antioxidant capacity
-- Boosting immunity
-- May aid in prevention of cancer
-- Gastrointestinal problems
-- Allergies
-- Help lower cholesterol levels
-- Regulate endocrine disorders
-- Excellent component in blend
-- Contributing to overall well-being and health support
-- In Traditional Chinese Medicine, known as "Yi Yi Ren"
-- Used to clear dampness and damp heat in body
-- Can manifest as edema, urinary tract infections, skin conditions
-- Unique property aligns perfectly with blend
-- Incorporated due to complementing holistic approach
-- Supporting body's detoxification processes
-- Particularly addressing dampness-related concerns
 
 ##### DRAGON ROOT POWDER
 **Nutritional Profile:**
@@ -1186,7 +1163,8 @@ Liver flushing pushes congestion out of liver, and sometimes, the liver can only
 - Each flush is different
 - Each flush is successful
 - Whatever comes out on each flush is what was ready to go
-- 
+- Some flushes seem more productive than others; however, they all work internally to move things forward, regardless of whether we have a substantial release.
+ - The flush does two things: it pushes things forward in the liver and moves things out of the liver.
 
 ### Why Do I Have Diarrhea on This Cleanse?
 
@@ -1220,7 +1198,7 @@ It mainly comprises rice germ enzymes supplemented with natural fruit and vegeta
 
 #### Ingredients
 
-- Rice Germ Enzyme, Apple, Asparagus Lettuce, Blueberry, Carrot, Grape, Kiwi, Lemon, Strawberry, Tomato, Papaya Extract, Pineapple Extract, Cauliflower, Celery, Corn, Pumpkin, Spinach, Enoki Mushroom, Comprehensive Enzyme Powder TW-080, Whey Protein.
+- Rice Germ Enzyme, Apple, Asparagus, Lettuce, Blueberry, Carrot, Grape, Kiwi, Lemon, Strawberry, Tomato, Papaya Extract, Pineapple Extract, Cauliflower, Celery, Corn, Pumpkin, Spinach, Enoki Mushroom, Comprehensive Enzyme Powder TW-080, Whey Protein.
 
 
 #### Key Ingredients & Properties
@@ -1241,7 +1219,6 @@ It mainly comprises rice germ enzymes supplemented with natural fruit and vegeta
 - Beneficial for reducing high blood pressure
 - May assist in maintaining balanced cholesterol levels
 - Unique ingredient renowned for natural phytochemicals, Such as oryzanol
-- 
 - Shown to help detoxify liver
 - Support overall liver health
 - Potent detoxification property
@@ -1252,7 +1229,6 @@ It mainly comprises rice germ enzymes supplemented with natural fruit and vegeta
 - 
 - Nutritional powerhouse
 - Offering rich array of vitamins and minerals
-- 
 - Brimming with vitamin C (potent immune booster)
 - Supporting collagen production
 - Healthy skin and connective tissues
@@ -1275,47 +1251,10 @@ It mainly comprises rice germ enzymes supplemented with natural fruit and vegeta
 - Help harmonize body's energies
 - Especially when excess of heat
 
-##### PARSLEY
-**Nutritional Profile:**
-- Versatile herb
-- Rich source of essential vitamins and minerals
-- Vitamins: A, C, K
-- Play pivotal roles in maintaining healthy vision
-- Bolstering immune system
-- Supporting proper blood clotting
-- Abundant in minerals: calcium, iron, magnesium, potassium
-- Contributing to overall bone health
-- Oxygen transport
-- Muscle function
-- Blood pressure regulation
-- Remarkable nutrient profile
-- Presence of dietary fibers and carotenoids
-- Promote digestive health
-- Provide antioxidant protection against oxidative stress
-
-**Benefits:**
-- Incorporate parsley can be highly advantageous
-- Suggested to help reduce blood sugar levels
-- Potential ally in managing diabetes
-- Antibacterial properties
-- Aid in maintaining kidney health
-- Vitamin K content
-- Supports bone density
-- Believed to boost immunity
-- Promote liver health
-- Emerging research highlighting liver-protective potential
-- In Traditional Chinese Medicine, often referred to as "Hu Sui"
-- Recognized for cooling properties
-- 
-- In TCM, heat not limited to temperature
-- Encompasses broader concept of excess yang energy
-- Excess heat can manifest as various symptoms and conditions
-- Including inflammation, fever, digestive disturbances
 
 ##### PAPAYA
 **Nutritional Profile:**
 - Tropical fruit teeming with essential vitamins and minerals
-- 
 - Bursting with vitamins: C, A, B9, B, E, K
 - Rich array of minerals: potassium, calcium, magnesium
 - Nutritional powerhouse
@@ -1324,7 +1263,7 @@ It mainly comprises rice germ enzymes supplemented with natural fruit and vegeta
 - Versatile addition to healthful diet
 
 **Benefits:**
-- 
+
 - Boasts impressive antioxidant capacity
 - Effectively combats inflammation
 - Promoting overall well-being
@@ -1338,7 +1277,7 @@ It mainly comprises rice germ enzymes supplemented with natural fruit and vegeta
 
 - Enhances body's detoxification processes
 - Making papaya invaluable component in blend
-- 
+
 ---
 
 ### ZenCleanz Hygieia
@@ -1531,7 +1470,7 @@ Each element corresponds to Traditional Chinese Medicine's fundamental organ sys
 
 5. **Repetition May Be Needed** - The dense and complex liver requires multiple cleanses until all stones and accumulated toxins are released
 
-6. **Fatty Liver Requires Maintenance** - While gallstones flush relatively easily, fatty liver needs ongoing support with maintenance products like Black Vacuum tablets
+6. **Fatty Liver Requires Maintenance** - While gallstones flush relatively easily, fatty liver needs ongoing support with maintenance products like Black Vacuum capsules
 
 7. **Body-Wide Benefits** - Cleansing the liver improves digestion, alkalizes the system, lowers cholesterol, restores energy, balances hormones, and protects all downstream organ systems
 
