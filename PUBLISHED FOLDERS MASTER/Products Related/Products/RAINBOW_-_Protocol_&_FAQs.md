@@ -723,7 +723,7 @@ The dosing for the Mycelia/Lightseed is two doses, separately, daily, at 25 mL/5
 
 #### The Gut Essentials
 
-- The Quantum Particles can be taken away from food with 250 mL/8.5 oz of warm water daily
+- For inflammation the Quantum Particles can be taken away from food, either dissolved directly in the mouth or with 250 mL/8.5 oz of warm water daily
 - The Black Vacuum should be taken with 500 mL/17 oz of warm water away from food once or twice daily
 - The Fiber Crystals should be taken with 250 mL/8.5 oz of warm water in the evening before bedtime
 
