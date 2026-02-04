@@ -581,23 +581,6 @@ Comprehensive Vegetable And Fruit Fermentation Liquid(Pineapple, Papaya, Waterme
 - Enhance cardiovascular wellness
 - Provide various additional health advantages
 
-##### BLAZE MUSHROOM
-**Nutritional Profile:**
-- Rich source of vitamins: B1 and B2
-- Abundant essential minerals: selenium, calcium, iron, magnesium, and potassium
-
-**Benefits:**
-- Supports hematopoiesis (formation of crucial blood components)
-- Formation of red and white blood cells
-- Vital for overall health and vitality
-- Potential to safeguard liver and kidneys
-- Preserving well-being and function of essential organs
-- Well-known reputation as immune-boosting champions
-- Fortifying body's natural defense mechanisms
-- Outstanding antiviral properties
-- Antibacterial properties
-- Invaluable asset to combat infections
-- Bolster overall health
 
 ---
 
