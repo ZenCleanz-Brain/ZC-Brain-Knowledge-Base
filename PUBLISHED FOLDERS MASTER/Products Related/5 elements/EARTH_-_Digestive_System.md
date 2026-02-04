@@ -682,50 +682,7 @@ NET VOLUME: 750ml
 - Moves glucose to liver, muscle, fat
 - Helps body retain nutrients by blocking conversion to bloodstream glucose
 
-#### Key Ingredient: Japanese Plum
 
-- Packed with powerful plant compounds
-- Used in traditional medicine for thousands of years
-- Rich in vitamins (A, B)
-- Rich in minerals (potassium, manganese)
-- Rich in fibers, riboflavin, thiamin
-- Well known for high antioxidant capacity
-- High alkalinizing power
-- Rich in carotenoids and phenolic compounds
-- May boost heart health
-- May protect against heart disease
-- Promotes digestive and gastrointestinal health
-- Protects liver
-- Stabilizes blood sugar daily
-
-#### Key Ingredient: Guava
-
-- Amazing fruit loaded with vitamin C
-- Rich in potassium and fiber
-- Remarkable nutrient content gives many health benefits
-- Evidence suggests guava improves blood sugar control
-- Higher potassium and soluble fiber levels contribute to heart health
-- May positively affect heart health by lowering blood pressure
-- Decreases bad cholesterol
-- Increases good cholesterol
-- Precious ingredient positively affecting digestion
-- Positively affects intestinal flora
-- Immunity booster fortifying resistance to viruses and bacteria
-
-#### Key Ingredient: Mustard
-
-- Not just condiment; nutritionally valuable food
-- Rich in vitamins (A, C, E, K)
-- Rich in minerals (sodium, potassium, calcium, copper, iron, magnesium, manganese, selenium)
-- Rich in bioactive compounds
-- Offers several health benefits
-- Anti-inflammatory properties
-- Cholesterol regulation
-- Improved digestion
-- Helps in enzyme synthesis
-- Helps regulate metabolism
-- Increases intestinal secretion
-- Stimulant to gastric mucosa
 
 #### Lightseed Benefits
 
@@ -778,35 +735,6 @@ NET WEIGHT: 3g/sachet
 - Contains various B vitamins (B1, B2, B3, B5, B6)
 - Essential B vitamins for energy metabolism and overall health
 
-#### Key Ingredient: Grape
-
-- Delectable flavor beyond taste
-- Wealth of essential vitamins (B, C, E, K)
-- Rich in minerals (copper, potassium, manganese)
-- Rich in antioxidants
-- High antioxidant capacity
-- Cholesterol-lowering potential
-- Possible anticancer effects
-- Valuable addition to blend
-- Fiber content aids digestive health and regularity
-- Contains natural antimicrobial compounds
-- Potentially protects against harmful bacteria and fungi
-
-#### Key Ingredient: Cabbage
-
-- Member of Brassicaceae family
-- Cruciferous vegetable
-- Celebrated for versatility in culinary preparations
-- Impressive nutritional profile
-- Rich array of essential nutrients
-- Rich in vitamins (C, B6, K)
-- Rich in minerals (potassium, calcium, manganese, magnesium)
-- Rich in bioactive compounds
-- Dietary fiber promotes digestive regularity
-- Alleviates constipation
-- Supports healthy gut
-- Provides health benefits promoting satiety
-- Can aid in weight management efforts
 
 #### Key Ingredient: Shiitake Mushroom
 
