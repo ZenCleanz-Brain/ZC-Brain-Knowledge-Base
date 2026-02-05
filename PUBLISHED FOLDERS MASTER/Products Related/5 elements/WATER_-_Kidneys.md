@@ -806,24 +806,7 @@ Nicotinamide is a form of vitamin B3, a water-soluble vitamin essential for prop
 - May benefit diabetes management
 - Many other conditions
 
-### Coenzyme Q10 (CoQ10)
 
-**Description:**
-Naturally occurring compound in every cell of body.
-
-**Functions:**
-- Plays several essential functions
-- ATP production
-- Antioxidant cellular energy production
-- Cardiovascular support
-- Anti-inflammatory effects
-- Anti-aging
-- Overall health
-
-**Important Note:**
-- Body can produce CoQ10 endogenously
-- Production naturally declines with age
-- Certain medications or medical conditions can affect CoQ10 levels
 
 ### Microcrystalline Cellulose
 
