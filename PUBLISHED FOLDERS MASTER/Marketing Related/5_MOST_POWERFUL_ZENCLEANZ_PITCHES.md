@@ -21,34 +21,15 @@ qa_pairs:
 
 ## Table of Contents
 
-  1. [THE 5 MOST POWERFUL ZENCLEANZ PITCHES](#the-5-most-powerful-zencleanz-pitches)
-  2. [1. “The Fine Art of Detox & Rejuvenation”](#1-the-fine-art-of-detox-rejuvenation)
-  3. [Core Power: Brand Essence + Longevity](#core-power-brand-essence-longevity)
-  4. [Why it’s powerful:](#why-its-powerful)
-  5. [2. “Detox Worthy of an Evolved Humanity”](#2-detox-worthy-of-an-evolved-humanity)
-  6. [Core Power: Visionary + Revolutionary](#core-power-visionary-revolutionary)
-  7. [Why it’s powerful:](#why-its-powerful)
-8. [Suggested Use:
- Campaign slogans, global launch film, website home header, high-concept ads.](#suggested-use-campaign-slogans-global-launch-film-website-home-header-high-concept-ads)
-  9. [3. “Now Detoxing Is for Everyone”](#3-now-detoxing-is-for-everyone)
-  10. [Core Power: Inclusivity + Scalability](#core-power-inclusivity-scalability)
-  11. [Why it’s powerful:](#why-its-powerful)
-12. [Suggested Use:
- Social campaigns, ambassador programs, wellness collaborations, entry-level kits.](#suggested-use-social-campaigns-ambassador-programs-wellness-collaborations-entry-level-kits)
-  13. [4. “Ancient Wisdom Meets Modern Science”](#4-ancient-wisdom-meets-modern-science)
-  14. [Core Power: Trust + Legitimacy](#core-power-trust-legitimacy)
-  15. [Why it’s powerful:](#why-its-powerful)
-16. [5. “Clean Body. Clear Mind. Your True Self, Your Awakened Spirit.”](#5-clean-body-clear-mind-your-true-self-your-awakened-spirit)
-  17. [Core Power: Emotional + Transformational](#core-power-emotional-transformational)
-  18. [Why it’s powerful:](#why-its-powerful)
-19. [Suggested Use:
- Tagline in retreats, podcast intros, social videos.](#suggested-use-tagline-in-retreats-podcast-intros-social-videos)
+1. [The Fine Art of Detox & Rejuvenation](#1-the-fine-art-of-detox--rejuvenation)
+2. [Detox Worthy of an Evolved Humanity](#2-detox-worthy-of-an-evolved-humanity)
+3. [Now Detoxing Is for Everyone](#3-now-detoxing-is-for-everyone)
+4. [Ancient Wisdom Meets Modern Science](#4-ancient-wisdom-meets-modern-science)
+5. [Clean Body. Clear Mind. Your True Self, Your Awakened Spirit.](#5-clean-body-clear-mind-your-true-self-your-awakened-spirit)
 
 ---
 
-### THE 5 MOST POWERFUL ZENCLEANZ PITCHES
-
-### 1. “The Fine Art of Detox & Rejuvenation”
+## 1. "The Fine Art of Detox & Rejuvenation"
 
 ### Core Power: Brand Essence + Longevity
 
@@ -69,7 +50,7 @@ Sets ZenCleanz apart as not a brand, but a discipline and philosophy.
 “ZenCleanz — The Fine Art of Detox & Rejuvenation.”
  “Three years of fermentation that lead to your moment of rebirth.”
 
-### 2. “Detox Worthy of an Evolved Humanity”
+## 2. "Detox Worthy of an Evolved Humanity"
 
 ### Core Power: Visionary + Revolutionary
 
@@ -84,15 +65,16 @@ Frames ZenCleanz as a moral and evolutionary leap, not just a health choice.
 
 Has strong visual and storytelling potential .
 
-## Suggested Use:
- Campaign slogans, global launch film, website home header, high-concept ads.
+### Suggested Use:
+
+Campaign slogans, global launch film, website home header, high-concept ads.
 
 “A detox worthy of an evolved humanity.”
  “The future of cleansing is conscious.”
 
 ---
 
-### 3. “Now Detoxing Is for Everyone”
+## 3. "Now Detoxing Is for Everyone"
 
 ### Core Power: Inclusivity + Scalability
 
@@ -107,8 +89,9 @@ Perfect for influencer outreach and community campaigns.
 
 Enables broad adoption while retaining depth.
 
-## Suggested Use:
- Social campaigns, ambassador programs, wellness collaborations, entry-level kits.
+### Suggested Use:
+
+Social campaigns, ambassador programs, wellness collaborations, entry-level kits.
 
 “Clean is the new common.”
  “Finally, detox for everyone.”
@@ -116,7 +99,7 @@ Enables broad adoption while retaining depth.
 
 ---
 
-### 4. “Ancient Wisdom Meets Modern Science”
+## 4. "Ancient Wisdom Meets Modern Science"
 
 ### Core Power: Trust + Legitimacy
 
@@ -134,9 +117,7 @@ Bridges tradition and innovation. This is where “ChiTech Nutrition®” comes 
 
 “Where ancient wisdom meets modern science and the body remembers how to heal.”
 
-## 5. “Clean Body. Clear Mind. Your True Self, Your Awakened Spirit.”
-
----
+## 5. "Clean Body. Clear Mind. Your True Self, Your Awakened Spirit."
 
 ### Core Power: Emotional + Transformational
 
@@ -151,8 +132,9 @@ Beautiful for voiceovers, meditations, and visual storytelling.
 
 Sums up your philosophy of wholeness and transformation.
 
-## Suggested Use:
- Tagline in retreats, podcast intros, social videos.
+### Suggested Use:
+
+Tagline in retreats, podcast intros, social videos.
 
 “Clean body. Clear mind. Your True Self, Your Awakened spirit.
  ZenCleanz ... Detox & Rise.”

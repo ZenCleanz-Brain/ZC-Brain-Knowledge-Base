@@ -21,79 +21,38 @@ qa_pairs:
 
 ## Table of Contents
 
-  1. [GOVERNANCE FRAMEWORK (content creator guidelines)](#governance-framework-content-creator-guidelines)
-  2. [The Core Mission ... Anchor for All Pillars](#the-core-mission-anchor-for-all-pillars)
-3. [ZenCleanz exists to guide people from dependency to sovereignty.](#zencleanz-exists-to-guide-people-from-dependency-to-sovereignty)
-4. [“How does this content return authority to the individual?”](#how-does-this-content-return-authority-to-the-individual)
-  5. [Pillar 1 — Philosophy & Sovereignty](#pillar-1-philosophy-sovereignty)
-  6. [Why Health Is a Responsibility, Not a Service](#why-health-is-a-responsibility-not-a-service)
-  7. [Role in the Mission](#role-in-the-mission)
-  8. [How Sovereignty Is Applied](#how-sovereignty-is-applied)
-  9. [Content Should Leave People Feeling](#content-should-leave-people-feeling)
-  10. [Sovereignty Test](#sovereignty-test)
-  11. [Pillar 2 — Education & Biological Literacy](#pillar-2-education-biological-literacy)
-  12. [Teaching How the Body Actually Works](#teaching-how-the-body-actually-works)
-  13. [Role in the Mission](#role-in-the-mission)
-  14. [How Sovereignty Is Applied](#how-sovereignty-is-applied)
-  15. [Content Should Leave People Feeling](#content-should-leave-people-feeling)
-  16. [Sovereignty Test](#sovereignty-test)
-17. [Pillar 3 — The Detox System & 5-Element Architecture](#pillar-3-the-detox-system-5-element-architecture)
-  18. [Restoring Coherence Instead of Fragmentation](#restoring-coherence-instead-of-fragmentation)
-  19. [Role in the Mission](#role-in-the-mission)
-  20. [How Sovereignty Is Applied](#how-sovereignty-is-applied)
-  21. [Content Should Leave People Feeling](#content-should-leave-people-feeling)
-  22. [Sovereignty Test](#sovereignty-test)
-  23. [Pillar 4 — Products as Tools, Not Solutions](#pillar-4-products-as-tools-not-solutions)
-  24. [De-Idolizing Supplements](#de-idolizing-supplements)
-  25. [Role in the Mission](#role-in-the-mission)
-  26. [How Sovereignty Is Applied](#how-sovereignty-is-applied)
-  27. [Content Should Leave People Feeling](#content-should-leave-people-feeling)
-  28. [Sovereignty Test](#sovereignty-test)
-  29. [Pillar 5 — Practices & Embodiment](#pillar-5-practices-embodiment)
-  30. [From Knowledge to Lived Intelligence](#from-knowledge-to-lived-intelligence)
-  31. [Role in the Mission](#role-in-the-mission)
-  32. [How Sovereignty Is Applied](#how-sovereignty-is-applied)
-  33. [Content Should Leave People Feeling](#content-should-leave-people-feeling)
-  34. [Sovereignty Test](#sovereignty-test)
-  35. [Pillar 6 — Community & Shared Path](#pillar-6-community-shared-path)
-  36. [From Isolation to Collective Maturity](#from-isolation-to-collective-maturity)
-  37. [Role in the Mission](#role-in-the-mission)
-  38. [How Sovereignty Is Applied](#how-sovereignty-is-applied)
-  39. [Content Should Leave People Feeling](#content-should-leave-people-feeling)
-  40. [Sovereignty Test](#sovereignty-test)
-  41. [Pillar 7 — Leadership, Lineage & Transmission](#pillar-7-leadership-lineage-transmission)
-  42. [From Consumer to Steward](#from-consumer-to-steward)
-  43. [Role in the Mission](#role-in-the-mission)
-  44. [How Sovereignty Is Applied](#how-sovereignty-is-applied)
-  45. [Content Should Leave People Feeling](#content-should-leave-people-feeling)
-  46. [Sovereignty Test](#sovereignty-test)
-  47. [The Highest Rule For All Pillars](#the-highest-rule-for-all-pillars)
-48. [“Does this content increase capacity, or create reliance?”](#does-this-content-increase-capacity-or-create-reliance)
-  49. [In One Sentence ...](#in-one-sentence)
+1. [Governance Framework](#governance-framework-content-creator-guidelines)
+2. [The Core Mission](#the-core-mission--anchor-for-all-pillars)
+3. [Pillar 1 — Philosophy & Sovereignty](#pillar-1--philosophy--sovereignty)
+4. [Pillar 2 — Education & Biological Literacy](#pillar-2--education--biological-literacy)
+5. [Pillar 3 — The Detox System & 5-Element Architecture](#pillar-3--the-detox-system--5-element-architecture)
+6. [Pillar 4 — Products as Tools, Not Solutions](#pillar-4--products-as-tools-not-solutions)
+7. [Pillar 5 — Practices & Embodiment](#pillar-5--practices--embodiment)
+8. [Pillar 6 — Community & Shared Path](#pillar-6--community--shared-path)
+9. [Pillar 7 — Leadership, Lineage & Transmission](#pillar-7--leadership-lineage--transmission)
+10. [The Highest Rule For All Pillars](#the-highest-rule-for-all-pillars)
 
 ---
 
-### GOVERNANCE FRAMEWORK (content creator guidelines)
+## GOVERNANCE FRAMEWORK (content creator guidelines)
 
 Here is a clean, institutional way to apply our mission, leading people toward sovereignty across our 7 content pillars. Every piece of content will educate, liberate, and restore authority, not dependency.
 
-### The Core Mission ... Anchor for All Pillars
+## The Core Mission ... Anchor for All Pillars
 
-## ZenCleanz exists to guide people from dependency to sovereignty.
+> ZenCleanz exists to guide people from dependency to sovereignty.
 
 We achieve this not by telling them what to do, but by teaching them how their body works, so health becomes self-regulated, not managed.
 
-**Every pillar must therefore answer one question**: 
+**Every pillar must therefore answer one question:**
+
+> "How does this content return authority to the individual?"
+
+If it doesn't, it doesn't belong.
 
 ---
 
-## “How does this content return authority to the individual?”
-
-If it doesn’t, it doesn’t belong.
-
----
-
-### Pillar 1 — Philosophy & Sovereignty
+## Pillar 1 — Philosophy & Sovereignty
 
 ### Why Health Is a Responsibility, Not a Service
 
@@ -127,7 +86,7 @@ Less afraid, more accountable
 If this content disappeared, would people still think health is something “done to them”?
  If yes, it failed.
 
-### Pillar 2 — Education & Biological Literacy
+## Pillar 2 — Education & Biological Literacy
 
 ### Teaching How the Body Actually Works
 
@@ -163,8 +122,6 @@ Does this content make people less dependent on experts to interpret their body?
 
 ## Pillar 3 — The Detox System & 5-Element Architecture
 
----
-
 ### Restoring Coherence Instead of Fragmentation
 
 ### Role in the Mission
@@ -197,7 +154,7 @@ More patient with their body
 Does this content reduce the urge to “do everything at once”?
 If yes, it supports sovereignty.
 
-### Pillar 4 — Products as Tools, Not Solutions
+## Pillar 4 — Products as Tools, Not Solutions
 
 ### De-Idolizing Supplements
 
@@ -231,7 +188,7 @@ Less tempted to overconsume
 Would someone still understand their body even without buying immediately?
  If yes, the content is clean.
 
-### Pillar 5 — Practices & Embodiment
+## Pillar 5 — Practices & Embodiment
 
 ### From Knowledge to Lived Intelligence
 
@@ -265,7 +222,7 @@ Less driven by urgency
 Does this content help people sense instead of push?
 If yes, it serves the mission.
 
-### Pillar 6 — Community & Shared Path
+## Pillar 6 — Community & Shared Path
 
 ### From Isolation to Collective Maturity
 
@@ -299,7 +256,7 @@ More grounded in reality
 Does this content reduce comparison and competition?
 If yes, it’s aligned.
 
-### Pillar 7 — Leadership, Lineage & Transmission
+## Pillar 7 — Leadership, Lineage & Transmission
 
 ### From Consumer to Steward
 
@@ -331,11 +288,11 @@ Aware that leadership is earned, not claimed
 Does this content make leadership feel heavier, not glamorous?
 If yes, it protects the lineage.
 
-### The Highest Rule For All Pillars
+## The Highest Rule For All Pillars
 
-**Before publishing, ask one final question**: 
+**Before publishing, ask one final question:**
 
-## “Does this content increase capacity, or create reliance?”
+> "Does this content increase capacity, or create reliance?"
 
 If it increases capacity → publish.
 If it creates reliance → rewrite or discard.
