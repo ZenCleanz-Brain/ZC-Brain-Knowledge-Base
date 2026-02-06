@@ -2,8 +2,6 @@
 
 import { useState, useCallback, useEffect, FormEvent } from 'react';
 import {
-  Brain,
-  Sparkles,
   Mic,
   MessageSquare,
   MicOff,
@@ -12,11 +10,17 @@ import {
   Loader2,
   AlertCircle,
   RefreshCw,
+  FileText,
+  Bookmark,
+  Check,
+  Maximize2,
+  Minimize2,
 } from 'lucide-react';
 import { useAIChat } from '@/hooks/useAIChat';
 import { useAdminSettings } from '@/contexts/AdminSettingsContext';
 import VoiceVisualizer from './VoiceVisualizer';
 import ChatMessages from './ChatMessages';
+import FormatOutputModal from './FormatOutputModal';
 import styles from './AIChatCard.module.css';
 
 // Rotating thinking phrases - zen-inspired (shared with voice mode)
@@ -26,7 +30,7 @@ const VOICE_THINKING_PHRASES = [
   'Alchemising',
   'Listening deeply',
   'Connecting the dots',
-  'Finding wisdom',
+  'Accessing wisdom',
   'Processing',
   'Tuning in',
 ];
@@ -39,6 +43,9 @@ interface AIChatCardProps {
 export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProps) {
   const [inputValue, setInputValue] = useState('');
   const [voiceThinkingPhrase, setVoiceThinkingPhrase] = useState(0);
+  const [showFormatModal, setShowFormatModal] = useState(false);
+  const [saveState, setSaveState] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle');
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const { settings } = useAdminSettings();
 
   const {
@@ -58,6 +65,7 @@ export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProp
     switchMode,
     isConnected,
     isConnecting,
+    sessionId,
   } = useAIChat();
 
   const handleSendMessage = useCallback((e: FormEvent) => {
@@ -78,8 +86,50 @@ export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProp
     }
   }, [inputValue, sendTextMessage]);
 
+  const handleSaveResponses = useCallback(async () => {
+    if (messages.length === 0 || saveState === 'saving') return;
+
+    // Pair adjacent user+agent messages into Q&A objects
+    const pairs: Array<{ question: string; answer: string }> = [];
+    for (let i = 0; i < messages.length - 1; i++) {
+      if (messages[i].role === 'user' && messages[i + 1].role === 'agent') {
+        pairs.push({ question: messages[i].content, answer: messages[i + 1].content });
+        i++; // skip the paired agent message
+      }
+    }
+
+    if (pairs.length === 0) {
+      setSaveState('error');
+      setTimeout(() => setSaveState('idle'), 2000);
+      return;
+    }
+
+    setSaveState('saving');
+    try {
+      const res = await fetch('/api/saved-answers', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ answers: pairs, sessionId }),
+      });
+      if (!res.ok) throw new Error('Failed to save');
+      setSaveState('saved');
+      setTimeout(() => setSaveState('idle'), 2000);
+    } catch {
+      setSaveState('error');
+      setTimeout(() => setSaveState('idle'), 2000);
+    }
+  }, [messages, sessionId, saveState]);
+
+  // Exit fullscreen when disconnecting or switching to voice
+  useEffect(() => {
+    if (!isConnected || mode !== 'text') {
+      setIsFullscreen(false);
+    }
+  }, [isConnected, mode]);
+
   const isIdle = status === 'idle';
   const isError = status === 'error';
+  const lastAgentMessage = [...messages].reverse().find((m) => m.role === 'agent')?.content || '';
 
   // Rotate thinking phrases for voice mode (when not speaking)
   useEffect(() => {
@@ -94,7 +144,7 @@ export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProp
 
   return (
     <div
-      className={`${styles.card} ${isConnected ? styles.active : ''}`}
+      className={`${styles.card} ${isConnected ? styles.active : ''} ${isFullscreen ? styles.fullscreen : ''}`}
       onMouseMove={onMouseMove}
       onMouseLeave={onMouseLeave}
     >
@@ -117,10 +167,40 @@ export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProp
               Text
             </button>
           </div>
-          <button className={styles.endButton} onClick={endConversation}>
-            <X size={16} />
-            End
-          </button>
+          <div className={styles.headerActions}>
+            {mode === 'text' && lastAgentMessage && (
+              <button className={styles.formatButton} onClick={() => setShowFormatModal(true)}>
+                <FileText size={14} />
+                Format
+              </button>
+            )}
+            {mode === 'text' && messages.length > 0 && (
+              <button
+                className={`${styles.saveButton} ${saveState === 'saved' ? styles.savedState : ''} ${saveState === 'error' ? styles.errorState : ''}`}
+                onClick={handleSaveResponses}
+                disabled={saveState === 'saving'}
+              >
+                {saveState === 'saving' && <Loader2 size={14} className={styles.spinner} />}
+                {saveState === 'saved' && <Check size={14} />}
+                {saveState === 'idle' && <Bookmark size={14} />}
+                {saveState === 'error' && <AlertCircle size={14} />}
+                {saveState === 'saving' ? 'Saving...' : saveState === 'saved' ? 'Saved!' : saveState === 'error' ? 'Error' : 'Save'}
+              </button>
+            )}
+            {mode === 'text' && (
+              <button
+                className={styles.fullscreenButton}
+                onClick={() => setIsFullscreen((prev) => !prev)}
+                title={isFullscreen ? 'Exit fullscreen' : 'Fullscreen'}
+              >
+                {isFullscreen ? <Minimize2 size={14} /> : <Maximize2 size={14} />}
+              </button>
+            )}
+            <button className={styles.endButton} onClick={endConversation}>
+              <X size={16} />
+              End
+            </button>
+          </div>
         </div>
       )}
 
@@ -129,9 +209,12 @@ export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProp
         {/* Idle State */}
         {isIdle && (
           <>
-            <div className={styles.iconWrapper}>
-              <Brain size={48} />
-              <Sparkles size={20} className={styles.sparkle} />
+            <div className={styles.ensoWrapper}>
+              <img
+                src="/zen-enso-gold.png"
+                alt="ZenCleanz Enso"
+                className={styles.ensoLogo}
+              />
             </div>
 
             <h1 className={styles.title}>ZenCleanz Brain</h1>
@@ -255,6 +338,12 @@ export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProp
           </>
         )}
       </div>
+
+      <FormatOutputModal
+        isOpen={showFormatModal}
+        onClose={() => setShowFormatModal(false)}
+        rawText={lastAgentMessage}
+      />
     </div>
   );
 }

@@ -29,6 +29,7 @@ export function useAIChat(options: UseAIChatOptions = {}) {
   const [inputFrequencyData, setInputFrequencyData] = useState<Uint8Array | null>(null);
   const [outputFrequencyData, setOutputFrequencyData] = useState<Uint8Array | null>(null);
   const [isWaitingForResponse, setIsWaitingForResponse] = useState(false);
+  const [sessionId, setSessionId] = useState<string>('');
 
   // Refs
   const animationFrameRef = useRef<number>();
@@ -111,6 +112,7 @@ export function useAIChat(options: UseAIChatOptions = {}) {
     try {
       setError(null);
       setMode(selectedMode);
+      setSessionId(crypto.randomUUID());
 
       // For voice mode, request microphone permission
       if (selectedMode === 'voice') {
@@ -162,10 +164,12 @@ export function useAIChat(options: UseAIChatOptions = {}) {
       await conversation.endSession();
       setMessages([]);
       setIsWaitingForResponse(false);
+      setSessionId('');
       setStatus('idle');
     } catch (err) {
       console.error('Error ending conversation:', err);
       setIsWaitingForResponse(false);
+      setSessionId('');
       setStatus('idle');
     }
   }, [conversation]);
@@ -236,6 +240,7 @@ export function useAIChat(options: UseAIChatOptions = {}) {
     messages,
     isSpeaking: conversation.isSpeaking,
     isWaitingForResponse,
+    sessionId,
 
     // Audio data for visualization
     inputFrequencyData,

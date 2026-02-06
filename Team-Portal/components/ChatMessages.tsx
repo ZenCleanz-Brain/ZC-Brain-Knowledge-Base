@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { Bot, User, Sparkles } from 'lucide-react';
+import { User } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import styles from './ChatMessages.module.css';
 
@@ -25,9 +25,9 @@ const THINKING_PHRASES = [
   'Alchemising',
   'Searching knowledge base',
   'Connecting the dots',
-  'Finding wisdom',
+  'Accessing wisdom',
   'Processing',
-  'Analyzing',
+  'Tuning in',
 ];
 
 export default function ChatMessages({ messages, isTyping = false, useFormattedOutput = false }: ChatMessagesProps) {
@@ -54,8 +54,11 @@ export default function ChatMessages({ messages, isTyping = false, useFormattedO
     return (
       <div className={styles.emptyState}>
         <div className={styles.emptyIconWrapper}>
-          <Bot size={40} className={styles.emptyIcon} />
-          <Sparkles size={16} className={styles.emptySparkle} />
+          <img
+            src="/zen-enso-gold.png"
+            alt="ZenCleanz Enso"
+            className={styles.emptyEnso}
+          />
         </div>
         <h3 className={styles.emptyTitle}>ZenCleanz Brain</h3>
         <p className={styles.emptyText}>Ask me anything about ZenCleanz products, protocols, or wellness guidance.</p>
@@ -74,7 +77,7 @@ export default function ChatMessages({ messages, isTyping = false, useFormattedO
             {message.role === 'user' ? (
               <User size={18} />
             ) : (
-              <Bot size={18} />
+              <img src="/zen-enso-gold.png" alt="ZenCleanz" className={styles.avatarEnso} />
             )}
           </div>
           <div className={styles.content}>
@@ -95,7 +98,7 @@ export default function ChatMessages({ messages, isTyping = false, useFormattedO
       {isTyping && (
         <div className={`${styles.message} ${styles.agentMessage} ${styles.thinkingMessage}`}>
           <div className={`${styles.avatar} ${styles.thinkingAvatar}`}>
-            <Bot size={18} />
+            <img src="/zen-enso-gold.png" alt="ZenCleanz" className={`${styles.avatarEnso} ${styles.thinkingEnso}`} />
           </div>
           <div className={styles.content}>
             <div className={styles.thinkingIndicator}>

@@ -21,10 +21,10 @@
       "Skill(ralph-loop:ralph-loop:*)",
       "mcp__plugin_context7_context7__query-docs",
       "Skill(zen)",
-      "Skill(zen:*)"
+      "Skill(zen:*)",
+      "mcp__plugin_supabase_supabase__list_projects"
     ]
   },
-  "outputStyle": "Explanatory",
   "hooks": {
     "SessionStart": [
       {
@@ -39,5 +39,6 @@
         ]
       }
     ]
-  }
+  },
+  "outputStyle": "Explanatory"
 }

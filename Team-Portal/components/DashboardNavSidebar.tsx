@@ -32,8 +32,7 @@ const navItems: NavItem[] = [
     id: 'saved-answers',
     label: 'Review Saved Answers',
     href: '/dashboard/saved-answers',
-    icon: Bookmark,
-    badge: 'Coming Soon'
+    icon: Bookmark
   },
 ];
 

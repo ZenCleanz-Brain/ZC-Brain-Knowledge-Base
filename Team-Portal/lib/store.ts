@@ -340,3 +340,80 @@ export async function getFirstPendingEditForFile(filePath: string): Promise<Pend
 
   return data ? mapRow(data) : null;
 }
+
+// ─── Saved Answers ───────────────────────────────────────
+
+export interface SavedAnswer {
+  id: string;
+  question: string;
+  answer: string;
+  savedBy: string;
+  savedAt: Date;
+  sessionId: string;
+}
+
+function mapSavedAnswerRow(row: any): SavedAnswer {
+  return {
+    id: row.id,
+    question: row.question,
+    answer: row.answer,
+    savedBy: row.saved_by,
+    savedAt: new Date(row.saved_at),
+    sessionId: row.session_id,
+  };
+}
+
+export async function saveAnswers(
+  answers: Array<{ question: string; answer: string }>,
+  savedBy: string,
+  sessionId: string
+): Promise<SavedAnswer[]> {
+  const rows = answers.map((a) => ({
+    question: a.question,
+    answer: a.answer,
+    saved_by: savedBy,
+    session_id: sessionId,
+  }));
+
+  const { data, error } = await supabase
+    .from('saved_answers')
+    .insert(rows)
+    .select();
+
+  if (error) {
+    console.error('[Store] Error saving answers:', error);
+    throw error;
+  }
+
+  console.log('[Store] Saved', data.length, 'answers for session:', sessionId);
+  return data.map(mapSavedAnswerRow);
+}
+
+export async function getSavedAnswers(): Promise<SavedAnswer[]> {
+  const { data, error } = await supabase
+    .from('saved_answers')
+    .select('*')
+    .order('saved_at', { ascending: false });
+
+  if (error) {
+    console.error('[Store] Error getting saved answers:', error);
+    return [];
+  }
+
+  return data.map(mapSavedAnswerRow);
+}
+
+export async function deleteSavedAnswer(id: string): Promise<boolean> {
+  const { error } = await supabase
+    .from('saved_answers')
+    .delete()
+    .eq('id', id);
+
+  if (error) {
+    console.error('[Store] Error deleting saved answer:', error);
+    return false;
+  }
+
+  console.log('[Store] Deleted saved answer:', id);
+  return true;
+}

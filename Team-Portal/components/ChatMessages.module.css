@@ -42,33 +42,16 @@
 }
 
 .emptyIconWrapper {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, rgba(201, 169, 98, 0.15), rgba(201, 169, 98, 0.05));
-  border: 1px solid rgba(201, 169, 98, 0.3);
   margin-bottom: 1.5rem;
 }
 
-.emptyIcon {
-  color: var(--gold);
-}
-
-.emptySparkle {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  color: var(--gold);
-  animation: sparkle 2s ease-in-out infinite;
-}
-
-@keyframes sparkle {
-  0%, 100% { opacity: 0.5; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.2); }
+.emptyEnso {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
 }
 
 .emptyTitle {
@@ -129,6 +112,21 @@
 
 .userMessage .avatar {
   background: rgba(201, 169, 98, 0.25);
+}
+
+.avatarEnso {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.thinkingEnso {
+  animation: ensoSpin 3s linear infinite;
+}
+
+@keyframes ensoSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
 }
 
 .content {
@@ -275,7 +273,7 @@
 .markdown h3,
 .markdown h4 {
   color: var(--gold);
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   margin-bottom: 0.5rem;
   font-weight: 600;
   line-height: 1.3;
@@ -317,7 +315,7 @@
 .markdown ul,
 .markdown ol {
   margin: 0.75rem 0;
-  padding-left: 1.5rem;
+  padding-left: 1.125rem;
 }
 
 .markdown li {
