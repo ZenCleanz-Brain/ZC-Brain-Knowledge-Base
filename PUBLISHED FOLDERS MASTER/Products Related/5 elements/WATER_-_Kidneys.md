@@ -1139,7 +1139,7 @@ For nerds who love hard evidence - my hormone levels (E3G, LH, PdG) drastically 
 ### Ross J Barr - Integrative Medicine Doctor, Belgium
 
 **Quote:**
-"THE (ONE) MOST EFFECTIVE WAY TO CLEAR INTERNAL DAMPNESS"
+"ONE of the MOST EFFECTIVE WAY TO CLEAR INTERNAL DAMPNESS"
 
 ### Dr. Liesbeth Denev - Integrative Medicine Doctor, Belgium
 
