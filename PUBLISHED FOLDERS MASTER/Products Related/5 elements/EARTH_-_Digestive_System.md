@@ -682,7 +682,14 @@ NET VOLUME: 750ml
 - Moves glucose to liver, muscle, fat
 - Helps body retain nutrients by blocking conversion to bloodstream glucose
 
-
+JAPANESE PLUM
+Japanese plum is packed with powerful plant compounds and has been used in 
+traditional medicine for thousands of years. It is rich in vitamins (A and B), minerals 
+(potassium and manganese), fibers, riboflavin, and thiamin. Well known for its high 
+antioxidant capacity and alkalinizing power, Japanese plum is also rich in carotenoids 
+and phenolic compounds, which may boost heart health and protect against 
+heart disease. It is used in this powerful enzyme blend to promote digestive and 
+gastrointestinal health, protect the liver, and stabilize blood sugar daily
 
 #### Lightseed Benefits
 
