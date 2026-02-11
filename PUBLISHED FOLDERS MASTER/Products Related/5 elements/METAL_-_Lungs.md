@@ -48,7 +48,6 @@ Due to their detoxification functions, these organs gradually become saturated w
 
 ### The ZenCleanz Way
 
-The ZenCleanz Way is a 6-month detox & rejuvenation schedule divided into six bundles, each designed for approximately one month. Each is designed to help gradually dig deeper and deeper into the toxicity of various drainage pathways and layers of tissues while constantly taking care of upstream sources of filtration and intoxication.
 
 **Important Truth:** There is no magic pill. We take decades to get intoxicated. When the body calls for help, it is already because it can't cope with the level of toxicity accumulated over the years. At that point, the body truly requires deep detox work.
 
@@ -110,7 +109,7 @@ To support lung health and balance, TCM recommends:
 - Herbal medicine
 - Acupuncture
 - Other TCM therapies to strengthen lung Qi
-- Clear respiratory congestion
+- Clearing respiratory congestion
 - Address imbalances or disorders related to the lungs
 
 ### Naturopathic Medicine Perspective
@@ -124,9 +123,9 @@ This process aims to:
 - Reduce mucus buildup
 - Strengthen the immune system
 - Improve lung function
-- Lead to better energy levels
+- Better energy levels
 - Reduce allergy symptoms
-- Promote healthier and more vibrant life
+- Promote a healthier and more vibrant life
 
 #### Systematic Cleansing Philosophy
 
@@ -187,7 +186,7 @@ The anatomy and physiology of the lungs work together to ensure efficient oxygen
 - Reaches microscopic air sacs called **alveoli**
 - Alveoli surrounded by network of capillaries
 - Oxygen from inhaled air diffuses into the bloodstream
-- Oxygen binds to red blood cells
+- Oxygen binds to the hemaglobin in red blood cells
 
 **3. Exhalation**
 - Diaphragm and intercostal muscles relax
@@ -237,12 +236,10 @@ In the modern living environment, industries and smokers produce a large number 
 
 ### Extended Symptoms of Toxic Lungs
 
-- Smokers
 - Sore throat or hoarseness
 - Nasal congestion or chronic runny nose
 - Headaches, dizziness, or confusion
 - Chest congestion or phlegm production
-- People living in polluted areas
 - Allergy-like symptoms (itchy or watery eyes, sneezing, coughing)
 - Chest pain or tightness
 - Fatigue or weakness
@@ -250,7 +247,7 @@ In the modern living environment, industries and smokers produce a large number 
 - Frequent respiratory infections
 - Frequent throat clearing
 - Persistent cough, especially one that worsens over time
-- Shortness of breath, difficulty breathing, or wheezing
+- Shortness of breath, difficulty breathing, or wheezing like what happens to people living in polluted areas, or smokers
 
 ---
 
@@ -280,21 +277,19 @@ In the modern living environment, industries and smokers produce a large number 
 
 **Traditional Methods:**
 - Involves taking food supplements or isolated molecules that can only support the lungs, not cleanse them
-- Support does not cleanse - implication is high and must be maintained
+- Supporting does not cleanse - implication is high maintenance and must be maintained to be effective
 - If one stops, the symptoms come back
 - Primarily use expectorants which are good but only work from the outside
-- These methods treat and support the lungs
 
 **ZenCleanz INSPIRE Advantages:**
 - 28 days of cleansing that will cleanse the lungs from the outside and the inside
 - One time is giving a lot of deep results
 - Not a magic pill - strongly suggest discovering the complete bundle
-- In a year process, can go through all 5 elements
 - To profoundly cleanse lungs, repeat cleanse for 12 months (one year)
 - Plant-based enzymes feed the body down to the cellular level
 - Compounds work through the bloodstream to strengthen lungs
 - Can be repeated - enzymes are lowering inflammation and nourishing the whole body
-- Deep and soft lung cleanse that can be combined with any other cleanse
+- Deep and soft lung cleanse that can be combined with any other detox
 - Purifies respiratory system
 - Repairs lung function
 - Improves immunity
@@ -388,56 +383,13 @@ Stop smoking in order to prepare for the lung cleanse.
 #### Duration
 The INSPIRE lung cleanse takes 28 days to perform by taking the kit's enzymes at timed intervals throughout the day.
 
-#### Dietary Focus - Mucus-Free Diet
-
-Following a mucuous-free diet while on the 28-day lung cleanse is strongly suggested.
-
-**Benefits of continuing mucus-free diet:**
-- Creates a healthy body
-- Will keep lungs healthy
-
-#### Antioxidant-Rich Foods
-
-Adding antioxidant-rich foods is strongly recommended while on the 28-day lung cleanse:
-- Apples
-- Blueberries
-- Fruits (especially berries)
-- Leafy green vegetables
-
-**Benefits:**
-- Contribute to neutralization of free radicals
-- Free radicals destroy lung cells
-- Keep them healthy
-
-#### Avoid Refined Sugar & Processed Foods
-
-Avoiding processed, frozen, canned, and packaged foods bypasses lots of preservatives and toxins.
-
-**It is strongly recommended to stop consumption of these foods while cleansing.**
-
-**Benefits:**
-- Investing in a healthful lifestyle
-- Inside-out approach helps humanity and planet coexist
-- Creates healthy environment
-
-#### No Smoking
-
-Stop smoking for the duration of the lung cleanse, avoid secondhand smoke and pollution (indoor and outdoor).
-
-**Why this matters:**
-- Poor air quality does not facilitate this cleanse
-- All types of smoke contain toxins and gas
-- Displaces oxygen in human blood
-- Deprives vital organs of oxygen they need
-- Avoiding smoke and poor air quality is excellent way to encourage life and vitality
-
 #### Self-Care Support Protocols
 
 Cleansing is a wonderful time to focus on self-care. Many support protocols are suggested during the lung cleanse:
 
 - **Sauna** - Heat therapy to support detoxification
 - **Movement** - 30-40 minutes per day
-- **Diaphragmatic breathing exercises:**
+- **Diaphragmatic Deep breathing exercises:**
   - Blow out air as long as possible
   - Use a balloon to practice
 - **Neti-pots** - Nasal cleansing
