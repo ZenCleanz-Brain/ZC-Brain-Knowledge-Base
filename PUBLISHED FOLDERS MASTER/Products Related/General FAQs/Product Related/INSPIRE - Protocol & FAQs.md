@@ -133,7 +133,7 @@ INSPIRE should not be taken by anyone under 6 years of age without the supervisi
 
 ### May I do the INSPIRE detox if I am pregnant or nursing?
 
-The INSPIRE is **NOT recommended** during pregnancy or nursing due to the potent herbs. The ONE, FORGIVE, FLOW, Mycelia, Chi, and NattoBlast are not advisable for pregnant, or planning to be pregnant, women. However, the ORIGIN kit, all other liquid enzymes, and sachets are good for the mother and baby. Remember that ZenCleanz products are foods with 100% bioavailable nutrients that help cellular nutrition.
+The INSPIRE is **NOT recommended** during pregnancy or nursing due to the potent herbs. The ONE, FORGIVE, FLOW, Mycelia, Chi, Lightseed and NattoBlast are not advisable for pregnant, or planning to be pregnant, women. However, the ORIGIN kit, all other liquid enzymes, and sachets are good for the mother and baby. Remember that ZenCleanz products are foods with 100% bioavailable nutrients that help cellular nutrition.
 
 **NOTE:** If taking ZenCleanz liquid enzymes for the first time, starting after the third month of pregnancy is recommended. If you have been drinking enzymes before the pregnancy, you may continue to consume them throughout the pregnancy.
 
