@@ -822,94 +822,107 @@ You're unlikely to be hungry; people report feeling quite full. Fasting is an op
 
 ### AMBROSIA - The Family Carer
 
-**Composition**: Made of 57 plants
 
-**Ingredients**: AMBROSIA (Contains: Soy, Lychee)
+question: "What are the main categories of benefits provided by Ambrosia?" answer: "Ambrosia provides three main categories of benefits: detoxing properties that remove harmful substances and balance gut flora, nourishing properties through bioavailable nutrients and prebiotics, and healing properties that repair the gut lining and reduce inflammation."
+
+question: "Which specific probiotics are included in Ambrosia?" answer: "Ambrosia contains Lactobacillus Acidophilus (LA063) and Bifidobacteria (BB14), which compete with harmful bacteria to reduce toxin-producing species and support microbial balance."
+
+question: "How does the fermentation process enhance the effectiveness of Ambrosia?" answer: "The 3-year fermentation process enhances bioavailability of nutrients, improves the efficacy of probiotics and enzymes, and reduces anti-nutritional factors in raw ingredients for better gut tolerance."
+
+question: "What ingredients in Ambrosia help with heavy metal detoxification?" answer: "Brown algae contains alginates that bind heavy metals and other toxins, facilitating their removal from the body through the digestive system."
+
+question: "How does Ambrosia support gut lining repair?" answer: "Ambrosia supports gut lining repair through ingredients like avocado and sweet potato (high in healthy fats and fiber), and wolfberry and red dates (rich in antioxidants and polysaccharides) that soothe and promote cellular repair in gut tissues."
+
+
+Ingredient List
+
 Pineapple, Papaya, Watermelon, Orange, Lemon, Ginger, Pear, Apple, Kiwi, Bitter Melon, Pumpkin, Tomato, Avocado, Enoki Mushroom, Shiitake, Grape, Black Fungus, Tangerine, Brown Sugar, Natural Sucrose, Chinese Cabbage, Cantaloupe, Mango, Dragon Fruit, Guava, Kumquat, Strawberry, Mulberry, Jackfruit, Lychee, Citric Acid, Red Date, Goji Berry, Coix Seed, Chayote, Asparagus, Pea, Black Bean, Soy, Corn, Bell Pepper, Lettuce, Spinach, Cabbage, Cauliflower, Chayote Leaves, Okra, Yam Bean, Sweet Potato, Brown Algae, Lotus Root, Black Date, Hawthorn, Mulberry Leaves, Isomalto Oligosaccharide, Herbal Enzyme Liquid, Roselle, Lactobacillus Acidophilus (LA063), Sorbitol, Bifidobacteria (BB14)
 
-NET VOLUME: 750ml
+Product Name
 
-**Recommended For**:
-- Maintaining good supply of vitamins and minerals
-- Balancing nutritional deficiencies
-- Enhancing body's metabolism
-- Energizing and balancing internal organs
-- Purifying blood
-- Strengthening immunity
-- Balancing gut bacteria
-- Reducing inflammation
+AMBROSIA (microbiome restoration and intestinal maintenance)
 
-#### Key Ingredient: Pineapple
+Ambrosia: Detoxing, Nourishing, and Healing Properties on the Microbiome and Digestive System
 
-- Originally from South America
-- Contains numerous vitamins (C, B6, A, K)
-- Contains minerals (manganese, potassium, copper, iron)
-- Rich in enzymes aiding digestion
-- Boosts immunity
-- Protects against diseases and inflammation
-- Bromelain is rare enzyme transforming proteins
-- Stimulates digestive secretions
-- Main ingredient because of "bromelain prion" substance
-- Decomposes protein
-- Dissolves fibrin and blood clots in tissue
-- Improves local blood circulation
-- Eliminates inflammation and edema
+This intricate blend of 3-year fermented ingredients contains fruits, vegetables, herbs, and probiotics that synergize to promote microbiome balance, optimize digestive health, and provide comprehensive detoxification, nourishment, and healing.
 
-#### Key Ingredient: Natural Sugar Cane
+Detoxing Properties
 
-- Contrary to belief, not considered bad sugar
-- Natural source of sucrose; powerhouse of energy
-- Normalizes glucose release in body
-- Regains lost sugar levels
-- Contains vitamins (C, B2, B1, B6)
-- Contains minerals (magnesium, iron, potassium, phosphorus)
-- Contains antioxidants, phenolic acid, flavonoids
-- Excellent anti-aging compounds
-- Antioxidants neutralize bilirubin secretion
-- Ideal for digestive and liver problems
+Pineapple, Papaya, Lemon, Ginger, and Orange
+a. Enzyme-Rich: Papain (papaya) and bromelain (pineapple) help break down proteins, reducing toxin accumulation in the gut.
+b. Stimulates Detox Pathways: Lemon and orange are rich in vitamin C, supporting liver detoxification and bile flow.
+c. Anti-Inflammatory: Ginger reduces gut inflammation, easing digestion.
 
-#### Key Ingredient: Kumquat
+Momordica Charantia (Bitter Melon) (3.)
+a. Liver and Gut Cleanser: Stimulates bile production, aiding in the elimination of waste and fats.
+b. Anti-Microbial: Helps eliminate harmful bacteria and pathogens from the digestive tract.
 
-- Naturally rich in vitamins A, B, C
-- Contains good dietary fiber
-- Contains calcium, iron, flavonoids, carotenoids
-- Plant components making them good antioxidant
-- Anti-inflammatory
-- Antibacterial
-- Anticancer
-- Immunomodulatory food
-- May aid digestion
-- May promote digestion
-- May reduce inflammation
+Brown Algae (4.)
+a. Heavy Metal Detox: Alginates in brown algae bind heavy metals and other toxins, facilitating removal.
 
-#### Key Ingredient: Dragon Fruit
+Lactobacillus Acidophilus and Bifidobacteria BB14 (5.)
+a. Microbial Balance: Compete with harmful bacteria to reduce toxin-producing species.
 
-- Originally from Central America and Southeast Asia
-- Comes from cactus
-- Rich in fiber and water
-- Rich in vitamin C
-- Rich in minerals (magnesium, iron, calcium)
-- Brings many health benefits
-- Highly hydrating fruit
-- Contains water-soluble dietary fiber
-- Reduces weight and blood sugar
-- Moistens intestines
-- Prevents colorectal cancer
-- Rich in rare plant albumin combining with heavy metal ions
-- Excreted through body system
-- Plays detoxification role
-- Albumin has protective effect on gastric wall
+Roselle (6.)
+a. Digestive Cleanser: Its mild diuretic and laxative effects promote elimination of toxins.
 
-#### Ambrosia Benefits
+Nourishing Properties
 
-- Improves digestion
-- Complete variety of enzymes to cleanse gut
-- Wide variety of vitamins and minerals
-- Contains prebiotics and probiotics
-- Balances gut flora
-- Children's favorite!
+Prebiotics (7.)
+a. Apple, Coix Seed, and Yam Bean: Provide soluble fiber and oligosaccharides that feed beneficial gut bacteria, encouraging microbial diversity.
+b. Isomaltooligosaccharide: A powerful prebiotic that enhances beneficial bacteria like Lactobacillus and Bifidobacteria.
 
-**Usage**: Ambrosia, with all its 57 plants and probiotic strains, serves as great food supplement maintaining good vitamin and mineral supply and balancing nutritional deficiencies.
+Rich in Micronutrients (8.)
+a. Vegetables (Pumpkin, Spinach, Asparagus, Cauliflower): Deliver essential vitamins and minerals like magnesium, folate, and potassium to support gut repair and enzyme production.
+b. Fruits (Strawberry, Mulberry, Mango): High in antioxidants, protecting gut cells from oxidative stress.
+
+Amino Acids and Phytonutrients (9.)
+a. Black Beans and Soy: Provide protein and essential amino acids that rebuild and nourish gut lining cells.
+b. Lotus Root and Chayote: Offer phytonutrients that promote gut motility and improve nutrient absorption.
+
+Herbal Enzyme Liquid (10.)
+a. Enzymes enhance nutrient bioavailability and feed gut microbiota, ensuring an efficient digestive system.
+
+Healing Properties
+
+Gut Lining Repair (11.)
+a. Avocado and Sweet Potato: High in healthy fats and fiber, these ingredients soothe and repair the intestinal lining.
+b. Wolfberry and Red Dates: Rich in antioxidants and polysaccharides, they promote cellular repair in gut tissues.
+
+Anti-Inflammatory Support (12.)
+a. Black Fungus, Flammulina Enoki, and Mushroom: Contain polysaccharides and beta-glucans that reduce inflammation and enhance immunity in the gut.
+b. Turmeric: (influences through derivatives in this combination) Potent anti-inflammatory effects on intestinal tissues.
+
+Microbial Diversity Enhancement (13.)
+a. Fermented Probiotics: Reinforce a resilient microbiome by encouraging diverse and beneficial microbial species, reducing dysbiosis.
+b. Mulberry Leaves: Provide polyphenols that protect gut bacteria from oxidative damage.
+
+Strengthening Gut-Microbiome Axis (14.)
+a. Hawthorn and Kumquat: Improve microcirculation in the gut, ensuring better nutrient exchange and microbiome vitality.
+b. Pea and Corn: Offer resistant starch, which ferments in the colon to produce short-chain fatty acids (SCFAs) like butyrate, essential for gut health.
+
+Revitalizing the Digestive System
+
+Cantaloupe and Guava: High in vitamin A and C, they enhance gut barrier function and prevent microbial invasion.
+Pitaya and Kiwi: Rich in prebiotics and digestive enzymes, they promote smooth digestion and nutrient assimilation.
+Tangerine and Mulberry: Protect against oxidative stress and improve digestion by stimulating bile flow.
+Key Synergistic Effects
+
+Fermentation Benefits (18.)
+a. Enhances bioavailability of nutrients and improves the efficacy of probiotics and enzymes.
+b. Reduces anti-nutritional factors (e.g., tannins or oxalates) in raw ingredients, ensuring better gut tolerance.
+
+Microbiome Modulation (19.)
+a. The combination of prebiotics, probiotics, and fermented enzymes fosters a thriving and balanced microbiome.
+b. Reduces harmful species that produce gut toxins, preventing bloating and systemic inflammation.
+
+Gut Resilience and Systemic Health (20.)
+a. Ingredients like Roselle and Coix Seed strengthen gut immunity, which is vital for overall health.
+b. Enhanced SCFA production from fermented fibers improves intestinal permeability, preventing "leaky gut" syndrome.
+
+Summary
+
+Ambrosia is a comprehensive formula that detoxifies by removing harmful substances and balancing gut flora, nourishes with bioavailable nutrients and prebiotics, and heals the gut lining and microbiome through its anti-inflammatory and antioxidant properties. These 3-year fermented ingredients not only optimize digestive health but also enhance systemic well-being through the gut-brain and gut-immune axes.
 
 ---
 
