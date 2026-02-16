@@ -904,7 +904,7 @@ b. Pea and Corn: Offer resistant starch, which ferments in the colon to produce 
 Revitalizing the Digestive System
 
 Cantaloupe and Guava: High in vitamin A and C, they enhance gut barrier function and prevent microbial invasion.
-Pitaya and Kiwi: Rich in prebiotics and digestive enzymes, they promote smooth digestion and nutrient assimilation.
+Papaya and Kiwi: Rich in prebiotics and digestive enzymes, they promote smooth digestion and nutrient assimilation.
 Tangerine and Mulberry: Protect against oxidative stress and improve digestion by stimulating bile flow.
 Key Synergistic Effects
 
