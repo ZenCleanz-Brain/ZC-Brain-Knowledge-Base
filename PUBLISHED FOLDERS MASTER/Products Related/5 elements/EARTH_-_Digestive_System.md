@@ -523,7 +523,15 @@ Alleviate symptoms of dysbiosis and strengthen gut immunity
 Cacao Formula (2, 4, 6)
 
 Apple Fiber
-(See Plum Formula for shared properties)
+Detoxing:
+Binds to toxins and excess cholesterol for removal via the digestive tract
+
+Nourishing:
+Rich in pectin, feeding gut bacteria and improving digestion
+
+Healing:
+Soothes and protects the intestinal lining
+
 
 Blueberry Powder
 Detoxing:
@@ -546,7 +554,15 @@ Healing:
 Reduce oxidative damage to the gut lining
 
 Psyllium Seed Powder
-(Similar properties to Psyllium Husk Powder)
+Detoxing:
+Promotes regular bowel movements, flushing out toxins
+
+Nourishing:
+Serves as a prebiotic, enhancing gut flora diversity
+
+Healing:
+Helps manage diarrhea and constipation by regulating stool consistency
+
 
 Bromelain
 Detoxing:
@@ -569,10 +585,25 @@ Healing:
 Improves the absorption of fat-soluble nutrients
 
 Probiotics (Lactobacillus Acidophilus, Bifidobacterium Longum)
-(See Plum Formula for shared properties)
+Detoxing:
+Restore microbial balance, reducing harmful bacteria
+
+Nourishing:
+Produce vitamins (e.g., B12, K) and short-chain fatty acids for gut health
+
+Healing:
+Alleviate symptoms of dysbiosis and strengthen gut immunity
 
 Psyllium Husk Powder
-(See Plum Formula for shared properties)
+Detoxing:
+Promotes regular bowel movements, flushing out toxins
+
+Nourishing:
+Serves as a prebiotic, enhancing gut flora diversity
+
+Healing:
+Helps manage diarrhea and constipation by regulating stool consistency
+
 
 Oat Formula (3, 5, 7, 9)
 
@@ -587,13 +618,36 @@ Healing:
 Soothes the digestive tract, reducing irritation
 
 Psyllium Seed and Husk Powder
-(See Plum and Cacao Formulas for shared properties)
+Detoxing:
+Promotes regular bowel movements, flushing out toxins
+
+Nourishing:
+Serves as a prebiotic, enhancing gut flora diversity
+
+Healing:
+Helps manage diarrhea and constipation by regulating stool consistency
+
 
 Bromelain
-(See Cacao Formula for shared properties)
+Detoxing:
+Helps break down undigested food in the gut, preventing toxin buildup
+
+Nourishing:
+Supports nutrient absorption by enhancing protein digestion
+
+Healing:
+Reduces intestinal inflammation and accelerates tissue repair
 
 Blueberry Powder
-(See Cacao Formula for shared properties)
+Detoxing:
+Provides anthocyanins to combat oxidative stress in the gut
+
+Nourishing:
+Enhances gut flora diversity with polyphenols
+
+Healing:
+Protects against intestinal inflammation
+
 
 Comprehensive Fruit and Vegetable Powder
 Detoxing:
@@ -606,10 +660,25 @@ Healing:
 Supports tissue repair and gut integrity
 
 Apple Fiber
-(See Plum Formula for shared properties)
+Detoxing:
+Binds to toxins and excess cholesterol for removal via the digestive tract
+
+Nourishing:
+Rich in pectin, feeding gut bacteria and improving digestion
+
+Healing:
+Soothes and protects the intestinal lining
+
 
 Probiotics (Lactobacillus Acidophilus, Bifidobacterium Longum)
-(See Plum Formula for shared properties)
+Detoxing:
+Restore microbial balance, reducing harmful bacteria
+
+Nourishing:
+Produce vitamins (e.g., B12, K) and short-chain fatty acids for gut health
+
+Healing:
+Alleviate symptoms of dysbiosis and strengthen gut immunity
 
 Summary
 
