@@ -983,20 +983,6 @@ ZENCLEANZ FORGIVE provides a synergistic combination of fermented fruits, vegeta
 - Plant-based carbohydrate
 - Functions as binder to create smooth liquid
 
-**Fructo-oligosaccharide:**
-- Non-digestible carbohydrate
-- Shown to have several potential health benefits
-- Promoting growth of bacteria in gut
-- Improving digestion
-- Boosting immune system
-- Acting as probiotic
-
-
-**Lactitol:**
-- Sugar alcohol synthesized from lactose
-- Used as mild laxative
-- Works by increasing peristalsis in colon
-
 ---
 
 ## FAQ
