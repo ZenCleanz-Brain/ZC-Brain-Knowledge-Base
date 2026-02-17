@@ -545,157 +545,220 @@ Liver flushing pushes congestion out of liver, and sometimes, the liver can only
 
 ## Product Components & Ingredients
 
-### ZenCleanz FORGIVE: Flush Mix Drink (120ml Bottles A & B)
+question: "What are the four components of the FORGIVE liver cleanse?" answer: "FORGIVE contains four formulas: Cleansing Formula (apple flavor), Easing Formula (pineapple flavor), Flush Formula (mixed fruit), and Oil Formula (olive oil and lime)."
+question: "How does malic acid support liver detoxification?" answer: "Malic acid softens gallstones and bile, promotes smooth bile flow, facilitates energy production in liver cells, and prevents liver congestion while supporting detox pathways."
+question: "What role do fermented ingredients play in liver cleansing?" answer: "Fermented ingredients enhance bioavailability of nutrients, support liver detox through improved bile flow and enzymatic activity, and provide probiotics and bioactive compounds that promote liver health."
+question: "How does FORGIVE support bile production?" answer: "FORGIVE promotes bile production through citrus extracts, olive oil, apple-based ingredients, and compounds like bromelain that stimulate bile flow and ensure efficient fat metabolism and toxin elimination."
+question: "What makes the comprehensive fruit and vegetable powder effective for liver health?" answer: "The fruit and vegetable powder is high in antioxidants, chlorophyll, and phytonutrients that eliminate toxins, supply essential vitamins and enzymes for liver metabolism, and help repair damaged liver cells while enhancing bile secretion."
 
-#### Purpose
+Product Overview
 
-These 2 bottles that one mixes together constitute "THE FLUSH." These are to stimulate the liver to push toxins out of liver and gallbladder after stones have been softened and ducts have been opened.
+The ZENCLEANZ FORGIVE formula is specifically designed to target the liver and biliary system. Its combination of 3-year fermented fruits, vegetables, and enzymes supports liver detoxification, bile production, and overall health of the biliary system.
 
-#### Ingredients
+Product Components & Ingredient Lists
 
-**BOTTLE A:*
- - Apple 
- - Pinapple 
- - Comprehensive fruit and vegetable fermented liquid (pineapple, papaya, watermelon, willow, tomato, peach, citrus grape, cauliflower, cabbage)
- - Grapefruit Juice Concentrate
- - Isomalto Oligosaccharide
- - Citric Acid (from citrus)
+FORGIVE - CLEANSING FORMULA- APPLE FLAVOR
+Apple Powder, Malic Acid, Guar Gum, Apple Extract, Dragon Root Powder, Coix seed, Comprehensive Vegetable and Fruit Enzyme Powder VF75, Isomalto Oligosaccharide
 
+FORGIVE- EASING FORMULA PINEAPPLE FLAVOR
+Pineapple Extract, Papaya Extract, Apple Extract, Magnesium Oxide (Food Nutritional Additive), Comprehensive Fruit And Vegetable Powder (Pineapple, Lemon, Citrus, Pear, Kiwi, Grapefruit, Orange, Banana, Apple, Kiwi, Mulberry, Celery, Spinach), Dragon Root Powder, Isomalto Oligosaccharide
 
-**BOTTLE B:**
-- Olive oil
-- Concentrated lime juice
+FORGIVE- FLUSH FORMULA
+Apple, Pineapple, Comprehensive Fruit and Vegetable Fermented Liquid (Pineapple, Papaya, Watermelon, Willow, Tomato, Peach, Citrus, Grape, Cauliflower, Cabbage), Grapefruit Juice Concentrate, Isomalto Oligosaccharide, Citric Acid
 
-#### Key Ingredients & Properties
+FORGIVE- OIL
+Olive Oil, Lime
 
-##### CITRUS FRUITS
-**Nutritional Profile:**
-- Rich in vitamin C
-- Celebrated for supporting immune system
-- Enhancing collagen synthesis
-- Excellent antioxidant properties
+FORGIVE - Pineapple Powder
 
-**Benefits:**
-- Combat oxidative stress
-- Flavonoid content provides anti-inflammatory benefits
-- Antioxidant benefits
-- Help reduce risk of chronic diseases
-- Dietary fiber promotes digestive health
-- Regular bowel movements
-- Contributes to balanced gut environment
-- Low-calorie and low-fat choice
-- Ideal for weight management
-- Maintain healthful diet
-- Low glycemic index
-- Minimal impact on blood sugar levels
-- Aligns with dietary needs of those with diabetes
-- High potassium content aids in regulating blood pressure
-- Promoting heart health
-- Contain bioactive compounds like limonoids
-- Exhibit potential anti-cancer properties
-- Inhibit growth of harmful cells
-- Valuable addition due to revered role in Traditional Chinese Medicine
-- Known for capacity to invigorate and cleanse body
-- Help restore balance
-- Alleviate heat-related symptoms
-- Support body's innate detoxification processes
+1. Pineapple Extract
+Detoxing:
 
-##### OLIVE OIL
-**Nutritional Profile:**
-- Renowned for exceptional nutritional composition
-- Provides wide range of potential health advantages
-- Rich in essential vitamins: E and K
-- Crucial minerals: potassium, calcium, magnesium, iron
-- Monounsaturated fats, particularly oleic acid
+Bromelain supports liver detox by improving digestion and reducing inflammation
+Assists in breaking down toxins and supporting bile flow
+Nourishing:
 
-**Benefits:**
-- Responsible for therapeutic potential
-- High antioxidant capacity
-- Playing crucial role in protecting cardiovascular system
-- Reducing harmful cholesterol levels
-- Mitigating risk of heart disease
-- Positive impact on body weight management
-- Potential influence on brain function
-- Underscore versatility in promoting overall health
-- Shows promise in reducing cancer risk
-- Alleviating joint pain
-- Emphasizes significance for overall well-being and health
-- Thoughtfully included in blend for significant role in one-day liver cleansing
-- Stimulates gallbladder
-- Supports elimination of waste and toxins from liver
+Rich in vitamin C and manganese, essential for enzymatic reactions in the liver
+Healing:
 
-##### PEACHES
-**Nutritional Profile:**
-- Delightful addition to health-conscious diet
-- Multitude of nutritional benefits
-- Low-calorie and low-fat fruit
-- Superb choice for maintaining healthful weight
-- Rich in dietary fiber
+Anti-inflammatory properties help repair liver tissues and improve bile duct health
+2. Papaya Extract
+Detoxing:
 
-**Benefits:**
-- Promote smooth digestion
-- Help prevent constipation
-- Provide essential vitamins A and C
-- Bolster immune system
-- Enhance skin health
-- High antioxidant content: beta-carotene and lycopene
-- Safeguard against chronic diseases
-- Counter oxidative stress
-- Potassium-rich
-- Contributing to proper heart function
-- Healthful blood pressure
-- Offer quick energy boost with natural sugars
-- Being investigated for potential anti-cancer properties
-- Phenolic compounds and carotenoids
-- Natural diuretic
-- Support kidney function
-- Assist in toxin elimination
-- High water content keeps body hydrated
-- Contribute to radiant skin
-- Contain bioactive compounds known for anti-inflammatory properties
-- Potentially reducing inflammation and related symptoms
-- According to Traditional Chinese Medicine principles
-- Linked to Wood element (liver and gallbladder meridians)
-- Cooling nature beneficial for balancing liver's energetic properties
-- Especially during periods of excess heat
-- Earn place in blend as inclusion aligns with TCM's approach
-- Promoting liver health and balance
+Papain aids in breaking down proteins, reducing digestive load on the liver
+Enhances bile flow and toxin clearance
+Nourishing:
 
-##### CAULIFLOWER
-**Nutritional Profile:**
-- Known for impressive nutritional profile
-- Holds special place in blend
-- Cruciferous vegetable
-- Particularly appreciated for low-calorie and low-carb attributes
-- Valuable choice for individuals mindful of weight
-- Those following low-carb diet
-- Rich fiber content
+Provides vitamins A, C, and E, supporting liver repair and antioxidative protection
+Healing:
 
-**Benefits:**
-- Boon for digestive health
-- Promoting gut well-being
-- Brings essential vitamins: C and K
-- Vital for bolstering immune function
-- Supporting blood clotting processes
-- Packs punch in terms of antioxidants
-- Compounds like beta-carotene and quercetin
-- Antioxidants work to shield body from oxidative stress
-- Combat inflammation
-- Contributing to overall health
-- Sulfur compounds make it potential player in reducing cancer risks
-- Research revealed anti-cancer properties
-- Suggesting positive impact on certain types of cancer prevention
-- Multifaceted vegetable serves as asset in blend
-- Not only for nutritional content
-- Also for potential health benefits
-- Including detox properties
-- Offering well-rounded approach to wellness
+Reduces liver inflammation and supports regeneration of liver cells
+3. Comprehensive Fruit and Vegetable Powder
+Detoxing:
 
----
+High in antioxidants, chlorophyll, and phytonutrients to eliminate toxins from the liver
+Nourishing:
+
+Supplies essential vitamins, minerals, and enzymes for liver metabolism
+Healing:
+
+Repairs damaged liver cells and enhances bile secretion
+Specific Ingredients:
+
+Lemon, Citrus, Grapefruit: Stimulate bile production and liver detoxification
+Spinach and Celery: Provide chlorophyll, which binds to toxins
+4. Dragon Root Powder
+Detoxing:
+
+High fiber content helps bind toxins in bile for excretion
+Nourishing:
+
+Supports liver metabolism with nutrients like vitamin C and phytonutrients
+Healing:
+
+Anti-inflammatory properties promote liver health and bile flow
+5. Fructooligosaccharides (FOS)
+Detoxing:
+
+Acts as a prebiotic, improving gut microbiota, which supports toxin elimination
+Nourishing:
+
+Reduces the burden on the liver by aiding digestion in the gut
+Healing:
+
+Supports the liver-gut axis for efficient detoxification
+6. Magnesium Oxide
+Detoxing:
+
+Stimulates bile flow and reduces oxidative stress in the liver
+Nourishing:
+
+Essential for enzyme activation in liver detox pathways
+Healing:
+
+Alleviates liver inflammation and promotes tissue repair
+FORGIVE - Apple Powder
+
+1. Apple Extract
+Detoxing:
+
+Contains malic acid, which softens gallstones and promotes bile flow
+Nourishing:
+
+Rich in pectin, a soluble fiber that binds toxins in bile
+Healing:
+
+Provides antioxidants that repair liver cells and improve bile duct function
+2. Dragon Root Powder
+(See Pineapple Powder section above for details)
+
+3. Oligosaccharides
+Detoxing:
+
+Supports gut microbiota to enhance toxin elimination
+Nourishing:
+
+Improves nutrient absorption, reducing strain on the liver
+Healing:
+
+Reduces inflammation and oxidative stress in the liver
+4. Coix Seed (Job's Tears)
+Detoxing:
+
+Diuretic properties help eliminate waste products, lightening liver workload
+Nourishing:
+
+Rich in amino acids, supporting liver cell repair and metabolism
+Healing:
+
+Reduces liver inflammation and promotes bile production
+5. Malic Acid
+Detoxing:
+
+Softens bile and gallstones, promoting smooth bile flow
+Nourishing:
+
+Facilitates energy production in liver cells
+Healing:
+
+Prevents liver congestion and supports detox pathways
+FORGIVE - Mixed Juice
+
+1. Apple and Pineapple
+(See details under respective extracts above)
+
+2. Comprehensive Fermentation Liquid
+Detoxing:
+
+Fermentation enhances bioavailability of nutrients, supporting liver detox
+Eliminates toxins through improved bile flow and enzymatic activity
+Nourishing:
+
+Enriched with probiotics and bioactive compounds, promoting liver health
+Healing:
+
+Repairs liver tissue with potent antioxidants from fermented fruits and vegetables
+3. Grapefruit Juice Concentrate
+Detoxing:
+
+Enhances detox enzymes in the liver
+Nourishing:
+
+Rich in naringenin, a compound that protects liver cells
+Healing:
+
+Lowers inflammation and promotes regeneration of damaged liver tissue
+4. Citric Acid
+Detoxing:
+
+Helps chelate toxins and metals in the liver
+Nourishing:
+
+Improves liver enzyme activity
+Healing:
+
+Reduces oxidative stress in liver cells
+FORGIVE - Olive Oil
+
+1. Olive Oil
+Detoxing:
+
+Stimulates bile production and flushes out toxins from the liver and gallbladder
+Nourishing:
+
+Contains monounsaturated fats that support liver metabolism
+Healing:
+
+Rich in polyphenols, reducing liver inflammation and oxidative stress
+2. Lime
+Detoxing:
+
+Boosts glutathione levels, a critical antioxidant for liver detox
+Nourishing:
+
+Provides vitamin C to support liver repair and immune function
+Healing:
+
+Stimulates bile secretion and supports overall liver health
+How FORGIVE Supports the Liver and Biliary System
+
+Cleansing and Detoxification
+Ingredients like malic acid, bromelain, and citric acid stimulate bile flow, softening and flushing out toxins and gallstones.
+
+Nourishment for Liver Cells
+Rich in vitamins, minerals, and antioxidants (e.g., vitamin C, polyphenols) to promote liver metabolism and repair damaged cells.
+
+Gut-Liver Axis Support
+Prebiotics (FOS, oligosaccharides) and fermented enzymes improve gut health, reducing the toxin load on the liver.
+
+Bile Production and Flow
+Citrus extracts, olive oil, and apple-based ingredients promote healthy bile secretion, ensuring efficient fat metabolism and toxin elimination.
+
+Liver Regeneration and Repair
+Anti-inflammatory compounds and bioavailable nutrients enhance liver tissue repair, reduce oxidative stress, and improve biliary function.
+
 
 ### ZenCleanz FORGIVE: Hygieia Liquid (60ml Bottles)
-
-#### Ingredients
 
 - HYGIEIA
 
@@ -904,253 +967,9 @@ Conclusion
 
 HYGIEIA delivers a comprehensive formula for fat management and liver health. By combining 3-year fermented ingredients with detoxifying, nourishing, and healing properties, it effectively supports the liver in breaking down and clearing fats, reducing inflammation, and promoting regeneration. This product is ideal for addressing fatty liver conditions and maintaining overall metabolic health.
 
-### ZenCleanz FORGIVE: Easing Formula (Apple Flavour). Previously called Apple Enzymes
+Conclusion
 
-#### Ingredients
-
-- Apple powder
-- Malic Acid, Guar Gum, Apple Extract, Dragon Root Powder, Coix seed
-- Comprehensive Fruits and vegetables enzyme powder VF75 (pineapple, lemon, banana, mandarin, pear, kiwi, grapefruit, orange)
-- Isomalto Oligosaccharide.
-
-#### Function in Kit
-
-This part of cleanse aims to:
-- Soften gallstones
-- Dislodge toxic matters from deep liver tissues
-- Provide compounds to fight microbes, parasites, fungi
-- Reduce inflammation
-- Support tissue regeneration
-
-#### Key Ingredients & Properties
-
-##### FICIN (Proteolytic Enzyme from Fig Tree)
-**Description:**
-Versatile proteolytic enzyme extracted from fig tree.
-
-**Benefits:**
-- Recognized for protein-digesting properties
-- Promoting overall digestive health
-- Possesses potential anti-inflammatory characteristics
-- Instrumental in reducing bodily inflammation
-- Relieving associated symptoms
-- Investigated for antimicrobial attributes
-- Hinting at efficacy against specific bacteria and fungi
-- Rich history in traditional wound healing preparations
-- Contributing to tissue repair and regeneration
-- Immunomodulatory effects
-- Valuable asset
-- Aligning with holistic approach to health and well-being
-- Thoughtfully included in blend
-
-##### BANANAS
-**Nutritional Profile:**
-- Play vital role in nutrition
-- Diverse health benefits
-- Rich source of dietary fiber
-
-**Benefits:**
-- Promoting healthy digestion
-- Regular bowel movements
-- High potassium content helps regulate blood pressure
-- Contributing to overall heart health
-- Provide ample supply of vitamin C (antioxidant)
-- Supporting immune system
-- Collagen production
-- Aiding in maintaining healthy skin
-- Vitamin B6 content essential for proper brain function
-- Development
-- Natural energy source
-- Excellent choice for athletes
-- Those seeking quick energy boost
-- High carbohydrate content
-- Tryptophan (amino acid found in bananas)
-- Contribute to mood regulation
-- Enhance feelings of happiness and relaxation
-- Promoting serotonin production in brain
-- Gentle on stomach
-- Easily digestible
-- Benefits individuals with digestive sensitivities
-- Those in recovery process
-- Intentionally incorporated for exceptional role as natural prebiotic source
-- Supporting proliferation of beneficial gut bacteria
-- Enhancing overall gut health
-- Inherent antacid properties add significant value
-- Potentially alleviating symptoms related to heartburn and acid reflux
-- Reducing stomach acidity
-
-##### MANDARINS
-**Nutritional Profile:**
-- Abundant in vitamin C
-
-**Benefits:**
-- Bolstering immune system
-- Contributing to collagen production
-- Vital for healthy skin, bones, connective tissues
-- Dietary fiber content
-- Promotes digestive well-being
-- Regular bowel movements
-- Aids in blood sugar management
-- Good source of vitamin A
-- Support vision health
-- Immune function
-- Cell growth
-- Provide antioxidants: beta-carotene and flavonoids
-- Offering protection against free radicals
-- Low in calories and fat
-- Serve as healthful snack for weight management
-- Calorie control
-- Supply natural sugars for quick and raw energy
-- Ideal for pre-workout consumption
-- High water content
-- Contribute to optimal body hydration
-- Rich in minerals: potassium
-- Assist in regulating blood pressure
-- Supporting heart health
-- Exhibit anti-inflammatory properties
-- May alleviate symptoms of inflammation-related conditions
-- Valuable addition to blend
-- Complement holistic approach to supporting digestive health
-- Bolstering immune system
-- Contributing to overall restorative detoxification
-
-##### GRAPEFRUITS
-**Nutritional Profile:**
-- Nutritional powerhouse
-- Boasting high levels of vitamin C
-
-**Benefits:**
-- Fortify immune system
-- Promote collagen production for skin health
-- Abundant dietary fiber
-- Support digestion
-- Aid in weight management
-- Reduce risk of cardiovascular conditions
-- Teeming with antioxidants: lycopene and vitamin A
-- Help deter chronic diseases
-- Enhance skin and vision
-- Low calories
-- High water content
-- Low glycemic index
-- Excellent choice for weight loss and hydration
-- Supply essential potassium
-- Regulates blood pressure
-- Sustains muscle and nerve function
-- Naringenin content provides anti-inflammatory and antioxidant benefits
-- Guarding against chronic diseases
-- Alkaline-forming fruits
-- Harmonize pH levels
-- Bolstering overall well-being
-- Citric acid content
-- Enhances nutrient digestion
-- May prevent kidney stone formation
-- Meaningful inclusion in blend
-- Ideally aligned with holistic health approach
-- Improve digestive health
-- Optimize liver function
-- Complementing systemic body cleansing strategy
-
----
-
-### ZenCleanz FORGIVE: Easing Formula (Pineapple Flavour). Previously called Easing Enzymes
-
-#### Ingredients
-
-- Pineapple extract
-- Papaya extract
-- Apple extract
- - Magnesium Oxide (Food Nurtritional Additive)
-- Comprehensive Fruits and vegetables powder (pineapple, lemon citrus, pear, kiwi, grapefruit, orange, banana, apple, kiwi, mulberry, celery, spinach)
-- Dragon root powder
-- Isomalto Oligosaccharide
-
-#### Function in Kit
-
-Easing Enzymes are working to:
-- Prepare liver to flush
-- Dilate bile ducts
-- Open pathways for safe passage of stones
-
-#### Key Ingredients & Properties
-
-##### PINEAPPLE
-**Nutritional Profile:**
-- Nutritional powerhouse
-- Packed with vitamins: C, B1, B6
-- Minerals: manganese, copper, magnesium, calcium, potassium
-- Rich in sugars, dietary fiber, bromelain, proteins
-
-**Benefits:**
-- Potentially aid in restoring digestive health
-- Support digestion
-- Provide high level of antioxidant protection
-- Boost energy levels
-- Even reduce cancer risk
-- Offer harmonious combination of natural sweetness
-- Energy-boosting properties
-- Detoxification benefits
-- Valuable inclusion in blend
-- Pivotal in promoting digestive health
-- Supporting body's natural detoxification processes
-- Enhancing immune function
-- In line with holistic approach to systemic cleansing
-
-##### CELERY
-**Nutritional Profile:**
-- Humble yet remarkable vegetable
-- Offers wide array of health benefits
-- Low in calories
-- Rich in essential nutrients: vitamins A, K, C
-- Minerals: potassium, sodium, phosphorus
-- High fiber content
-- Abundance of folate
-
-**Benefits:**
-- Maintains healthy digestive system
-- Has alkalizing effect on body
-- Antioxidant-rich nature
-- Potent fighter against inflammation
-- Excellent support for diabetes prevention and management
-- Impressive weight loss benefits
-- Long list of reasons to appreciate celery's role
-- Promoting overall well-being
-- Rich mineral content
-- Including essential elements: potassium and sodium
-- Synergistically enhances detoxification effect on kidneys
-- Invaluable component of blend
-- Aligning perfectly with holistic approach
-- Support body's inherent detoxification processes
-
-
-##### DRAGON ROOT POWDER
-**Nutritional Profile:**
-- Derived from potent Chinese medicinal herb
-- Offers multitude of remarkable benefits
-
-**Benefits:**
-- Anti-inflammatory properties
-- Relieve those suffering from conditions like irritable bowel syndrome
-- Aligning seamlessly with blend's focus on digestive health
-- Boasts high antioxidant capacity
-- Bolstering body's defense against oxidative damage
-- Potential chronic diseases
-- Antiviral, antibacterial, antifungal properties
-- Excellent choice for preventing and treating infectious diseases
-- Exhibits analgesic properties
-- Relieving pain and aiding wound healing
-- Exceptional ingredient enhances blend's detoxification
-- Overall health-promoting properties
-- Vital in enhancing blend's detoxification process
-- Leveraging unique phytochemical profile
-- Including novel compounds
-- Exhibit remarkable affinity for targeting harmful toxins
-- Effectively facilitating their elimination
-- Additionally contributes to overall health-promoting aspects
-- Harnessing centuries-old reputation in Traditional Chinese Medicine
-- As harmonizing agent for vital energies
-- Promoting balance, resilience, inner vitality
-
----
+ZENCLEANZ FORGIVE provides a synergistic combination of fermented fruits, vegetables, enzymes, and oils, designed to cleanse and regenerate the liver and biliary system. Its comprehensive approach ensures improved bile production, toxin removal, and cellular repair, promoting overall liver vitality and digestive health.
 
 ## Ingredient Explanations
 
@@ -1172,10 +991,6 @@ Easing Enzymes are working to:
 - Boosting immune system
 - Acting as probiotic
 
-**Lactose:**
-- Disaccharide microbial lactose (vegan)
-- Used to process and eliminate lactose that clogs liver
-- After years of consumption
 
 **Lactitol:**
 - Sugar alcohol synthesized from lactose
@@ -1235,7 +1050,7 @@ We call this "watery emissions" because it is not diarrhea, but a sign that your
 
 ---
 
-## Liver Maintenance Products
+## LIVER MAINTENANCE PRODUCTS:
 
 ### Important Principle
 **Moving toxins to detox the body is not enough. We must ensure that these toxins will be channeled out of the body.**
@@ -1249,6 +1064,7 @@ question: "How does Rice Germ Enzyme help with fat metabolism?" answer: "Rice Ge
 question: "Which ingredients in Black Vacuum help reduce cholesterol?" answer: "Apple, blueberry, carrot, grapefruit, black fungus, and soybeans all help reduce LDL cholesterol levels through various mechanisms including pectin binding, polyphenols, and lecithin content."
 question: "How does Black Vacuum prevent fat accumulation in the liver?" answer: "Ingredients like rice germ enzyme, hawthorn, and soy lecithin prevent fat buildup in liver cells, while enzymes like bromelain and papain break down dietary fats for easier elimination."
 question: "What benefits does Black Vacuum provide for blood vessel health?" answer: "Black Vacuum improves blood vessel elasticity, prevents plaque buildup, and supports cardiovascular function through ingredients like black fungus, hawthorn, and soy that enhance circulation and reduce arterial fat deposits."
+
 BLACK VACUUM (FAT FLUSH)
 
 Product Overview
