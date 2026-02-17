@@ -606,156 +606,145 @@ The INSPIRE formula, with its blend of fermented plant syrups, liquids, and herb
 
 ### ZenCleanz CHI Liquid Enzymes
 
-#### Format
-100% natural and organic produce fermented for over 3 years
-- Fruits
-- Vegetables
-- Mushrooms
-- Herbs
-- Seaweeds
+question: "What is CHI and what does it do?" answer: "CHI is an immunity booster and body-mind adaptogen made from 3-year fermented ingredients that supports the immune system, enhances the body's adaptability to stress, and promotes overall health and vitality."
+question: "How does ginseng support immune function in CHI?" answer: "Ginseng enhances the immune system by stimulating the production of immune cells like T-cells and macrophages, while also acting as a detoxifier that supports liver function and helps the body cope with stress and fatigue."
+question: "What makes cordyceps beneficial for immunity?" answer: "Cordyceps enhances immune function by stimulating the production of natural killer (NK) cells and macrophages, while promoting kidney function for detoxification and boosting endurance and energy levels as an adaptogen."
+question: "How do the probiotics in CHI support immune health?" answer: "The Lactobacillus probiotics (Acidophilus, Bifidum, Casei, Rhamnosus) maintain a healthy gut microbiome and stimulate immune responses by promoting antibody production and supporting gut-associated lymphoid tissue, which is crucial for immunity."
+question: "What are the main adaptogenic ingredients in CHI?" answer: "The primary adaptogens in CHI are ginseng, cordyceps, and reishi mushroom (Ganoderma Lucidum), which help the body cope with physical, mental, and environmental stress while boosting stamina, energy, and immune resilience."
+CHI (IMMUNE RESILIENCE)
 
-#### Recommended For
-- Rejuvenating effects on all body systems
-- Restorative and strengthening properties
-- Nourishing and increasing vitality
-- Restoring nutritional and other deficiencies
-- Accelerates healing of all systems
-- Anti-aging
-- Elevating all bodily systems: mind, body, spirit, and beyond
+Product Overview
 
-#### Ingredients
+Product Name: CHI (Immunity Booster and Body-Mind Adaptogen Against Environmental Stress)
 
-- Ginseng
-- Cordyceps
-- Reishi
-- Roselle
-- Goji berry
-- Leonuri herba
-- Pineapple
-- Papaya
-- Lemon
-- Cauliflower
-- Apple
-- Kiwi
-- Black ear mushroom
-- Loquat
-- Peach
-- Mulberry
-- Grapefruit
-- Dragon fruit
-- Yam
-- Burdock
-- Okra
-- Chayote leaf
-- Spinach
-- Malabar spinach
-- Ginger
-- Asparagus
-- Bitter gourd
-- Chayote
-- Chlorella
-- Shiitake mushroom
-- Button mushroom
-- Porphyra
-- Chlorella
-- Lactobacillus acidophilus
-- Lactobacillus Bifidobacterium
-- Lactobacillus casei
-- Lactobacillus rhamnosus
+The CHI product, composed of a range of 3-year fermented ingredients, has a powerful combination of adaptogenic, detoxifying, nourishing, and immune-boosting properties. These ingredients help support the immune system, enhance the body's adaptability, and promote overall health and vitality.
 
-#### Health Benefits
-- Nourishes and increases vitality
-- Restores deficiencies
-- Accelerates healing of injuries
-- May help people with sleep disorders
-- May reduce symptoms of allergies
-- Promotes strength of all body systems
+Ingredient List
 
-#### Key Ingredients & Properties
+Ginseng, Cordyceps Sinensis, Goji Berry, Reishi, Roselle, Apple, Cauliflower, Lemon, Nightshade, Papaya, Pineapple, Asparagus, Bitter Melon, Black Ear Mushroom, Burdock, Loofah, Chayote Leaves, Ginger, Dragon Fruit, Grapefruit, Kiwi, Loquat, Malay Spinach, Mulberry, Mushroom, Okra, Peach, Shiitake, Spinach, Yam, Green Algae, Seaweed, American Ginseng Extract, Bamboo Ginger, Brown Sugar, Arabinose, Lactobacillus Acidophilus, Lactobacillus Bifidum, Lactobacillus Casei, Lactobacillus Rhamnosus, Vitamin B3, Isomalto Oligosaccharide
 
-##### GINSENG
-**Nutritional Profile:**
-- Rich in minerals: potassium, sodium, iron
-- Contains saponins, amino acids
-- Vitamin C
-- Powerful energizer
+1. Detoxing Properties and Immune Support
 
-**Benefits:**
-- Promotes relaxation
-- Lowers blood sugar and cholesterol levels
-- Reduces stress
-- Manages male sexual dysfunction
-- Incorporated for traditional use
-- Potential to promote lung health
-- Offering respiratory support
-- Immune system enhancement
-- Adaptogenic benefits
-- May help body adapt to stressors
+Ginseng (Panax ginseng)
+Detoxing:
 
-##### CORDYCEPS
-**Nutritional Profile:**
-- Nutritional content encompassing vitamins: B1, B2, B12, K
-- Minerals: zinc and copper
-- Abundance of monosaccharides, polysaccharides, sterols, nucleosides
+Excellent detoxifier that helps clear toxins from the body, particularly by supporting liver function and reducing the accumulation of waste products
+Immune System Support:
 
-**Benefits:**
-- Associated with potential benefits
-- Enhanced exercise performance
-- Anti-aging properties
-- Potential advantages for heart health
-- Regulation of blood sugar levels
-- Anti-inflammatory effects
-- Works by facilitating expansion of airways
-- Enhancing oxygen-carrying capacity of blood
-- Resulting in easier breathing
-- Relief of respiratory distress
-- Gladly included for history of use in traditional medicine
-- Alleviating symptoms related to respiratory discomfort
-- Offering potential relief and improved respiratory function
-- Particularly in conditions such as coughs, bronchitis, mild asthma
+Enhances the immune system by stimulating the production of immune cells like T-cells and macrophages, which help fight off infections and boost the body's defense mechanisms
+Adaptogenic Effect:
 
-##### GOJI BERRIES
-**Nutritional Profile:**
-- Superfood
-- Rich in polysaccharides
-- Packed with antioxidants
-- Vitamins A and C
-- Fibers and iron
+As an adaptogen, ginseng helps the body cope with stress and fatigue, regulating hormonal balance and maintaining overall energy levels
+Cordyceps Sinensis
+Detoxing:
 
-**Benefits:**
-- Involved in oxygen transport
-- Producing healthy red blood cells
-- Iron is energy booster
-- Preserves vital functions (immune system, gastrointestinal processes)
-- Incorporated for rich nutritional profile
-- Potential health benefits
-- Source of vitamins, minerals, antioxidants
-- Various bioactive compounds
-- Traditionally associated with supporting overall health and well-being
-- Reported benefits: improved immune function
-- Enhanced eye health
-- Potential anti-aging properties
+Helps in detoxification by promoting proper kidney function and flushing out toxins through the urinary system
+Immune System Support:
 
-##### LEONURI HERBA (Motherwort)
-**Nutritional Profile:**
-- Herb rich in alkaloids, flavonoids
-- Diterpene compounds
-- Offering potential therapeutic benefits in traditional medicine
+Well-known for its ability to enhance immune function, stimulating the production of natural killer (NK) cells and macrophages, which help fight infections and boost immune resilience
+Adaptogenic Effect:
 
-**Benefits:**
-- Various potential therapeutic benefits
-- Antibacterial properties
-- Anti-inflammatory effects
-- Support for heart and circulatory health
-- Potential edema-dissolving properties
-- Heat-clearing and toxicity relieving capabilities
-- Role in promoting blood circulation
-- Regulating menstruation
-- Included based on traditional wisdom
-- Indicating potential rejuvenating, restorative effects
-- Strengthening effects on all body systems
-- These qualities may extend to benefit overall health
-- Including well-being of lungs
+Improves the body's ability to adapt to physical and mental stress by boosting endurance, stamina, and energy levels, making it an excellent adaptogen
+Ganoderma Lucidum (Reishi Mushroom)
+Detoxing:
+
+Known for its detoxifying properties, supports the liver and kidneys, which are essential in removing toxins from the body
+Immune System Support:
+
+Potent immune system modulator, enhancing both innate and adaptive immune responses
+Increases the activity of T-cells, macrophages, and natural killer (NK) cells, which help the body combat infections and inflammation
+Adaptogenic Effect:
+
+Helps manage stress, enhances mental clarity, and balances the immune system, making it a key adaptogen in the formula
+Promotes longevity and vitality by balancing body functions
+Wolfberry (Goji Berries)
+Detoxing:
+
+Acts as a gentle detoxifier, clearing toxins from the bloodstream and supporting the liver's detoxification pathways
+Immune System Support:
+
+Rich in vitamin C, antioxidants, and polysaccharides, strengthens the immune system, enhancing the body's resistance to infections
+Adaptogenic Effect:
+
+Helps boost energy levels, improve mental function, and help the body adapt to stress
+Considered an adaptogen due to their ability to restore balance and promote vitality
+Roselle (Hibiscus Sabdariffa)
+Detoxing:
+
+Supports the body in detoxifying by promoting healthy digestion and acting as a mild diuretic to flush out excess waste and toxins
+Immune System Support:
+
+Rich in vitamin C and antioxidants, helps boost immunity, fight off infections, and reduce inflammation
+Adaptogenic Effect:
+
+Has a calming effect on the body, helping it recover from stress and promoting emotional balance
+Asparagus (Asparagus officinalis)
+Detoxing:
+
+Known for its detoxifying effects, helping the kidneys filter out toxins and reduce inflammation in the body
+Immune System Support:
+
+Rich in antioxidants, vitamin C, and fiber, all of which support the immune system and promote digestive health
+Adaptogenic Effect:
+
+Helps the body cope with physical stress and enhances the body's natural resilience, supporting overall well-being
+Burdock (Arctium lappa)
+Detoxing:
+
+Well-known for its ability to detoxify the liver and skin by promoting the removal of toxins through sweat and the urinary system
+Immune System Support:
+
+Helps modulate immune function, supporting the body in its fight against infections and promoting overall health
+Adaptogenic Effect:
+
+Helps the body adapt to environmental stressors, improving energy levels and overall vitality
+2. Nourishing Properties for Immune Support and Adaptogenic Function
+
+Apple (Malus domestica)
+Nourishing:
+
+Rich in fiber, vitamin C, and antioxidants, supporting digestive health and immune function by neutralizing free radicals
+Adaptogenic Effect:
+
+The sugars and polyphenols in apples help stabilize blood sugar levels, contributing to overall balance and promoting energy
+Kiwi (Actinidia deliciosa)
+Nourishing:
+
+Packed with vitamin C, vitamin E, and antioxidants, which support immune function and protect against oxidative damage
+Adaptogenic Effect:
+
+Helps the body adapt to stress by promoting healthy digestion and nutrient absorption, ensuring the body stays energized and balanced
+Pineapple (Ananas comosus)
+Nourishing:
+
+High in vitamin C and bromelain, an enzyme that aids digestion and has anti-inflammatory effects
+Immune System Support:
+
+Antioxidants and enzymes support the immune system by enhancing the body's ability to process nutrients and neutralize toxins
+Adaptogenic Effect:
+
+Helps maintain digestive health, ensuring that nutrients are absorbed efficiently and helping the body handle stress
+Lactobacillus Probiotics (Acidophilus, Bifidum, Casei, Rhamnosus)
+Nourishing:
+
+Essential for maintaining a healthy gut microbiome, which is central to immune function and overall health
+Immune System Support:
+
+Lactobacillus strains stimulate immune responses by promoting the production of antibodies and supporting the gut-associated lymphoid tissue (GALT), which is crucial for immunity
+Adaptogenic Effect:
+
+Probiotics help balance the gut, improving digestion, nutrient absorption, and reducing the impact of stress on the body
+3. Overall Adaptogenic and Immune-Boosting Benefits of CHI
+
+Ginseng, Cordyceps, and Ganoderma Lucidum serve as the primary adaptogens in this formula, helping the body better cope with physical, mental, and environmental stress by boosting stamina, energy, and immune resilience.
+
+The antioxidants, anti-inflammatory compounds, and immune-stimulating properties in ingredients like wolfberry, ginger, and roselle further enhance the body's defenses, preventing infections and promoting overall health.
+
+Together, the ingredients in CHI not only provide immune support but also enhance the body's adaptability, enabling it to maintain balance and vitality in the face of stressors, ultimately leading to a stronger, more resilient body.
+
+Conclusion
+
+CHI is a powerful blend of adaptogenic and immune-boosting ingredients, enhanced by 3-year fermentation for maximum potency. The product detoxifies, nourishes, and heals the body, supporting the immune system through ingredients like ginseng, cordyceps, and ganoderma while helping the body adapt to stress. With its array of probiotic, antioxidant, and anti-inflammatory ingredients, CHI promotes overall health and helps the body build resilience against both chronic stress and environmental challenges.
 
 ---
 
