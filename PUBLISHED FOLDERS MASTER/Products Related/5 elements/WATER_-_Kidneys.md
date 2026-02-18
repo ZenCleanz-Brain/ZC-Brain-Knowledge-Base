@@ -510,8 +510,8 @@ To maximize and improve results:
 
 We suggest that those who have done the ORIGIN kit continue taking:
 - ZenCleanz liquid enzymes
-- Powders
-- Pills
+- ZenCleanz Powders
+- ZenCleanz Pills
 
 For daily maintenance to continue cleansing and nourishing cells systemically.
 
@@ -523,7 +523,7 @@ You can evaluate your health based on the last 30 days.
 
 ## Product Components & Ingredients
 
-### ZenCleanz ORIGIN: JING Enzyme Tablets
+### ZenCleanz ORIGIN: JING Enzyme Capsules
 
 #### Ingredients
 
@@ -687,7 +687,7 @@ IMOs are low-calorie, soluble fiber in honey, miso, and fermented foods.
 
 #### Ingredients
 
-- Maca, pineapple, papaya, black sugar, isomaltooligosaccharide, apple, tomato, dragon fruit, mulberry, kiwi, passion fruit, pumpkin, green pepper, spinach, carrot, seaweed, mushroom, onion, bitter gourd, cabbage, grape seed extract, chive seed extract, cistanche tubulosa extract, cnidium monnieri extract, rhodiola extract, rice bran soybean extract, L-arginine, Coenzyme Q10.
+- Maca, black garlic, seaweed, pineapple, papaya, brown sugar, apple, tomato, dragon fruit, mulberry, kiwi, passion fruit, bitter melon, carrot, green pepper,  mushroom, onion, pumpkin, spinach, cabbage, chive seed extract, grape seed extract, cistanche tubulosa extract, rhodiola rosea extract, rice bran extract, millet spathula ectract, Coenzyme Q10, L-arginine, Isomaltooligosaccharide.
 
 
 #### Health Benefits
@@ -720,7 +720,7 @@ IMOs are low-calorie, soluble fiber in honey, miso, and fermented foods.
 - Supports and regenerates human body
 - Rich content of fibers and amino acids
 
-##### RHODIOLA
+##### RHODIOLA ROSEA
 **Nutritional Profile:**
 - Contains 35 trace elements
 - Contains 18 amino acids
@@ -780,7 +780,7 @@ IMOs are low-calorie, soluble fiber in honey, miso, and fermented foods.
 
 ## Ingredient Explanations
 
-### Amino Acids in JING Tablets
+### Amino Acids in JING Capsules
 
 **L-threonine and L-arginine:**
 - Amino acids that are building blocks of proteins
@@ -867,7 +867,7 @@ Yes, however, we invite you to start at the beginning and clear the digestive sy
 
 ### May I Take Supplements or Medication While on the ORIGIN Kit?
 
-Yes, follow any guidelines in the manual.
+Follow any guidelines in the manual.
 
 ### How Can I Maximize This Cleanse?
 
@@ -887,7 +887,7 @@ You may do back-to-back ORIGIN kits.
 
 **Additional dosing:**
 - If someone has weak system and low vitality, suggest that JiNG capsules be taken twice throughout the day
-- Additional purchase of sachets required
+- Additional purchase of JiNG capsules required
 - Reduce dosing when energy flow returns
 
 ---
@@ -938,7 +938,6 @@ The three stage process gives this blend outstanding power:
 - Can regulate hypothalamic-pituitary gland
 - Makes secretion of sexual hormones
 - Thus improving sexual dysfunction
-- Improve menopause syndrome
 - Contain variety of bioactive secondary metabolites
 - Enhance energy
 - Improve fertility
@@ -1036,7 +1035,7 @@ For detailed ingredient information, see Aztec Liquid section above.
 - Regulating the nervous, endocrine, pelvic muscle, reproductive, and vascular systems
 - Restoring sexual energy and vital essence
 
-#### Key Ingredients (Maintenance Version)
+#### Key Ingredients 
 
 ##### GINSENG
 **Nutritional Profile:**
@@ -1056,7 +1055,7 @@ For detailed ingredient information, see Aztec Liquid section above.
 
 ##### JAPANESE PLUM (Goji Berry)
 **Description:**
-Also known as goji berry, this superfood.
+Also known as goji berry, this is a superfood.
 
 **Nutritional Profile:**
 - Rich in polysaccharides
@@ -1140,7 +1139,7 @@ For nerds who love hard evidence - my hormone levels (E3G, LH, PdG) drastically 
 ### Ross J Barr - Integrative Medicine Doctor, Belgium
 
 **Quote:**
-"THE MOST EFFECTIVE WAY TO CLEAR INTERNAL DAMPNESS"
+"ONE of the MOST EFFECTIVE WAY TO CLEAR INTERNAL DAMPNESS"
 
 ### Dr. Liesbeth Denev - Integrative Medicine Doctor, Belgium
 

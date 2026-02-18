@@ -48,7 +48,6 @@ Due to their detoxification functions, these organs gradually become saturated w
 
 ### The ZenCleanz Way
 
-The ZenCleanz Way is a 6-month detox & rejuvenation schedule divided into six bundles, each designed for approximately one month. Each is designed to help gradually dig deeper and deeper into the toxicity of various drainage pathways and layers of tissues while constantly taking care of upstream sources of filtration and intoxication.
 
 **Important Truth:** There is no magic pill. We take decades to get intoxicated. When the body calls for help, it is already because it can't cope with the level of toxicity accumulated over the years. At that point, the body truly requires deep detox work.
 
@@ -110,7 +109,7 @@ To support lung health and balance, TCM recommends:
 - Herbal medicine
 - Acupuncture
 - Other TCM therapies to strengthen lung Qi
-- Clear respiratory congestion
+- Clearing respiratory congestion
 - Address imbalances or disorders related to the lungs
 
 ### Naturopathic Medicine Perspective
@@ -124,9 +123,9 @@ This process aims to:
 - Reduce mucus buildup
 - Strengthen the immune system
 - Improve lung function
-- Lead to better energy levels
+- Better energy levels
 - Reduce allergy symptoms
-- Promote healthier and more vibrant life
+- Promote a healthier and more vibrant life
 
 #### Systematic Cleansing Philosophy
 
@@ -187,7 +186,7 @@ The anatomy and physiology of the lungs work together to ensure efficient oxygen
 - Reaches microscopic air sacs called **alveoli**
 - Alveoli surrounded by network of capillaries
 - Oxygen from inhaled air diffuses into the bloodstream
-- Oxygen binds to red blood cells
+- Oxygen binds to the hemaglobin in red blood cells
 
 **3. Exhalation**
 - Diaphragm and intercostal muscles relax
@@ -237,12 +236,10 @@ In the modern living environment, industries and smokers produce a large number 
 
 ### Extended Symptoms of Toxic Lungs
 
-- Smokers
 - Sore throat or hoarseness
 - Nasal congestion or chronic runny nose
 - Headaches, dizziness, or confusion
 - Chest congestion or phlegm production
-- People living in polluted areas
 - Allergy-like symptoms (itchy or watery eyes, sneezing, coughing)
 - Chest pain or tightness
 - Fatigue or weakness
@@ -250,7 +247,7 @@ In the modern living environment, industries and smokers produce a large number 
 - Frequent respiratory infections
 - Frequent throat clearing
 - Persistent cough, especially one that worsens over time
-- Shortness of breath, difficulty breathing, or wheezing
+- Shortness of breath, difficulty breathing, or wheezing like what happens to people living in polluted areas, or smokers
 
 ---
 
@@ -280,21 +277,19 @@ In the modern living environment, industries and smokers produce a large number 
 
 **Traditional Methods:**
 - Involves taking food supplements or isolated molecules that can only support the lungs, not cleanse them
-- Support does not cleanse - implication is high and must be maintained
+- Supporting does not cleanse - implication is high maintenance and must be maintained to be effective
 - If one stops, the symptoms come back
 - Primarily use expectorants which are good but only work from the outside
-- These methods treat and support the lungs
 
 **ZenCleanz INSPIRE Advantages:**
 - 28 days of cleansing that will cleanse the lungs from the outside and the inside
 - One time is giving a lot of deep results
 - Not a magic pill - strongly suggest discovering the complete bundle
-- In a year process, can go through all 5 elements
 - To profoundly cleanse lungs, repeat cleanse for 12 months (one year)
 - Plant-based enzymes feed the body down to the cellular level
 - Compounds work through the bloodstream to strengthen lungs
 - Can be repeated - enzymes are lowering inflammation and nourishing the whole body
-- Deep and soft lung cleanse that can be combined with any other cleanse
+- Deep and soft lung cleanse that can be combined with any other detox
 - Purifies respiratory system
 - Repairs lung function
 - Improves immunity
@@ -388,56 +383,13 @@ Stop smoking in order to prepare for the lung cleanse.
 #### Duration
 The INSPIRE lung cleanse takes 28 days to perform by taking the kit's enzymes at timed intervals throughout the day.
 
-#### Dietary Focus - Mucus-Free Diet
-
-Following a mucuous-free diet while on the 28-day lung cleanse is strongly suggested.
-
-**Benefits of continuing mucus-free diet:**
-- Creates a healthy body
-- Will keep lungs healthy
-
-#### Antioxidant-Rich Foods
-
-Adding antioxidant-rich foods is strongly recommended while on the 28-day lung cleanse:
-- Apples
-- Blueberries
-- Fruits (especially berries)
-- Leafy green vegetables
-
-**Benefits:**
-- Contribute to neutralization of free radicals
-- Free radicals destroy lung cells
-- Keep them healthy
-
-#### Avoid Refined Sugar & Processed Foods
-
-Avoiding processed, frozen, canned, and packaged foods bypasses lots of preservatives and toxins.
-
-**It is strongly recommended to stop consumption of these foods while cleansing.**
-
-**Benefits:**
-- Investing in a healthful lifestyle
-- Inside-out approach helps humanity and planet coexist
-- Creates healthy environment
-
-#### No Smoking
-
-Stop smoking for the duration of the lung cleanse, avoid secondhand smoke and pollution (indoor and outdoor).
-
-**Why this matters:**
-- Poor air quality does not facilitate this cleanse
-- All types of smoke contain toxins and gas
-- Displaces oxygen in human blood
-- Deprives vital organs of oxygen they need
-- Avoiding smoke and poor air quality is excellent way to encourage life and vitality
-
 #### Self-Care Support Protocols
 
 Cleansing is a wonderful time to focus on self-care. Many support protocols are suggested during the lung cleanse:
 
 - **Sauna** - Heat therapy to support detoxification
 - **Movement** - 30-40 minutes per day
-- **Diaphragmatic breathing exercises:**
+- **Diaphragmatic Deep breathing exercises:**
   - Blow out air as long as possible
   - Use a balloon to practice
 - **Neti-pots** - Nasal cleansing
@@ -472,629 +424,327 @@ Continue on a mucus-free, antioxidant-rich, whole-food diet to maintain results.
 
 ## Product Components & Ingredients
 
-### ZenCleanz INSPIRE: Fermented Plant Syrup (10G/Sachets)
+question: "What are the three main components of the INSPIRE lung rejuvenator product?" answer: "INSPIRE contains three components: fermented plant liquid, fermented plant syrup, and herbal tea powder, each with specific ingredient blends designed to support lung health."
+question: "How does ginger help with lung detox and respiratory support?" answer: "Ginger provides anti-inflammatory and antioxidant properties that cleanse the respiratory tract, stimulates circulation to clear excess mucus, and acts as a bronchodilator to support healthy airflow."
+question: "Which ingredients in INSPIRE help clear mucus from the lungs?" answer: "Key mucus-clearing ingredients include licorice (acts as expectorant), pineapple (contains bromelain enzyme), loquat leaves, and monk fruit, all of which help break down and clear phlegm from the respiratory system."
+question: "What makes tremella mushroom beneficial for lung health in this formula?" answer: "Tremella is rich in polysaccharides that nourish the lungs and maintain moisture in lung tissues, preventing dryness and irritation while soothing the airways."
+question: "How long is the INSPIRE lung rejuvenation program designed to last?" answer: "The INSPIRE lung rejuvenator is designed as a 28-day program to support comprehensive lung health and respiratory system strengthening."
+INSPIRE (28-DAY LUNG REJUVENATOR)
 
-#### Ingredients
+Product Overview
 
-**Comprehensive Fermentation Broth contains:**
-- Lemon
-- Phyllanthus Emblica
-- Wolfberry
-- Orange Peel
-- Angelica Dahurica Root
-- Loquat Leaf
-- Licorice
-- Polygala
-- Lisianthus
-- Red Dates
-- Hawthorn
-- Raspberries
-- Dandelion
-- Aged Ginger
-- Poria
-- Jujube
-- Lotus seed
-- Orange Peel
-- Mulberry Leaves
-- Mulberry
-- Pineapple
-- Lychee
-- Watermelon
-- Pear
-- Avocado
-- Orange
-- Kumquat
-- Lemon
-- Plum
-- Red Apple
-- Papaya
-- Straw Mushroom
-- Mushroom
-- Shiitake Mushroom
-- Celery
-- Carrot
-- Cabbage
-- Sweet Pepper
-- Bitter gourd
-- Tomato
-- Potato
-- Sweet Potato Leaves
-- White gourd
-- Cantaloupe
-- Broccoli
-- Water Spinach
-- Pea Seedlings
-- Lettuce
-- Fennel
-- Black Bean
-- Soybean
-- Coix Seed
+Product Name: INSPIRE
 
-**Additional ingredients:**
-- Ginseng Extract
-- Menthol
-- Isomaltooligodaccharide
+The INSPIRE product, with its combination of fermented plant syrups, liquids, and herbal teas, is specifically designed to support lung health and the respiratory system. The ingredients in this formula offer powerful detoxifying, nourishing, and healing properties, particularly for clearing and strengthening the lungs.
 
-#### Health Benefits
-- Includes dozens of fruits, vegetables, and precious herbs
-- Rich in selenium, helping improve immunity
-- Purifies the respiratory system
-- Cleans and conditions the lungs and rejuvenates the body
-- Maintains normal function of vital organs (heart, liver, lungs, stomach)
+Product Components & Ingredient Lists
 
-#### Key Ingredients & Properties
+INSPIRE - Fermented Plant Liquid
+Phyllanthus Emblica, Tangerine Peel, Licorice, Ginger, Poria, Houttuynia Cordata, Honeysuckle, Luo Han Guo, Yam, Goji Berry, Red Date, Hawthorn, Raspberry, Angelica Dahurica, Lotus Seed, Mulberry Leaves, Pineapple, Lychee, Watermelon, Pear, Avocado, Orange, Kumquat, Lemon, Plum, Red Apple, Papaya, Mushroom, Grapefruit, Tremella, Daikon, Lotus Root, Winter Melon, Cantaloupe, Fennel, Coix Seed
 
-##### PHYLLANTHUS EMBLICA
-**Nutritional Profile:**
-- Rich source of various vitamins: B1 (Thiamine), B2 (Riboflavin), A (Retinol), PP (Niacin/Vitamin B3), C (Ascorbic Acid)
-- Essential minerals: selenium, zinc, calcium, phosphorus, iron, potassium
-- Crucial for maintaining overall health and functionality
+INSPIRE - Fermented Plant Syrup
+Comprehensive Fermented Liquid (Lemon, Amla, Goji Berry, Tangerine Peel, Angelica, Loquat Leaves, Licorice, Polygala, Platy codon, Red Date, Hawthorn, Raspberry, Dandelion, Ginger, Poria, Lotus Seeds, Tangerine Peel, Mulberry Leaves, Mulberry, Pineapple, Lychee, Watermelon, Pear, Avocado, Orange, Kumquat, Lemon, Plum, Red Apple, Papaya, Straw Mushroom, Mushroom, Shiitake Mushroom, Celery, Carrot, Cabbage, Bell Pepper, Bitter Melon, Tomato, Potato, Sweet Potato Leaves, Winter Melon, Cantaloupe, Broccoli, Water Spinach, Pea Sprouts, Lettuce, Fennel, Black Bean, Soybean, Coix Seed), Loquat Leaf Extract, Ginseng Extract, Menthol, Lemon Enzyme Paste, Isomalt Oligosaccharide
 
-**Benefits:**
-- High antioxidant capacity
-- Neutralizing harmful free radicals
-- Reducing oxidative damage
-- Combination of vitamins, minerals, and antioxidants supports anti-aging
-- Healthy skin
-- Potential anti-inflammatory properties
-- Liver-protective qualities
-- Cancer-fighting properties
-- Enhance heart health
-- Reducing oxidative stress and inflammation
-- Benefiting cardiovascular well-being
-- Long-established anti-inflammatory properties make this blend unique
+INSPIRE - Herbal Tea Powder
+Houttuynia Cordata, Honeysuckle, Polygonatum Odoratum, Huang Qi, Licorice, Ginger, Zinc Yeast, Selenium Yeast, Vitamin B Complex, Hedyotis Diffusa, Jujube Seed, Atractylodes, Polygala, Patchouli, Phyllanthus Emblica, Chromium Yeast, Magnesium Yeast
 
-##### WOLFBERRY
-**Also known as:** Goji berry - a superfood
+1. Detoxing Properties for the Lungs and Respiratory System
 
-**Nutritional Profile:**
-- Rich in polysaccharides
-- Packed with antioxidants
-- Vitamins A and C
-- Fibers and iron
+Tangerine Peel (Citrus Reticulata)
+Detoxing:
 
-**Benefits:**
-- Iron involved in oxygen transport
-- Produces healthy red blood cells
-- Acts as energy booster
-- Preserves vital functions (immune system, gastrointestinal processes)
-- Exhibits potential anti-inflammatory properties
-- May indirectly support lung health
-- Reducing chronic inflammation associated with respiratory conditions
+Contains compounds like tangeretin and nobiletin, which have potent antioxidant properties
+These compounds help neutralize free radicals in the lungs and clear out environmental toxins from the respiratory tract
+Respiratory Support:
 
-##### LICORICE (Glycyrrhiza glabra)
-**Nutritional Profile:**
-- Abundant in fiber and carbohydrates
-- Contains triterpenoids, flavonoids, alkaloids
-- Vitamins and minerals (sodium and potassium)
-- Contributes to medicinal properties
+Traditionally used to relieve coughs, asthma, and phlegm
+Helps clear mucus from the lungs, promoting smoother breathing
+Licorice (Glycyrrhiza glabra)
+Detoxing:
 
-**Benefits:**
-- Potential effectiveness in alleviating respiratory conditions
-- Helps with coughs and asthma
-- Possibly due to anti-inflammatory and bronchodilatory properties
-- Rich in diverse bioactive compounds
-- May offer numerous health benefits
-- Respiratory support
-- Gastrointestinal relief
-- Antioxidant protection
-- Immune system support
+Has detoxifying effects, particularly in reducing the burden of respiratory toxins and allergens in the body
+Respiratory Support:
 
-##### DANDELION
-**Nutritional Profile:**
-- Nutrient-rich herb
-- Diverse profile of vitamins: C, K, B6
-- Essential minerals: potassium, manganese, magnesium, phosphorus
-- Array of potential health benefits
+Acts as an expectorant, aiding the removal of mucus from the lungs
+Soothes irritated airways, easing coughs and promoting respiratory recovery
+Ginger (Zingiber officinale)
+Detoxing:
 
-**Benefits:**
-- Robust antioxidant capacity
-- Potential anti-inflammatory properties
-- Support for weight management (due to diuretic qualities)
-- Choline's disease prevention potential
-- Sulforaphane in reducing risk of cancer, heart disease, diabetes
-- Traditional reputation for soothing and protecting mucous membranes
-- Alleviates irritation and inflammation
-- Historical use for relief of coughs
-- Support for asthma management
-- Anti-inflammatory effects for respiratory conditions
-- Considered gentle respiratory tonic
-- Potentially promotes overall lung health
+Anti-inflammatory and antioxidant properties help cleanse the respiratory tract by reducing oxidative stress and inflammation
+Respiratory Support:
 
----
+Stimulates circulation and helps clear excess mucus in the lungs
+Acts as a bronchodilator, supporting healthy airflow to the lungs
+Dandelion (Taraxacum officinale)
+Detoxing:
 
-### ZenCleanz INSPIRE: Fermented Plant Liquid
+Known for its detoxifying properties, helps purify the liver and kidneys
+Indirectly aids the lungs by reducing toxin buildup in the body
+Respiratory Support:
 
-#### Ingredients
+Used in traditional medicine to alleviate symptoms of respiratory conditions like bronchitis and asthma
+Poria (Poria cocos)
+Detoxing:
 
-- Phyllanthus Emblica
-- Orange Peel
-- Licorice
-- Aged Ginger
-- Poria
-- Houttuynia Cordata
-- Honeysuckle
-- Monk Fruit
-- Yam
-- Wolfberry
-- Red Dates
-- Hawthorn
-- Raspberry
-- Dandelion
-- Angelica Dahurica Root
-- Lotus seed
-- Mulberry leaves
-- Mulberry
-- Pineapple
-- Lychee
-- Watermelon
-- Pear
-- Avocado
-- Orange
-- Kumquat
-- Lemon
-- Plum
-- Red Apple
-- Papaya
-- Shiitake Mushroom
-- Grapefruit
-- Tremella
-- White Radish
-- Lotus Root
-- White gourd
-- Cantaloupe
-- Fennel
-- Coix seed
-- Lactobacillus Paracasei
-- Lactobacillus Plantarum
-- Bifidobacterium bifidum
+Acts as a natural diuretic, helping remove toxins from the body that can contribute to inflammation in the respiratory system
+Respiratory Support:
 
-#### Health Benefits
-- Cleanses, conditions, and moisturizes the body
-- Provides appropriate amounts of selenium
-- Can improve the body's immunity
-- Absorbs and clears heavy metals and debris from cells
-- Can improve and protect the respiratory system
-- Benefits smokers and people living in polluted environments
+Traditionally used to relieve coughs and improve lung function by reducing dampness and phlegm accumulation
+Loquat Leaves (Eriobotrya japonica)
+Detoxing:
 
-#### Key Ingredients & Properties
+Natural anti-inflammatory and detoxifying properties help cleanse the respiratory system, promoting better lung health
+Respiratory Support:
 
-##### ANGELICA DAHURICA ROOT
-**Nutritional Profile:**
-- Valuable nutritional profile
-- Essential vitamins: C and B12
-- Crucial minerals: potassium, zinc, iron
-- Various bioactive compounds: furanocoumarin, alkaloids, phenols, sterols, polysaccharides
+Known for clearing phlegm, soothing sore throats, and improving breathing
+Menthol
+Detoxing:
 
-**Benefits:**
-- Range of potential health benefits
-- Support for digestive system
-- Liver detoxification
-- Hormonal balance
-- Relief from menopausal symptoms
-- Promise in cancer prevention
-- Included in blend for traditional medicine benefits
-- Address respiratory conditions
-- Serve as expectorant (clearing mucus)
-- Reduce inflammation
-- Aid in bronchodilation
-- Considered lung tonic
-- Provides overall support for lung health
+Cooling and soothing properties help clear the airways of toxins and pollutants that affect lung health
+Respiratory Support:
 
-##### KUMQUAT
-**Nutritional Profile:**
-- Naturally abundant nutrients
-- Vitamins: A, B, C
-- Dietary fiber, calcium, iron
-- Flavonoids, carotenoids
-- Other plant compounds
+Acts as a mild bronchodilator, helping to open the airways and promote better airflow in the lungs
+Phyllanthus Emblica (Amla)
+Detoxing:
 
-**Benefits:**
-- Significant antioxidant properties
-- Anti-inflammatory properties
-- Antibacterial properties
-- Anticancer properties
-- Immunomodulatory properties
-- Valuable addition to healthful diet
-- In traditional Chinese medicine (TCM), sometimes employed to aid digestion
-- Alleviate symptoms such as coughs and sore throats
-- Regarded as possessing warming properties
-- Incorporated into fermented plant liquid for addressing respiratory concerns
+High in vitamin C and antioxidants, which help detoxify the body by neutralizing free radicals and supporting overall immune function
+Respiratory Support:
 
-##### MOMORDICA GROSVENORI (Monk Fruit)
-**Nutritional Profile:**
-- Special place in traditional medicine
-- Distinct nutritional composition
-- Provides vitamin C
-- Rich in natural sugars: fructose and glucose
-- Contains glycosides with antioxidant properties
+Cooling properties are beneficial for clearing heat and mucus from the lungs and improving lung health
+2. Nourishing and Healing Properties for the Lungs and Respiratory System
 
-**Benefits:**
-- Can assist in countering oxidative stress
-- Valuable addition to traditional health practices
-- Associated with various respiratory benefits
-- Associated with digestive benefits
-- May aid digestive health
-- Possess anti-inflammatory properties
-- Offer potential relief from allergies
-- Incorporated for potential to alleviate respiratory conditions
-- Aid in mucus clearance
-- Diminish cough symptoms
-- Relieve throat and lung irritation
+Wolfberry (Goji Berries, Lycium barbarum)
+Nourishing:
 
-##### RED DATES
-**Nutritional Profile:**
-- Highly regarded in traditional medicine
-- Substantial nutritional content
-- Essential vitamins: B and C
-- Vital minerals: iron, calcium, selenium, potassium, magnesium
+Rich in antioxidants and vitamins, strengthens the respiratory system and protects the lungs from damage caused by oxidative stress
+Respiratory Support:
 
-**Benefits:**
-- Believed to have anti-inflammatory properties
-- Potentially aiding those with inflammation-related conditions
-- Traditional practices use to enhance sleep quality
-- Potentially benefiting those with sleep disorders
-- May assist in regulating blood sugar levels
-- Offering potential advantages for individuals managing diabetes
-- Relieving stress and anxiety
-- Contributing to overall well-being
-- Included in blend for perceived ability to soothe respiratory system
-- Potentially relieving coughs and throat irritation
-- Conditions frequently associated with lung health
+Enhances lung function by improving circulation and promoting better oxygenation of the blood
+Angelica (Angelica sinensis)
+Nourishing:
 
----
+Known for its tonic effects on the respiratory and circulatory systems
+Helps nourish the lungs and improve overall respiratory health
+Respiratory Support:
 
-### ZenCleanz INSPIRE: Herbal Tea Powder (2G/Sachets)
+Acts as a natural expectorant, helping clear phlegm and improve airflow in the lungs
+Red Dates (Ziziphus jujuba)
+Nourishing:
 
-#### Ingredients
+High in vitamins and minerals, support overall lung health by nourishing the body and boosting energy
+Respiratory Support:
 
-- Houttuynia Cordata
-- Honeysuckle
-- Hedyotis Diffusa
-- Polygonatum Odoratum
-- Spine Date Seed
-- White Atractylodes Rhizome
-- Polygala Tenuifolia
-- Astragalus
-- Agastache Rugosa
-- Licorice
-- Ginger
-- Phyllanthus Emblica
-- Zinc Yeast
-- Selenium Yeast
-- Chromium Yeast
-- Magnesium Yeast
-- Vitamin B Complex
-- Yeast
+Known for its ability to support lung health by calming coughs and promoting healthy respiration
+Pineapple (Ananas comosus)
+Nourishing:
 
-#### Health Benefits
-- Can rejuvenate the respiratory system
-- Can purify the respiratory system
-- Can improve the body's immunity
-- Detoxifies the lungs
-- Conditions the lungs
+Contains bromelain, an enzyme that helps break down mucus in the respiratory system, making it easier to clear congestion
+Respiratory Support:
 
-#### Key Ingredients & Properties
+Reduces inflammation and promotes smooth airflow in the lungs by helping reduce swelling in the airways
+Lychee (Litchi chinensis)
+Nourishing:
 
-##### HERBA HOUTTUYNIAE
-**Nutritional Profile:**
-- Provides vitamin E
-- Essential minerals: calcium and iron
-- Crucial for various bodily functions
-- Rich in polyphenols and folic acid
-- Valuable bioactive compounds enhance medicinal properties
+Rich in antioxidants and vitamin C, which support lung tissue regeneration and overall respiratory health
+Respiratory Support:
 
-**Benefits:**
-- Promotes liver protection
-- Potentially aiding in detoxification process
-- Safeguarding overall liver health
-- Traditional practices use to support gut health
-- Contributing to balanced and thriving digestive system
-- May serve as digestive aid
-- Alleviating common digestive discomforts
-- Incorporated for traditional high regard for promoting overall health and vitality
-- Placing strong emphasis on fortifying and maintaining balanced immune system
-- Safeguard against respiratory infections effectively
+Helps clear heat and dampness from the respiratory tract, beneficial for conditions like asthma or chronic cough
+Mushrooms (Shiitake, Straw, Lion's Mane)
+Nourishing:
 
-##### HONEYSUCKLE
-**Nutritional Profile:**
-- Nutritional powerhouse
-- Rich in essential vitamins: B, C, and A
-- Contribute to overall well-being
-- Vital minerals: potassium, calcium, magnesium
+Packed with beta-glucans, which support immune function and help the body fight off respiratory infections
+Respiratory Support:
 
-**Benefits:**
-- Traditional ties to respiratory support
-- Potential ally in managing respiratory conditions
-- Believed to aid detoxification processes
-- Assisting body in eliminating toxins and waste
-- Anti-inflammatory properties
-- Reducing inflammation throughout body (including digestive system)
-- May possess antimicrobial qualities
-- Valuable in combating various pathogens
-- Associated with antiviral effects
-- Potential remedy for viral infections
-- Added conscientiously for traditional use
-- Can serve as supportive measure in alleviating symptoms
-- Promoting overall respiratory health
+Shiitake mushrooms are particularly beneficial in improving overall lung capacity and alleviating inflammation in the lungs
+Lotus Seeds (Nelumbo nucifera)
+Nourishing:
 
-##### GINGER
-**Nutritional Profile:**
-- Renowned spice and herbal remedy
-- Nutritional profile rich in vitamin C
-- Essential minerals: calcium and magnesium
-- Array of bioactive compounds
+Known for its cooling properties, nourishes the lungs and helps clear internal heat
+Respiratory Support:
 
-**Benefits:**
-- Various potential health benefits
-- Aiding digestion
-- Reducing flu symptoms
-- High antioxidant capacity
-- Potentially contributing to weight loss
-- Regulating blood sugar
-- Lowering cholesterol levels
-- Combating infections
-- Promoting bile flow for improved digestion
-- Specifically included in tea for traditional associations with lung health
-- Potential to soothe respiratory discomfort
-- Aid in mucus clearance
-- Reduce inflammation
-- Provide antiviral properties
-- Support immune system for overall well-being of lungs
+Supports lung function and can help reduce coughing and other respiratory discomforts
+Tremella (Tremella fuciformis)
+Nourishing:
 
-##### AGASTACHE RUGOSA
-**Nutritional Profile:**
-- Herb known for nutritional richness
-- Vitamins: A
-- Minerals: iron and manganese
-- Bioactive compounds
+Rich in polysaccharides, which nourish the lungs and help maintain moisture in lung tissues, preventing dryness and irritation
+Respiratory Support:
 
-**Benefits:**
-- Various potential health benefits
-- Prevention of diarrhea
-- Antimicrobial and antiviral properties
-- Mucus reduction in respiratory system
-- Support for digestive health
-- Included in tea for promoting digestive system health
-- Properly functioning digestive system indirectly enhances overall well-being
-- Including lung health
-- May bolster immune system
-- Results from general health and digestive support
-- Crucial for protecting against respiratory infections
+Helps reduce lung dryness, making it easier to breathe and soothing irritation in the airways
+3. Additional Immune-Boosting and Anti-inflammatory Ingredients
 
----
+Houttuynia Cordata
+Nourishing:
 
-## Trace Minerals in Herbal Tea
+A potent anti-inflammatory herb, helps reduce swelling in the respiratory system and supports healthy lung function
+Respiratory Support:
 
-The herbal tea powder includes several trace minerals essential for lung health.
+Traditionally used to treat colds, coughs, and respiratory infections
+Promotes better airflow and eases congestion
+Monk Fruit (Luo Han Guo)
+Nourishing:
 
-### Zinc Yeast
+Naturally sweet, rich in antioxidants and helps maintain a healthy immune system, indirectly supporting lung health
+Respiratory Support:
 
-**Nutritional Role:**
-- Essential mineral playing various roles in body
-- Known for immune-boosting properties
-- Plays vital role in development and function of immune cells (including those protecting lungs)
+Helps clear phlegm and mucus from the lungs, making it easier to breathe
+Ginseng (Panax ginseng)
+Nourishing:
 
-**Benefits:**
-- Supports production and activity of immune cells
-- Helping fight off infections
-- Reducing inflammation in lungs
-- Acts as antioxidant
-- Reducing oxidative stress in respiratory system
-- Protecting lung cells from damage
+Known for its adaptogenic properties, boosts overall energy levels and helps the body adapt to stress
+Can help reduce respiratory distress
+Respiratory Support:
 
-### Magnesium Yeast
+Enhances lung capacity and supports healthy breathing, especially during respiratory infections
+Conclusion
 
-**Nutritional Role:**
-- Involved in various biochemical reactions in body
-- Supports muscle relaxation
-- Supports nerve function
-- Supports regulation of inflammation
+The INSPIRE formula, with its blend of fermented plant syrups, liquids, and herbal teas, offers a comprehensive approach to promoting lung health and strengthening the respiratory system. By combining detoxifying ingredients like tangerine peel, ginger, and dandelion, with nourishing herbs like wolfberry, lychee, and lotus seeds, this product helps clear mucus, reduce inflammation, and enhance lung function. The anti-inflammatory, immune-boosting, and respiratory-supporting properties of these ingredients make INSPIRE an excellent choice for those seeking to improve lung capacity, alleviate respiratory discomfort, and support overall respiratory wellness.
 
-**Benefits:**
-- Helps relax and dilate airways in respiratory system
-- Making breathing easier
-- Especially during conditions like asthma
-- Has anti-inflammatory effects
-- Reducing inflammation in airways
-- Alleviating symptoms of respiratory disorders
-- Includes chronic obstructive pulmonary disease (COPD)
-- Includes bronchitis
-
-### Chromium Yeast
-
-**Nutritional Role:**
-- Trace mineral primarily known for role in carbohydrate and lipid metabolism
-- Helps regulate blood sugar levels
-- Enhancing action of insulin (hormone responsible for glucose uptake)
-
-**Benefits:**
-- Maintaining stable blood sugar levels crucial for lung health
-- High blood sugar levels can cause inflammation
-- Can damage delicate lung tissues
-- By promoting healthy blood sugar control
-- Chromium indirectly supports lung function
-- Reduces risk of respiratory complications
-
----
-
-## Lung Maintenance Products
+## LUNG MAINTANENCE PRODUCTS
 
 ### Important Principle
 **Moving toxins to detox the body is not enough. We must ensure that these toxins will be channeled out of the body.**
 
 ### ZenCleanz CHI Liquid Enzymes
 
-#### Format
-100% natural and organic produce fermented for over 3 years
-- Fruits
-- Vegetables
-- Mushrooms
-- Herbs
-- Seaweeds
+question: "What is CHI and what does it do?" answer: "CHI is an immunity booster and body-mind adaptogen made from 3-year fermented ingredients that supports the immune system, enhances the body's adaptability to stress, and promotes overall health and vitality."
+question: "How does ginseng support immune function in CHI?" answer: "Ginseng enhances the immune system by stimulating the production of immune cells like T-cells and macrophages, while also acting as a detoxifier that supports liver function and helps the body cope with stress and fatigue."
+question: "What makes cordyceps beneficial for immunity?" answer: "Cordyceps enhances immune function by stimulating the production of natural killer (NK) cells and macrophages, while promoting kidney function for detoxification and boosting endurance and energy levels as an adaptogen."
+question: "How do the probiotics in CHI support immune health?" answer: "The Lactobacillus probiotics (Acidophilus, Bifidum, Casei, Rhamnosus) maintain a healthy gut microbiome and stimulate immune responses by promoting antibody production and supporting gut-associated lymphoid tissue, which is crucial for immunity."
+question: "What are the main adaptogenic ingredients in CHI?" answer: "The primary adaptogens in CHI are ginseng, cordyceps, and reishi mushroom (Ganoderma Lucidum), which help the body cope with physical, mental, and environmental stress while boosting stamina, energy, and immune resilience."
+CHI (IMMUNE RESILIENCE)
 
-#### Recommended For
-- Rejuvenating effects on all body systems
-- Restorative and strengthening properties
-- Nourishing and increasing vitality
-- Restoring nutritional and other deficiencies
-- Accelerates healing of all systems
-- Anti-aging
-- Elevating all bodily systems: mind, body, spirit, and beyond
+Product Overview
 
-#### Ingredients
+Product Name: CHI (Immunity Booster and Body-Mind Adaptogen Against Environmental Stress)
 
-- Ginseng
-- Cordyceps
-- Reishi
-- Roselle
-- Goji berry
-- Leonuri herba
-- Pineapple
-- Papaya
-- Lemon
-- Cauliflower
-- Apple
-- Kiwi
-- Black ear mushroom
-- Loquat
-- Peach
-- Mulberry
-- Grapefruit
-- Dragon fruit
-- Yam
-- Burdock
-- Okra
-- Chayote leaf
-- Spinach
-- Malabar spinach
-- Ginger
-- Asparagus
-- Bitter gourd
-- Chayote
-- Chlorella
-- Shiitake mushroom
-- Button mushroom
-- Porphyra
-- Chlorella
-- Lactobacillus acidophilus
-- Lactobacillus Bifidobacterium
-- Lactobacillus casei
-- Lactobacillus rhamnosus
+The CHI product, composed of a range of 3-year fermented ingredients, has a powerful combination of adaptogenic, detoxifying, nourishing, and immune-boosting properties. These ingredients help support the immune system, enhance the body's adaptability, and promote overall health and vitality.
 
-#### Health Benefits
-- Nourishes and increases vitality
-- Restores deficiencies
-- Accelerates healing of injuries
-- May help people with sleep disorders
-- May reduce symptoms of allergies
-- Promotes strength of all body systems
+Ingredient List
 
-#### Key Ingredients & Properties
+Ginseng, Cordyceps Sinensis, Goji Berry, Reishi, Roselle, Apple, Cauliflower, Lemon, Nightshade, Papaya, Pineapple, Asparagus, Bitter Melon, Black Ear Mushroom, Burdock, Loofah, Chayote Leaves, Ginger, Dragon Fruit, Grapefruit, Kiwi, Loquat, Malay Spinach, Mulberry, Mushroom, Okra, Peach, Shiitake, Spinach, Yam, Green Algae, Seaweed, American Ginseng Extract, Bamboo Ginger, Brown Sugar, Arabinose, Lactobacillus Acidophilus, Lactobacillus Bifidum, Lactobacillus Casei, Lactobacillus Rhamnosus, Vitamin B3, Isomalto Oligosaccharide
 
-##### GINSENG
-**Nutritional Profile:**
-- Rich in minerals: potassium, sodium, iron
-- Contains saponins, amino acids
-- Vitamin C
-- Powerful energizer
+1. Detoxing Properties and Immune Support
 
-**Benefits:**
-- Promotes relaxation
-- Lowers blood sugar and cholesterol levels
-- Reduces stress
-- Manages male sexual dysfunction
-- Incorporated for traditional use
-- Potential to promote lung health
-- Offering respiratory support
-- Immune system enhancement
-- Adaptogenic benefits
-- May help body adapt to stressors
+Ginseng (Panax ginseng)
+Detoxing:
 
-##### CORDYCEPS
-**Nutritional Profile:**
-- Nutritional content encompassing vitamins: B1, B2, B12, K
-- Minerals: zinc and copper
-- Abundance of monosaccharides, polysaccharides, sterols, nucleosides
+Excellent detoxifier that helps clear toxins from the body, particularly by supporting liver function and reducing the accumulation of waste products
+Immune System Support:
 
-**Benefits:**
-- Associated with potential benefits
-- Enhanced exercise performance
-- Anti-aging properties
-- Potential advantages for heart health
-- Regulation of blood sugar levels
-- Anti-inflammatory effects
-- Works by facilitating expansion of airways
-- Enhancing oxygen-carrying capacity of blood
-- Resulting in easier breathing
-- Relief of respiratory distress
-- Gladly included for history of use in traditional medicine
-- Alleviating symptoms related to respiratory discomfort
-- Offering potential relief and improved respiratory function
-- Particularly in conditions such as coughs, bronchitis, mild asthma
+Enhances the immune system by stimulating the production of immune cells like T-cells and macrophages, which help fight off infections and boost the body's defense mechanisms
+Adaptogenic Effect:
 
-##### GOJI BERRIES
-**Nutritional Profile:**
-- Superfood
-- Rich in polysaccharides
-- Packed with antioxidants
-- Vitamins A and C
-- Fibers and iron
+As an adaptogen, ginseng helps the body cope with stress and fatigue, regulating hormonal balance and maintaining overall energy levels
+Cordyceps Sinensis
+Detoxing:
 
-**Benefits:**
-- Involved in oxygen transport
-- Producing healthy red blood cells
-- Iron is energy booster
-- Preserves vital functions (immune system, gastrointestinal processes)
-- Incorporated for rich nutritional profile
-- Potential health benefits
-- Source of vitamins, minerals, antioxidants
-- Various bioactive compounds
-- Traditionally associated with supporting overall health and well-being
-- Reported benefits: improved immune function
-- Enhanced eye health
-- Potential anti-aging properties
+Helps in detoxification by promoting proper kidney function and flushing out toxins through the urinary system
+Immune System Support:
 
-##### LEONURI HERBA (Motherwort)
-**Nutritional Profile:**
-- Herb rich in alkaloids, flavonoids
-- Diterpene compounds
-- Offering potential therapeutic benefits in traditional medicine
+Well-known for its ability to enhance immune function, stimulating the production of natural killer (NK) cells and macrophages, which help fight infections and boost immune resilience
+Adaptogenic Effect:
 
-**Benefits:**
-- Various potential therapeutic benefits
-- Antibacterial properties
-- Anti-inflammatory effects
-- Support for heart and circulatory health
-- Potential edema-dissolving properties
-- Heat-clearing and toxicity relieving capabilities
-- Role in promoting blood circulation
-- Regulating menstruation
-- Included based on traditional wisdom
-- Indicating potential rejuvenating, restorative effects
-- Strengthening effects on all body systems
-- These qualities may extend to benefit overall health
-- Including well-being of lungs
+Improves the body's ability to adapt to physical and mental stress by boosting endurance, stamina, and energy levels, making it an excellent adaptogen
+Ganoderma Lucidum (Reishi Mushroom)
+Detoxing:
+
+Known for its detoxifying properties, supports the liver and kidneys, which are essential in removing toxins from the body
+Immune System Support:
+
+Potent immune system modulator, enhancing both innate and adaptive immune responses
+Increases the activity of T-cells, macrophages, and natural killer (NK) cells, which help the body combat infections and inflammation
+Adaptogenic Effect:
+
+Helps manage stress, enhances mental clarity, and balances the immune system, making it a key adaptogen in the formula
+Promotes longevity and vitality by balancing body functions
+Wolfberry (Goji Berries)
+Detoxing:
+
+Acts as a gentle detoxifier, clearing toxins from the bloodstream and supporting the liver's detoxification pathways
+Immune System Support:
+
+Rich in vitamin C, antioxidants, and polysaccharides, strengthens the immune system, enhancing the body's resistance to infections
+Adaptogenic Effect:
+
+Helps boost energy levels, improve mental function, and help the body adapt to stress
+Considered an adaptogen due to their ability to restore balance and promote vitality
+Roselle (Hibiscus Sabdariffa)
+Detoxing:
+
+Supports the body in detoxifying by promoting healthy digestion and acting as a mild diuretic to flush out excess waste and toxins
+Immune System Support:
+
+Rich in vitamin C and antioxidants, helps boost immunity, fight off infections, and reduce inflammation
+Adaptogenic Effect:
+
+Has a calming effect on the body, helping it recover from stress and promoting emotional balance
+Asparagus (Asparagus officinalis)
+Detoxing:
+
+Known for its detoxifying effects, helping the kidneys filter out toxins and reduce inflammation in the body
+Immune System Support:
+
+Rich in antioxidants, vitamin C, and fiber, all of which support the immune system and promote digestive health
+Adaptogenic Effect:
+
+Helps the body cope with physical stress and enhances the body's natural resilience, supporting overall well-being
+Burdock (Arctium lappa)
+Detoxing:
+
+Well-known for its ability to detoxify the liver and skin by promoting the removal of toxins through sweat and the urinary system
+Immune System Support:
+
+Helps modulate immune function, supporting the body in its fight against infections and promoting overall health
+Adaptogenic Effect:
+
+Helps the body adapt to environmental stressors, improving energy levels and overall vitality
+2. Nourishing Properties for Immune Support and Adaptogenic Function
+
+Apple (Malus domestica)
+Nourishing:
+
+Rich in fiber, vitamin C, and antioxidants, supporting digestive health and immune function by neutralizing free radicals
+Adaptogenic Effect:
+
+The sugars and polyphenols in apples help stabilize blood sugar levels, contributing to overall balance and promoting energy
+Kiwi (Actinidia deliciosa)
+Nourishing:
+
+Packed with vitamin C, vitamin E, and antioxidants, which support immune function and protect against oxidative damage
+Adaptogenic Effect:
+
+Helps the body adapt to stress by promoting healthy digestion and nutrient absorption, ensuring the body stays energized and balanced
+Pineapple (Ananas comosus)
+Nourishing:
+
+High in vitamin C and bromelain, an enzyme that aids digestion and has anti-inflammatory effects
+Immune System Support:
+
+Antioxidants and enzymes support the immune system by enhancing the body's ability to process nutrients and neutralize toxins
+Adaptogenic Effect:
+
+Helps maintain digestive health, ensuring that nutrients are absorbed efficiently and helping the body handle stress
+Lactobacillus Probiotics (Acidophilus, Bifidum, Casei, Rhamnosus)
+Nourishing:
+
+Essential for maintaining a healthy gut microbiome, which is central to immune function and overall health
+Immune System Support:
+
+Lactobacillus strains stimulate immune responses by promoting the production of antibodies and supporting the gut-associated lymphoid tissue (GALT), which is crucial for immunity
+Adaptogenic Effect:
+
+Probiotics help balance the gut, improving digestion, nutrient absorption, and reducing the impact of stress on the body
+3. Overall Adaptogenic and Immune-Boosting Benefits of CHI
+
+Ginseng, Cordyceps, and Ganoderma Lucidum serve as the primary adaptogens in this formula, helping the body better cope with physical, mental, and environmental stress by boosting stamina, energy, and immune resilience.
+
+The antioxidants, anti-inflammatory compounds, and immune-stimulating properties in ingredients like wolfberry, ginger, and roselle further enhance the body's defenses, preventing infections and promoting overall health.
+
+Together, the ingredients in CHI not only provide immune support but also enhance the body's adaptability, enabling it to maintain balance and vitality in the face of stressors, ultimately leading to a stronger, more resilient body.
+
+Conclusion
+
+CHI is a powerful blend of adaptogenic and immune-boosting ingredients, enhanced by 3-year fermentation for maximum potency. The product detoxifies, nourishes, and heals the body, supporting the immune system through ingredients like ginseng, cordyceps, and ganoderma while helping the body adapt to stress. With its array of probiotic, antioxidant, and anti-inflammatory ingredients, CHI promotes overall health and helps the body build resilience against both chronic stress and environmental challenges.
 
 ---
 

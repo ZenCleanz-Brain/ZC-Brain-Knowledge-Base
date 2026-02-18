@@ -375,7 +375,7 @@ You should NOT do the ONE intestinal detox due to the high volume of water. Howe
 
 #### PREGNANCY: No
 
-The ONE, FORGIVE, FLOW, INSPIRE, Mycelia, Chi, Spark, and NattoBlast are not advisable for pregnant, or planning to be pregnant. However, the ORIGIN kit, all other liquid enzymes, and sachets are good for the mother and baby. Remember that ZenCleanz products are foods with 100% bioavailable nutrients that help cellular nutrition.
+The ONE, FORGIVE, FLOW, INSPIRE, Mycelia, Chi, Lightseed Spark, and NattoBlast are not advisable for pregnant, or planning to be pregnant. However, the ORIGIN kit, all other liquid enzymes, and sachets are good for the mother and baby. Remember that ZenCleanz products are foods with 100% bioavailable nutrients that help cellular nutrition.
 
 **NOTE:** If taking ZenCleanz liquid enzymes for the first time, starting after the third month of pregnancy is recommended. If you have been drinking enzymes before the pregnancy, you may continue to consume them throughout the pregnancy.
 
