@@ -452,7 +452,7 @@ Ambrosia is a comprehensive formula that detoxifies by removing harmful substanc
 
 ## Product Overview
 
-**Product Name:** ZENCLEANZ ONE (Intestinal Management Powder to Remove Mucoid Plaque)
+**Product Name:** Intestinal Management Powder 
 
 The ONE product line targets gut detox, nourishment, and healing through a blend of fibers, enzymes, probiotics, and phytonutrients for comprehensive digestive wellness.
 
@@ -711,7 +711,7 @@ Green Plum Powder, Bitter Melon, Kiwi, Papaya, Guar Gum, Apple Fiber, Brown Alga
 
 ## Summary
 
-The ONE product line (Plum, Cacao, and Oat Formulas) targets gut detox, nourishment, and healing through a blend of fibers, enzymes, probiotics, and phytonutrients. These ingredients:
+The Intestinal Management Powders (Plum, Cacao, and Oat Formulas) targets gut detox, nourishment, and healing through a blend of fibers, enzymes, probiotics, and phytonutrients. These ingredients:
 
 **Detox:** Promote toxin removal through enhanced bowel movements and microbial balance.
 
