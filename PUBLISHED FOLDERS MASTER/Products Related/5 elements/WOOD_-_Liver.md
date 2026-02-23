@@ -543,7 +543,7 @@ Liver flushing pushes congestion out of liver, and sometimes, the liver can only
 
 ---
 
-## Product Components & Ingredients
+# Product Components & Ingredients
 
 title: "FORGIVE: 1-Day Deep Liver Cleanser Product Guide"
 date: "2026-01-14"
@@ -563,7 +563,6 @@ qa_pairs:
   - question: "What makes the comprehensive fruit and vegetable powder effective for liver health?"
     answer: "The fruit and vegetable powder is high in antioxidants, chlorophyll, and phytonutrients that eliminate toxins, supply essential vitamins and enzymes for liver metabolism, and help repair damaged liver cells while enhancing bile secretion."
 ---
-# FORGIVE (1-DAY DEEP LIVER CLEANSER)
 
 ## Product Overview
 
@@ -571,7 +570,7 @@ qa_pairs:
 
 The ZENCLEANZ FORGIVE formula is specifically designed to target the liver and biliary system. Its combination of 3-year fermented fruits, vegetables, and enzymes supports liver detoxification, bile production, and overall health of the biliary system.
 
-## Product Components & Ingredient Lists
+-----
 
 ### FORGIVE - CLEANSING FORMULA- APPLE FLAVOR 
 
