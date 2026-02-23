@@ -12,7 +12,7 @@ qa_pairs:
     answer: "ZenCleanz ONE cleanses the entire digestive system in one day, while traditional methods require a minimum of 30 days and can take 6+ months to clear plaque effectively."
   - question: "What is mucoid plaque and how does it form?"
     answer: "Mucoid plaque is accumulated waste that gradually builds up along the small intestinal lining like a sewage pipe, blocking the intestinal tract and creating toxic backups that lead to malabsorption and weakened overall health."
-  - question: "What are the main symptoms of a clogged digestive system?"
+  - question: "What are the main symptoms of a clogged digestive system?" 
     answer: "Common symptoms include constipation, diarrhea, bloating and gas, abdominal pain, nausea and vomiting, headaches, skin problems, bad breath, and fatigue due to impaired nutrient absorption."
   - question: "What three products make up the ZenCleanz ONE cleanse kit?"
     answer: "ZenCleanz ONE consists of 3 bottles of Ambrosia (60ml each), 8 packets of Intestinal Management powder (15g), and 1 packet of Fiber Crystals (3g), working together to clear intestinal plaque in one day."
