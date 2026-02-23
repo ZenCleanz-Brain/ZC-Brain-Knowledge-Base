@@ -446,294 +446,938 @@ For daily maintenance to continue cleansing and nourishing cells systemically. I
 
 ## Product Components & Ingredients
 
-### ZenCleanz Flow: Nattoblast
+# NATTOBLAST - Vessel Cleaner 
 
-#### Ingredients:
+date: "2026-01-14"
+tags: ["nattokinase", "vessel-cleaner", "blood-circulation", "cardiovascular-health", "arterial-plaque", "blood-detox", "heart-support", "vascular-health"]
+category: "product-guide"
+summary: "Comprehensive guide to NATTOBLAST vessel cleaner supplement, detailing how 10 key ingredients work synergistically to support blood circulation, remove arterial plaque, and promote cardiovascular health. Covers ingredient-specific detoxing, nourishing, and healing properties for optimal vascular function."
+keywords: ["vessel cleaner supplement", "nattokinase blood thinner", "arterial plaque removal", "cardiovascular detox", "blood circulation support", "heart health ingredients"]
+qa_pairs:
+  - question: "What is the primary function of nattokinase in NATTOBLAST?"
+    answer: "Nattokinase breaks down fibrin protein that causes blood clots, dissolves excess cholesterol and arterial plaque, and acts as a natural blood thinner to improve circulation and reduce stroke risk."
+  - question: "How does hawthorn powder support cardiovascular health?"
+    answer: "Hawthorn powder enhances artery dilation, reduces blood pressure naturally, improves heart muscle function, and is rich in flavonoids that protect blood vessels from oxidative stress."
+  - question: "What detoxing properties does plum powder provide for blood vessels?"
+    answer: "Plum powder contains organic acids that remove toxins from the bloodstream, supports liver detoxification, and has mild laxative effects that help clear waste and reduce toxic buildup affecting blood vessel health."
+  - question: "How does reishi mushroom benefit the circulatory system?"
+    answer: "Reishi supports liver detoxification, contains beta-glucans that regulate cholesterol, improves microcirculation, and reduces inflammation in blood vessels to prevent atherosclerosis."
+  - question: "What role does silicon dioxide play in vascular health?"
+    answer: "Silicon dioxide is essential for collagen production which strengthens artery walls, supports cardiovascular elasticity, helps remove heavy metals from the bloodstream, and reduces arterial stiffness to improve blood flow."
+---
 
-Natto Enzyme Powder, Plum Powder, Erythritol, Silicon Dioxide, Malic Acid, Reishi Fruiting Body, White Yam Extract Powder, Cassia Seed Extract, Poria Cocos Extract Powder, Hawthorn Powder, SucraloseNatto Enzyme Powder, Plum Powder, Erythritol, Silicon Dioxide, Malic Acid, Reishi Fruiting Body, White Yam Extract Powder, Cassia Seed Extract, Poria Cocos Extract Powder, Hawthorn Powder, Sucralose.
+## Product Overview
 
-#### Health Benefits
-
-
-
-- Dissolves the Blockages. 
-- Restores the Pulse of Life.
-
-NATTOBLAST is a precision-engineered, 3-year fermented formula designed to dissolve circulatory blockages, regulate blood viscosity, and strengthen vascular resilience. Powered by nattokinase, reishi, and a blend of heart- and vessel-supporting botanicals, this formula is your natural ally for fluidity, clarity, and cardiovascular protection.
-
-- UNBLOCK & PURIFY THE BLOODSTREAM
-
-• Nattokinase is one of nature’s most powerful clot-dissolving enzymes, breaking down fibrin and preventing blood stagnation.
-• Plum and cassia seed help the liver and intestines eliminate metabolic waste, clearing the burden on circulation.
-• Silicon dioxide supports gentle removal of toxic metals while strengthening arterial walls.
-This is blood purification at its finest, restoring flow to where there was friction.
-
- NOURISH THE HEART & STABILIZE BLOOD PRESSURE
-
-Hawthorn, White Yam, Poria Cocos, Reishi Fruiting Body
-• Hawthorn enhances heart muscle function, promotes vasodilation, and supports cholesterol metabolism.
-• Reishi and poria cocos soothe the stress axis (HPA), protecting vessels from cortisol-related constriction.
-• White yam balances hormones and minerals, reducing vascular tension and improving fluid regulation.
-This is cardiovascular nourishment—grounded, intelligent, and deeply restorative.
-
-PROTECT, REGENERATE & ENERGIZE THE CIRCULATORY SYSTEM
-
-Malic Acid, Reishi, Yam, Grape Seed Extract
-• Malic acid enhances ATP production for energetic blood vessel function and oxygen delivery.
-• Reishi’s beta-glucans and antioxidants repair endothelial tissue and prevent plaque formation.
-• Yam and hawthorn contribute elasticity to vessel walls, ensuring youthful circulation under pressure.
-This is circulatory regeneration, rebuilding the terrain while keeping the current alive. 
-
-THE PURPOSE:
-
-• To dissolve what's stuck—fibrin, plaque, tension, and stagnation.
-• To nourish what circulates—blood, oxygen, nutrients, and energy.
-• To protect what matters—your heart, your brain, your vessels, your flow.
-
-NATTOBLAST is ideal for those who:
-• Experience cold extremities, poor circulation, or blood pressure imbalances
-• Have a history of high cholesterol, blood viscosity, or cardiovascular stress
-• Want a natural alternative to pharmaceutical blood thinners
-• Seek to support heart-brain connection, energetic clarity, and physical vitality
-has context menu
-
-
-### ZenCleanz Flow: Spark
-
-#### Ingredients
-Comprehensive Vegetable And Fruit Fermentation Liquid(Pineapple, Papaya, Watermelon, Tomato, Apple, Dragon Fruit, Orange, Red Dates, Lemon, Kelp, Ginger, Carrot, Spinach, Cabbage, Yam, Goji Berry), Ginger Extract, Vitamin B Complex, Black Pepper Extra, Xylitol, Isomaltooligosaccharide, Citric Acid.
-
-#### Health Benefits
-- Can repair damaged cells
-- Can activate and nourish cells
-- Can help create resistance to bacteria and viruses
-- Can help discharge toxins quickly from the body
-- Promotes smooth microcirculation
-
-#### Key Ingredients & Properties
-
-##### PAPAYA
-**Nutritional Profile:**
-- Rich spectrum of vitamins: C, A, B9, B, E, and K
-- Vital minerals: potassium, calcium, and magnesium
-
-**Benefits:**
-- Essential for immune support
-- Tissue repair
-- Antioxidant protection
-- Antioxidants help combat free radicals in bloodstream
-- Reducing oxidative stress
-- Supporting blood health
-- Contributing to regulating blood pressure
-- Bone health
-- Muscle function
-- Anti-inflammatory properties
-- Alleviate inflammation in circulatory system
-- Promoting healthier blood flow
-- Reducing strain on lymphatic system
-- Papain enhances protein digestion
-- Alleviating the lymphatic system's workload
-- Facilitating removal of metabolic waste
-
-##### TANGERINES
-**Nutritional Profile:**
-- Nutritional treasure trove
-- Abundant vital vitamins: C, A, and B
-- Essential minerals: potassium, calcium, magnesium, and iron
-
-**Benefits:**
-- Supporting muscle and bone health
-- Facilitating blood oxygenation (through iron)
-- Maintaining electrolyte balance
-- Vitamin C is potent ally for immune system
-- Promotes production and optimal functioning of immune cells
-- Fortifies body's defense against illnesses
-- Potassium regulates blood pressure
-- Promotes cardiovascular well-being
-- Dietary fibers aid in reducing cholesterol levels
-- Contributing to heart health
-- Exceptional antioxidant capacity
-- Bolsters immune system
-- Fosters healthy weight management
-- Potentially augments heart health
-
-##### WATERMELON
-**Nutritional Profile:**
-- Essential vitamins: B5, A, and C
-- Essential minerals: copper and potassium
-
-**Benefits:**
-- Skin health
-- Immune support
-- Cardiovascular well-being
-- Copper indispensable for diverse bodily functions
-- Red blood cell formation
-- Connective tissue maintenance
-- Potassium pivotal in promoting cardiovascular health
-- Aiding nerve function
-- Facilitating muscle contractions
-- Maintaining optimal blood pressure levels
-- Cornerstone of cardiovascular well-being
-- Imparts delightful and refreshing taste
-- Infuses blend with wealth of nutrients
-- Fortify overall health
-- Strengthen immune system
-- Enhance cardiovascular wellness
-- Provide various additional health advantages
-
+The circulatory system is responsible for delivering oxygen, nutrients, and removing metabolic waste from the body, making its proper maintenance essential for overall health. The ingredients in NATTOBLAST offer detoxing, nourishing, and healing properties that specifically benefit blood flow, heart function, and vascular integrity.
 
 ---
 
-### ZenCleanz FLOW: Mycelia
+## Ingredient List
 
-#### Ingredients
-- Shiitake mushroom
-- Straw mushroom
-- Enoki mushroom
-- Button mushroom
-- Wood ear mushroom
-- Kelp
-- Seaweed
-- Mulberry leaves
-- Wolfberry
-- Red date
-- Hibiscus sabdariffa (roselle)
-- Yam
-- Lotus seed
-- Perilla
-- Houttuynia cordata
-- Sweet basil
-- Lily
-- Black date concentrate
-- Pear
-- Pineapple
-- Watermelon
-- Papaya
-- Cantaloupe
-- Orange
-- Tangerine
-- Persimmon
-- Guava
-- Mango
-- Apple
-- Avocado
-- Mulberry
-- Starfruit
-- Plum
-- Broccoli
-- Tomato
-- Spinach
-- Pumpkin
-- Bitter gourd
-- Cabbage
-- Soybean
-- Lactobacillus paracasei
-- Lactobacillus plantarum
-- Bifidobacterium bifidum
+Natto Enzyme Powder, Plum Powder, Erythritol, Silicon Dioxide, Malic Acid, Reishi Fruiting Body, White Yam Extract Powder, Cassia Seed Extract, Poria Cocos Extract Powder, Hawthorn Powder, Sucralose 
 
-#### Health Benefits
-- Can repair damaged cells
-- Can nourish and activate cells
-- Helps reduce inflammation
-- Helps create hemostasis
-- Promotes strong immunity
+---
 
-#### Key Ingredients & Properties
+## Ingredient-Specific Benefits
 
-##### MUSHROOMS (Enoki, Shiitake, Straw)
-**Nutritional Profile:**
-- Diverse group of fungi with unique nutritional profiles
-- Abundant in multiple B vitamins
-- Vital minerals: sodium, copper, potassium, and iron
+### 1. Plum Powder
 
-**Benefits:**
-- Maintenance of bone health
-- Facilitation of energy production
-- Well-deserved reputation for immune-boosting properties
-- Fortifying body's defenses against illnesses and infections
-- Specific compounds associated with enhanced cognitive function
-- Potentially reducing risk of neurodegenerative diseases
-- Certain compounds linked to reduced risk of depression
-- Overall improvement in mental well-being
-- Remarkable ability to act as natural purifiers
-- Specifically targeting blood and lymphatic systems
-- Recognized for potential to assist in detoxifying circulatory systems
-- Effectively cleansing blood
-- Supporting lymphatic function
+**Detoxing Properties:**
+- Rich in organic acids (citric acid, malic acid) that help remove toxins from the bloodstream
+- Supports liver detoxification, aiding in the breakdown and elimination of metabolic waste
+- Mild laxative effect helps clear waste, reducing toxic buildup that can affect blood vessel health
 
-##### WOOD EAR MUSHROOM
-**Nutritional Profile:**
-- Rich in vitamin K
-- Iron content
+**Nourishing Properties:**
+- High in antioxidants (polyphenols, flavonoids) that prevent oxidative damage in blood vessels
+- Provides potassium, which regulates blood pressure and reduces strain on the heart
 
-**Benefits:**
-- Blood clotting and bone health
-- Supporting oxygen transport in bloodstream
-- Help prevent anemia
-- Aiding in red blood cell production
-- Potential benefits to heart health
-- Partly due to anticoagulant properties
-- Unique capacity to absorb impurities in digestive system
-- Promotes gastrointestinal health
-- May assist in eliminating gallstones and kidney stones
-- Enhancing urinary system health
-- Recognized as immune system boosters
-- Enhance body's natural defense mechanisms
-- Distinctive and nutritionally robust approach to bolstering overall health
-- Particular focus on heart health
-- Various facets of well-being
+**Healing Properties:**
+- Reduces arterial stiffness, improving blood circulation and lowering cardiovascular risks
+- Supports vascular elasticity, preventing premature aging of blood vessels
 
-##### KELP
-**Nutritional Profile:**
-- Marine wonder
-- Enriched with unique nutritional profile
-- Low in vitamins
-- Powerhouse of essential minerals: iodine, potassium, and sodium
-- Rich in compounds: mannitol, niacin, proteins, and fatty acids
+**Circulatory System Importance:**
+Plum powder aids in removing toxins that can cause inflammation in arteries and supports heart health by preventing oxidative damage.
 
-**Benefits:**
-- Supporting thyroid gland (thanks to iodine content)
-- Harnessing diuretic properties
-- Assisting in reducing edema
-- Potentially preventing renal failure
-- Immunity booster
-- Reinforces body's natural defense mechanisms
-- May hold preventive potential against heart diseases
-- Holistic and nourishing journey towards enhanced health
-- Thyroid support
-- Edema reduction
-- Revitalized sense of vitality
+### 2. Erythritol
 
-##### BITTER GOURD
-**Nutritional Profile:**
-- Unique vegetable
-- Notable nutritional profile
-- Essential vitamins: C and A
-- Minerals: potassium, zinc, and iron
-- Abundant in dietary fiber, folate, carbohydrates
-- Beneficial compounds: catechin, gallic acid, epicatechin
+**Detoxing Properties:**
+- Non-glycemic sweetener that doesn't contribute to sugar spikes, reducing the risk of insulin-related vascular damage
+- Passes through the body without being metabolized, avoiding stress on the liver and kidneys
 
-**Benefits:**
-- Disease prevention
-- Bone formation
-- Wound healing
-- Rich nutritional content
-- High antioxidant capacity
-- Combats free radicals
-- Reduces oxidative stress
-- Well-known for potential to lower blood sugar levels
-- Valuable for diabetes management
-- Compounds may have cancer-fighting properties
-- Can decrease cholesterol levels
-- Promoting overall heart health and well-being
-- Health-conscious choice
-- Enhancing disease prevention
-- Blood sugar regulation
-- Overall vitality
+**Nourishing Properties:**
+- Contains antioxidant properties that help reduce oxidative stress in blood vessels
+- Unlike sugar, it doesn't feed harmful bacteria in the gut that can contribute to inflammation
 
-## Blood & Lymph Maintenance Products
+**Healing Properties:**
+- Helps reduce the formation of harmful free radicals that can damage blood vessels
+- Protects capillary health, keeping microcirculation intact
 
-### Frequently Asked Questions
+**Circulatory System Importance:**
+Erythritol helps reduce sugar-related vascular stress, which is crucial in preventing arterial inflammation and blood vessel damage.
+
+### 3. Natto Enzyme Powder (Nattokinase)
+
+**Detoxing Properties:**
+- Breaks down fibrin, a protein that can cause blood clots and restrict circulation
+- Helps dissolve excess cholesterol and arterial plaque, clearing blocked vessels
+
+**Nourishing Properties:**
+- Supports blood vessel flexibility, reducing the risk of high blood pressure
+- Increases nitric oxide production, which improves blood vessel dilation and circulation
+
+**Healing Properties:**
+- Prevents clot formation, reducing the risk of stroke and heart attacks
+- Promotes healthy blood viscosity, preventing sluggish circulation and excessive clotting
+
+**Circulatory System Importance:**
+Nattokinase is one of the most powerful natural blood thinners, helping to prevent blood clots and improve circulation for a healthy cardiovascular system.
+
+### 4. Silicon Dioxide
+
+**Detoxing Properties:**
+- A natural anti-caking agent that helps prevent toxin buildup in supplement formulas
+- Helps remove heavy metals from the bloodstream by supporting detox pathways
+
+**Nourishing Properties:**
+- Essential for collagen production, which strengthens arteries and blood vessel walls
+- Supports elasticity in the cardiovascular system, preventing brittle arteries
+
+**Healing Properties:**
+- Helps reduce arterial stiffness, improving blood flow
+- Enhances cellular regeneration, keeping vascular tissue strong and flexible
+
+**Circulatory System Importance:**
+Silicon dioxide supports arterial strength and flexibility, reducing the risk of high blood pressure and vascular damage.
+
+### 5. Malic Acid
+
+**Detoxing Properties:**
+- Helps the body eliminate aluminum and other heavy metals, which can contribute to neurovascular diseases
+- Supports liver detoxification, ensuring proper breakdown of fats and toxins
+
+**Nourishing Properties:**
+- Enhances cellular energy (ATP) production, ensuring efficient circulation and oxygen delivery
+- Improves red blood cell function, keeping blood well-oxygenated
+
+**Healing Properties:**
+- Helps reduce muscle and vascular fatigue, improving stamina and endurance
+- Improves blood flow and circulation, especially to extremities
+
+**Circulatory System Importance:**
+Malic acid plays a crucial role in oxygen transport and energy production, making it essential for healthy circulation and heart function.
+
+### 6. Reishi Fruiting Body (Ganoderma Lucidum)
+
+**Detoxing Properties:**
+- Supports liver function, aiding in the breakdown of toxins and cholesterol
+- Helps remove excess free radicals from the bloodstream, reducing oxidative stress
+
+**Nourishing Properties:**
+- Contains beta-glucans that improve heart health and regulate cholesterol levels
+- Enhances immune function, protecting blood vessels from chronic inflammation
+
+**Healing Properties:**
+- Improves microcirculation, ensuring better blood flow to organs and extremities
+- Reduces inflammation in blood vessels, preventing atherosclerosis
+
+**Circulatory System Importance:**
+Reishi lowers inflammation, protects against arterial plaque, and enhances circulation, making it a powerful cardiovascular protector.
+
+### 7. White Yam Extract Powder
+
+**Detoxing Properties:**
+- Supports hormonal balance, which plays a role in vascular health
+- Helps flush excess sodium, reducing blood pressure stress
+
+**Nourishing Properties:**
+- Contains phytoestrogens that help regulate cholesterol and improve heart health
+- Provides essential minerals (magnesium, potassium) that aid circulation
+
+**Healing Properties:**
+- Supports vascular elasticity, reducing the risk of arterial stiffening
+- Improves blood flow, reducing risks of clotting disorders
+
+**Circulatory System Importance:**
+White yam extract supports hormonal balance, lowers blood pressure, and prevents arterial stiffening for optimal circulation.
+
+### 8. Cassia Seed Extract
+
+**Detoxing Properties:**
+- Supports liver detoxification, reducing blood cholesterol levels
+- Helps flush excess fats, preventing plaque buildup in arteries
+
+**Nourishing Properties:**
+- Rich in antioxidants and flavonoids that protect blood vessels
+- Helps regulate blood lipid levels, maintaining heart health
+
+**Healing Properties:**
+- Reduces inflammation in blood vessels, lowering cardiovascular risks
+- Improves vision health, linked to proper microcirculation
+
+**Circulatory System Importance:**
+Cassia seed extract helps detoxify the blood and protects arteries from damage, preventing blockages and clotting issues.
+
+### 9. Poria Cocos Extract Powder
+
+**Detoxing Properties:**
+- Acts as a diuretic, flushing out toxins through urine
+- Reduces fluid retention, which can contribute to high blood pressure
+
+**Nourishing Properties:**
+- Supports adrenal function, reducing stress-induced vascular strain
+- Contains triterpenoids, which strengthen blood vessels
+
+**Healing Properties:**
+- Helps reduce arterial inflammation, promoting better circulation
+- Strengthens capillary walls, preventing microcirculation issues
+
+**Circulatory System Importance:**
+Poria Cocos reduces blood pressure, supports adrenal health, and strengthens circulation.
+
+### 10. Hawthorn Powder
+
+**Detoxing Properties:**
+- Supports cholesterol metabolism, helping remove excess fats from blood vessels
+- Improves liver detox function, reducing the strain on cardiovascular health
+
+**Nourishing Properties:**
+- Rich in flavonoids, protecting blood vessels from oxidative stress
+- Improves heart muscle function, ensuring strong circulation
+
+**Healing Properties:**
+- Enhances artery dilation, improving oxygen supply
+- Reduces blood pressure naturally, lowering cardiovascular strain
+
+**Circulatory System Importance:**
+Hawthorn is one of the most powerful natural heart-supporting ingredients, promoting circulation, lowering cholesterol, and reducing inflammation.
+
+---
+
+## Conclusion
+
+#### These ingredients work synergistically to support blood purification, circulation, and vascular health, making them essential for long-term cardiovascular maintenance. NATTOBLAST provides comprehensive support for vessel cleaning, blood flow optimization, and overall circulatory system health.
+
+----
+# Spark - Microcirculation Revival
+
+"Comprehensive guide to SPARK, a microcirculation revival product featuring 3-year fermented ingredients that support cardiovascular health through detoxifying, nourishing, and healing properties. The document details how specific ingredients like fermented fruits, ginger extract, and Agaricus Blazei work together to enhance blood flow, protect blood vessels, and improve oxygen delivery to tissues."
+keywords: ["microcirculation support", "cardiovascular detox supplement", "fermented enzymes blood flow", "SPARK circulation product", "heart health ingredients", "blood vessel protection"]
+qa_pairs:
+  - question: "What are the main ingredients in SPARK microcirculation product?"
+    answer: "SPARK contains comprehensive vegetable and fruit fermentation liquid (including pineapple, papaya, watermelon, tomato, ginger, and other fruits/vegetables), ginger extract, vitamin B complex, black pepper extract, and supporting ingredients like xylitol and citric acid."
+  - question: "How does SPARK support cardiovascular health?"
+    answer: "SPARK enhances blood flow through vasodilation, protects blood vessels with antioxidants, regulates cholesterol levels with beta-glucans, supports microcirculation with fermented enzymes, and helps balance blood pressure with potassium and magnesium."
+  - question: "What detoxifying properties does SPARK offer for the cardiovascular system?"
+    answer: "The fermented enzymes break down proteins and fats to prevent arterial buildup, antioxidants remove toxins and reduce oxidative stress, and ingredients like Agaricus Blazei support liver function to purify the bloodstream."
+  - question: "How do the fermented ingredients in SPARK work?"
+    answer: "The 3-year fermentation process increases bioavailability of antioxidants, enhances adaptogenic qualities, and creates enzymes that aid in breaking down arterial buildup while improving nutrient absorption and circulation."
+  - question: "What role does ginger extract play in SPARK's effectiveness?"
+    answer: "Ginger extract provides anti-inflammatory and anticoagulant properties, prevents blood clots, improves blood flow, stimulates circulation, and helps repair damaged blood vessels while enhancing liver detoxification."
+---
+
+## Product Overview
+
+The SPARK product, featuring 3-year fermented ingredients, provides a synergistic combination of detoxifying, nourishing, and healing properties. It is particularly effective in supporting the cardiovascular system and enhancing microcirculation.
+
+---
+
+## Ingredient List
+
+#### Comprehensive Vegetable And Fruit Fermentation Liquid(Pineapple, Papaya, Watermelon, Tomato, Apple, Dragon Fruit, Orange, Red Dates, Lemon, Kelp, Ginger, Carrot, Spinach, Cabbage, Yam, Goji Berry), Ginger Extract, Vitamin B Complex, Black Pepper Extra, Xylitol, Isomalt oligosaccharide, Citric Acid 
+---
+
+## 1. Detoxing Properties for the Cardiovascular System and Microcirculation
+
+### Comprehensive Vegetable and Fruit Fermentation Liquid
+
+**Ingredients:** Pineapple, Papaya, Orange, Watermelon, Tomato, Brown Sugar
+
+**Detoxing:**
+- Enzymes from pineapple and papaya aid in breaking down proteins and fats, preventing arterial buildup and reducing strain on the cardiovascular system
+- The fermentation process increases the bioavailability of antioxidants, helping remove toxins and reducing oxidative stress, which is a major contributor to cardiovascular issues
+- Tomatoes are rich in lycopene, a potent antioxidant that helps detoxify free radicals, protecting the heart and blood vessels
+- Brown sugar acts as a prebiotic, supporting gut health, which indirectly reduces systemic inflammation impacting the cardiovascular system
+
+### Agaricus Blazei Mixed Powder (Flame Mushroom)
+
+**Detoxing:**
+- Known for its liver-supportive properties, it aids in removing toxins from the bloodstream, which enhances blood purity and vascular health
+- Contains beta-glucans, which reduce cholesterol and help clear arterial plaques, improving blood flow and circulation
+
+### Ginger Extract
+
+**Detoxing:**
+- Ginger stimulates circulation and has a natural detoxifying effect, particularly by enhancing liver function and clearing toxins from the blood
+
+---
+
+## 2. Nourishing Properties for Cardiovascular Health
+
+### Comprehensive Vegetable and Fruit Fermentation Liquid
+
+**Nourishing:**
+- **Pineapple:** Provides vitamin C and bromelain, reducing inflammation in blood vessels
+- **Tomatoes:** Rich in potassium, essential for heart health, and help regulate blood pressure
+- **Papaya:** Offers antioxidants like beta-carotene, which protect the heart and reduce arterial stiffness
+- **Citrus fruits (orange, watermelon):** Provide vitamin C and flavonoids, strengthening blood vessel walls and improving microcirculation
+
+### Agaricus Blazei Mixed Powder (Flame Mushroom)
+
+**Nourishing:**
+- Contains a high concentration of polysaccharides that enhance heart health by promoting healthy cholesterol levels and reducing oxidative damage to blood vessels
+- Supports immune and vascular health, keeping arteries flexible and reducing the risk of atherosclerosis
+
+### Vitamin B Complex
+
+**Nourishing:**
+- B vitamins are crucial for converting food into energy and maintaining the health of blood vessels
+- Vitamin B6 and B12 lower homocysteine levels in the blood, reducing the risk of heart disease
+- Supports red blood cell production, improving oxygen delivery throughout the body and promoting healthy circulation
+
+---
+
+## 3. Healing Properties for Cardiovascular and Circulatory Systems
+
+### Black Pepper Extract
+
+**Healing:**
+- Contains piperine, which enhances the bioavailability of other nutrients and improves circulation by dilating blood vessels
+- Reduces inflammation and protects against damage to the endothelial lining of blood vessels
+
+### Ginger Extract
+
+**Healing:**
+- Known for its anti-inflammatory and anticoagulant properties, ginger prevents blood clots and improves overall blood flow
+- Helps repair and soothe damaged blood vessels, reducing the risk of cardiovascular complications
+
+---
+
+## 4. How SPARK Supports Cardiovascular Health and Microcirculation
+
+### Enhances Blood Flow
+Ingredients like ginger extract and black pepper extract improve blood circulation by dilating blood vessels and reducing inflammation.
+
+### Protects Blood Vessels
+Antioxidants from fermented fruits (such as lycopene from tomatoes and flavonoids from citrus fruits) protect against oxidative damage and strengthen the vascular walls.
+
+### Regulates Cholesterol Levels
+The beta-glucans in Agaricus Blazei reduce LDL (bad cholesterol) while promoting HDL (good cholesterol), preventing arterial blockages.
+
+### Supports Microcirculation
+Fermented enzymes and ginger boost capillary flow, ensuring oxygen and nutrient delivery to tissues. This is crucial for cellular repair and detoxification.
+
+### Balances Blood Pressure
+Potassium from tomatoes and watermelon works synergistically with magnesium (from the overall blend) to regulate blood pressure and reduce cardiovascular strain.
+
+### Adaptogenic Benefits
+Fermentation enhances the adaptogenic qualities of the ingredients, supporting the body's resilience to stress, which is a major contributor to cardiovascular dysfunction.
+
+---
+
+## Conclusion
+
+#### SPARK is a powerhouse for promoting cardiovascular health and optimizing microcirculation. Its fermented enzymes, coupled with adaptogenic and antioxidant-rich ingredients, detoxify the bloodstream, nourish blood vessels, and enhance the delivery of oxygen and nutrients. By reducing inflammation, protecting against oxidative stress, and improving circulation, SPARK strengthens the heart and vascular system while supporting overall vitality.
+
+---
+
+# MYCELIA - Blood Purifyer
+
+#### "MYCELIA is a blood purification supplement containing 3-year fermented medicinal mushrooms and botanical extracts designed to cleanse blood, prevent clotting, and reduce inflammation in the circulatory system. The product combines detoxifying, nourishing, and healing properties to support overall cardiovascular health and improve microcirculation."
+keywords: ["blood cleanser supplement", "anti-clotting natural remedy", "medicinal mushroom circulation", "fermented blood purifier", "cardiovascular detox support", "mushroom-based anti-inflammatory"]
+qa_pairs:
+  - question: "What is MYCELIA and what does it do for blood health?"
+    answer: "MYCELIA is a blood purification supplement that harnesses 3-year fermented medicinal mushrooms and botanical extracts to function as a potent blood cleanser, anti-clotting agent, and anti-inflammatory support for the circulatory system."
+  - question: "How does MYCELIA help prevent blood clots?"
+    answer: "MYCELIA contains compounds like Flammulina Enoki and Ganoderma Lucidum that reduce platelet stickiness and fibrin production, while Kombu Zymosan supports natural clot breakdown through enhanced fibrinolysis."
+  - question: "What mushrooms are included in MYCELIA and what do they do?"
+    answer: "MYCELIA includes Reishi, Enoki, Maitake, Tremella, and other medicinal mushrooms that provide beta-glucans and polysaccharides to enhance vascular health, regulate blood pressure, and support nitric oxide production for improved blood flow."
+  - question: "How does MYCELIA support blood detoxification?"
+    answer: "The supplement detoxifies blood through comprehensive vegetable and fruit fermentation liquid that provides enzymes and antioxidants to neutralize free radicals, while ingredients like Antrodia Camphorata enhance liver function to break down toxins in the circulatory system."
+  - question: "What anti-inflammatory benefits does MYCELIA provide for circulation?"
+    answer: "MYCELIA reduces cytokine production through mushrooms like Maitake and Tremella, while adaptogenic ingredients like Rhodiola Rosea protect against stress-related inflammation, helping alleviate chronic vascular inflammation."
+---
+
+
+## Product Overview
+
+MYCELIA harnesses the power of 3-year fermented ingredients and medicinal mushrooms to function as a potent blood cleanser, anti-clotting agent, and anti-inflammatory support for the circulatory system.
+
+---
+
+## Ingredient List
+
+Reishi Mycelium Fermented Extract, Enoki Mushroom, Straw Mushroom, White Mushroom, Fungus, Brazilian Mushroom Extract, Tremella Fuciformis Extract, Maitake Mushroom Extract, Kombu, Black Date, Antrodia Camphorata Mycelium, Zymosan, Black Yeast Fermented Extract, Red Date, Acanthopanax, Rhodiola Rosea Extract, Comprehensive Vegetable And Fruit Fermented Liquid, Citric Acid, Malic Acid, Xanthan Gum, Sodium Citrate 
+
+---
+
+## 1. Detoxing Properties
+
+### Flammulina Enoki
+
+- Rich in antioxidants like selenium, it reduces oxidative stress in blood vessels, improving their health
+- Contains fibrinolytic enzymes that aid in breaking down clots and reducing blood viscosity
+
+### Comprehensive Vegetable and Fruit Fermentation Liquid
+
+- Provides enzymes, phytonutrients, and antioxidants that detoxify the blood by neutralizing free radicals and promoting liver detoxification
+- Supports the elimination of metabolic waste, reducing systemic inflammation
+
+### Ganoderma Lucidum Mycelium Fermentation Extract
+
+- Enhances liver function, aiding in the breakdown of toxins that burden the circulatory system
+- Acts as a natural blood cleanser, reducing cholesterol and triglycerides
+
+### Antrodia Camphorata Mycelium
+
+- A hepatoprotective ingredient, it detoxifies the liver, promoting better blood quality by reducing toxins and harmful lipids in circulation
+
+### Kombu Zymosan
+
+- Seaweed-derived, it binds to heavy metals and toxins, aiding in their removal from the bloodstream and lymphatic system
+
+---
+
+## 2. Nourishing Properties
+
+### Mushroom Extracts (Straw Mushroom, White Mushroom, Almond Mushroom, Tremella, Maitake)
+
+- Provide beta-glucans, polysaccharides, and minerals (e.g., potassium, selenium) that enhance vascular health and regulate blood pressure
+- Support nitric oxide production, improving blood flow and oxygenation
+
+### Black Yeast Fermentation Extract
+
+- Contains bioavailable nutrients that enhance red blood cell function and maintain the flexibility of blood vessels
+- Nourishes the endothelium (lining of blood vessels), preventing inflammation and damage
+
+### Rhodiola Rosea Extract
+
+- An adaptogen that reduces stress-related damage to blood vessels and improves circulation
+- Helps maintain oxygen balance in the blood, enhancing endurance and cardiovascular function
+
+### Date Palm Extract
+
+- Rich in natural sugars, potassium, and magnesium, it nourishes cells and balances electrolytes critical for circulatory health
+- Provides anti-inflammatory and antioxidant compounds that protect blood vessel integrity
+
+---
+
+## 3. Healing Properties
+
+### Ganoderma Lucidum Mycelium Fermentation Extract
+
+- Acts as a potent anti-inflammatory and anti-coagulant, reducing the risk of clot formation
+- Inhibits platelet aggregation, supporting smoother blood flow
+- Promotes tissue repair and healing in the cardiovascular system
+
+### Tremella Fuciformis Extract
+
+- Enhances hydration of connective tissues, including blood vessel walls, improving their elasticity and reducing the risk of rupture
+- Contains polysaccharides that support immune and circulatory repair
+
+### Antrodia Camphorata Mycelium
+
+- Its anti-inflammatory properties reduce vascular inflammation, a key contributor to atherosclerosis and clotting
+- Protects against oxidative stress that damages blood vessels
+
+### Acanthopanax (Siberian Ginseng)
+
+- Strengthens the heart and vascular system, promoting resilience against stress-induced damage
+- Enhances the body's ability to heal damaged blood vessels
+
+### Citric Acid & Malic Acid
+
+- Support energy production in cells, including those in blood vessels, aiding in faster healing and repair
+- These acids also improve the elimination of calcium deposits in arteries, promoting flexibility and reducing clot risks
+
+---
+
+## 4. Anti-Clotting and Anti-Inflammatory Effects
+
+### Anti-Clotting Action
+
+- Flammulina Enoki and Ganoderma Lucidum contain compounds that reduce platelet stickiness and fibrin production, minimizing clot formation
+- Kombu Zymosan supports the natural breakdown of clots by enhancing fibrinolysis
+
+### Anti-Inflammatory Action
+
+- Mushrooms like Maitake, Tremella, and Ganoderma reduce cytokine production, which helps alleviate chronic inflammation in blood vessels
+- Rhodiola Rosea and Acanthopanax protect against stress-related inflammation, a common contributor to circulatory disorders
+
+### Blood Purification
+
+- Fermentation Liquid and Black Yeast Extract improve the bioavailability of nutrients that cleanse and oxygenate the blood, reducing toxic build-up
+- Ingredients like Antrodia Camphorata directly lower harmful lipids, purifying blood content
+
+---
+
+## 5. How MYCELIA Supports Circulatory Health
+
+### Blood Cleansing
+Removes toxins and reduces lipid accumulation in the blood, improving overall flow and reducing clot risks.
+
+### Anti-Clotting
+Inhibits platelet aggregation and promotes fibrinolysis, protecting against thrombotic conditions.
+
+### Strengthens Vessels
+Provides hydration, elasticity, and anti-inflammatory support to blood vessel walls.
+
+### Reduces Inflammation
+Combats oxidative stress and chronic inflammation, preventing vascular damage.
+
+### Improves Microcirculation
+Enhances oxygen delivery and nutrient transport to tissues through better capillary function.
+
+---
+
+## Conclusion
+
+#### MYCELIA is a sophisticated blend of 3-year fermented ingredients and medicinal mushrooms designed to detoxify the blood, reduce clotting risks, and fight inflammation in the circulatory system. By combining anti-inflammatory, anti-oxidative, and adaptogenic properties, it offers comprehensive support for cardiovascular health and microcirculation, making it a powerful ally for maintaining long-term heart and vessel health.
+- 
+
+# BLOOD & LYMPH Maintenance Products
+
+----
+# NATTOBLAST - Vessel Cleaner
+
+## Product Overview
+
+The circulatory system is responsible for delivering oxygen, nutrients, and removing metabolic waste from the body, making its proper maintenance essential for overall health. The ingredients in NATTOBLAST offer detoxing, nourishing, and healing properties that specifically benefit blood flow, heart function, and vascular integrity.
+
+---
+
+## Ingredient List
+
+Natto Enzyme Powder, Plum Powder, Erythritol, Silicon Dioxide, Malic Acid, Reishi Fruiting Body, White Yam Extract Powder, Cassia Seed Extract, Poria Cocos Extract Powder, Hawthorn Powder, Sucralose 
+
+---
+
+## Ingredient-Specific Benefits
+
+### 1. Plum Powder
+
+**Detoxing Properties:**
+- Rich in organic acids (citric acid, malic acid) that help remove toxins from the bloodstream
+- Supports liver detoxification, aiding in the breakdown and elimination of metabolic waste
+- Mild laxative effect helps clear waste, reducing toxic buildup that can affect blood vessel health
+
+**Nourishing Properties:**
+- High in antioxidants (polyphenols, flavonoids) that prevent oxidative damage in blood vessels
+- Provides potassium, which regulates blood pressure and reduces strain on the heart
+
+**Healing Properties:**
+- Reduces arterial stiffness, improving blood circulation and lowering cardiovascular risks
+- Supports vascular elasticity, preventing premature aging of blood vessels
+
+**Circulatory System Importance:**
+Plum powder aids in removing toxins that can cause inflammation in arteries and supports heart health by preventing oxidative damage.
+
+### 2. Erythritol
+
+**Detoxing Properties:**
+- Non-glycemic sweetener that doesn't contribute to sugar spikes, reducing the risk of insulin-related vascular damage
+- Passes through the body without being metabolized, avoiding stress on the liver and kidneys
+
+**Nourishing Properties:**
+- Contains antioxidant properties that help reduce oxidative stress in blood vessels
+- Unlike sugar, it doesn't feed harmful bacteria in the gut that can contribute to inflammation
+
+**Healing Properties:**
+- Helps reduce the formation of harmful free radicals that can damage blood vessels
+- Protects capillary health, keeping microcirculation intact
+
+**Circulatory System Importance:**
+Erythritol helps reduce sugar-related vascular stress, which is crucial in preventing arterial inflammation and blood vessel damage.
+
+### 3. Natto Enzyme Powder (Nattokinase)
+
+**Detoxing Properties:**
+- Breaks down fibrin, a protein that can cause blood clots and restrict circulation
+- Helps dissolve excess cholesterol and arterial plaque, clearing blocked vessels
+
+**Nourishing Properties:**
+- Supports blood vessel flexibility, reducing the risk of high blood pressure
+- Increases nitric oxide production, which improves blood vessel dilation and circulation
+
+**Healing Properties:**
+- Prevents clot formation, reducing the risk of stroke and heart attacks
+- Promotes healthy blood viscosity, preventing sluggish circulation and excessive clotting
+
+**Circulatory System Importance:**
+Nattokinase is one of the most powerful natural blood thinners, helping to prevent blood clots and improve circulation for a healthy cardiovascular system.
+
+### 4. Silicon Dioxide
+
+**Detoxing Properties:**
+- A natural anti-caking agent that helps prevent toxin buildup in supplement formulas
+- Helps remove heavy metals from the bloodstream by supporting detox pathways
+
+**Nourishing Properties:**
+- Essential for collagen production, which strengthens arteries and blood vessel walls
+- Supports elasticity in the cardiovascular system, preventing brittle arteries
+
+**Healing Properties:**
+- Helps reduce arterial stiffness, improving blood flow
+- Enhances cellular regeneration, keeping vascular tissue strong and flexible
+
+**Circulatory System Importance:**
+Silicon dioxide supports arterial strength and flexibility, reducing the risk of high blood pressure and vascular damage.
+
+### 5. Malic Acid
+
+**Detoxing Properties:**
+- Helps the body eliminate aluminum and other heavy metals, which can contribute to neurovascular diseases
+- Supports liver detoxification, ensuring proper breakdown of fats and toxins
+
+**Nourishing Properties:**
+- Enhances cellular energy (ATP) production, ensuring efficient circulation and oxygen delivery
+- Improves red blood cell function, keeping blood well-oxygenated
+
+**Healing Properties:**
+- Helps reduce muscle and vascular fatigue, improving stamina and endurance
+- Improves blood flow and circulation, especially to extremities
+
+**Circulatory System Importance:**
+Malic acid plays a crucial role in oxygen transport and energy production, making it essential for healthy circulation and heart function.
+
+### 6. Reishi Fruiting Body (Ganoderma Lucidum)
+
+**Detoxing Properties:**
+- Supports liver function, aiding in the breakdown of toxins and cholesterol
+- Helps remove excess free radicals from the bloodstream, reducing oxidative stress
+
+**Nourishing Properties:**
+- Contains beta-glucans that improve heart health and regulate cholesterol levels
+- Enhances immune function, protecting blood vessels from chronic inflammation
+
+**Healing Properties:**
+- Improves microcirculation, ensuring better blood flow to organs and extremities
+- Reduces inflammation in blood vessels, preventing atherosclerosis
+
+**Circulatory System Importance:**
+Reishi lowers inflammation, protects against arterial plaque, and enhances circulation, making it a powerful cardiovascular protector.
+
+### 7. White Yam Extract Powder
+
+**Detoxing Properties:**
+- Supports hormonal balance, which plays a role in vascular health
+- Helps flush excess sodium, reducing blood pressure stress
+
+**Nourishing Properties:**
+- Contains phytoestrogens that help regulate cholesterol and improve heart health
+- Provides essential minerals (magnesium, potassium) that aid circulation
+
+**Healing Properties:**
+- Supports vascular elasticity, reducing the risk of arterial stiffening
+- Improves blood flow, reducing risks of clotting disorders
+
+**Circulatory System Importance:**
+White yam extract supports hormonal balance, lowers blood pressure, and prevents arterial stiffening for optimal circulation.
+
+### 8. Cassia Seed Extract
+
+**Detoxing Properties:**
+- Supports liver detoxification, reducing blood cholesterol levels
+- Helps flush excess fats, preventing plaque buildup in arteries
+
+**Nourishing Properties:**
+- Rich in antioxidants and flavonoids that protect blood vessels
+- Helps regulate blood lipid levels, maintaining heart health
+
+**Healing Properties:**
+- Reduces inflammation in blood vessels, lowering cardiovascular risks
+- Improves vision health, linked to proper microcirculation
+
+**Circulatory System Importance:**
+Cassia seed extract helps detoxify the blood and protects arteries from damage, preventing blockages and clotting issues.
+
+### 9. Poria Cocos Extract Powder
+
+**Detoxing Properties:**
+- Acts as a diuretic, flushing out toxins through urine
+- Reduces fluid retention, which can contribute to high blood pressure
+
+**Nourishing Properties:**
+- Supports adrenal function, reducing stress-induced vascular strain
+- Contains triterpenoids, which strengthen blood vessels
+
+**Healing Properties:**
+- Helps reduce arterial inflammation, promoting better circulation
+- Strengthens capillary walls, preventing microcirculation issues
+
+**Circulatory System Importance:**
+Poria Cocos reduces blood pressure, supports adrenal health, and strengthens circulation.
+
+### 10. Hawthorn Powder
+
+**Detoxing Properties:**
+- Supports cholesterol metabolism, helping remove excess fats from blood vessels
+- Improves liver detox function, reducing the strain on cardiovascular health
+
+**Nourishing Properties:**
+- Rich in flavonoids, protecting blood vessels from oxidative stress
+- Improves heart muscle function, ensuring strong circulation
+
+**Healing Properties:**
+- Enhances artery dilation, improving oxygen supply
+- Reduces blood pressure naturally, lowering cardiovascular strain
+
+**Circulatory System Importance:**
+Hawthorn is one of the most powerful natural heart-supporting ingredients, promoting circulation, lowering cholesterol, and reducing inflammation.
+
+---
+
+## Conclusion
+
+#### These ingredients work synergistically to support blood purification, circulation, and vascular health, making them essential for long-term cardiovascular maintenance. NATTOBLAST provides comprehensive support for vessel cleaning, blood flow optimization, and overall circulatory system health.
+----
+
+# SPARK - Microcirculatrion Revival
+
+## Product Overview
+
+The SPARK product, featuring 3-year fermented ingredients, provides a synergistic combination of detoxifying, nourishing, and healing properties. It is particularly effective in supporting the cardiovascular system and enhancing microcirculation.
+
+---
+
+## Ingredient List
+
+#### Comprehensive Vegetable And Fruit Fermentation Liquid(Pineapple, Papaya, Watermelon, Tomato, Apple, Dragon Fruit, Orange, Red Dates, Lemon, Kelp, Ginger, Carrot, Spinach, Cabbage, Yam, Goji Berry), Ginger Extract, Vitamin B Complex, Black Pepper Extra, Xylitol, Isomalt oligosaccharide, Citric Acid 
+---
+
+## 1. Detoxing Properties for the Cardiovascular System and Microcirculation
+
+### Comprehensive Vegetable and Fruit Fermentation Liquid
+
+**Ingredients:** Pineapple, Papaya, Orange, Watermelon, Tomato, Brown Sugar
+
+**Detoxing:**
+- Enzymes from pineapple and papaya aid in breaking down proteins and fats, preventing arterial buildup and reducing strain on the cardiovascular system
+- The fermentation process increases the bioavailability of antioxidants, helping remove toxins and reducing oxidative stress, which is a major contributor to cardiovascular issues
+- Tomatoes are rich in lycopene, a potent antioxidant that helps detoxify free radicals, protecting the heart and blood vessels
+- Brown sugar acts as a prebiotic, supporting gut health, which indirectly reduces systemic inflammation impacting the cardiovascular system
+
+### Agaricus Blazei Mixed Powder (Flame Mushroom)
+
+**Detoxing:**
+- Known for its liver-supportive properties, it aids in removing toxins from the bloodstream, which enhances blood purity and vascular health
+- Contains beta-glucans, which reduce cholesterol and help clear arterial plaques, improving blood flow and circulation
+
+### Ginger Extract
+
+**Detoxing:**
+- Ginger stimulates circulation and has a natural detoxifying effect, particularly by enhancing liver function and clearing toxins from the blood
+
+---
+
+## 2. Nourishing Properties for Cardiovascular Health
+
+### Comprehensive Vegetable and Fruit Fermentation Liquid
+
+**Nourishing:**
+- **Pineapple:** Provides vitamin C and bromelain, reducing inflammation in blood vessels
+- **Tomatoes:** Rich in potassium, essential for heart health, and help regulate blood pressure
+- **Papaya:** Offers antioxidants like beta-carotene, which protect the heart and reduce arterial stiffness
+- **Citrus fruits (orange, watermelon):** Provide vitamin C and flavonoids, strengthening blood vessel walls and improving microcirculation
+
+### Agaricus Blazei Mixed Powder (Flame Mushroom)
+
+**Nourishing:**
+- Contains a high concentration of polysaccharides that enhance heart health by promoting healthy cholesterol levels and reducing oxidative damage to blood vessels
+- Supports immune and vascular health, keeping arteries flexible and reducing the risk of atherosclerosis
+
+### Vitamin B Complex
+
+**Nourishing:**
+- B vitamins are crucial for converting food into energy and maintaining the health of blood vessels
+- Vitamin B6 and B12 lower homocysteine levels in the blood, reducing the risk of heart disease
+- Supports red blood cell production, improving oxygen delivery throughout the body and promoting healthy circulation
+
+---
+
+## 3. Healing Properties for Cardiovascular and Circulatory Systems
+
+### Black Pepper Extract
+
+**Healing:**
+- Contains piperine, which enhances the bioavailability of other nutrients and improves circulation by dilating blood vessels
+- Reduces inflammation and protects against damage to the endothelial lining of blood vessels
+
+### Ginger Extract
+
+**Healing:**
+- Known for its anti-inflammatory and anticoagulant properties, ginger prevents blood clots and improves overall blood flow
+- Helps repair and soothe damaged blood vessels, reducing the risk of cardiovascular complications
+
+---
+
+## 4. How SPARK Supports Cardiovascular Health and Microcirculation
+
+### Enhances Blood Flow
+Ingredients like ginger extract and black pepper extract improve blood circulation by dilating blood vessels and reducing inflammation.
+
+### Protects Blood Vessels
+Antioxidants from fermented fruits (such as lycopene from tomatoes and flavonoids from citrus fruits) protect against oxidative damage and strengthen the vascular walls.
+
+### Regulates Cholesterol Levels
+The beta-glucans in Agaricus Blazei reduce LDL (bad cholesterol) while promoting HDL (good cholesterol), preventing arterial blockages.
+
+### Supports Microcirculation
+Fermented enzymes and ginger boost capillary flow, ensuring oxygen and nutrient delivery to tissues. This is crucial for cellular repair and detoxification.
+
+### Balances Blood Pressure
+Potassium from tomatoes and watermelon works synergistically with magnesium (from the overall blend) to regulate blood pressure and reduce cardiovascular strain.
+
+### Adaptogenic Benefits
+Fermentation enhances the adaptogenic qualities of the ingredients, supporting the body's resilience to stress, which is a major contributor to cardiovascular dysfunction.
+
+---
+
+## Conclusion
+
+#### SPARK is a powerhouse for promoting cardiovascular health and optimizing microcirculation. Its fermented enzymes, coupled with adaptogenic and antioxidant-rich ingredients, detoxify the bloodstream, nourish blood vessels, and enhance the delivery of oxygen and nutrients. By reducing inflammation, protecting against oxidative stress, and improving circulation, SPARK strengthens the heart and vascular system while supporting overall vitality.
+
+---
+
+# MYCELIA - Blood Purifyer
+
+## Product Overview
+
+MYCELIA harnesses the power of 3-year fermented ingredients and medicinal mushrooms to function as a potent blood cleanser, anti-clotting agent, and anti-inflammatory support for the circulatory system.
+
+---
+
+## Ingredient List
+
+Reishi Mycelium Fermented Extract, Enoki Mushroom, Straw Mushroom, White Mushroom, Fungus, Brazilian Mushroom Extract, Tremella Fuciformis Extract, Maitake Mushroom Extract, Kombu, Black Date, Antrodia Camphorata Mycelium, Zymosan, Black Yeast Fermented Extract, Red Date, Acanthopanax, Rhodiola Rosea Extract, Comprehensive Vegetable And Fruit Fermented Liquid, Citric Acid, Malic Acid, Xanthan Gum, Sodium Citrate 
+
+---
+
+## 1. Detoxing Properties
+
+### Flammulina Enoki
+
+- Rich in antioxidants like selenium, it reduces oxidative stress in blood vessels, improving their health
+- Contains fibrinolytic enzymes that aid in breaking down clots and reducing blood viscosity
+
+### Comprehensive Vegetable and Fruit Fermentation Liquid
+
+- Provides enzymes, phytonutrients, and antioxidants that detoxify the blood by neutralizing free radicals and promoting liver detoxification
+- Supports the elimination of metabolic waste, reducing systemic inflammation
+
+### Ganoderma Lucidum Mycelium Fermentation Extract
+
+- Enhances liver function, aiding in the breakdown of toxins that burden the circulatory system
+- Acts as a natural blood cleanser, reducing cholesterol and triglycerides
+
+### Antrodia Camphorata Mycelium
+
+- A hepatoprotective ingredient, it detoxifies the liver, promoting better blood quality by reducing toxins and harmful lipids in circulation
+
+### Kombu Zymosan
+
+- Seaweed-derived, it binds to heavy metals and toxins, aiding in their removal from the bloodstream and lymphatic system
+
+---
+
+## 2. Nourishing Properties
+
+### Mushroom Extracts (Straw Mushroom, White Mushroom, Almond Mushroom, Tremella, Maitake)
+
+- Provide beta-glucans, polysaccharides, and minerals (e.g., potassium, selenium) that enhance vascular health and regulate blood pressure
+- Support nitric oxide production, improving blood flow and oxygenation
+
+### Black Yeast Fermentation Extract
+
+- Contains bioavailable nutrients that enhance red blood cell function and maintain the flexibility of blood vessels
+- Nourishes the endothelium (lining of blood vessels), preventing inflammation and damage
+
+### Rhodiola Rosea Extract
+
+- An adaptogen that reduces stress-related damage to blood vessels and improves circulation
+- Helps maintain oxygen balance in the blood, enhancing endurance and cardiovascular function
+
+### Date Palm Extract
+
+- Rich in natural sugars, potassium, and magnesium, it nourishes cells and balances electrolytes critical for circulatory health
+- Provides anti-inflammatory and antioxidant compounds that protect blood vessel integrity
+
+---
+
+## 3. Healing Properties
+
+### Ganoderma Lucidum Mycelium Fermentation Extract
+
+- Acts as a potent anti-inflammatory and anti-coagulant, reducing the risk of clot formation
+- Inhibits platelet aggregation, supporting smoother blood flow
+- Promotes tissue repair and healing in the cardiovascular system
+
+### Tremella Fuciformis Extract
+
+- Enhances hydration of connective tissues, including blood vessel walls, improving their elasticity and reducing the risk of rupture
+- Contains polysaccharides that support immune and circulatory repair
+
+### Antrodia Camphorata Mycelium
+
+- Its anti-inflammatory properties reduce vascular inflammation, a key contributor to atherosclerosis and clotting
+- Protects against oxidative stress that damages blood vessels
+
+### Acanthopanax (Siberian Ginseng)
+
+- Strengthens the heart and vascular system, promoting resilience against stress-induced damage
+- Enhances the body's ability to heal damaged blood vessels
+
+### Citric Acid & Malic Acid
+
+- Support energy production in cells, including those in blood vessels, aiding in faster healing and repair
+- These acids also improve the elimination of calcium deposits in arteries, promoting flexibility and reducing clot risks
+
+---
+
+## 4. Anti-Clotting and Anti-Inflammatory Effects
+
+### Anti-Clotting Action
+
+- Flammulina Enoki and Ganoderma Lucidum contain compounds that reduce platelet stickiness and fibrin production, minimizing clot formation
+- Kombu Zymosan supports the natural breakdown of clots by enhancing fibrinolysis
+
+### Anti-Inflammatory Action
+
+- Mushrooms like Maitake, Tremella, and Ganoderma reduce cytokine production, which helps alleviate chronic inflammation in blood vessels
+- Rhodiola Rosea and Acanthopanax protect against stress-related inflammation, a common contributor to circulatory disorders
+
+### Blood Purification
+
+- Fermentation Liquid and Black Yeast Extract improve the bioavailability of nutrients that cleanse and oxygenate the blood, reducing toxic build-up
+- Ingredients like Antrodia Camphorata directly lower harmful lipids, purifying blood content
+
+---
+
+## 5. How MYCELIA Supports Circulatory Health
+
+### Blood Cleansing
+Removes toxins and reduces lipid accumulation in the blood, improving overall flow and reducing clot risks.
+
+### Anti-Clotting
+Inhibits platelet aggregation and promotes fibrinolysis, protecting against thrombotic conditions.
+
+### Strengthens Vessels
+Provides hydration, elasticity, and anti-inflammatory support to blood vessel walls.
+
+### Reduces Inflammation
+Combats oxidative stress and chronic inflammation, preventing vascular damage.
+
+### Improves Microcirculation
+Enhances oxygen delivery and nutrient transport to tissues through better capillary function.
+
+---
+
+## Conclusion
+
+#### MYCELIA is a sophisticated blend of 3-year fermented ingredients and medicinal mushrooms designed to detoxify the blood, reduce clotting risks, and fight inflammation in the circulatory system. By combining anti-inflammatory, anti-oxidative, and adaptogenic properties, it offers comprehensive support for cardiovascular health and microcirculation, making it a powerful ally for maintaining long-term heart and vessel health.
+
+----
+
+# Frequently Asked Questions
 
 #### What are some possible detoxification symptoms?
 
