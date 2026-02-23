@@ -897,9 +897,10 @@ The FIBER CRYSTALS formula focuses on improving digestion, detoxification, and b
 - Senna, pectin, and enzyme powders promote smooth stool movement through motility support and stool softening  
 
 ---
-Conclusion:
+### Conclusion:
 FIBER CRYSTALS is highly effective in promoting regular bowel movements, detoxifying the digestive system, and nourishing the gut lining. It offers a comprehensive approach to gut health, making it suitable for addressing constipation, improving digestion, and maintaining overall digestive wellness. Its natural laxative and enzyme-based support ensure thorough cleansing with gentle relief.
 
+----
 ## Frequently Asked Questions About ZenCleanz ONE
 
 ### Ingredient Questions
@@ -957,25 +958,14 @@ You're unlikely to be hungry; people report feeling quite full. Fasting is an op
 
 # INTESTINAL MAINTENANCE PRODUCTS
 
-# AMBROSIA - Microbiome Support
+## AMBROSIA - Microbiome Support
 
-
-- question: "What are the main categories of benefits provided by Ambrosia?"
-    answer: "Ambrosia provides three main categories of benefits: detoxing properties that remove harmful substances and balance gut flora, nourishing properties through bioavailable nutrients and prebiotics, and healing properties that repair the gut lining and reduce inflammation."
-  - question: "Which specific probiotics are included in Ambrosia?"
-    answer: "Ambrosia contains Lactobacillus Acidophilus (LA063) and Bifidobacteria (BB14), which compete with harmful bacteria to reduce toxin-producing species and support microbial balance."
-  - question: "How does the fermentation process enhance the effectiveness of Ambrosia?"
-    answer: "The 3-year fermentation process enhances bioavailability of nutrients, improves the efficacy of probiotics and enzymes, and reduces anti-nutritional factors in raw ingredients for better gut tolerance."
-  - question: "What ingredients in Ambrosia help with heavy metal detoxification?"
-    answer: "Brown algae contains alginates that bind heavy metals and other toxins, facilitating their removal from the body through the digestive system."
-  - question: "How does Ambrosia support gut lining repair?"
-    answer: "Ambrosia supports gut lining repair through ingredients like avocado and sweet potato (high in healthy fats and fiber), and wolfberry and red dates (rich in antioxidants and polysaccharides) that soothe and promote cellular repair in gut tissues."
 ---
 
 
 ## Ingredient List
 
-Pineapple, Papaya, Watermelon, Orange, Lemon, Ginger, Pear, Apple, Kiwi, Bitter Melon, Pumpkin, Tomato, Avocado, Enoki Mushroom, Shiitake, Grape, Black Fungus, Tangerine, Brown Sugar, Natural Sucrose, Chinese Cabbage, Cantaloupe, Mango, Dragon Fruit, Guava, Kumquat, Strawberry, Mulberry, Jackfruit, Lychee, Citric Acid, Red Date, Goji Berry, Coix Seed, Chayote, Asparagus, Pea, Black Bean, Soy, Corn, Bell Pepper, Lettuce, Spinach, Cabbage, Cauliflower, Chayote Leaves, Okra, Yam Bean, Sweet Potato, Brown Algae, Lotus Root, Black Date, Hawthorn, Mulberry Leaves, Isomalto Oligosaccharide, Herbal Enzyme Liquid, Roselle, Lactobacillus Acidophilus (LA063), Sorbitol, Bifidobacteria (BB14)
+#### Pineapple, Papaya, Watermelon, Orange, Lemon, Ginger, Pear, Apple, Kiwi, Bitter Melon, Pumpkin, Tomato, Avocado, Enoki Mushroom, Shiitake, Grape, Black Fungus, Tangerine, Brown Sugar, Natural Sucrose, Chinese Cabbage, Cantaloupe, Mango, Dragon Fruit, Guava, Kumquat, Strawberry, Mulberry, Jackfruit, Lychee, Citric Acid, Red Date, Goji Berry, Coix Seed, Chayote, Asparagus, Pea, Black Bean, Soy, Corn, Bell Pepper, Lettuce, Spinach, Cabbage, Cauliflower, Chayote Leaves, Okra, Yam Bean, Sweet Potato, Brown Algae, Lotus Root, Black Date, Hawthorn, Mulberry Leaves, Isomalto Oligosaccharide, Herbal Enzyme Liquid, Roselle, Lactobacillus Acidophilus (LA063), Sorbitol, Bifidobacteria (BB14)
 
 ---
 
@@ -1099,16 +1089,7 @@ Ambrosia is a comprehensive formula that detoxifies by removing harmful substanc
 
 # LIGHTSEED - The Rejuvenator
 
- - question: "What are the main benefits of LIGHTSEED for pancreatic health?"
-    answer: "LIGHTSEED detoxes the pancreas by reducing oxidative stress, nourishes it with essential vitamins and minerals, and heals pancreatic tissues through anti-inflammatory compounds that reduce stress on insulin-producing beta cells."
-  - question: "How does bitter melon in LIGHTSEED help with blood sugar?"
-    answer: "Bitter melon contains compounds like charantin, vicine, and polypeptide-p that mimic insulin and aid in glucose uptake, while also reducing oxidative stress in the pancreas."
-  - question: "What makes the 3-year fermentation process beneficial?"
-    answer: "The fermentation process enhances nutrient bioavailability, generates beneficial probiotics and enzymes for better gut health, and reduces sugar content by breaking down sugars to lower glycemic load."
-  - question: "Which ingredients in LIGHTSEED specifically support insulin sensitivity?"
-    answer: "Fenugreek extract enhances insulin sensitivity and reduces glucose absorption, while bitter melon extract and grapefruit improve insulin receptor sensitivity through their active compounds."
-  - question: "How does LIGHTSEED support digestive health?"
-    answer: "LIGHTSEED provides high-fiber ingredients that bind toxins, fermented enzymes like bromelain and papain that enhance digestion, and prebiotics that feed beneficial gut bacteria for optimal digestive balance."
+ 
 
 
 ## Ingredient List
@@ -1235,12 +1216,6 @@ LIGHTSEED is a potent fermented blend with targeted effects on the pancreas, blo
 ----
 
 # FIBER CRYSTALS - The Broomer
-
----question: "What are the main ingredients in Fiber Crystals?" answer: "Fiber Crystals contains 8 key ingredients: Pineapple Enzyme Powder (Bromelain), Senna Occidentalis Extract, Apple Enzyme Powder, Papaya Enzyme Powder (Papain), Glucose, Ascorbic Acid (Vitamin C), Lecithin, and Comprehensive Enzyme Powder TW-080."
-question: "How does Senna Occidentalis Extract work for bowel regularity?" answer: "Senna Occidentalis Extract acts as a natural laxative that stimulates intestinal contractions and helps clear the colon of accumulated waste and toxins, making it highly effective for relieving constipation and restoring regular bowel movements."
-question: "What are the detoxing properties of Fiber Crystals?" answer: "The formula detoxifies by breaking down protein residues to prevent fermentation, clearing accumulated waste from the colon, binding toxins with pectin fiber, and supporting liver detoxification processes through its enzyme blend and vitamin C content."
-question: "How do the enzymes in Fiber Crystals support digestion?" answer: "The enzyme blend including bromelain, papain, and comprehensive enzyme powder TW-080 breaks down proteins, carbohydrates, and fats to improve digestion efficiency, enhance nutrient absorption, and prevent undigested food from fermenting in the gut."
-question: "What healing benefits does Fiber Crystals provide?" answer: "The formula provides anti-inflammatory effects that repair the gut lining, strengthen the intestinal barrier, support the microbiome, and reduce digestive irritation through ingredients like bromelain, papain, and vitamin C."
 
 
 
@@ -1408,30 +1383,19 @@ The FIBER CRYSTALS formula focuses on improving digestion, detoxification, and b
 - Senna, pectin, and enzyme powders promote smooth stool movement through motility support and stool softening  
 
 ---
+## Conclusion
+
 FIBER CRYSTALS is highly effective in promoting regular bowel movements, detoxifying the digestive system, and nourishing the gut lining. It offers a comprehensive approach to gut health, making it suitable for addressing constipation, improving digestion, and maintaining overall digestive wellness. Its natural laxative and enzyme-based support ensure thorough cleansing with gentle relief.
 
 ----
 # QUANTUM PARTICLES - The Digestor
 
-summary: "Comprehensive guide to Quantum Particles digestive supplement containing enzymes, fruit powders, and nutrients designed to support digestive health, nutrient assimilation, and gut healing. Details the specific benefits of each ingredient for detoxification, nourishment, healing, and digestive aid properties."
-keywords: ["digestive enzymes supplement", "gut health support", "bloating relief", "protein digestion aid", "nutrient absorption", "digestive power formula"]
-qa_pairs:
-  - question: "What are the main enzymes in Quantum Particles digestive supplement?"
-    answer: "The main enzymes are amylolytic enzyme (amylase) for starch digestion, bromelain from pineapple extract for protein breakdown, and papain from papaya enzyme for proteolytic activity."
-  - question: "How does Quantum Particles help with bloating and digestive discomfort?"
-    answer: "It contains enzymes that break down starches, proteins, and fats to prevent fermentation and gas buildup, while grapefruit powder promotes bile production to reduce bloating."
-  - question: "What detoxification benefits does this digestive supplement provide?"
-    answer: "It combines fiber from apple pectin to bind toxins, antioxidants to neutralize free radicals, and enzymes to prevent undigested food from fermenting and creating toxins in the gut."
-  - question: "How does Quantum Particles support gut microbiome health?"
-    answer: "It contains prebiotic compounds from apple fruit powder, tomato powder, and mushroom powder that stimulate beneficial bacteria growth and help maintain a balanced gut microbiota."
-  - question: "What healing properties does this digestive formula offer?"
-    answer: "The formula promotes gut lining repair through beta-carotene and lecithin, reduces inflammation with bromelain and vitamin C, and supports intestinal barrier integrity with various antioxidants and nutrients."
 ---
 
 
 ## Ingredient List
 
-Amylolytic Enzyme, Pineapple Extract, Apple Fruit Powder, Papaya Enzyme (Proteolytic Enzyme), Grapefruit Powder, Beta-Carotene, Tomato Fruit Powder, Mushroom Powder, Ascorbic Acid (Vitamin C), Glucose, Soy Lecithin
+#### Amylolytic Enzyme, Pineapple Extract, Apple Fruit Powder, Papaya Enzyme (Proteolytic Enzyme), Grapefruit Powder, Beta-Carotene, Tomato Fruit Powder, Mushroom Powder, Ascorbic Acid (Vitamin C), Glucose, Soy Lecithin
 
 ## Product Overview
 
