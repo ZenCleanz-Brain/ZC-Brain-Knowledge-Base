@@ -720,7 +720,9 @@ The ONE product line (Plum, Cacao, and Oat Formulas) targets gut detox, nourishm
 
 This synergy makes them effective for comprehensive digestive wellness and removal of mucoid plaque from the intestinal tract.
 
-### Fiber Crystals - The Broomer
+----
+
+# Fiber Crystals - The Broomer
 
 question: "What are the main ingredients in Fiber Crystals?" answer: "Fiber Crystals contains 8 key ingredients: Pineapple Enzyme Powder (Bromelain), Senna Occidentalis Extract, Apple Enzyme Powder, Papaya Enzyme Powder (Papain), Glucose, Ascorbic Acid (Vitamin C), Lecithin, and Comprehensive Enzyme Powder TW-080."
 question: "How does Senna Occidentalis Extract work for bowel regularity?" answer: "Senna Occidentalis Extract acts as a natural laxative that stimulates intestinal contractions and helps clear the colon of accumulated waste and toxins, making it highly effective for relieving constipation and restoring regular bowel movements."
@@ -952,7 +954,7 @@ You're unlikely to be hungry; people report feeling quite full. Fasting is an op
 
 ---
 
-## INTESTINAL MAINTENANCE PRODUCTS
+# INTESTINAL MAINTENANCE PRODUCTS
 
 ### AMBROSIA - The Family Carer
 
