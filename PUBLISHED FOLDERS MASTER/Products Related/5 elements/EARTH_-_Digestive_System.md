@@ -432,7 +432,9 @@ b. Enhanced SCFA production from fermented fibers improves intestinal permeabili
 Ambrosia is a comprehensive formula that detoxifies by removing harmful substances and balancing gut flora, nourishes with bioavailable nutrients and prebiotics, and heals the gut lining and microbiome through its anti-inflammatory and antioxidant properties. These 3-year fermented ingredients not only optimize digestive health but also enhance systemic well-being through the gut-brain and gut-immune axes.
 
 
-### Intestinal Management Enzyme Powder
+
+----
+# INTESTINAL MANAGEMENT ENZYME POWDER
 
 
 - question: "What are the three flavors available for ZENCLEANZ ONE intestinal detox powder?"
@@ -446,7 +448,6 @@ Ambrosia is a comprehensive formula that detoxifies by removing harmful substanc
   - question: "What makes the Plum formula unique for liver detox support?"
     answer: "The Plum formula contains green plum powder and bitter melon that stimulate bile flow for liver detox, improve liver and pancreas function, and promote toxin elimination while alkalizing the digestive tract."
 ---
-# ONE (1-DAY DEEP INTESTINAL DETOXIFIER)
 
 ## Product Overview
 
