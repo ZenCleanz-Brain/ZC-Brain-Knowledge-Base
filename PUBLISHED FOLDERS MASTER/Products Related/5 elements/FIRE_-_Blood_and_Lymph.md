@@ -266,7 +266,7 @@ All three blends help:
 - Address actual restoration of the circulatory system
 
 **Additional Features:**
-- Fiber-rich ingredients keep "brooming" the intestinal wall
+
 - Nourish the gut flora
 - Treat and support the lungs
 - Full-spectrum cleanse from inside and out
