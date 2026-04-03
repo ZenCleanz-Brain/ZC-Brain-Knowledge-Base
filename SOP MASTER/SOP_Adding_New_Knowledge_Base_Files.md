@@ -8,7 +8,7 @@
 ### 2. Push to GitHub
 - Via direct push
 
-### 3. Upload to ElevenLabs (Required for NEW files)
+### 3. Upload to ElevenLabs WITH SAME NAME (Required for NEW files)
 - Go to: ElevenLabs Dashboard → Agent → Knowledge Base
 - Upload your `.md` file
 - **Filename must EXACTLY match** your GitHub filename
