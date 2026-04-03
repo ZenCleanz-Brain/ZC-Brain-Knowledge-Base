@@ -73,14 +73,14 @@ TCM practitioners use dietary recommendations, acupuncture, herbal remedies, and
 
 ## Naturopathic Medicine Perspective
 
-According to naturopathic medicine, cleansing the intestinal tract from mouth to anus is essential because:
+According to naturopathic medicine, cleansing the intestinal tract from beginning to end is essential because:
 
 1. It is the entry point of external energy drawn through food (small intestine)
 2. It is the primary sewage system of the body
 
 ### Mucoid Plaque Formation
 
-Gradually since birth, we've been eating, digesting, and expelling feces—but not all. The small intestine functions as the gateway between food and blood. Along this tract:
+Gradually since birth, we've been eating, digesting, and expelling waste — but not all. The small intestine functions as the gateway between food and blood. Along this tract:
 - Food is broken down into nutrients
 - Exchange happens with the bloodstream
 - Clogging creates malabsorption and weakens overall energy and health
@@ -179,7 +179,6 @@ Together, these enzymes:
 - Takes 6+ months to clear plaque
 - Can be aggressive; may cause dehydration and irritate intestinal walls
 - Cleanse colon first using colonics
-- Takes 5 days of water fasting to equal one day of enzyme fasting
 
 ### ZenCleanz ONE
 
@@ -190,7 +189,7 @@ Together, these enzymes:
 - Super-enzymes empty digestive tract within 24 hours
 - Cleanse entire digestive system in one day
 - Colonics not necessary
-
+- Takes only 1 day of fasting on ZenCleanz enzymes to equal 5 days of water fasting
 ---
 
 ## Key Highlights of ZenCleanz ONE
@@ -509,7 +508,7 @@ Green Plum Powder, Bitter Melon, Kiwi, Papaya, Guar Gum, Apple Fiber, Brown Alga
 **Healing:**
 - Supports soft stool formation, alleviating constipation
 
-### Pawpaw (Papaya)
+### Papaya
 
 **Detoxing:**
 - Contains papain, an enzyme that aids protein digestion and cleanses the colon

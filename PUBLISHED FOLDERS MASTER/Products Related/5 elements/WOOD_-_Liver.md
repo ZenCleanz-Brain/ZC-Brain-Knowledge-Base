@@ -39,7 +39,7 @@ qa_pairs:
 
 ### The Foundation: Digestive System First
 
-To kickstart an effective detoxification process, it's crucial to begin by cleansing the digestive system (Layer 1 - Earth) from end to end. Think of it like plumbing – this system can become blocked by waste and toxins accumulating over a lifetime.
+To kickstart an effective detoxification process, it's crucial to begin by cleansing the digestive system (Layer 1 - Earth) from beginning to end. Think of it like plumbing – this system can become blocked by waste and toxins accumulating over a lifetime.
 
 ### The Liver's Critical Role
 
@@ -59,9 +59,8 @@ These layers protect themselves by gathering mucus and waste in their tissues to
 
 ### The ZenCleanz Philosophy
 
-There is no magic pill. It takes decades to get intoxicated. When the body calls for help, it is already because it can't cope with the level of toxicity that has accumulated over the years!
+There is no magic pill. It takes decades to become intoxicated, and may reach a level of toxemia. When the body calls for help, it is because it cannot cope with the level of toxicity that has accumulated over the years!
 
-The ZenCleanz Way is a 6-month detox and rejuvenation schedule to transform one's life. It is divided into six bundles approximately one month each, designed to help gradually dig deeper and deeper into toxicity while constantly taking care of upstream sources of filtration and intoxication.
 
 ### The FORGIVE Liver Flush Innovation
 
@@ -220,7 +219,7 @@ The liver is responsible for a variety of vital functions.
 
 **2. Detoxification**
 - Responsible for filtering toxins from blood
-- Includes drugs and other harmful substances
+- Including drugs and other harmful substances
 
 **3. Bile Production**
 - Produces bile
@@ -236,8 +235,7 @@ The liver is responsible for a variety of vital functions.
 
 **6. Hormone Regulation**
 - Helps regulate hormone levels
-- Produces and breaks down hormones
-- Includes insulin and various sex hormones
+- Produces and breaks down hormones, including insulin and various sex hormones
 
 #### Summary
 
@@ -245,7 +243,7 @@ The liver is a highly complex organ with wide range of functions essential to ma
 
 ### Why the Liver Needs Cleansing
 
-Cleansing the liver can be one of the most critical steps to a well-functioning, healthful lifestyle.
+Cleansing the liver can be one of the most critical steps to a well-functioning, healthy lifestyle.
 
 #### The Liver as Filter
 
@@ -267,8 +265,8 @@ All blood leaving stomach and intestines passes through liver, which breaks down
 
 **When toxins enter bloodstream:**
 - Liver is first internal organ to get intoxicated
-- Eventually becomes clogged
-- Liver and gallbladder accumulate toxins, cholesterol, mucus into gallstones
+- Eventually the liver becomes clogged
+- Liver and gallbladder accumulate toxins, cholesterol, mucus which turns into gallstones
 
 #### The Downfall
 
@@ -286,7 +284,7 @@ A toxic and saturated liver allows unwanted particles into circulatory system an
 
 3. **Bile duct blockages (gallstones)** - Obstruction of bile ducts by solid particles, leading to pain and discomfort
 
-4. **Jaundice (yellowing of skin and eyes)** - Yellow discoloration due to elevated bilirubin levels
+4. **Jaundice (yellowing of skin and eyes)** - Yellow discoloration is due to elevated bilirubin levels
 
 5. **Abdominal pain and swelling** - Discomfort and enlargement of abdomen
 
@@ -347,7 +345,7 @@ This one-day protocol helps safely clear:
 
 The FORGIVE fermented enzyme cleanse kit contains all-natural and organic ingredients:
 
-1. **Liquid Hygeia** - Deep penetrating formula
+1. **Liquid Hygieia** - Deep penetrating formula
    - Penetrate deep into liver through bloodstream
    - Dislodge fat and other mucous clogging organ
    - Provide nutrition and energy (fasting day formula)
@@ -401,11 +399,11 @@ The FORGIVE fermented enzyme cleanse kit contains all-natural and organic ingred
 - **Reduces hepato-biliary burden** - Lightens load on liver and gallbladder
 - **Cleanses from toxic chemicals** - Removes accumulated toxins
 - **Regulates body function** - Purifies blood
-- **Helps break down cholesterol** - Lowers unhealthful cholesterol and triglyceride levels
+- **Helps break down cholesterol** - Lowers unhealthy cholesterol and triglyceride levels
 - **Softens gallstones** - Prepares stones for passage
 - **Widens bile ducts** - Opens pathways for safe passage
 - **Flushes gallstones out** - Completes removal
-- **Saves from surgery** - Most people avoid gallbladder surgery
+- **Can save from surgery** - Many people avoid gallbladder surgery
 - **Addresses fatty liver** - Requires consistent approach with maintenance products
 
 #### Deeper Cleansing Option
@@ -449,10 +447,10 @@ The FORGIVE cleanse protocol provides a liquid enzyme blend that will provide:
 - All vitamins needed
 - All minerals needed
 - All energy needed for natural detox
-- There will be no hunger but sense of fullness
+- There will be minimal hunger and a sense of fullness
 
 **Important Note:**
-Remember: hunger is often a sense of emptiness and an opportunity to explore feelings often covered up with food and overeating.
+Remember: Hunger is often a sense of emptiness and an opportunity to explore feelings often covered up with food and overeating.
 
 #### What to Expect During Cleanse
 
@@ -1080,7 +1078,7 @@ HYGIEIA delivers a comprehensive formula for fat management and liver health. By
 
 ### What Comes Out with a Flush?
 
-The liver is the body's largest filter. It has been filtering all unhealthful elements encountered since birth.
+The liver is the body's largest filter. It has been filtering out all unhealthful elements encountered since birth.
 
 **What is released:**
 An amalgamation of debris in the form of:
@@ -1098,11 +1096,11 @@ ZenCleanz enzyme cleanses are the easiest and safest method available.
 
 **By utilizing enzymes:**
 - Support and flush liver
-- Taking lot of guesswork out
+- Taking a lot of guesswork out
 - Getting effective flush
 - Learn so much about yourself and body
 - Beginning to cleanse body's largest filter
-- Wonder how you existed this long without focusing on liver health
+- Wonder how you existed this long without focusing on liver health!
 
 ### What If Nothing Comes Out?
 
@@ -1164,7 +1162,7 @@ A potent combination of fermented enzymes, fruits, vegetables, and probiotics de
 
 ## Ingredient List
 
-Rice Germ Enzyme, Apple, Asparagus Lettuce, Blueberry, Carrot, Grape, Kiwi, Lemon, Strawberry, Tomato, Papaya Extract, Pineapple Extract, Cauliflower, Celery, Corn, Pumpkin, Spinach, Enoki Mushroom, Comprehensive Enzyme Powder TW-080, Whey Protein
+Rice Germ Enzyme, Apple, Asparagus, Lettuce, Blueberry, Carrot, Grape, Kiwi, Lemon, Strawberry, Tomato, Papaya Extract, Pineapple Extract, Cauliflower, Celery, Corn, Pumpkin, Spinach, Enoki Mushroom, Comprehensive Enzyme Powder TW-080, Whey Protein
 
 ---
 
