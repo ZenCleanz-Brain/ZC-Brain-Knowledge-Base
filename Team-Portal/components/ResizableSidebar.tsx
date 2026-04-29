@@ -9,6 +9,8 @@ interface ResizableSidebarProps {
   minWidth?: number;
   maxWidth?: number;
   storageKey?: string;
+  isMobileOpen?: boolean;
+  onMobileClose?: () => void;
 }
 
 export default function ResizableSidebar({
@@ -17,6 +19,8 @@ export default function ResizableSidebar({
   minWidth = 240,
   maxWidth = 600,
   storageKey = 'sidebar-width',
+  isMobileOpen = false,
+  onMobileClose,
 }: ResizableSidebarProps) {
   const [width, setWidth] = useState(defaultWidth);
   const [isResizing, setIsResizing] = useState(false);
@@ -65,7 +69,27 @@ export default function ResizableSidebar({
       document.removeEventListener('mousemove', handleMouseMove);
       document.removeEventListener('mouseup', handleMouseUp);
     };
-  }, [isResizing, minWidth, maxWidth]);
+  }, [isResizing, minWidth, maxWidth, storageKey]);
+
+  // Lock body scroll when mobile drawer is open
+  useEffect(() => {
+    if (!isMobileOpen) return;
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = previous;
+    };
+  }, [isMobileOpen]);
+
+  // Close drawer on Escape
+  useEffect(() => {
+    if (!isMobileOpen || !onMobileClose) return;
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onMobileClose();
+    };
+    window.addEventListener('keydown', handleKey);
+    return () => window.removeEventListener('keydown', handleKey);
+  }, [isMobileOpen, onMobileClose]);
 
   const handleMouseDown = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -74,9 +98,14 @@ export default function ResizableSidebar({
 
   return (
     <>
+      <div
+        className={`${styles.overlay} ${isMobileOpen ? styles.overlayOpen : ''}`}
+        onClick={onMobileClose}
+        aria-hidden="true"
+      />
       <aside
         ref={sidebarRef}
-        className={styles.sidebar}
+        className={`${styles.sidebar} ${isMobileOpen ? styles.mobileOpen : ''}`}
         style={{ width: `${width}px`, '--edge-glow-y': '50%' } as React.CSSProperties}
         onMouseMove={handleSidebarMouseMove}
         onMouseLeave={handleSidebarMouseLeave}

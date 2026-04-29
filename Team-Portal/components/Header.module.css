@@ -285,3 +285,82 @@
 .settingToggleActive {
   color: var(--gold);
 }
+
+/* ===== Responsive (<= 768px) ===== */
+@media (max-width: 768px) {
+  .header {
+    padding: 0 0.625rem;
+    /* Reserve space on the left for the floating hamburger (40px button + 12px gap) */
+    padding-left: 64px;
+    gap: 0.5rem;
+  }
+
+  .left {
+    gap: 0.5rem;
+    min-width: 0;
+    flex: 1 1 auto;
+    overflow: hidden;
+  }
+
+  /* Hide the brand logo on phones — hamburger occupies that space */
+  .logo {
+    display: none;
+  }
+
+  .nav {
+    gap: 0.125rem;
+    flex-shrink: 0;
+  }
+
+  .navLink {
+    padding: 0.4rem 0.5rem;
+    gap: 0;
+  }
+
+  .navLink span {
+    display: none;
+  }
+
+  .right {
+    gap: 0.4rem;
+    flex-shrink: 0;
+  }
+
+  /* Hide text-heavy controls; keep critical actions */
+  .user span,
+  .bgToggleLabel {
+    display: none;
+  }
+
+  .user {
+    gap: 0;
+  }
+
+  .bgToggle {
+    padding: 0.3rem 0.45rem;
+  }
+
+  .signOut {
+    padding: 0.4rem 0.5rem;
+  }
+
+  .signOut span {
+    display: none;
+  }
+
+  .settingsButton {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+/* Very small phones — drop role badge too */
+@media (max-width: 380px) {
+  .user {
+    display: none;
+  }
+
+  .header {
+    padding-left: 60px;
+  }
+}
