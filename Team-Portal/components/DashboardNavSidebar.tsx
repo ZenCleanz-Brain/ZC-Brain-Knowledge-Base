@@ -1,8 +1,9 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, Database, Bookmark } from 'lucide-react';
+import { Home, Database, Bookmark, Menu, X } from 'lucide-react';
 import ResizableSidebar from './ResizableSidebar';
 import ChangelogPanel from './ChangelogPanel';
 import styles from './DashboardNavSidebar.module.css';
@@ -38,6 +39,12 @@ const navItems: NavItem[] = [
 
 export default function DashboardNavSidebar() {
   const pathname = usePathname();
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
+
+  // Auto-close drawer when route changes
+  useEffect(() => {
+    setIsMobileOpen(false);
+  }, [pathname]);
 
   const handleMouseMove = (e: React.MouseEvent<HTMLElement>) => {
     const item = e.currentTarget;
@@ -55,36 +62,62 @@ export default function DashboardNavSidebar() {
   };
 
   return (
-    <ResizableSidebar
-      defaultWidth={240}
-      minWidth={180}
-      maxWidth={320}
-      storageKey="dashboard-sidebar-width"
-    >
-      <div className={styles.sidebarContent}>
-        <nav className={styles.nav}>
-          {navItems.map((item) => {
-            const isActive = pathname === item.href ||
-              (item.href !== '/dashboard' && pathname.startsWith(item.href));
-            const Icon = item.icon;
+    <>
+      {!isMobileOpen && (
+        <button
+          type="button"
+          className={styles.menuButton}
+          onClick={() => setIsMobileOpen(true)}
+          aria-label="Open navigation"
+          aria-expanded={isMobileOpen}
+          aria-controls="dashboard-nav-drawer"
+        >
+          <Menu size={20} />
+        </button>
+      )}
 
-            return (
-              <Link
-                key={item.id}
-                href={item.href}
-                className={`${styles.navItem} ${isActive ? styles.active : ''}`}
-                onMouseMove={handleMouseMove}
-                onMouseLeave={handleMouseLeave}
-              >
-                <Icon size={18} className={styles.navIcon} />
-                <span className={styles.navLabel}>{item.label}</span>
-                {item.badge && <span className={styles.badge}>{item.badge}</span>}
-              </Link>
-            );
-          })}
-        </nav>
-        <ChangelogPanel />
-      </div>
-    </ResizableSidebar>
+      <ResizableSidebar
+        defaultWidth={240}
+        minWidth={180}
+        maxWidth={320}
+        storageKey="dashboard-sidebar-width"
+        isMobileOpen={isMobileOpen}
+        onMobileClose={() => setIsMobileOpen(false)}
+      >
+        <div className={styles.sidebarContent}>
+          <button
+            type="button"
+            className={styles.closeButton}
+            onClick={() => setIsMobileOpen(false)}
+            aria-label="Close navigation"
+          >
+            <X size={20} />
+          </button>
+          <nav className={styles.nav}>
+            {navItems.map((item) => {
+              const isActive = pathname === item.href ||
+                (item.href !== '/dashboard' && pathname.startsWith(item.href));
+              const Icon = item.icon;
+
+              return (
+                <Link
+                  key={item.id}
+                  href={item.href}
+                  className={`${styles.navItem} ${isActive ? styles.active : ''}`}
+                  onMouseMove={handleMouseMove}
+                  onMouseLeave={handleMouseLeave}
+                  onClick={() => setIsMobileOpen(false)}
+                >
+                  <Icon size={18} className={styles.navIcon} />
+                  <span className={styles.navLabel}>{item.label}</span>
+                  {item.badge && <span className={styles.badge}>{item.badge}</span>}
+                </Link>
+              );
+            })}
+          </nav>
+          <ChangelogPanel />
+        </div>
+      </ResizableSidebar>
+    </>
   );
 }

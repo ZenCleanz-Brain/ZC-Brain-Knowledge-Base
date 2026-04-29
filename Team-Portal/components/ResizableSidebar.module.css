@@ -114,3 +114,59 @@ body.resizing {
   user-select: none;
   cursor: col-resize;
 }
+
+/* Overlay backdrop (mobile drawer) - hidden on desktop */
+.overlay {
+  display: none;
+}
+
+/* ===== Mobile drawer (<= 768px) ===== */
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100dvh;
+    /* Override inline width prop on mobile */
+    width: min(86vw, 320px) !important;
+    max-width: 320px;
+    z-index: 1100;
+    transform: translateX(-100%);
+    transition: transform 0.28s ease;
+    box-shadow: 8px 0 32px rgba(0, 0, 0, 0.5);
+    border-right: 1px solid rgba(201, 169, 98, 0.25);
+  }
+
+  .sidebar.mobileOpen {
+    transform: translateX(0);
+  }
+
+  /* Disable hover-only edge glow on touch devices */
+  .sidebar::before,
+  .sidebar::after {
+    display: none;
+  }
+
+  .resizer {
+    display: none;
+  }
+
+  .overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    z-index: 1090;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+
+  .overlay.overlayOpen {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}

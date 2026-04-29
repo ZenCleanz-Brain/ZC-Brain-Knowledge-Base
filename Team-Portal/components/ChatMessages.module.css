@@ -393,3 +393,62 @@
   color: var(--gold);
   font-weight: 600;
 }
+
+/* ===== Responsive (<= 768px) ===== */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem 0.75rem;
+    gap: 1rem;
+    min-height: 0;
+  }
+
+  .emptyState {
+    padding: 2rem 1rem;
+    min-height: 0;
+  }
+
+  .message {
+    max-width: 95%;
+    gap: 0.625rem;
+  }
+
+  .avatar {
+    width: 30px;
+    height: 30px;
+  }
+
+  .avatarEnso {
+    width: 18px;
+    height: 18px;
+  }
+
+  .text {
+    padding: 0.75rem 0.95rem;
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .timestamp {
+    padding: 0 0.5rem;
+  }
+
+  .thinkingIndicator {
+    padding: 0.75rem 0.95rem;
+    min-width: 0;
+  }
+
+  .markdown {
+    font-size: 0.9rem;
+  }
+
+  .markdown pre {
+    /* Allow code blocks to scroll horizontally without breaking layout */
+    max-width: 100%;
+  }
+
+  .markdown table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}

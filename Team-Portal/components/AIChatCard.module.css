@@ -485,7 +485,102 @@
   30% { opacity: 1; }
 }
 
-/* Responsive */
+/* ===== Responsive ===== */
+
+/* Tablet & phone (<= 768px) */
+@media (max-width: 768px) {
+  .card.active {
+    /* Use most of the viewport on phones */
+    min-height: calc(100dvh - 120px);
+    max-height: calc(100dvh - 80px);
+    border-radius: 12px;
+  }
+
+  .header {
+    padding: 0.625rem 0.75rem;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+  }
+
+  .modeToggle {
+    gap: 0.25rem;
+    flex-shrink: 0;
+  }
+
+  .modeButton {
+    padding: 0.5rem 0.625rem;
+    font-size: 0.75rem;
+    gap: 0.25rem;
+  }
+
+  .headerActions {
+    gap: 0.375rem;
+    flex-shrink: 0;
+  }
+
+  /* Icon-only buttons on phones */
+  .modeButton .btnLabel,
+  .formatButton .btnLabel,
+  .saveButton .btnLabel,
+  .endButton .btnLabel {
+    display: none;
+  }
+
+  .formatButton,
+  .saveButton,
+  .endButton {
+    padding: 0.5rem;
+    width: 34px;
+    height: 34px;
+    justify-content: center;
+  }
+
+  .fullscreenButton {
+    width: 34px;
+    height: 34px;
+  }
+
+  .content {
+    padding: 1rem 0.875rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.875rem;
+    max-width: none;
+    padding: 0 0.5rem;
+  }
+
+  .ensoLogo {
+    width: 92px;
+    height: 92px;
+  }
+
+  /* Input form */
+  .inputForm {
+    gap: 0.5rem;
+    padding-top: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .textInput {
+    /* 16px prevents iOS Safari from zooming on focus */
+    font-size: 16px;
+    padding: 0.75rem 0.875rem;
+    min-width: 0;
+  }
+
+  .sendButton {
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+  }
+}
+
+/* Small phones (<= 480px) */
 @media (max-width: 480px) {
   .startButtons {
     flex-direction: column;
@@ -497,12 +592,17 @@
     width: 100%;
   }
 
-  .modeToggle {
-    gap: 0.25rem;
+  .modeButton {
+    padding: 0.4rem 0.55rem;
+    font-size: 0.7rem;
   }
 
-  .modeButton {
-    padding: 0.375rem 0.625rem;
-    font-size: 0.75rem;
+  /* Hide mode-toggle icon labels are already hidden; further compact: voice/text toggle becomes tighter */
+  .header {
+    padding: 0.5rem 0.625rem;
+  }
+
+  .content {
+    padding: 0.875rem 0.75rem;
   }
 }

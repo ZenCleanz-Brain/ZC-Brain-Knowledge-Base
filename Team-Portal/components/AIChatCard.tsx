@@ -155,23 +155,29 @@ export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProp
             <button
               className={`${styles.modeButton} ${mode === 'voice' ? styles.activeMode : ''}`}
               onClick={() => switchMode('voice')}
+              aria-label="Voice mode"
             >
               <Mic size={14} />
-              Voice
+              <span className={styles.btnLabel}>Voice</span>
             </button>
             <button
               className={`${styles.modeButton} ${mode === 'text' ? styles.activeMode : ''}`}
               onClick={() => switchMode('text')}
+              aria-label="Text mode"
             >
               <MessageSquare size={14} />
-              Text
+              <span className={styles.btnLabel}>Text</span>
             </button>
           </div>
           <div className={styles.headerActions}>
             {mode === 'text' && lastAgentMessage && (
-              <button className={styles.formatButton} onClick={() => setShowFormatModal(true)}>
+              <button
+                className={styles.formatButton}
+                onClick={() => setShowFormatModal(true)}
+                aria-label="Format response"
+              >
                 <FileText size={14} />
-                Format
+                <span className={styles.btnLabel}>Format</span>
               </button>
             )}
             {mode === 'text' && messages.length > 0 && (
@@ -179,12 +185,15 @@ export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProp
                 className={`${styles.saveButton} ${saveState === 'saved' ? styles.savedState : ''} ${saveState === 'error' ? styles.errorState : ''}`}
                 onClick={handleSaveResponses}
                 disabled={saveState === 'saving'}
+                aria-label="Save responses"
               >
                 {saveState === 'saving' && <Loader2 size={14} className={styles.spinner} />}
                 {saveState === 'saved' && <Check size={14} />}
                 {saveState === 'idle' && <Bookmark size={14} />}
                 {saveState === 'error' && <AlertCircle size={14} />}
-                {saveState === 'saving' ? 'Saving...' : saveState === 'saved' ? 'Saved!' : saveState === 'error' ? 'Error' : 'Save'}
+                <span className={styles.btnLabel}>
+                  {saveState === 'saving' ? 'Saving...' : saveState === 'saved' ? 'Saved!' : saveState === 'error' ? 'Error' : 'Save'}
+                </span>
               </button>
             )}
             {mode === 'text' && (
@@ -192,13 +201,18 @@ export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProp
                 className={styles.fullscreenButton}
                 onClick={() => setIsFullscreen((prev) => !prev)}
                 title={isFullscreen ? 'Exit fullscreen' : 'Fullscreen'}
+                aria-label={isFullscreen ? 'Exit fullscreen' : 'Enter fullscreen'}
               >
                 {isFullscreen ? <Minimize2 size={14} /> : <Maximize2 size={14} />}
               </button>
             )}
-            <button className={styles.endButton} onClick={endConversation}>
+            <button
+              className={styles.endButton}
+              onClick={endConversation}
+              aria-label="End conversation"
+            >
               <X size={16} />
-              End
+              <span className={styles.btnLabel}>End</span>
             </button>
           </div>
         </div>
