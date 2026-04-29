@@ -1,6 +1,8 @@
 'use client';
 
-import { Search, RefreshCw, FileText, X, Loader2 } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
+import { Search, RefreshCw, FileText, X, Loader2, Menu } from 'lucide-react';
 import Link from 'next/link';
 import FileTree from './FileTree';
 import ResizableSidebar from './ResizableSidebar';
@@ -14,6 +16,13 @@ interface SearchSidebarProps {
 
 export default function SearchSidebar({ currentPath }: SearchSidebarProps) {
   const { tree, loading, refreshTree } = useFileTree();
+  const pathname = usePathname();
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
+
+  // Auto-close drawer when navigating to a different file
+  useEffect(() => {
+    setIsMobileOpen(false);
+  }, [pathname]);
   const {
     searchMode,
     setSearchMode,
@@ -79,7 +88,33 @@ export default function SearchSidebar({ currentPath }: SearchSidebarProps) {
   };
 
   return (
-    <ResizableSidebar>
+    <>
+      {!isMobileOpen && (
+        <button
+          type="button"
+          className={styles.menuButton}
+          onClick={() => setIsMobileOpen(true)}
+          aria-label="Open file tree"
+          aria-expanded={isMobileOpen}
+          aria-controls="kb-file-tree-drawer"
+        >
+          <Menu size={20} />
+        </button>
+      )}
+
+      <ResizableSidebar
+        isMobileOpen={isMobileOpen}
+        onMobileClose={() => setIsMobileOpen(false)}
+      >
+      <button
+        type="button"
+        className={styles.closeButton}
+        onClick={() => setIsMobileOpen(false)}
+        aria-label="Close file tree"
+      >
+        <X size={20} />
+      </button>
+
       <div className={styles.sidebarHeader}>
         <h2>Knowledge Base</h2>
         <button
@@ -239,6 +274,7 @@ export default function SearchSidebar({ currentPath }: SearchSidebarProps) {
           )}
         </>
       )}
-    </ResizableSidebar>
+      </ResizableSidebar>
+    </>
   );
 }
