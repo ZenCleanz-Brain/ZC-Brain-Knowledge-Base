@@ -1,0 +1,446 @@
+/* ============================================================
+   ZenCleanz Knowledge Base — Black & Gold Brand Theme
+   Source palette: Team-Portal/app/globals.css
+   ============================================================ */
+
+:root,
+[data-md-color-scheme="slate"] {
+  /* Brand primitives */
+  --zc-yin-black:        #1E201F;   /* near-black surface */
+  --zc-yin-elevated:     #252827;   /* elevated surface */
+  --zc-yin-deep:         #14110F;   /* deepest background */
+  --zc-yin-card:         #1a1a1a;
+  --zc-gold:             #C9A962;   /* primary gold accent */
+  --zc-gold-light:       #E8D5A3;   /* hover / highlight */
+  --zc-gold-dark:        #9A7D3D;
+  --zc-yang-white:       #D4CBBA;   /* warm body text */
+  --zc-yang-muted:       rgba(212, 203, 186, 0.7);
+  --zc-yang-faint:       rgba(212, 203, 186, 0.5);
+  --zc-border-gold:      rgba(201, 169, 98, 0.25);
+  --zc-border-gold-strong: rgba(201, 169, 98, 0.5);
+
+  /* Material palette overrides */
+  --md-primary-fg-color:            var(--zc-yin-black);
+  --md-primary-fg-color--light:     var(--zc-yin-elevated);
+  --md-primary-fg-color--dark:      #000000;
+  --md-primary-bg-color:            var(--zc-yang-white);
+  --md-primary-bg-color--light:     var(--zc-yang-muted);
+
+  --md-accent-fg-color:             var(--zc-gold);
+  --md-accent-fg-color--transparent: rgba(201, 169, 98, 0.12);
+  --md-accent-bg-color:             var(--zc-yin-black);
+  --md-accent-bg-color--light:      var(--zc-yin-elevated);
+
+  --md-default-bg-color:            var(--zc-yin-deep);
+  --md-default-bg-color--light:     var(--zc-yin-black);
+  --md-default-bg-color--lighter:   var(--zc-yin-elevated);
+  --md-default-bg-color--lightest:  rgba(255, 255, 255, 0.05);
+
+  --md-default-fg-color:            var(--zc-yang-white);
+  --md-default-fg-color--light:     var(--zc-yang-muted);
+  --md-default-fg-color--lighter:   var(--zc-yang-faint);
+  --md-default-fg-color--lightest:  rgba(212, 203, 186, 0.12);
+
+  --md-typeset-color:               var(--zc-yang-white);
+  --md-typeset-a-color:             var(--zc-gold);
+  --md-typeset-mark-color:          rgba(201, 169, 98, 0.35);
+
+  --md-code-fg-color:               var(--zc-gold-light);
+  --md-code-bg-color:               #0e0d0c;
+  --md-code-hl-color:               rgba(201, 169, 98, 0.18);
+  --md-code-hl-number-color:        var(--zc-gold-light);
+  --md-code-hl-string-color:        #d8c79a;
+  --md-code-hl-keyword-color:       var(--zc-gold);
+  --md-code-hl-name-color:          var(--zc-yang-white);
+  --md-code-hl-operator-color:      var(--zc-yang-muted);
+  --md-code-hl-punctuation-color:   var(--zc-yang-muted);
+  --md-code-hl-comment-color:       rgba(212, 203, 186, 0.45);
+
+  --md-footer-bg-color:             #000000;
+  --md-footer-bg-color--dark:       #000000;
+  --md-footer-fg-color:             var(--zc-yang-white);
+  --md-footer-fg-color--light:      var(--zc-yang-muted);
+  --md-footer-fg-color--lighter:    var(--zc-yang-faint);
+
+  --md-shadow-z1: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --md-shadow-z2: 0 4px 12px rgba(0, 0, 0, 0.55);
+  --md-shadow-z3: 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+/* ------------------------------------------------------------
+   Page chrome
+   ------------------------------------------------------------ */
+body {
+  background: var(--zc-yin-deep);
+}
+
+/* Header — solid black with subtle gold underline */
+.md-header {
+  background-color: #000000;
+  border-bottom: 1px solid var(--zc-border-gold);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+}
+.md-header__title {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.md-header__topic:first-child {
+  color: var(--zc-yang-white);
+}
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.6rem;
+  width: auto;
+}
+
+/* Tabs row */
+.md-tabs {
+  background-color: #000000;
+  border-bottom: 1px solid rgba(201, 169, 98, 0.15);
+}
+.md-tabs__link {
+  color: var(--zc-yang-muted);
+  opacity: 1;
+  font-weight: 500;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: var(--zc-gold);
+}
+.md-tabs__item--active > .md-tabs__link {
+  border-bottom: 2px solid var(--zc-gold);
+}
+
+/* ------------------------------------------------------------
+   Sidebar / navigation
+   ------------------------------------------------------------ */
+.md-sidebar {
+  background-color: transparent;
+}
+.md-nav__title {
+  color: var(--zc-yang-white);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.md-nav__link {
+  color: var(--zc-yang-muted);
+  transition: color 0.15s ease;
+}
+.md-nav__link:hover,
+.md-nav__link:focus {
+  color: var(--zc-gold-light);
+}
+.md-nav__item .md-nav__link--active,
+.md-nav__link--active,
+.md-nav__link--active code {
+  color: var(--zc-gold);
+  font-weight: 600;
+}
+.md-nav__item--section > .md-nav__link {
+  color: var(--zc-yang-white);
+}
+
+/* Active item — gold left bar */
+.md-nav__item .md-nav__link--active {
+  position: relative;
+}
+.md-nav__item .md-nav__link--active::before {
+  content: "";
+  position: absolute;
+  left: -0.6rem;
+  top: 0.35rem;
+  bottom: 0.35rem;
+  width: 2px;
+  background: var(--zc-gold);
+  border-radius: 2px;
+}
+
+/* ------------------------------------------------------------
+   Search
+   ------------------------------------------------------------ */
+.md-search__form {
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--zc-border-gold);
+  border-radius: 8px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.md-search__form:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form,
+.md-search__input:focus ~ .md-search__form,
+.md-search__form:focus-within {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: var(--zc-gold);
+  box-shadow: 0 0 0 3px rgba(201, 169, 98, 0.18);
+}
+.md-search__input {
+  color: var(--zc-yang-white);
+}
+.md-search__input::placeholder {
+  color: var(--zc-yang-faint);
+}
+.md-search-result__meta {
+  background-color: var(--zc-yin-elevated);
+  color: var(--zc-yang-muted);
+}
+.md-search-result__article--document .md-search-result__title {
+  color: var(--zc-gold);
+}
+.md-search-result mark {
+  color: var(--zc-gold-light);
+  background: transparent;
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------
+   Typography
+   ------------------------------------------------------------ */
+.md-typeset h1 {
+  color: var(--zc-yang-white);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  border-bottom: 1px solid var(--zc-border-gold);
+  padding-bottom: 0.4rem;
+}
+.md-typeset h2 {
+  color: var(--zc-yang-white);
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.md-typeset h2::before {
+  content: "";
+  display: inline-block;
+  width: 0.4rem;
+  height: 1rem;
+  background: var(--zc-gold);
+  margin-right: 0.55rem;
+  vertical-align: middle;
+  border-radius: 1px;
+  transform: translateY(-1px);
+}
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  color: var(--zc-yang-white);
+}
+.md-typeset a {
+  color: var(--zc-gold);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.md-typeset a:hover {
+  color: var(--zc-gold-light);
+  border-bottom-color: var(--zc-gold-light);
+}
+.md-typeset hr {
+  border-color: var(--zc-border-gold);
+}
+.md-typeset mark {
+  background: rgba(201, 169, 98, 0.25);
+  color: var(--zc-yang-white);
+}
+.md-typeset blockquote {
+  color: var(--zc-yang-muted);
+  border-left: 3px solid var(--zc-gold);
+  background: rgba(201, 169, 98, 0.05);
+  padding: 0.6rem 1rem;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Inline code */
+.md-typeset code {
+  color: var(--zc-gold-light);
+  background-color: rgba(201, 169, 98, 0.08);
+  border: 1px solid rgba(201, 169, 98, 0.18);
+  border-radius: 4px;
+  padding: 0.05em 0.35em;
+}
+.md-typeset a code {
+  color: var(--zc-gold);
+  background-color: rgba(201, 169, 98, 0.12);
+}
+
+/* Code blocks */
+.md-typeset pre > code,
+.md-typeset .highlight {
+  border: 1px solid rgba(201, 169, 98, 0.18);
+  border-radius: 8px;
+}
+.md-typeset pre > code {
+  background-color: #0e0d0c;
+}
+.md-typeset .highlight .filename {
+  background-color: var(--zc-yin-elevated);
+  color: var(--zc-gold);
+  border-bottom: 1px solid var(--zc-border-gold);
+}
+.md-clipboard {
+  color: var(--zc-yang-faint);
+}
+.md-clipboard:hover {
+  color: var(--zc-gold);
+}
+
+/* ------------------------------------------------------------
+   Tables
+   ------------------------------------------------------------ */
+.md-typeset table:not([class]) {
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--zc-border-gold);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.md-typeset table:not([class]) th {
+  background-color: var(--zc-yin-elevated);
+  color: var(--zc-yang-white);
+  border-bottom: 1px solid var(--zc-border-gold-strong);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.md-typeset table:not([class]) td {
+  border-top: 1px solid rgba(212, 203, 186, 0.08);
+}
+.md-typeset table:not([class]) tr:hover {
+  background-color: rgba(201, 169, 98, 0.05);
+}
+
+/* ------------------------------------------------------------
+   Admonitions — gold-tinted defaults
+   ------------------------------------------------------------ */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+  border-left-width: 3px;
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: var(--md-shadow-z1);
+}
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background: rgba(201, 169, 98, 0.08);
+  border-radius: 0;
+}
+/* Note (default) → gold */
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: var(--zc-gold);
+}
+.md-typeset .admonition.note > .admonition-title,
+.md-typeset details.note > summary {
+  background: rgba(201, 169, 98, 0.12);
+  color: var(--zc-gold);
+}
+.md-typeset .admonition.note > .admonition-title::before,
+.md-typeset details.note > summary::before {
+  background-color: var(--zc-gold);
+}
+/* Tip / hint */
+.md-typeset .admonition.tip,
+.md-typeset .admonition.hint,
+.md-typeset details.tip,
+.md-typeset details.hint {
+  border-color: var(--zc-gold-light);
+}
+.md-typeset .admonition.tip > .admonition-title,
+.md-typeset .admonition.hint > .admonition-title,
+.md-typeset details.tip > summary,
+.md-typeset details.hint > summary {
+  background: rgba(232, 213, 163, 0.12);
+  color: var(--zc-gold-light);
+}
+
+/* ------------------------------------------------------------
+   Buttons & misc
+   ------------------------------------------------------------ */
+.md-button {
+  border-radius: 6px;
+  border-color: var(--zc-border-gold-strong);
+  color: var(--zc-yang-white);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.md-button:hover {
+  background-color: var(--zc-gold);
+  color: var(--zc-yin-black);
+  border-color: var(--zc-gold);
+}
+.md-button--primary {
+  background-color: var(--zc-gold);
+  color: var(--zc-yin-black);
+  border-color: var(--zc-gold);
+}
+.md-button--primary:hover {
+  background-color: var(--zc-gold-light);
+  color: var(--zc-yin-black);
+  border-color: var(--zc-gold-light);
+}
+
+/* Footer */
+.md-footer {
+  background-color: #000000;
+  border-top: 1px solid var(--zc-border-gold);
+}
+.md-footer-meta {
+  background-color: #000000;
+}
+.md-footer__link:hover {
+  opacity: 1;
+}
+.md-footer__link:hover .md-footer__title {
+  color: var(--zc-gold);
+}
+.md-footer-copyright {
+  color: var(--zc-yang-faint);
+}
+
+/* Selection */
+::selection {
+  background: rgba(201, 169, 98, 0.35);
+  color: var(--zc-yang-white);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--zc-yin-deep);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 169, 98, 0.3);
+  border-radius: 5px;
+  border: 2px solid var(--zc-yin-deep);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--zc-gold);
+}
+
+/* Table of contents — gold active marker */
+.md-nav--secondary .md-nav__link--active {
+  color: var(--zc-gold);
+}
+.md-nav--secondary .md-nav__link {
+  border-left: 1px solid transparent;
+  padding-left: 0.6rem;
+}
+.md-nav--secondary .md-nav__link--active {
+  border-left-color: var(--zc-gold);
+}
+
+/* Tabbed content (pymdownx.tabbed) */
+.md-typeset .tabbed-set > input:checked + label {
+  color: var(--zc-gold);
+  border-color: var(--zc-gold);
+}
+.md-typeset .tabbed-labels > label:hover {
+  color: var(--zc-gold-light);
+}
+
+/* Task list checkboxes — gold when checked */
+.md-typeset [type="checkbox"]:checked + .task-list-indicator::before {
+  background-color: var(--zc-gold);
+}

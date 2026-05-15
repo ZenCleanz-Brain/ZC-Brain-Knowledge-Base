@@ -11,6 +11,8 @@ strict: false
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -27,22 +29,14 @@ theme:
     - content.tabs.link
     - toc.follow
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+    - scheme: slate
+      primary: black
+      accent: yellow
   icon:
     repo: fontawesome/brands/github
+
+extra_css:
+  - assets/extra.css
 
 plugins:
   - search
