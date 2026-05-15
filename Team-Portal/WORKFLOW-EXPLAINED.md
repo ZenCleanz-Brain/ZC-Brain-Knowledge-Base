@@ -127,7 +127,7 @@ Total Edits: 1
 
 Your `.env` has:
 ```env
-NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_secret_njgUlMWKxRg1uJb1k4G5NA_YXoyT-Wb
+NEXT_PUBLIC_SUPABASE_ANON_KEY=<your-supabase-key>   # pull from Vercel env vars or the Supabase dashboard — never commit the real value
 ```
 
 This is actually a **service_role key** (not anon key), which:

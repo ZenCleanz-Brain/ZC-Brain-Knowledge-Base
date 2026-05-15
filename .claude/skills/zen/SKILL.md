@@ -39,13 +39,23 @@ Run these checks sequentially. Report results in a table.
 
 ### 2. Vercel
 
-```
-npx vercel whoami --token XhJoaKXKs5hnPpIa8MFyYhLE
+The Vercel token is stored in `.claude/local-secrets.md` (gitignored). Read it
+into a variable first, then pass it via `--token`. Never paste the token inline
+in commands or files committed to the repo.
+
+PowerShell:
+
+```powershell
+$VERCEL_TOKEN = (Get-Content .claude/local-secrets.md |
+  Select-String '^VERCEL_TOKEN=' |
+  ForEach-Object { ($_ -split '=', 2)[1].Trim() })
+npx vercel whoami --token $VERCEL_TOKEN
 ```
 
 - If `zencleanz-brain` → OK
-- If error or wrong account → token may have expired; ask user for a new token from https://vercel.com/account/tokens
-- Always use `--token XhJoaKXKs5hnPpIa8MFyYhLE` flag for all vercel commands (browser login doesn't work in this environment)
+- If error or wrong account → token may have expired; ask user for a new token from https://vercel.com/account/tokens, then update `.claude/local-secrets.md`
+- Always pass `--token $VERCEL_TOKEN` (loaded from `.claude/local-secrets.md`) for all vercel commands (browser login doesn't work in this environment)
+- If `.claude/local-secrets.md` is missing, copy `.claude/local-secrets.example.md` to `.claude/local-secrets.md` and fill in the token
 
 ### 3. Supabase
 

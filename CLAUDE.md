@@ -8,7 +8,7 @@ Knowledge base repository for ZenCleanz, integrated with ElevenLabs (voice AI), 
 | Service | Expected Account | CLI Check Command |
 |---------|-----------------|-------------------|
 | **GitHub** | Account: `ZenCleanz-Brain` | `"C:\Program Files\GitHub CLI\gh.exe" auth status` |
-| **Vercel** | Username: `zencleanz-brain` | `npx vercel whoami --token XhJoaKXKs5hnPpIa8MFyYhLE` |
+| **Vercel** | Username: `zencleanz-brain` | `npx vercel whoami` (token sourced from `.claude/local-secrets.md` — see `.claude/local-secrets.example.md`) |
 | **Supabase** | Project: `vconqnpmybosduyhtbmu` | `"C:\Users\User\scoop\shims\supabase.exe" projects list` |
 | **Git Remote** | `ZenCleanz-Brain/ZC-Brain-Knowledge-Base` | `git remote -v` |
 
