@@ -279,5 +279,3 @@ in the remembrance
 ### ZenCleanz — Detox & Rise.
 
 ### Daniel Li Ox, ZenCleanz Founder & CEO
-
-<!-- sync v2 test 2026-06-17 -->
