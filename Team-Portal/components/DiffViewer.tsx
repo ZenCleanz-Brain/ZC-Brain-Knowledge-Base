@@ -30,7 +30,7 @@ export default function DiffViewer({ original, modified, fileName }: DiffViewerP
     let currentBlock: DiffBlock | null = null;
     let lineNumber = 0;
 
-    diff.forEach((change, idx) => {
+    diff.forEach((change: Change, idx: number) => {
       const lineCount = change.count || 0;
 
       if (change.added || change.removed) {
@@ -145,7 +145,7 @@ export default function DiffViewer({ original, modified, fileName }: DiffViewerP
                   if (change.removed) {
                     return (
                       <div key={idx} className={styles.removed}>
-                        {change.value.split('\n').map((line, lineIdx) =>
+                        {change.value.split('\n').map((line: string, lineIdx: number) =>
                           line ? <div key={lineIdx} className={styles.line}>- {line}</div> : null
                         )}
                       </div>
@@ -154,7 +154,7 @@ export default function DiffViewer({ original, modified, fileName }: DiffViewerP
                   if (change.added) {
                     return (
                       <div key={idx} className={styles.added}>
-                        {change.value.split('\n').map((line, lineIdx) =>
+                        {change.value.split('\n').map((line: string, lineIdx: number) =>
                           line ? <div key={lineIdx} className={styles.line}>+ {line}</div> : null
                         )}
                       </div>
@@ -163,7 +163,7 @@ export default function DiffViewer({ original, modified, fileName }: DiffViewerP
                   // Context lines
                   return (
                     <div key={idx} className={styles.context}>
-                      {change.value.split('\n').map((line, lineIdx) =>
+                      {change.value.split('\n').map((line: string, lineIdx: number) =>
                         line ? <div key={lineIdx} className={styles.line}>&nbsp; {line}</div> : null
                       )}
                     </div>

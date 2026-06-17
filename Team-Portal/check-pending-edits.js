@@ -12,11 +12,12 @@ require('dotenv').config({ path: '.env' });
 (async () => {
   const { createClient } = await import('@supabase/supabase-js');
 
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  // SECURITY-FIX: read the server-only secret key, not the old NEXT_PUBLIC_ var.
+  const supabaseUrl = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseKey = process.env.SUPABASE_SECRET_KEY;
 
   if (!supabaseUrl || !supabaseKey) {
-    console.log('❌ Missing Supabase credentials in .env');
+    console.log('❌ Missing Supabase credentials in .env (need SUPABASE_URL + SUPABASE_SECRET_KEY)');
     process.exit(1);
   }
 

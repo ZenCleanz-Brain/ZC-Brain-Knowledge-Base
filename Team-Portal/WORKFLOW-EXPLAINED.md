@@ -123,29 +123,33 @@ Total Edits: 1
 └─ Rejected: 0  (none rejected)
 ```
 
-## 🔐 Why You're Using Service Role Key (And That's OK)
+## 🔐 Supabase Secret Key — Server-Only (security remediation)
 
-Your `.env` has:
+Your `.env` uses a **server-only** secret var (no `NEXT_PUBLIC_` prefix):
 ```env
-NEXT_PUBLIC_SUPABASE_ANON_KEY=<your-supabase-key>   # pull from Vercel env vars or the Supabase dashboard — never commit the real value
+SUPABASE_URL=<your-project-url>
+SUPABASE_SECRET_KEY=<your-supabase-secret-key>   # pull from Vercel env / Supabase dashboard — never commit the real value
 ```
 
-This is actually a **service_role key** (not anon key), which:
+The Supabase key is a **secret** key (`sb_secret_...`), which:
 - ✅ Has full database access
 - ✅ Bypasses Row Level Security policies
-- ⚠️ Should normally be kept secret (not in NEXT_PUBLIC_ variables)
+- 🔒 MUST be kept server-side only (NEVER in a `NEXT_PUBLIC_` variable)
 
-**For your use case**, this is fine because:
-1. This is an internal tool (not public-facing)
-2. You have NextAuth protecting the routes
-3. The application handles authorization in code
+> ⚠️ **Previously this was stored as `NEXT_PUBLIC_SUPABASE_ANON_KEY`.** The
+> `NEXT_PUBLIC_` prefix causes Next.js to inline the value into the browser
+> bundle, which shipped a full-access secret key to every visitor. That key
+> (`sb_secret_NKJq6v...`) is **COMPROMISED** and must be rotated in the Supabase
+> dashboard, then updated in Vercel env + local `.env`/`.env.local`.
 
-**However**, for better security practice, you should:
-1. Move it to a non-NEXT_PUBLIC variable
-2. Only use it in server-side API routes
-3. Use the actual anon key for client-side operations
-
-But for now, it works! 🎉
+How it works now:
+1. `lib/supabase/server.ts` builds the client from `SUPABASE_SECRET_KEY` and is
+   guarded with `import 'server-only'` (the build fails if it reaches the browser).
+2. `lib/store.ts` (used only by `app/api/.../route.ts` handlers) imports it.
+3. Every API route is gated by `getServerSession(authOptions)` (NextAuth), so the
+   browser never touches Supabase directly — it calls our own API routes instead.
+4. As defense-in-depth, RLS is enabled on every table (see `ENABLE-RLS.sql`). With
+   no permissive policies, the only way into the DB is the server's secret key.
 
 ## 🎯 Summary: Why You Don't See Pending Edits
 

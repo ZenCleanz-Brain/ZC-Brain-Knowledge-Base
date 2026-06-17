@@ -25,13 +25,14 @@ CREATE INDEX IF NOT EXISTS idx_pending_edits_submitted_at ON pending_edits(submi
 -- Enable Row Level Security (RLS)
 ALTER TABLE pending_edits ENABLE ROW LEVEL SECURITY;
 
--- Create a policy to allow all operations (since we're handling auth in Next.js)
--- WARNING: In production, you should create more restrictive policies
-CREATE POLICY IF NOT EXISTS "Allow all operations for now"
-ON pending_edits
-FOR ALL
-USING (true)
-WITH CHECK (true);
+-- SECURITY-FIX: do NOT add a permissive "allow all" policy.
+-- All database access happens server-side via the Supabase SECRET key
+-- (SUPABASE_SECRET_KEY, server-only), which bypasses RLS. With RLS enabled and
+-- NO policies, every other role is denied by default. A previous version of this
+-- file created `CREATE POLICY "Allow all operations for now" ... USING (true)`,
+-- which re-opened public access — that policy is intentionally removed here and
+-- dropped by supabase/migrations/0001_enable_rls.sql.
+DROP POLICY IF EXISTS "Allow all operations for now" ON pending_edits;
 
 -- Verify the table was created
 SELECT

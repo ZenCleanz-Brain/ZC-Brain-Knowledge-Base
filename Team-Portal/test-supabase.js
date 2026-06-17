@@ -9,8 +9,9 @@
 
 require('dotenv').config({ path: '.env' });
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+// SECURITY-FIX: read the server-only secret key, not the old NEXT_PUBLIC_ var.
+const supabaseUrl = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_SECRET_KEY;
 
 console.log('🔍 Supabase Connection Diagnostic\n');
 console.log('=' .repeat(60));
@@ -18,7 +19,7 @@ console.log('=' .repeat(60));
 // Check URL
 console.log('\n📍 Supabase URL:');
 if (!supabaseUrl) {
-  console.log('   ❌ MISSING! Add NEXT_PUBLIC_SUPABASE_URL to .env');
+  console.log('   ❌ MISSING! Add SUPABASE_URL to .env');
 } else if (supabaseUrl.includes('xxxxx')) {
   console.log('   ⚠️  Masked in logs (normal for security)');
   console.log('   ℹ️  Actual value:', supabaseUrl);
@@ -39,20 +40,22 @@ if (!supabaseUrl) {
 // Check API Key
 console.log('\n🔑 Supabase API Key:');
 if (!supabaseKey) {
-  console.log('   ❌ MISSING! Add NEXT_PUBLIC_SUPABASE_ANON_KEY to .env');
+  console.log('   ❌ MISSING! Add SUPABASE_SECRET_KEY (server-only) to .env');
 } else {
   console.log('   ℹ️  Length:', supabaseKey.length, 'characters');
   console.log('   ℹ️  Starts with:', supabaseKey.substring(0, 10) + '...');
 
-  // Validate key format
-  if (supabaseKey.length < 100) {
-    console.log('   ❌ TOO SHORT! Anon key should be 200-300 characters');
-    console.log('   ℹ️  Your key appears to be incomplete or truncated');
-  } else if (!supabaseKey.startsWith('eyJ')) {
-    console.log('   ⚠️  Doesn\'t start with "eyJ" - might not be the anon key');
-    console.log('   ℹ️  Make sure you copied the "anon public" key, not service_role');
+  // Validate key format. This tool is a SERVER-SIDE diagnostic and uses the
+  // SECRET key (sb_secret_...), which bypasses RLS. Newer Supabase secret keys
+  // start with "sb_secret_"; legacy service_role keys are JWTs ("eyJ...").
+  if (supabaseKey.startsWith('sb_secret_')) {
+    console.log('   ✅ Secret key format looks correct (sb_secret_...)');
+    console.log('   ⚠️  This is a SECRET key — server-side use only, never expose to the browser.');
+  } else if (supabaseKey.startsWith('eyJ')) {
+    console.log('   ✅ JWT key format detected (legacy anon/service_role).');
+    console.log('   ⚠️  If this is a service_role JWT, treat it as secret — server-side only.');
   } else {
-    console.log('   ✅ Key format looks correct!');
+    console.log('   ⚠️  Unrecognized key prefix - expected "sb_secret_" or "eyJ".');
   }
 }
 

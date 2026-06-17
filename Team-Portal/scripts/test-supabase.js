@@ -4,8 +4,9 @@
 require('dotenv').config();
 const { createClient } = require('@supabase/supabase-js');
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+// SECURITY-FIX: read the server-only secret key, not the old NEXT_PUBLIC_ var.
+const supabaseUrl = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_SECRET_KEY;
 
 console.log('Testing Supabase connection...\n');
 console.log('URL:', supabaseUrl);
@@ -16,8 +17,8 @@ console.log('\nExpected key format: eyJ... (JWT token, usually 200-300 character
 if (!supabaseUrl || !supabaseKey) {
   console.error('❌ ERROR: Supabase credentials not found in .env file');
   console.log('\nPlease add to your .env file:');
-  console.log('NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co');
-  console.log('NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key-here');
+  console.log('SUPABASE_URL=https://your-project.supabase.co');
+  console.log('SUPABASE_SECRET_KEY=your-server-only-secret-key  # never NEXT_PUBLIC_');
   process.exit(1);
 }
 

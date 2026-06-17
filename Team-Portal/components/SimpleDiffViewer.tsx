@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useRef, useState } from 'react';
-import { diffLines, diffWords } from 'diff';
+import { diffLines, diffWords, Change } from 'diff';
 import { ChevronDown } from 'lucide-react';
 import styles from './SimpleDiffViewer.module.css';
 
@@ -37,12 +37,12 @@ export default function SimpleDiffViewer({ original, modified, fileName }: Simpl
     let modLineNum = 1;
     let changeIdx = 0;
 
-    lineDiff.forEach((part) => {
-      const lines = part.value.split('\n').filter((l, i, arr) => i < arr.length - 1 || l !== '');
+    lineDiff.forEach((part: Change) => {
+      const lines = part.value.split('\n').filter((l: string, i: number, arr: string[]) => i < arr.length - 1 || l !== '');
 
       if (!part.added && !part.removed) {
         // Unchanged lines - add to both sides
-        lines.forEach((line) => {
+        lines.forEach((line: string) => {
           aligned.push({
             orig: { content: line, type: 'unchanged', lineNum: origLineNum++ },
             mod: { content: line, type: 'unchanged', lineNum: modLineNum++ },
@@ -51,7 +51,7 @@ export default function SimpleDiffViewer({ original, modified, fileName }: Simpl
       } else if (part.removed) {
         // Removed lines - only in original, null in modified
         const startAlignedIdx = aligned.length;
-        lines.forEach((line, i) => {
+        lines.forEach((line: string, i: number) => {
           aligned.push({
             orig: { content: line, type: 'removed', lineNum: origLineNum++, changeIndex: changeIdx },
             mod: null, // Empty placeholder on modified side
@@ -63,7 +63,7 @@ export default function SimpleDiffViewer({ original, modified, fileName }: Simpl
       } else if (part.added) {
         // Added lines - only in modified, null in original
         const startAlignedIdx = aligned.length;
-        lines.forEach((line, i) => {
+        lines.forEach((line: string, i: number) => {
           aligned.push({
             orig: null, // Empty placeholder on original side
             mod: { content: line, type: 'added', lineNum: modLineNum++, changeIndex: changeIdx },
