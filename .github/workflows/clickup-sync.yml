@@ -1,7 +1,9 @@
 name: ClickUp Sync
 
-# Mirror PUBLISHED FOLDERS MASTER/ into the "Product Information Hub" ClickUp Doc
-# whenever published content changes on master. Also runnable on demand.
+# Multi-doc, diff-based, content-only sync of PUBLISHED FOLDERS MASTER/ into the
+# four routed ClickUp v3 Docs (see clickup-sync.config.json). On push to master
+# we compute the changed files and update only those pages' CONTENT (titles are
+# never touched). On manual dispatch we run a read-only --rebaseline drift check.
 on:
   push:
     branches: [master]
@@ -13,7 +15,7 @@ on:
 permissions:
   contents: write
 
-# Avoid overlapping runs racing the same ClickUp doc / map file.
+# Avoid overlapping runs racing the same ClickUp docs / map file.
 concurrency:
   group: clickup-sync
   cancel-in-progress: false
@@ -24,6 +26,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Full history so we can diff github.event.before..github.sha.
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -34,16 +39,60 @@ jobs:
         working-directory: scripts/clickup-sync
         run: npm ci || npm install
 
-      - name: Run sync
+      # Compute the list of changed files under PUBLISHED FOLDERS MASTER/ for a
+      # push event. Falls back to HEAD~1..HEAD when github.event.before is the
+      # all-zeros sha (first push to a branch / shallow edge) or the diff errors.
+      - name: Compute changed files
+        id: changed
+        if: github.event_name == 'push'
+        run: |
+          set -uo pipefail
+          BEFORE='${{ github.event.before }}'
+          SHA='${{ github.sha }}'
+          ZERO='0000000000000000000000000000000000000000'
+
+          changed=''
+          if [ -n "$BEFORE" ] && [ "$BEFORE" != "$ZERO" ]; then
+            if changed=$(git diff --name-only "$BEFORE" "$SHA" -- 'PUBLISHED FOLDERS MASTER/' 2>/dev/null); then
+              :
+            else
+              echo "git diff against before-sha failed; falling back to HEAD~1..HEAD"
+              changed=$(git diff --name-only HEAD~1 HEAD -- 'PUBLISHED FOLDERS MASTER/' 2>/dev/null || true)
+            fi
+          else
+            echo "before-sha is empty/all-zeros; falling back to HEAD~1..HEAD"
+            changed=$(git diff --name-only HEAD~1 HEAD -- 'PUBLISHED FOLDERS MASTER/' 2>/dev/null || true)
+          fi
+
+          echo "Changed files under PUBLISHED FOLDERS MASTER/:"
+          echo "$changed"
+
+          # Stash as a multiline GITHUB_OUTPUT value for the sync step.
+          {
+            echo 'files<<__CHANGED_EOF__'
+            echo "$changed"
+            echo '__CHANGED_EOF__'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Run sync (push -> diff update)
+        if: github.event_name == 'push'
         working-directory: scripts/clickup-sync
         env:
           CLICKUP_TOKEN: ${{ secrets.CLICKUP_TOKEN }}
+          CHANGED_FILES: ${{ steps.changed.outputs.files }}
         run: node sync.js
+
+      - name: Run rebaseline (manual dispatch -> read-only drift check)
+        if: github.event_name == 'workflow_dispatch'
+        working-directory: scripts/clickup-sync
+        env:
+          CLICKUP_TOKEN: ${{ secrets.CLICKUP_TOKEN }}
+        run: node sync.js --rebaseline
 
       - name: Commit updated sync map
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "ZenCleanz Brain"
+          git config user.email "brain@zencleanz.com"
           if [ -n "$(git status --porcelain scripts/clickup-sync/.clickup-sync-map.json)" ]; then
             git add scripts/clickup-sync/.clickup-sync-map.json
             git commit -m "chore(clickup-sync): update page map [skip ci]"

@@ -1,0 +1,11 @@
+{
+  "apiBase": "https://api.clickup.com/api/v3",
+  "workspaceId": "90182487566",
+  "contentRoot": "PUBLISHED FOLDERS MASTER",
+  "routes": {
+    "Blogs":             { "docId": "2kzmq3ge-4518", "containerPageId": "2kzmq3ge-9018" },
+    "Marketing Related": { "docId": "2kzmq3ge-4498", "containerPageId": "2kzmq3ge-7058" },
+    "Customer Related":  { "docId": "2kzmq3ge-4478", "containerPageId": null },
+    "Products Related":  { "docId": "2kzmq3ge-878",  "containerPageId": "2kzmq3ge-2978" }
+  }
+}

@@ -1,11 +1,13 @@
 {
   "name": "clickup-sync",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "One-way GitHub -> ClickUp Docs sync for the ZenCleanz Knowledge Base.",
+  "description": "Multi-doc, diff-based, content-only GitHub -> ClickUp Docs sync for the ZenCleanz Knowledge Base.",
   "type": "module",
   "scripts": {
-    "sync": "node sync.js"
+    "sync": "node sync.js",
+    "rebaseline": "node sync.js --rebaseline",
+    "match": "node match.js"
   },
   "dependencies": {
     "gray-matter": "^4.0.3"
