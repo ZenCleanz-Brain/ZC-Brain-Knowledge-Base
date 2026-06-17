@@ -8,3 +8,6 @@ supakey.txt
 .claude/local-secrets.md
 
 .vercel
+
+# Node dependencies (clickup-sync; installed via npm ci in CI)
+node_modules/

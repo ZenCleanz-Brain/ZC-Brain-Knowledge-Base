@@ -1,0 +1,5 @@
+node_modules/
+*.log
+_tree_verify.json
+_v.json
+.env

@@ -1,0 +1,53 @@
+name: ClickUp Sync
+
+# Mirror PUBLISHED FOLDERS MASTER/ into the "Product Information Hub" ClickUp Doc
+# whenever published content changes on master. Also runnable on demand.
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'PUBLISHED FOLDERS MASTER/**'
+  workflow_dispatch:
+
+# Needed so the job can commit the updated .clickup-sync-map.json back.
+permissions:
+  contents: write
+
+# Avoid overlapping runs racing the same ClickUp doc / map file.
+concurrency:
+  group: clickup-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        working-directory: scripts/clickup-sync
+        run: npm ci || npm install
+
+      - name: Run sync
+        working-directory: scripts/clickup-sync
+        env:
+          CLICKUP_TOKEN: ${{ secrets.CLICKUP_TOKEN }}
+        run: node sync.js
+
+      - name: Commit updated sync map
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain scripts/clickup-sync/.clickup-sync-map.json)" ]; then
+            git add scripts/clickup-sync/.clickup-sync-map.json
+            git commit -m "chore(clickup-sync): update page map [skip ci]"
+            git push
+          else
+            echo "No map changes to commit."
+          fi
