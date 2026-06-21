@@ -10,7 +10,6 @@ import {
   Loader2,
   AlertCircle,
   RefreshCw,
-  FileText,
   Bookmark,
   Check,
   Maximize2,
@@ -20,7 +19,6 @@ import { useAIChat } from '@/hooks/useAIChat';
 import { useAdminSettings } from '@/contexts/AdminSettingsContext';
 import VoiceVisualizer from './VoiceVisualizer';
 import ChatMessages from './ChatMessages';
-import FormatOutputModal from './FormatOutputModal';
 import styles from './AIChatCard.module.css';
 
 // Rotating thinking phrases - zen-inspired (shared with voice mode)
@@ -43,7 +41,6 @@ interface AIChatCardProps {
 export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProps) {
   const [inputValue, setInputValue] = useState('');
   const [voiceThinkingPhrase, setVoiceThinkingPhrase] = useState(0);
-  const [showFormatModal, setShowFormatModal] = useState(false);
   const [saveState, setSaveState] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle');
   const [isFullscreen, setIsFullscreen] = useState(false);
   const { settings } = useAdminSettings();
@@ -129,7 +126,6 @@ export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProp
 
   const isIdle = status === 'idle';
   const isError = status === 'error';
-  const lastAgentMessage = [...messages].reverse().find((m) => m.role === 'agent')?.content || '';
 
   // Rotate thinking phrases for voice mode (when not speaking)
   useEffect(() => {
@@ -170,16 +166,6 @@ export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProp
             </button>
           </div>
           <div className={styles.headerActions}>
-            {mode === 'text' && lastAgentMessage && (
-              <button
-                className={styles.formatButton}
-                onClick={() => setShowFormatModal(true)}
-                aria-label="Format response"
-              >
-                <FileText size={14} />
-                <span className={styles.btnLabel}>Format</span>
-              </button>
-            )}
             {mode === 'text' && messages.length > 0 && (
               <button
                 className={`${styles.saveButton} ${saveState === 'saved' ? styles.savedState : ''} ${saveState === 'error' ? styles.errorState : ''}`}
@@ -353,11 +339,6 @@ export default function AIChatCard({ onMouseMove, onMouseLeave }: AIChatCardProp
         )}
       </div>
 
-      <FormatOutputModal
-        isOpen={showFormatModal}
-        onClose={() => setShowFormatModal(false)}
-        rawText={lastAgentMessage}
-      />
     </div>
   );
 }
