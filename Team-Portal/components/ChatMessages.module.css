@@ -143,6 +143,11 @@
   font-size: 0.9375rem;
   line-height: 1.6;
   word-wrap: break-word;
+  /* Preserve the agent's paragraph breaks (\n\n). Without this, the browser's
+     default white-space:normal collapses all newlines and the answer renders
+     as one chunky block. overflow-wrap keeps long URLs/IDs inside the bubble. */
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
   text-align: left;
 }
 
