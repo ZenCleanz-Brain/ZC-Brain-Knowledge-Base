@@ -137,10 +137,17 @@ export function useAIChat(options: UseAIChatOptions = {}) {
       const { signedUrl } = await response.json();
 
       // Start session with ElevenLabs
-      // Use textOnly: true for text mode - no audio input/output
+      // Two flags are required for a true text-only session:
+      //  - top-level `textOnly`: client picks the text transport, skips the mic
+      //  - `overrides.conversation.textOnly`: the ONLY field the SDK writes into the
+      //    server-side `text_only` record. Without it the server defaults to voice
+      //    (text_only=false) and runs TTS, giving short, voice-optimized answers.
       await conversation.startSession({
         signedUrl,
         textOnly: selectedMode === 'text',
+        overrides: {
+          conversation: { textOnly: selectedMode === 'text' },
+        },
       });
 
       // Start visualization only for voice mode
