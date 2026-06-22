@@ -1,6 +1,6 @@
 {
   "agentId": "agent_4101kebd8snsff0az1775xyzhamc",
-  "agentName": "ZenCleanz Brain 1.0.1",
+  "agentName": "ZenCleanz Brain 1.06",
   "workflowNodes": {
     "node_01kebdaxdqe03bzdtb99872b15": {
       "label": "Main Routing Agent",
@@ -21,6 +21,11 @@
       "label": "General Wellness (Blogs)",
       "hasKnowledgeBase": true,
       "documentTypes": ["Blog articles", "wellness content"]
+    },
+    "node_01kvq081tqe06tvcpkhpb0kked": {
+      "label": "Shipping & Customer Service Template SOP",
+      "hasKnowledgeBase": true,
+      "documentTypes": []
     }
   },
   "apiEndpoints": {
