@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type ClipboardEvent } from 'react';
 import { User } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import styles from './ChatMessages.module.css';
@@ -50,6 +50,18 @@ export default function ChatMessages({ messages, isTyping = false, useFormattedO
     return () => clearInterval(interval);
   }, [isTyping]);
 
+  // Force copies to plain text so pasting into Word/Outlook/Teams doesn't come
+  // out bold. The browser's default copy includes an HTML flavor carrying the
+  // Alegreya Sans webfont, which those editors re-weight to bold; writing only
+  // text/plain strips it while preserving the visible paragraph breaks.
+  const handleCopy = (e: ClipboardEvent<HTMLDivElement>) => {
+    const selection = window.getSelection()?.toString();
+    if (selection) {
+      e.clipboardData.setData('text/plain', selection);
+      e.preventDefault();
+    }
+  };
+
   if (messages.length === 0 && !isTyping) {
     return (
       <div className={styles.emptyState}>
@@ -67,7 +79,7 @@ export default function ChatMessages({ messages, isTyping = false, useFormattedO
   }
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} onCopy={handleCopy}>
       {messages.map((message) => (
         <div
           key={message.id}
