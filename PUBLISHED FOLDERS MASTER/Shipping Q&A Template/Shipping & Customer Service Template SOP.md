@@ -1,6 +1,6 @@
 # ZenCleanz Shipping & Customer Service SOP
 
-> **Purpose1:** Reference + template library for the shipping/customer-service team.
+> **Purpose:** Reference + template library for the shipping/customer-service team.
 > **Usage:** Each scenario below is self-contained. When a team member requests a template for a situation, retrieve the matching scenario and fill in the `{{placeholders}}`.
 > **Brand voice:** Warm, apologetic where needed, reassuring. Standard sign-off:
 > *To your vibrant health,*
