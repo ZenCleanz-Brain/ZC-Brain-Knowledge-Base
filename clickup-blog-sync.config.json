@@ -1,0 +1,19 @@
+{
+  "clickup": {
+    "apiBase": "https://api.clickup.com/api/v2",
+    "listId": "901818826573",
+    "workspaceId": "90182487566"
+  },
+  "elevenlabs": {
+    "apiBase": "https://api.elevenlabs.io",
+    "agentId": "agent_4101kebd8snsff0az1775xyzhamc",
+    "agentName": "ZenCleanz Brain 1.06",
+    "branchStrategy": "latest",
+    "targetNodeId": "node_01kebdshtre03bzdwdfw7m5amr",
+    "targetNodeLabel": "General FAQs",
+    "targetConfirmed": true
+  },
+  "blogsDir": "PUBLISHED FOLDERS MASTER/Blogs",
+  "stateFile": "scripts/clickup-blog-sync/.blog-sync-map.json",
+  "cron": "every 3 days"
+}
