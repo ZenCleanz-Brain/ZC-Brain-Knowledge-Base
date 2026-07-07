@@ -100,6 +100,11 @@ function loadConfig() {
 const config = loadConfig();
 const BLOGS_ABS = path.join(REPO_ROOT, config.blogsDir);
 const STATE_ABS = path.join(REPO_ROOT, config.stateFile);
+// Safety guards (see clickup-blog-sync.config.json):
+// - MAX_CONTENT: never auto-attach a block bigger than this; skip for review.
+// - PER_RUN_CAP: max NEW blocks created per run when no explicit --limit given.
+const MAX_CONTENT = Number.isFinite(config.maxContentChars) ? config.maxContentChars : Infinity;
+const PER_RUN_CAP = Number.isFinite(config.maxPerRun) ? config.maxPerRun : Infinity;
 
 // ---------------------------------------------------------------------------
 // Tokens (never printed)
@@ -342,6 +347,11 @@ function classify(tasks, knownIndex, state) {
       } else if (!t.content || !t.content.trim()) {
         status = "SKIP";
         reason = "empty content (no markdown_description)";
+      } else if ((t.content || "").length > MAX_CONTENT) {
+        // Safety guard: never auto-attach an oversized block. Skip for review,
+        // and don't seed the dedup index (a smaller sibling can still sync).
+        status = "SKIP";
+        reason = `oversize (${t.content.length} chars > ${MAX_CONTENT}) — review manually`;
       } else {
         // NEW: register it so a later duplicate block in the SAME batch is
         // caught as KNOWN (source "batch:") instead of creating a near-dupe.
@@ -511,8 +521,8 @@ async function main() {
     });
   }
   if (skips.length) {
-    console.log(`\n=== SKIP (empty content) ===`);
-    skips.forEach((r) => console.log(`  - "${r.title}" (${r.id})`));
+    console.log(`\n=== SKIP (not created) ===`);
+    skips.forEach((r) => console.log(`  - "${r.title}" (${r.id}) — ${r.reason}`));
   }
 
   let pool = news;
@@ -520,8 +530,14 @@ async function main() {
     pool = news.filter((r) => r.title.toLowerCase().includes(TITLE_FILTER.toLowerCase()));
     console.log(`\n--title "${TITLE_FILTER}" -> ${pool.length} matching NEW block(s).`);
   }
-  const eligible = pool.slice(0, LIMIT);
-  if (LIMIT !== Infinity) console.log(`limit=${LIMIT} -> ${eligible.length} eligible this run.`);
+  // Effective cap: an explicit --limit wins; otherwise the config per-run guard.
+  const effLimit = LIMIT !== Infinity ? LIMIT : PER_RUN_CAP;
+  const eligible = pool.slice(0, effLimit);
+  if (effLimit !== Infinity && pool.length > eligible.length) {
+    console.log(`\ncap=${effLimit} -> ${eligible.length} this run; ${pool.length - eligible.length} will sync on the next run.`);
+  } else if (effLimit !== Infinity) {
+    console.log(`\ncap=${effLimit} -> ${eligible.length} eligible this run.`);
+  }
 
   if (DRY_RUN) {
     console.log(`\nDRY-RUN complete. Nothing was written. Re-run with --live (after target confirmed) to apply.`);

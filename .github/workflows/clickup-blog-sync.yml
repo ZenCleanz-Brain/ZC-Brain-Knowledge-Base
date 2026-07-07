@@ -1,0 +1,76 @@
+name: ClickUp Blogs -> ElevenLabs sync
+
+# Scans the ClickUp blog list every ~3 days and creates any NEW blog block into
+# the repo (PUBLISHED FOLDERS MASTER/Blogs/) + the ElevenLabs KB, attaching it to
+# the live "ZenCleanz Brain 1.06" General FAQs node. Create-only + idempotent.
+#
+# Safety: the script itself is dry-run by default and only writes with --live when
+# clickup-blog-sync.config.json targetConfirmed=true. Config guards cap each run
+# (maxPerRun) and skip oversized blocks (maxContentChars). Manual dispatch defaults
+# to dry-run; only the schedule (and an explicit dispatch mode=live) writes.
+#
+# Requires repo secrets: CLICKUP_TOKEN, ELEVENLABS_API_KEY.
+# Note: the auto-commit below uses GITHUB_TOKEN, so it will NOT cascade-trigger the
+# GitHub->ClickUp-Docs mirror action (GitHub suppresses workflow chains from
+# GITHUB_TOKEN pushes). That is intentional — no surprise double-sync.
+
+on:
+  schedule:
+    - cron: "0 6 */3 * *" # ~every 3 days at 06:00 UTC (16:00 AEST)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode (manual dispatch)"
+        type: choice
+        options:
+          - dry-run
+          - live
+        default: dry-run
+
+concurrency:
+  group: clickup-blog-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Determine run mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "flag=--live" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.inputs.mode }}" = "live" ]; then
+            echo "flag=--live" >> "$GITHUB_OUTPUT"
+          else
+            echo "flag=--dry-run" >> "$GITHUB_OUTPUT"
+          fi
+          echo "Running with ${{ github.event_name }} -> mode above."
+
+      - name: Run blog sync
+        env:
+          CLICKUP_TOKEN: ${{ secrets.CLICKUP_TOKEN }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: node scripts/clickup-blog-sync/sync.js ${{ steps.mode.outputs.flag }}
+
+      - name: Commit new blogs + state file
+        if: steps.mode.outputs.flag == '--live'
+        run: |
+          git config user.name "zencleanz-blog-sync[bot]"
+          git config user.email "brain@zencleanz.com"
+          git add "PUBLISHED FOLDERS MASTER/Blogs" "scripts/clickup-blog-sync/.blog-sync-map.json"
+          if git diff --cached --quiet; then
+            echo "No new blog files or state changes to commit."
+          else
+            git commit -m "chore(blog-sync): auto-sync new blog(s) to KB + General FAQs"
+            git push
+          fi

@@ -15,5 +15,7 @@
   },
   "blogsDir": "PUBLISHED FOLDERS MASTER/Blogs",
   "stateFile": "scripts/clickup-blog-sync/.blog-sync-map.json",
+  "maxContentChars": 40000,
+  "maxPerRun": 10,
   "cron": "every 3 days"
 }
