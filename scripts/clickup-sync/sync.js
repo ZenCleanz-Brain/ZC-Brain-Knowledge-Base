@@ -5,12 +5,13 @@
 // WHAT THIS DOES
 // --------------
 // Mirrors changed markdown files under "PUBLISHED FOLDERS MASTER/" into one of
-// FOUR ClickUp v3 Docs, routed by their top-level folder:
+// FIVE ClickUp v3 Docs, routed by their top-level folder:
 //
 //   Blogs             -> doc 2kzmq3ge-4518  (added files go under a container page)
 //   Marketing Related -> doc 2kzmq3ge-4498  (added files go under a container page)
 //   Customer Related  -> doc 2kzmq3ge-4478  (added files go at the doc root)
 //   Products Related  -> doc 2kzmq3ge-878   (added files go under a container page)
+//   Shipping Q&A Template -> doc 2kzmq3ge-4478 (same Doc as Customer Related; doc root)
 //
 // The routing table lives in clickup-sync.config.json at the repo root.
 //

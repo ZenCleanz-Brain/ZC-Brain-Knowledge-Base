@@ -12,7 +12,9 @@ name: ClickUp Blogs -> ElevenLabs sync
 # Requires repo secrets: CLICKUP_TOKEN, ELEVENLABS_API_KEY.
 # Note: the auto-commit below uses GITHUB_TOKEN, so it will NOT cascade-trigger the
 # GitHub->ClickUp-Docs mirror action (GitHub suppresses workflow chains from
-# GITHUB_TOKEN pushes). That is intentional — no surprise double-sync.
+# GITHUB_TOKEN pushes). The "Mirror new blogs to ClickUp Docs" step runs that
+# mirror explicitly on the new files instead, so the "Older Blogs" Doc stays
+# complete without a double-sync.
 
 on:
   schedule:
@@ -62,12 +64,37 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: node scripts/clickup-blog-sync/sync.js ${{ steps.mode.outputs.flag }}
 
+      # The commit below is pushed with GITHUB_TOKEN, and GitHub suppresses
+      # workflow chains from such pushes -- so the GitHub->ClickUp Docs mirror
+      # (clickup-sync.yml) never sees these new blog files. Mirror them here
+      # explicitly, on just the files this run created. continue-on-error so a
+      # ClickUp hiccup can never block the commit of blogs already created in
+      # ElevenLabs (an uncommitted state file would re-create them next run).
+      - name: Mirror new blogs to ClickUp Docs
+        if: steps.mode.outputs.flag == '--live'
+        continue-on-error: true
+        env:
+          CLICKUP_TOKEN: ${{ secrets.CLICKUP_TOKEN }}
+        run: |
+          set -uo pipefail
+          # Blog sync is create-only, so every new blog is an untracked file.
+          # quotePath=false keeps non-ASCII filenames literal (no octal escapes).
+          new_files=$(git -c core.quotePath=false ls-files --others --exclude-standard -- "PUBLISHED FOLDERS MASTER/Blogs" || true)
+          if [ -z "$new_files" ]; then
+            echo "No new blog files to mirror."
+            exit 0
+          fi
+          echo "Mirroring to ClickUp Docs:"
+          echo "$new_files"
+          (cd scripts/clickup-sync && (npm ci || npm install))
+          CHANGED_FILES="$new_files" node scripts/clickup-sync/sync.js
+
       - name: Commit new blogs + state file
         if: steps.mode.outputs.flag == '--live'
         run: |
           git config user.name "zencleanz-blog-sync[bot]"
           git config user.email "brain@zencleanz.com"
-          git add "PUBLISHED FOLDERS MASTER/Blogs" "scripts/clickup-blog-sync/.blog-sync-map.json"
+          git add "PUBLISHED FOLDERS MASTER/Blogs" "scripts/clickup-blog-sync/.blog-sync-map.json" "scripts/clickup-sync/.clickup-sync-map.json"
           if git diff --cached --quiet; then
             echo "No new blog files or state changes to commit."
           else

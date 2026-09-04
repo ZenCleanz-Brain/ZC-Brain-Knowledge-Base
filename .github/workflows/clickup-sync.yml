@@ -1,7 +1,7 @@
 name: ClickUp Sync
 
 # Multi-doc, diff-based, content-only sync of PUBLISHED FOLDERS MASTER/ into the
-# four routed ClickUp v3 Docs (see clickup-sync.config.json). On push to master
+# five routed ClickUp v3 Docs (see clickup-sync.config.json). On push to master
 # we compute the changed files and update only those pages' CONTENT (titles are
 # never touched). On manual dispatch we run a read-only --rebaseline drift check.
 on:
